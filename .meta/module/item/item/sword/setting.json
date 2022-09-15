@@ -1,0 +1,34 @@
+{
+  "data": {
+    "canAbandon": true,
+    "candrop": true,
+    "icon": {
+      "asset": "asset/warrior/modao.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "handBuff": "myplugin/strength",
+        "skill": [
+          "myplugin/Blasting_gas",
+          "myplugin/blow",
+          "myplugin/damage"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/warrior/hunter_dao02.mesh"
+    },
+    "name": {
+      "value": "item_sword"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2a9cd9226016ed72da6b49d01bb927b7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "data": {
+    "boundingVolume": {
+      "type": "Capsule"
+    },
+    "boundingVolumeMissileCfg": {
+      "height_c": 1,
+      "memory": {
+        "Capsule": "1.000000-0.500000",
+        "Cylinder": "1.000000-0.500000",
+        "Sector": "1.000000-0.500000",
+        "Sphere": "1.000000-0.500000"
+      },
+      "type": "Capsule"
+    },
+    "hitCount": {
+      "hitEntityCount": 5,
+      "isValid": true
+    },
+    "hitEntityEffect": {
+      "effect": {
+        "asset": "asset/effect/Orange and Blue Dot Explosion Effect/sots208_ light spot_01_orange blue_3d.effect"
+      },
+      "once": true
+    },
+    "hitEntitySkill": "myplugin/8ca0f3d7-e867-4bc1-83b5-e5cdc7e6cf41",
+    "lifeTime": {
+      "value": 60
+    },
+    "moveSpeed": 1,
+    "name": {
+      "value": "233e896b-37c3-455b-aaff-05509d9e5e1a"
+    },
+    "rotateSpeed": 1,
+    "startEffect": {
+      "effect": {
+        "asset": "asset/effect/Orange and Blue Dot Explosion Effect/sots208_ light spot_01_orange blue_3d.effect"
+      },
+      "once": true,
+      "pos": {
+        "x": 1
+      },
+      "time": {
+        "value": 20
+      }
+    },
+    "target_type": "hitNpc"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e3d377f0d443b4275bee1da93adce082",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

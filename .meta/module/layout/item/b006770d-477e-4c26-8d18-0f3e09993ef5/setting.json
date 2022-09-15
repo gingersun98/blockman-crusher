@@ -1,0 +1,638 @@
+{
+  "data": {
+    "md5": "8448d146552e2f336fae135d9f182d23",
+    "path": "asset/RandW.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Centre"
+          },
+          "HoverImage": {
+            "asset": "asset/Texture/Skill/common/icon_走_nor.png"
+          },
+          "id": {
+            "value": "3f96b775-d24d-4855-b293-79be3ab4a5b0"
+          },
+          "NormalImage": {
+            "asset": "asset/Texture/Skill/common/icon_走_nor.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.02
+            },
+            "UDim_Y": {
+              "Scale": -0.05
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/Skill/common/icon_走_act.png"
+          },
+          "size": {
+            "UDim_Y": {
+              "Offect": 96
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/RandW.layout.Button#42ff0eb8-d20c-42b1-8023-92b8e05c27fb"
+          },
+          "triggers": {
+            "list": [
+              {
+                "actions": [
+                  {
+                    "__OBJ_TYPE": "Action_If",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Condition",
+                        "children": [
+                          {
+                            "action": "8d00479b-66d8-4eeb-90c8-f8f7e0d1aed3"
+                          },
+                          {
+                            "action": "aa9d2679-4d38-4eda-a4ff-06b31888e9ef"
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "dadf86fc-acc2-4a2c-b058-e9f2bc14026f"
+                    },
+                    "pos": {
+                      "x": 434,
+                      "y": 267
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_IfBranch",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Bool",
+                              "action": "a38b8cdb-3723-4813-8bf0-69d2cda9e7bb"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "__OBJ_TYPE": "Component_Sequence",
+                        "children": [
+                          {
+                            "action": "bda2d962-f7c8-46ba-9793-9501a7e0664f"
+                          },
+                          {
+                            "action": "05aebdf5-4904-48c9-af4a-ebef244de93d"
+                          },
+                          {
+                            "action": "94473b2b-af15-42b5-946b-8ca7616268a6"
+                          },
+                          {
+                            "action": "f0563190-1b81-471d-84ee-7d84fc139743"
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "8d00479b-66d8-4eeb-90c8-f8f7e0d1aed3"
+                    },
+                    "pos": {
+                      "x": 611,
+                      "y": 358
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "Walking"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout",
+                              "action": "964d0d1f-5933-43ee-b4c1-0e488be1bc61"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "a38b8cdb-3723-4813-8bf0-69d2cda9e7bb"
+                    },
+                    "pos": {
+                      "x": 825,
+                      "y": 313
+                    },
+                    "type": "T_Bool"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "rootInstance"
+                      }
+                    ],
+                    "id": {
+                      "value": "964d0d1f-5933-43ee-b4c1-0e488be1bc61"
+                    },
+                    "pos": {
+                      "x": 1172,
+                      "y": 428
+                    },
+                    "type": "T_Layout"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_SetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "Walking"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout",
+                              "action": "21c9257e-f23b-4372-ae93-fdb31889aa0c"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Bool"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "bda2d962-f7c8-46ba-9793-9501a7e0664f"
+                    },
+                    "pos": {
+                      "x": 814,
+                      "y": 484
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "rootInstance"
+                      }
+                    ],
+                    "id": {
+                      "value": "21c9257e-f23b-4372-ae93-fdb31889aa0c"
+                    },
+                    "pos": {
+                      "x": 1166,
+                      "y": 597
+                    },
+                    "type": "T_Layout"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_SetButtonNormalState",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Widget",
+                              "action": "514f9997-b2e4-4211-81fd-ed406ea4eccf"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Resource_Image",
+                              "rawval": {
+                                "asset": "asset/Texture/Skill/common/icon_跑_nor.png",
+                                "selector": "editor/Blockman-Crusher-Simulator/asset/Texture/Skill/common/icon_跑_nor.png"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "05aebdf5-4904-48c9-af4a-ebef244de93d"
+                    },
+                    "pos": {
+                      "x": 794,
+                      "y": 679
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_SetButtonPushedState",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Widget",
+                              "action": "6446258c-a1b8-4f16-b271-aaa35cb2598f"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Resource_Image",
+                              "rawval": {
+                                "asset": "asset/Texture/Skill/common/icon_跑_act.png",
+                                "selector": "editor/Blockman-Crusher-Simulator/asset/Texture/Skill/common/icon_跑_act.png"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "94473b2b-af15-42b5-946b-8ca7616268a6"
+                    },
+                    "pos": {
+                      "x": 797,
+                      "y": 897
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_IfBranch",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Bool",
+                              "rawval": true
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "__OBJ_TYPE": "Component_Sequence",
+                        "children": [
+                          {
+                            "action": "1cb40e63-fefc-4f02-8f71-7fd9b7f01530"
+                          },
+                          {
+                            "action": "eb2f7286-8a15-4d42-a774-f4251adc7b67"
+                          },
+                          {
+                            "action": "3f4da3ba-9c07-4e75-b78b-8e7bbd928ef9"
+                          },
+                          {
+                            "action": "9083cc9f-fad4-4918-bbc5-c9e1fbbff011"
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "aa9d2679-4d38-4eda-a4ff-06b31888e9ef"
+                    },
+                    "pos": {
+                      "x": 498,
+                      "y": 1153
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "instance"
+                      }
+                    ],
+                    "id": {
+                      "value": "514f9997-b2e4-4211-81fd-ed406ea4eccf"
+                    },
+                    "pos": {
+                      "x": 1195,
+                      "y": 754
+                    },
+                    "type": "T_Widget"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "instance"
+                      }
+                    ],
+                    "id": {
+                      "value": "6446258c-a1b8-4f16-b271-aaa35cb2598f"
+                    },
+                    "pos": {
+                      "x": 1195,
+                      "y": 964
+                    },
+                    "type": "T_Widget"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "rootInstance"
+                      }
+                    ],
+                    "id": {
+                      "value": "cf3a8c71-855e-4bcc-8963-cbad045d5c81"
+                    },
+                    "pos": {
+                      "x": 1075.5,
+                      "y": 1368.5
+                    },
+                    "type": "T_Layout"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_SetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "Walking"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout",
+                              "action": "cf3a8c71-855e-4bcc-8963-cbad045d5c81"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Bool",
+                              "rawval": true
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "1cb40e63-fefc-4f02-8f71-7fd9b7f01530"
+                    },
+                    "pos": {
+                      "x": 723.5,
+                      "y": 1255.5
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "instance"
+                      }
+                    ],
+                    "id": {
+                      "value": "268b28e2-c10c-44da-9f8d-ed3cbe51e079"
+                    },
+                    "pos": {
+                      "x": 1104.5,
+                      "y": 1735.5
+                    },
+                    "type": "T_Widget"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "instance"
+                      }
+                    ],
+                    "id": {
+                      "value": "bdbfb002-3427-4f64-9e4b-7594ff04a18a"
+                    },
+                    "pos": {
+                      "x": 1104.5,
+                      "y": 1525.5
+                    },
+                    "type": "T_Widget"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_SetButtonPushedState",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Widget",
+                              "action": "268b28e2-c10c-44da-9f8d-ed3cbe51e079"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Resource_Image",
+                              "rawval": {
+                                "asset": "asset/Texture/Skill/common/icon_走_act.png",
+                                "selector": "editor/Blockman-Crusher-Simulator/asset/Texture/Skill/common/icon_走_act.png"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "3f4da3ba-9c07-4e75-b78b-8e7bbd928ef9"
+                    },
+                    "pos": {
+                      "x": 706.5,
+                      "y": 1668.5
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "rootInstance"
+                      }
+                    ],
+                    "id": {
+                      "value": "8a4e649e-b413-4d42-8772-099297249f78"
+                    },
+                    "pos": {
+                      "x": 1081.5,
+                      "y": 1199.5
+                    },
+                    "type": "T_Layout"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_SetButtonNormalState",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Widget",
+                              "action": "bdbfb002-3427-4f64-9e4b-7594ff04a18a"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Resource_Image",
+                              "rawval": {
+                                "asset": "asset/Texture/Skill/common/icon_走_nor.png",
+                                "selector": "editor/Blockman-Crusher-Simulator/asset/Texture/Skill/common/icon_走_nor.png"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "eb2f7286-8a15-4d42-a774-f4251adc7b67"
+                    },
+                    "pos": {
+                      "x": 703.5,
+                      "y": 1450.5
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "Walking"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout",
+                              "action": "8a4e649e-b413-4d42-8772-099297249f78"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "574f6ec1-76b3-410d-93e2-8984883681fb"
+                    },
+                    "pos": {
+                      "x": 734.5,
+                      "y": 1084.5
+                    },
+                    "type": "T_Bool"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "4a789cb6-27c4-426d-9540-aa944c4fd3e2",
+                        "proto_name": "Run",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "f0563190-1b81-471d-84ee-7d84fc139743"
+                    },
+                    "pos": {
+                      "x": 520,
+                      "y": 794
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "680c1c94-83e4-4cf1-981d-9d29d34d771c",
+                        "proto_name": "Walk",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "9083cc9f-fad4-4918-bbc5-c9e1fbbff011"
+                    },
+                    "pos": {
+                      "x": 599,
+                      "y": 1940
+                    }
+                  }
+                ],
+                "custom_trigger_data": {
+                  "name": {
+                    "value": "edd36b03-b678-4491-9098-181418582ece"
+                  },
+                  "type": "Trigger_WidgetClicked"
+                },
+                "root": {
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "dadf86fc-acc2-4a2c-b058-e9f2bc14026f"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "1d53ff10-441d-4a6a-a301-3516e94bc4a3"
+                  },
+                  "pos": {
+                    "x": 198,
+                    "y": 187
+                  }
+                },
+                "type": "Trigger_WidgetClicked"
+              }
+            ]
+          },
+          "WindowTouchThroughMode": "MousePassThroughAlpha"
+        }
+      ],
+      "id": {
+        "value": "e9adb434-7846-411e-a4b4-32158bd2ff43"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughAlpha"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "8448d146552e2f336fae135d9f182d23",
+      "triggers.bts": "beabc385ee40f15801aeeafe1c937328"
+    },
+    "VERSION": "0.23"
+  }
+}

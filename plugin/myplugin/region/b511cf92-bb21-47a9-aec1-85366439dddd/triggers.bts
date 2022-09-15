@@ -1,0 +1,11 @@
+REGION_ENTER {
+	SetEntityRebirthPosition(
+		entity = $obj1,
+		map = GetStaticMap(create = true, name = "MapVillage"),
+		pos = {
+			x = -1.6514290571213,
+			y = 1.1340351486206,
+			z = -7.3907279968262
+		}
+	)
+}

@@ -1,0 +1,3 @@
+WIDGET_CREATE {
+	SendToServer(msg = "server_dc6bbb36_9120_48ec_b2c8_6a17d59bf006")
+}

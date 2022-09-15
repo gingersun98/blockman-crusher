@@ -1,0 +1,216 @@
+optionIsSelected1 {
+}
+
+optionIsSelected2 {
+	SendToClient(msg = "client_71398682_0a6a_4d63_bde2_adb0920ef41c", player = $obj1)
+}
+
+ENTITY_ENTER {
+	StartTimer2(interval = 100, object = $obj1, time = 9999, timer = "RegenHunger") {
+		AddEntityVp(entity = $obj1, step = 5)
+	}
+	@PlayerParticipate = @PlayerParticipate + 1
+}
+
+ENTITY_DIE {
+	Foreach(array = GetAllPlayers(), key = "ThePlayer") {
+		ShowTip(
+			entity = $ThePlayer,
+			keepTime = 100,
+			textKey = Concat(p1 = Concat(p1 = GetEntityName(), p2 = "already Crush and Kill"), p2 = GetEntityName(entity = $obj1)),
+			tipType = "1"
+		)
+	}
+	$obj1.firstblood = true
+	SendToClient(msg = "client_cd1d91b7_3b1b_48a6_86a9_448f98abe8c9", player = $obj1)
+	@PlayerParticipate = @PlayerParticipate - 1
+	SendToClient(msg = "client_d0106353_6a9e_454f_98ec_d244d6ed21bc", player = $obj1)
+	$obj1.Start = false
+	$obj2.JumlahKillPlayer = GetPlayerKillCount(entity = $obj2)
+	StartTimer2(interval = 200, object = $obj2, time = 999, timer = "Victory") {
+		If (@PlayerParticipate == 1) {
+			SendToClient(msg = "client_0b405762_4991_462b_9c15_97631f5d59d9", player = $obj2)
+			StopTimer2(timer = "Victory")
+		}
+		ShowTip(entity = $obj2, keepTime = 100, textKey = "3a6e998a-e730-4c65-bc62-40b307544555", tipType = "1")
+	}
+}
+
+server_dc6bbb36_9120_48ec_b2c8_6a17d59bf006 {
+	@KillScore = 0 + @KillScore
+}
+
+server_4a789cb6_27c4_426d_9540_aa944c4fd3e2 {
+	AddEntityBuff(cfg = "myplugin/Run", entity = $player)
+}
+
+server_680c1c94_83e4_4cf1_981d_9d29d34d771c {
+	RemoveBuffByFullName(buff = "myplugin/Run", entity = $player, toTeam = false)
+}
+
+optionIsSelected3 {
+}
+
+optionIsSelected4 {
+	SendToClient(msg = "client_71398682_0a6a_4d63_bde2_adb0920ef41c", player = nil)
+}
+
+GAME_START {
+	If (@PlayerParticipate == 1) {
+		$obj1.LokasiSpawn = {
+				x = -25.261,
+				y = 6.245,
+				z = -20.386
+			}
+		EnterMap(
+			entity = $obj1,
+			map = "MapArena",
+			pos = {
+				x = -25.711179733276,
+				y = 8.1222505950928,
+				z = 24.425764083862
+			},
+			rp = 0,
+			ry = 0
+		)
+		SetEntityRebirthPosition(
+			map = GetStaticMap(create = true, name = "MapVillage"),
+			pos = {
+				x = -0.0035543441772461,
+				y = 1.134033241272,
+				z = -7.619749546051
+			}
+		)
+		$obj1.JumlahPlayer = 1
+	}
+	SetEntityRebirthPosition(
+		entity = $obj1,
+		map = GetStaticMap(create = true, name = "MapVillage"),
+		pos = {
+			x = -0.0035543441772461,
+			y = 1.134033241272,
+			z = -7.619749546051
+		}
+	)
+	$obj1.LokasiSpawn = {
+			x = -25.118,
+			y = 8.122,
+			z = 27.786
+		}
+	SendToClient(msg = "client_71398682_0a6a_4d63_bde2_adb0920ef41c", player = $obj1)
+	SendToClient(msg = "client_ff8a43d1_d9bd_4683_ba9f_40f04f2b69fc", player = $obj1)
+	AddItem(cfg = "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12", count = 1, entity = $obj1, reason = "")
+}
+
+GAME_GO {
+	StartTimer2(interval = 100, object = $obj1, time = 999, timer = "") {
+		If (@PlayerParticipate == 1) {
+			MoveMapPlayerTo(
+				map = GetStaticMap(create = true, name = "MapArena"),
+				newmap = "MapArena",
+				pos = {
+					x = -30.457454681396,
+					y = 18.696274795532,
+					z = 30.612281799316
+				}
+			)
+			StopTimer2(timer = "Victory")
+		}
+	}
+	@EnterGameplay = true
+	$obj1.LokasiSpawn = {
+			x = -25.118,
+			y = 8.122,
+			z = 27.786
+		}
+	ExecScript(ClickerEntity = $obj1, PlayerParticipate = @PlayerParticipate, script_name = "ScriptableNode_15")
+	SendToClient(msg = "client_32210dcd_0836_451a_bb99_bfe7ed88c6f9", p_CrushingScore = GetEntityScore(entity = $obj1))
+	SendToClient(
+		msg = "client_8ff76711_c566_4396_aad5_45d7a5209a8d",
+		p_JumlahKillPlayer = GetPlayerKillCount(entity = $obj1),
+		player = $obj1
+	)
+	SendToClient(msg = "client_e2e1cd10_a8fb_4d2e_b0bb_8c728c8a1e31", p_PlayerName = $obj1.PlayerName, player = $obj1)
+	AddItem(cfg = "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12", count = 1, entity = $obj1, reason = "")
+	SendToClient(msg = "client_ff8a43d1_d9bd_4683_ba9f_40f04f2b69fc", player = $obj1)
+	StartTimer2(interval = 200, object = $obj1, time = 999, timer = "") {
+		If (@PlayerParticipate == 1) {
+			SetEntityPosition(
+				entity = $obj1,
+				map = "MapArena",
+				pos = {
+					x = -29.774475097656,
+					y = 18.696274795532,
+					z = 30.863918304443
+				},
+				rp = 0,
+				ry = 0
+			)
+			CreateNpc(
+				cfgName = "myplugin/transfer2",
+				enableAI = false,
+				level = 0,
+				map = GetPlayerMap(player = $obj1),
+				name = "WINNER",
+				pos = GetEntityPosition(entity = $obj1)
+			)
+		}
+	}
+}
+
+ENTITY_LEAVE {
+	If (@PlayerParticipate == 1) {
+		@EnterGameplay = false
+	}
+	@PlayerParticipate = @PlayerParticipate - 1
+}
+
+optionIsSelected5 {
+}
+
+optionIsSelected6 {
+}
+
+server_7341baaf_624d_4517_b918_fd0591a7b3b2 {
+}
+
+optionIsSelected7 {
+	ShowShop(entity = $obj1, showType = "shop")
+}
+
+GAME_OVER {
+	@PlayerParticipate = @PlayerParticipate - 1
+	If (@PlayerParticipate == 1) {
+		@EnterGameplay = false
+	}
+}
+
+ENTITY_DAMAGE {
+	ExecScript(Clicker = $obj2, Damage = $damage, script_name = "ScriptableNode_22")
+	SendToClient(msg = "client_e7b1b919_d092_43b1_a9e4_e766620c82ed", player = $obj2)
+	$obj2.CrushingScore = $obj2.CrushingScore + $damage
+	SendToClient(msg = "client_45a6eeda_3915_4b5e_b23b_8b263ea888d0", p_CrushingScore = $obj2.CrushingScore, player = $obj2)
+}
+
+ENTITY_REBIRTH {
+	$obj1.Dead = false
+	If (@PlayerParticipate == 1) {
+		MoveAllPlayers(
+			region = {
+				map = "",
+				max = {
+					__OBJ_TYPE = "Vector3i",
+					x = 0,
+					y = 0,
+					z = 0
+				},
+				min = {
+					__OBJ_TYPE = "Vector3i",
+					x = 0,
+					y = 0,
+					z = 0
+				}
+			}
+		)
+	}
+}

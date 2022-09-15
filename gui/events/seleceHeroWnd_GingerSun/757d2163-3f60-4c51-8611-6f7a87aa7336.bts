@@ -1,0 +1,16 @@
+ClientCustomTrigger_1 {
+	If (GetUIVar(instance = GetWindowByWidget(instance = GetCustomTriggerInstance(key = "GetCustomTriggerInstance")), key = "Warrior")) {
+		SetActorModel(
+			actor = "Actor/Redhead Man With Antlers/g2038_pet_02_3.actor",
+			instance = GetCustomTriggerInstance(key = "GetCustomTriggerInstance")
+		)
+		SendToServer(msg = "server_e99609dc_9fd8_420e_a1c9_4837e2198344")
+	}
+}
+
+client_cd6ac37e_5255_465a_a9e9_c2fe856bda38 {
+	If (GetUIVar(instance = $instance, key = "Warrior")) {
+		SetActorModel(actor = "Actor/Redhead Man With Antlers/g2038_pet_02_3.actor", instance = $instance)
+		SendToServer(msg = "server_e99609dc_9fd8_420e_a1c9_4837e2198344")
+	}
+}

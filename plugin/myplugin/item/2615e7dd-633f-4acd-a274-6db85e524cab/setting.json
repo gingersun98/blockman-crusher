@@ -1,0 +1,19 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "Bip001_L_Finger01",
+  "icon": "@asset/3D Asset/BloodTesseract.png",
+  "itemname": "item_2615e7dd-633f-4acd-a274-6db85e524cab",
+  "mesh": "asset/3D Asset/Tesseract/Cube.mesh",
+  "needSave": true,
+  "skill": [],
+  "stack_count_max": 1000,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

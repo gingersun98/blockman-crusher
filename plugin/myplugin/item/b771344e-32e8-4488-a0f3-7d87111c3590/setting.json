@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handBuff": "myplugin/Force",
+  "handItemBoneName": "Bip001_L_Finger01",
+  "icon": "@asset/master/The magic book.png",
+  "itemname": "04a033d4-3759-4d94-a92a-e1cc8b5245ff",
+  "mesh": "asset/master/Frozen Codex.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/7c41b303-d6c0-4581-b67c-f3035b62ba0c"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

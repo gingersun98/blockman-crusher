@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "0b405762-4991-462b-9c15-97631f5d59d9"
+    },
+    "name": "VICTORY",
+    "register_object": "game/0/triggers_client/list/11",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,3 @@
+SKILL_CAST {
+	SendToClient(msg = "client_d35a57d2_efaf_426d_abcb_3acbb84e4fee", player = $obj1)
+}

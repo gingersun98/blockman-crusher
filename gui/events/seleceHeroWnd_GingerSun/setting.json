@@ -1,0 +1,24 @@
+{
+  "widget": [
+    {
+      "btsKey": "d7f5e186-7b12-43fc-ad51-e39665a26f82",
+      "md5": "431a8a7b752ad8d0b72150a9ea3198e7",
+      "name": ""
+    },
+    {
+      "btsKey": "b23ce5c7-8a8e-451b-b75b-a9a738584e1f",
+      "md5": "e1758b8e398281fbf7e164766d59e4ac",
+      "name": "planeBg/warrior"
+    },
+    {
+      "btsKey": "813df9aa-d3ac-48ea-a456-3cd573712984",
+      "md5": "dea9ffb30fd77b22640d7bff198986ca",
+      "name": "planeBg/determind"
+    },
+    {
+      "btsKey": "757d2163-3f60-4c51-8611-6f7a87aa7336",
+      "md5": "bede1f71c7a53546784f8b8892dafb3a",
+      "name": "planeBg/heroBg/actorWindow"
+    }
+  ]
+}

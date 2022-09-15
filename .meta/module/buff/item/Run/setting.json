@@ -1,0 +1,20 @@
+{
+  "data": {
+    "moveSpeed": 2,
+    "name": {
+      "value": "buff_Run"
+    },
+    "replaceAction": [
+      {
+        "beReplacedAction": "run",
+        "replaceAction": "run"
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "89d725025add4ea2329a6638647510ab"
+    },
+    "VERSION": "0.23"
+  }
+}

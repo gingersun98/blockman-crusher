@@ -1,0 +1,36 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/stone/xue.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "canJump": false,
+    "canMove": false,
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_xue"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1a876426e049fe5d1509e742e9ac64c5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

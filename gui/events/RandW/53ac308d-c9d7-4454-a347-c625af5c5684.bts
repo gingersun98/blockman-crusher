@@ -1,0 +1,13 @@
+WIDGET_CLICKED {
+		If (GetUIVar(instance = $rootInstance, key = "Walking")) {
+		SetUIVar(instance = $rootInstance, key = "Walking", value = false)
+		SetButtonNormalState(image = "gameres|asset/Texture/Skill/common/icon_跑_nor.png", instance = $instance)
+		SetButtonPushedState(image = "gameres|asset/Texture/Skill/common/icon_跑_act.png", instance = $instance)
+		SendToServer(msg = "server_4a789cb6_27c4_426d_9540_aa944c4fd3e2")
+	} ElseIf (true) {
+		SetUIVar(instance = $rootInstance, key = "Walking", value = true)
+		SetButtonNormalState(image = "gameres|asset/Texture/Skill/common/icon_走_nor.png", instance = $instance)
+		SetButtonPushedState(image = "gameres|asset/Texture/Skill/common/icon_走_act.png", instance = $instance)
+		SendToServer(msg = "server_680c1c94_83e4_4cf1_981d_9d29d34d771c")
+	}
+}

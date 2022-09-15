@@ -1,0 +1,32 @@
+{
+  "data": {
+    "candrop": true,
+    "icon": {
+      "asset": "asset/3D Asset/PickAxe.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "handBuff": "myplugin/strength",
+        "handItemBoneName": "Bip001_L_Finger01",
+        "skill": [
+          "myplugin/d355ed5d-b6ac-4b88-874d-e613e5d59be4"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/3D Asset/pickaxe/Cylinder.mesh"
+    },
+    "name": {
+      "value": "b86bc5f3-0f84-4722-a995-db81d2558d47"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "023a9671c79e7f263fd35990ccab2ae9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

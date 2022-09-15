@@ -1,0 +1,3 @@
+client_32210dcd_0836_451a_bb99_bfe7ed88c6f9 {
+	SetTextContext(instance = $instance, text = ToString($p_CrushingScore))
+}

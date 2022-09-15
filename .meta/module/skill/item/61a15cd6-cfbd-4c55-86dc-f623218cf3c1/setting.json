@@ -1,0 +1,28 @@
+{
+  "data": {
+    "consumeVp": 10,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_61a15cd6-cfbd-4c55-86dc-f623218cf3c1"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 10,
+        "hurtDistance": 0,
+        "range": 2
+      }
+    },
+    "skillReleaseWay": {
+      "isClick": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d7bf2328598186a7c5dd0bae633085da",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

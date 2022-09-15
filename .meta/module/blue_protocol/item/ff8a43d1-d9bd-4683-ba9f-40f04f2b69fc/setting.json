@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "ff8a43d1-d9bd-4683-ba9f-40f04f2b69fc"
+    },
+    "name": "UObjectives",
+    "register_object": "game/0/triggers_client/list/9",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

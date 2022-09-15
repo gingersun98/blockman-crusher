@@ -1,0 +1,157 @@
+{
+  "data": {
+    "boundingVolume": {
+      "radius": 5,
+      "type": "Sphere"
+    },
+    "hitBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "hitEntitySkill": "myplugin/hut",
+    "hitEntitySound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "lifeTime": {
+      "value": 40
+    },
+    "moveSpeed": 0.1,
+    "name": {
+      "value": "missile_earthquake"
+    },
+    "reboundBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/warrior/g2021_dungeon_13_4_attack2.effect"
+      },
+      "pos": {
+        "y": 5
+      }
+    },
+    "startSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "target_type": "hitPlayer",
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_MoveAllPlayers",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_SceneRegion"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ed726ee3-2271-4391-ba67-0c74db652eb5"
+              },
+              "pos": {
+                "x": 698,
+                "y": 334
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_SetEntityPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "27c60128-a2b2-494c-a95a-4422ec8712fe"
+              },
+              "pos": {
+                "x": 688,
+                "y": 110
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "21ee44ae-bdf6-4a04-ae23-6c9add02db37"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "a21cabab-517c-4d60-bf38-7292f042b643"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    },
+    "vanishSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "vanishTime": {
+      "value": 20
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5697a347263149541421f38a9c8c1e6c",
+      "triggers.bts": "72cc3f900de3a515fff800d5ea063d11"
+    },
+    "VERSION": "0.23"
+  }
+}

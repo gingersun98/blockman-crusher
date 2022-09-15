@@ -1,0 +1,63 @@
+{
+  "data": {
+    "name": {
+      "value": "reward_reward"
+    },
+    "rewardArray": [
+      {
+        "base": {
+          "__OBJ_TYPE": "RewardList",
+          "array": [
+            {
+              "reward": {
+                "base": {
+                  "__OBJ_TYPE": "RewardItem",
+                  "countRange": {
+                    "max": 15,
+                    "min": 5
+                  },
+                  "name": "myplugin/copper_coin"
+                }
+              }
+            },
+            {
+              "reward": {
+                "base": {
+                  "__OBJ_TYPE": "RewardItem",
+                  "countRange": {
+                    "max": 30,
+                    "min": 13
+                  },
+                  "name": "myplugin/copper_coin"
+                }
+              }
+            },
+            {
+              "reward": {
+                "base": {
+                  "__OBJ_TYPE": "RewardItem",
+                  "countRange": {
+                    "max": 50,
+                    "min": 33
+                  },
+                  "name": "myplugin/copper_coin"
+                }
+              }
+            }
+          ],
+          "countRange": {
+            "max": 3,
+            "min": 1
+          }
+        },
+        "type": "List"
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bdf68e2d50fcb033c4f15bcd5be320dc"
+    },
+    "VERSION": "0.23"
+  }
+}

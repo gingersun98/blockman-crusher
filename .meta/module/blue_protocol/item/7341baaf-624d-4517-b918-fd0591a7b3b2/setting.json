@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "7341baaf-624d-4517-b918-fd0591a7b3b2"
+    },
+    "name": "serverMessage_23",
+    "register_object": "entity/player1/triggers/list/17",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

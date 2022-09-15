@@ -1,0 +1,31 @@
+{
+  "data": {
+    "candrop": true,
+    "icon": {
+      "asset": "asset/warrior/dao.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "handItemBoneName": "Bip001_L_Finger01",
+        "skill": [
+          "myplugin/SwordSkill"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/warrior/hunter_dao.mesh"
+    },
+    "name": {
+      "value": "item_epee"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bc2a2eaf9cb67ce409d52843ab74059c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

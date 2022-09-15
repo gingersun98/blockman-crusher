@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "923a0a4c-49ab-478a-88a2-fb1c05e05d1c"
+    },
+    "name": "Add100Coin",
+    "register_object": "game/0/triggers/list/17",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

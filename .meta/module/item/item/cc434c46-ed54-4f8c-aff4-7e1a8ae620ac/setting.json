@@ -1,0 +1,22 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip"
+      }
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Brown Devil Stone Sculpture/g2021_duchi_diaoxiang.mesh"
+    },
+    "name": {
+      "value": "item_cc434c46-ed54-4f8c-aff4-7e1a8ae620ac"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5df3d03de227009f4562638adf910ea5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

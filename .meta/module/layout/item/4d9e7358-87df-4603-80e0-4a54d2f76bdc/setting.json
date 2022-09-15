@@ -1,0 +1,234 @@
+{
+  "data": {
+    "md5": "fad3df705ad87814067e1184be1614d4",
+    "path": "asset/gameInfoWnd.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "VerticalAlignment": "Centre"
+                  },
+                  "AutoTextScale": true,
+                  "Font_size": 19,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "704f0a4f-8342-46f4-bb05-ae4e40d3ba86"
+                  },
+                  "name": "infoText1",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.1
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "text_key": {
+                    "value": "asset/gameInfoWnd.layout.StaticText#9aade15d-cdbf-40a0-a581-57b70013dbc8"
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font_size": 21,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "d63cc286-cb1e-4235-8e54-20349850666e"
+                  },
+                  "name": "infoText2",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.15
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "Text": "1",
+                  "text_key": {
+                    "value": "asset/gameInfoWnd.layout.StaticText#920657f2-c5d5-4936-a4ce-f8e3eedd6989"
+                  },
+                  "TextColours": {
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "id": {
+                "value": "f35a1094-4d05-49eb-8c40-b1db3cb5075c"
+              },
+              "name": "nullWnd",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 0.29
+                },
+                "UDim_Y": {
+                  "Offect": -1.5278298552584e-15
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font_size": 19,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "d529d2fa-8a67-4b7b-86c4-b942819f5ba1"
+              },
+              "name": "infoText3",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.9
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "text_key": {
+                "value": "asset/gameInfoWnd.layout.StaticText#12ae408c-09fc-4ec8-8328-90052f44545f"
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false,
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "e294f807-2ee7-4227-b0d3-38a7a7310563"
+              },
+              "Image": {
+                "asset": "asset/Texture/ui/img_提示吐司.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 51.088320732118,
+                  "Scale": 0.01
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1.2
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "0542be6b-c07f-4f58-b90e-19367be89cd9"
+          },
+          "Image": {
+            "asset": "asset/Texture/ui/提示语文字_9宫格四周各8.png"
+          },
+          "name": "bg",
+          "pos": {
+            "UDim_X": {
+              "Offect": 1.100481899739
+            },
+            "UDim_Y": {
+              "Scale": 0.03
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.38
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.08
+            }
+          },
+          "StaticImageStretch": {
+            "bottom_left": 9,
+            "bottom_right": 9,
+            "top_left": 9,
+            "top_right": 10
+          },
+          "Visible": false,
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        }
+      ],
+      "id": {
+        "value": "8f2dde57-67f3-4130-a170-c690b94cf395"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "fad3df705ad87814067e1184be1614d4",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.23"
+  }
+}

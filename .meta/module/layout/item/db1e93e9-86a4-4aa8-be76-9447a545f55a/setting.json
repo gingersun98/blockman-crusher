@@ -1,0 +1,82 @@
+{
+  "data": {
+    "md5": "f052b53bf2411ce3ea94a6800670efd7",
+    "path": "asset/CountdownTimer.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "id": {
+            "value": "2d11a89f-3434-419d-b289-5a7689a8a9f1"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/ButtonPanel.png"
+          },
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.1
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 518
+            },
+            "UDim_Y": {
+              "Offect": 82
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "Font": "HarmonyOS_Sans_SC_Bold",
+          "Font_size": 35,
+          "id": {
+            "value": "e7048276-2823-47e2-9c37-5b98519f4b14"
+          },
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.12
+            }
+          },
+          "size": {
+            "UDim_Y": {
+              "Offect": 48
+            }
+          },
+          "text_key": {
+            "value": "asset/CountdownTimer.layout.StaticText#20430e3e-98ae-4d7c-99b0-52e99b097f48"
+          }
+        }
+      ],
+      "id": {
+        "value": "05354ee8-f2d1-4724-977a-f34f968fd4ae"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "f052b53bf2411ce3ea94a6800670efd7",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.23"
+  }
+}

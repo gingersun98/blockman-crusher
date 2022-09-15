@@ -1,0 +1,20 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "Bip001_L_Finger01",
+  "icon": "@asset/3D Asset/CoinDepan.png",
+  "itemintroduction": "26ed0036-92eb-46f3-b870-79999918428e",
+  "itemname": "item_copper_coin",
+  "mesh": "asset/resources/g2030_build_jinbi.mesh",
+  "needSave": true,
+  "skill": [],
+  "stack_count_max": 99999999,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

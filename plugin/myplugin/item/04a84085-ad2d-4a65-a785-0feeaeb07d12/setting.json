@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "Bip001_L_Finger01",
+  "icon": "@asset/3D Asset/Dagger.png",
+  "itemintroduction": "5cba3d8c-1190-4311-8810-9310398a8555",
+  "itemname": "c5b5b6d7-31b3-4697-90a0-4841bd721807",
+  "mesh": "asset/3D Asset/Dagger/knife.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/DaggerSkill"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

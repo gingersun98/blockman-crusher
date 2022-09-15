@@ -1,0 +1,152 @@
+{
+  "data": {
+    "castAction": "attack2",
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 300
+    },
+    "enableCdMask": true,
+    "enableCdTip": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_blow"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/earthquake",
+            "startPos": {
+              "y": -5
+            },
+            "startWait": {
+              "value": 22
+            }
+          }
+        ],
+        "target": {
+          "type": "BodyYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/3D Asset/Icon38.png"
+      },
+      "iconPos": {
+        "area_number": 9
+      },
+      "isClickIcon": true
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "58b9367f-8325-440a-92bb-b7c1e8d31e67"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/Shock"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 120
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "57ffe21c-9877-48bc-814e-e39068b7b154"
+              },
+              "pos": {
+                "x": 612,
+                "y": 307
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "58b9367f-8325-440a-92bb-b7c1e8d31e67"
+              },
+              "pos": {
+                "x": 1038,
+                "y": 347
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "58e7c40a-0807-417e-bfb2-56e8abb5e031"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "57ffe21c-9877-48bc-814e-e39068b7b154"
+                  },
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "0780e159-6a9d-4d79-82f6-582d017d695d"
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5a9bf2cf959825cf16c5944ae59fef03",
+      "triggers.bts": "1dc71dddb69aede211a5d700576cefc3"
+    },
+    "VERSION": "0.23"
+  }
+}

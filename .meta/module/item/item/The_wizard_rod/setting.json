@@ -1,0 +1,31 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/auxiliary/The wizard rod.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/Shield_royal",
+          "myplugin/ice",
+          "myplugin/damage"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/auxiliary/Eternal Axe.mesh"
+    },
+    "name": {
+      "value": "item_The_wizard_rod"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b34578933d898af82a69760b89ed3f4c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,435 @@
+{
+  "data": {
+    "md5": "e703c3bd50d61fa4de03a20acfb990d9",
+    "path": "asset/Premium.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.985,
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "f2f0937c-fd82-4163-acf0-84bc065936a5"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.25
+                }
+              },
+              "Text": "Premium Shop",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            }
+          ],
+          "id": {
+            "value": "a8321022-abdb-41a2-a599-8a4dafa6e949"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/ButtonPanel.png"
+          },
+          "name": "Image1",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.06
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 256.0
+            },
+            "UDim_Y": {
+              "Offect": 48.0
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "ScrollableView",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "BackGroundImage": {
+            "asset": "asset/Texture/GingersunUI/Window04.png"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "GridView",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "id": {
+                            "value": "a24e1a6c-49d1-434a-a07b-0483ef390d7e"
+                          },
+                          "Image": {
+                            "asset": "asset/3D Asset/BloodTesseract.png"
+                          }
+                        }
+                      ],
+                      "id": {
+                        "value": "eed79fb4-8850-43d1-8274-38774ddc13e3"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Card X3.png"
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Scale": 0.2
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 176.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 176.0
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Black",
+                      "Font_size": 15,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "a1e20dc2-8835-4458-af94-06791bbddb19"
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Scale": 0.1
+                        }
+                      },
+                      "Text": "BLOOD TESSERACT",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "HoverImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Normal.png"
+                      },
+                      "HoverTextColour": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "id": {
+                        "value": "e81e9daa-1123-4e56-849c-4c1960372226"
+                      },
+                      "NormalImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Normal.png"
+                      },
+                      "NormalTextColour": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": -50
+                        }
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Active.png"
+                      },
+                      "Text": "BUY"
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "7ef6ce62-1c1f-4b73-91ba-f39099f3d98b"
+                      },
+                      "name": "Text1",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": -100
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 176.0
+                        }
+                      },
+                      "Text": "Regenerate &backslashn"Health Point" &backslashnfor limited time",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "898acfe4-cec8-46a1-a416-5ec037639436"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/GingersunUI/Card X1.png"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 256.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 512.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "id": {
+                            "value": "9f18ad15-d4dc-4615-a756-8f172fc0821e"
+                          },
+                          "Image": {
+                            "asset": "asset/3D Asset/BloodTesseract.png"
+                          }
+                        }
+                      ],
+                      "id": {
+                        "value": "1b221df0-89c0-4e15-8c32-76703c67a385"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Card X3.png"
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Scale": 0.2
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 176.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 176.0
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Black",
+                      "Font_size": 15,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "41656e2d-007f-4dc8-803d-5da8b3c9e2d5"
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Scale": 0.1
+                        }
+                      },
+                      "Text": "BLOOD TESSERACT",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "HoverImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Normal.png"
+                      },
+                      "HoverTextColour": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "id": {
+                        "value": "c8424fc0-eb95-4fd8-ba9a-cdf51cccbcf4"
+                      },
+                      "NormalImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Normal.png"
+                      },
+                      "NormalTextColour": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": -50
+                        }
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Active.png"
+                      },
+                      "Text": "BUY"
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "cd2ce634-54b2-444b-806c-d3b216e46e10"
+                      },
+                      "name": "Text1",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": -100
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 176.0
+                        }
+                      },
+                      "Text": "Regenerate &backslashn"Health Point" &backslashnfor limited time",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "5310f2de-9433-4bbc-9dbb-021c2ce9afa5"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/GingersunUI/Card X1.png"
+                  },
+                  "name": "Image1",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 512
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 256.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 512.0
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "e8261a53-433f-471c-b418-64f711767d8f"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.04
+                }
+              },
+              "rowSize": 5,
+              "size": {
+                "UDim_X": {
+                  "Offect": 562.0
+                },
+                "UDim_Y": {
+                  "Offect": 512.0
+                }
+              },
+              "Space": {
+                "x": 50,
+                "y": 50
+              }
+            }
+          ],
+          "id": {
+            "value": "1f3173fe-19ec-4552-a14b-bd8657a45f40"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 0.9
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.9
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "dd22d9a9-cb98-4927-a733-c1901b896703"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "e703c3bd50d61fa4de03a20acfb990d9",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

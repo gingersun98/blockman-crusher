@@ -1,0 +1,5 @@
+WIDGET_TOGGLE_SELECTED {
+	SetUIVar(instance = $rootInstance, key = "Warrior", value = true)
+	DoCustomTriggerCfg(cfgForExecXXX = $rootInstance, triggerNameForExecXXX = "ClientCustomTrigger_1")
+	SetActorModel(actor = "Actor/Redhead Man With Antlers/g2038_pet_02_3.actor", instance = $rootInstance)
+}

@@ -1,0 +1,22 @@
+ENTITY_DIE {
+	$obj1.CrushingScore = $obj1.CrushingScore + 1
+	SendToClient(msg = "client_45a6eeda_3915_4b5e_b23b_8b263ea888d0", p_CrushingScore = $obj1.CrushingScore, player = $obj1)
+	SetEntityScore(entity = $obj1, val = 15)
+	ShowSystemChat(entity = $obj1, key = Concat(p1 = ToString(GetPlayerKillCount(entity = $obj1)), p2 = GetEntityName()))
+	$obj1.CrushObject = false
+}
+
+ENTITY_DAMAGE {
+	SendToClient(msg = "client_e7b1b919_d092_43b1_a9e4_e766620c82ed", player = $obj2)
+	$obj2.CrushingScore = $obj2.CrushingScore + $damage
+	SendToClient(msg = "client_45a6eeda_3915_4b5e_b23b_8b263ea888d0", p_CrushingScore = $obj2.CrushingScore, player = $obj2)
+	ExecScript(Clicker = $obj2, Damage = $damage, script_name = "ScriptableNode_9")
+	SendToClient(msg = "client_32210dcd_0836_451a_bb99_bfe7ed88c6f9", p_CrushingScore = $obj2.CrushingScore, player = $obj2)
+}
+
+ENTITY_HITTED {
+	$obj1.CrushObject = true
+}
+
+ENTITY_ENTER {
+}

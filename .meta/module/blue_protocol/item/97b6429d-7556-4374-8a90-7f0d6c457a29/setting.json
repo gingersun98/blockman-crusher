@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "97b6429d-7556-4374-8a90-7f0d6c457a29"
+    },
+    "name": "PrizeBlood",
+    "register_object": "game/0/triggers/list/16",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

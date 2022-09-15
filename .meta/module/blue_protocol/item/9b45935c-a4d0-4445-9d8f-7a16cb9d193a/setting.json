@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "9b45935c-a4d0-4445-9d8f-7a16cb9d193a"
+    },
+    "name": "StartupBattle",
+    "register_object": "game/0/triggers_client/list/13",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

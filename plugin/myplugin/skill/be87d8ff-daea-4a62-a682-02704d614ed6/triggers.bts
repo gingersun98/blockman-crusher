@@ -1,0 +1,3 @@
+SKILL_CAST {
+	ConsumeItem2(entity = $obj1, item = "myplugin/987b24fd-dab2-49d7-8f81-fb7169ebb5aa", num = 1, reason = "")
+}

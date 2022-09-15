@@ -1,0 +1,34 @@
+{
+  "data": {
+    "canAbandon": true,
+    "candrop": true,
+    "canUse": true,
+    "icon": {
+      "asset": "asset/food/pizza.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse",
+        "time": {
+          "value": 200
+        },
+        "useBuff": "myplugin/Force"
+      },
+      "type": "Use"
+    },
+    "mesh": {
+      "asset": "asset/food/g2024_food_pizza.mesh"
+    },
+    "name": {
+      "value": "item_pizza"
+    },
+    "stack_count_max": 30
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "83c39d83b2b4e883bd70f929aae24db3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

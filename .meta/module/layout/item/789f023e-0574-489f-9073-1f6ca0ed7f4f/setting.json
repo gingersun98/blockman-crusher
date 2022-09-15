@@ -1,0 +1,788 @@
+{
+  "data": {
+    "md5": "ba055a72929932877f8dd4999d8de0fc",
+    "path": "asset/ShopPremium.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "ScrollableView",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "BackGroundImage": {
+                "asset": "asset/Texture/GingersunUI/Panel1_NoOpacity592x975px.png"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "GridView",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "525e514d-4bfa-487d-8510-4fd49ed8f1e9"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "Visible": false
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "b9ef1a16-282c-40e3-a181-d0c534980f51"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image1",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 143
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "2e3f97f8-b208-40b5-9e43-3f9b7a126599"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image2",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 286
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "b737afd4-4eb6-4db4-83f1-a78cb0a75f57"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image3",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 429
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "c55856b1-18d0-4d54-947c-666a57df10cb"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image4",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 572
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "8a4388b3-2b27-4f47-aa53-c3707084f285"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image5",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": 143
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "e37230d4-7764-486a-929f-19e0730042c1"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image6",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 143
+                        },
+                        "UDim_Y": {
+                          "Offect": 143
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "b5dcf038-d82e-46f2-8a6c-8bede5e69c6a"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image7",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 286
+                        },
+                        "UDim_Y": {
+                          "Offect": 143
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "ab13e448-c05f-4d30-a31b-eb10630dd5cb"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image8",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 429
+                        },
+                        "UDim_Y": {
+                          "Offect": 143
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "60c9bf5f-6476-4e16-9292-3e9660e8ab4f"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image9",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 572
+                        },
+                        "UDim_Y": {
+                          "Offect": 143
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "3a681028-f1b9-42d5-b6af-939a02b8eb8d"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image10",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": 286
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "3268a71b-47c5-40b0-b25e-128ceddcdfbb"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image11",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 143
+                        },
+                        "UDim_Y": {
+                          "Offect": 286
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "ee573618-d7dc-438c-bb9b-7aa98f143d44"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image12",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 286
+                        },
+                        "UDim_Y": {
+                          "Offect": 286
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "3b7ef32d-a814-4b8c-a963-c56612c5631a"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image13",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 429
+                        },
+                        "UDim_Y": {
+                          "Offect": 286
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "409dd553-b4ab-4ad3-a8a6-5efa9580471e"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image14",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 572
+                        },
+                        "UDim_Y": {
+                          "Offect": 286
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "ccfd801d-1fb6-46fa-ba00-a72e74b7fa05"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image15",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": 429
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "1858876b-732e-4cfc-9b97-92c05b4b5a0f"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image16",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 143
+                        },
+                        "UDim_Y": {
+                          "Offect": 429
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "1eda7595-11be-495c-853a-9932eb4ab718"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image17",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 286
+                        },
+                        "UDim_Y": {
+                          "Offect": 429
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "f07b2188-f64b-4945-b501-a4410726771f"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image18",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 429
+                        },
+                        "UDim_Y": {
+                          "Offect": 429
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "6a0d97a8-203d-4eda-b3ca-a3634a23ca24"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image19",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 572
+                        },
+                        "UDim_Y": {
+                          "Offect": 429
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "3c040880-0bf4-4110-8fa8-78fc29df5286"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image20",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": 572
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "cc0c1ea3-4369-47ae-8f66-70ef43c51bb1"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image21",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 143
+                        },
+                        "UDim_Y": {
+                          "Offect": 572
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "ea8167ab-2edf-4d3b-8d33-1f97861389d5"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image22",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 286
+                        },
+                        "UDim_Y": {
+                          "Offect": 572
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "424f8f06-7945-4ccd-85a1-6b9bbf7ca176"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image23",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 429
+                        },
+                        "UDim_Y": {
+                          "Offect": 572
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "id": {
+                        "value": "46225461-6df9-425c-bb66-96a7d72ea2ac"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+                      },
+                      "name": "Image24",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 572
+                        },
+                        "UDim_Y": {
+                          "Offect": 572
+                        }
+                      }
+                    }
+                  ],
+                  "ControlChildrenSize": true,
+                  "id": {
+                    "value": "4b1f9db9-be72-42be-904e-792ae4cb2630"
+                  },
+                  "rowSize": 5,
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 700.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 700.0
+                    }
+                  },
+                  "Space": {
+                    "x": 15,
+                    "y": 15
+                  },
+                  "Visible": false
+                }
+              ],
+              "id": {
+                "value": "2112044c-e929-4ed6-86a3-43bea5e910f7"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": -50
+                },
+                "UDim_Y": {
+                  "Offect": 50
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 700
+                },
+                "UDim_Y": {
+                  "Offect": 550
+                }
+              },
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "ActorWindow",
+              "id": {
+                "value": "63c2bdd0-6ae2-40fb-b2e3-64a2cc74a106"
+              },
+              "Visible": false
+            }
+          ],
+          "id": {
+            "value": "3cf667ea-fd63-4978-b4fd-08b84fffa259"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/Window04.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 0.9
+            },
+            "UDim_Y": {
+              "Offect": 0.0,
+              "Scale": 0.9
+            }
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "ScrollableView",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "BackGroundImage": {
+            "asset": "asset/Texture/GingersunUI/Window04.png"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "GridView",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "id": {
+                            "value": "7206c925-ba3b-44c2-8933-9c3579b5b50a"
+                          },
+                          "Image": {
+                            "asset": "asset/3D Asset/BloodTesseract.png"
+                          }
+                        }
+                      ],
+                      "id": {
+                        "value": "766ecf66-cdd2-4717-9936-e33676a86616"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Card X3.png"
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Scale": 0.2
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 176.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 176.0
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Black",
+                      "Font_size": 15,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "cb6da917-1549-4da9-9f0d-bd319cf802bc"
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Scale": 0.1
+                        }
+                      },
+                      "Text": "BLOOD TESSERACT",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "HoverImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Normal.png"
+                      },
+                      "HoverTextColour": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "id": {
+                        "value": "cd335d2b-a745-44a0-9992-8862985822bd"
+                      },
+                      "NormalImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Normal.png"
+                      },
+                      "NormalTextColour": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": -50
+                        }
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Active.png"
+                      },
+                      "Text": "BUY"
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "cde52b60-40ab-4001-bf32-cfd94a64cb56"
+                      },
+                      "name": "Text1",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": -100
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 176.0
+                        }
+                      },
+                      "Text": "Regenerate &backslashn"Health Point" &backslashnfor limited time",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "233fdf47-66d1-4f19-9178-34bf1421f733"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/GingersunUI/Card X1.png"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 256.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 512.0
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "91dfc0ed-9c73-486e-aa62-abb65ce5377b"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.04
+                }
+              },
+              "rowSize": 5,
+              "size": {
+                "UDim_X": {
+                  "Offect": 256.0
+                },
+                "UDim_Y": {
+                  "Offect": 512.0
+                }
+              },
+              "Space": {
+                "x": 50,
+                "y": 50
+              }
+            }
+          ],
+          "id": {
+            "value": "450efce2-6679-4337-ac2f-b162df378d13"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 0.9
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.9
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.985,
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "4551f4eb-4032-402d-a57e-0b832c580705"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.25
+                }
+              },
+              "Text": "Premium Shop",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            }
+          ],
+          "id": {
+            "value": "c2026a8a-ca85-4787-96fa-bb808392adf9"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/ButtonPanel.png"
+          },
+          "name": "Image1",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.06
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 256.0
+            },
+            "UDim_Y": {
+              "Offect": 48.0
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "c6a8d807-7f3f-4ce8-8bba-19e0e58bf2a6"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "ba055a72929932877f8dd4999d8de0fc",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.22"
+  }
+}

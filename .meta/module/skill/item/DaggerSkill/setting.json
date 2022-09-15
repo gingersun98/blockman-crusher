@@ -1,0 +1,141 @@
+{
+  "data": {
+    "castAction": "attack",
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 20
+    },
+    "consumeVp": 2,
+    "enableCdMask": true,
+    "enableCdTip": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_DaggerSkill"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 10,
+        "hurtDistance": 0
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
+      },
+      "icon_pushed": {
+        "asset": "asset/Texture/Skill/common/icon_近战攻击_nor.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClick": true
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "fcb510ed-2c08-49b1-90ea-5b07faf149fb"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "64d1a014-9ae4-42b0-9e4b-9ac5bb6bcd6c"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "44f9df95-a5a6-45d6-8733-d9e79c1c9029"
+              },
+              "pos": {
+                "x": 626,
+                "y": 268
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "64d1a014-9ae4-42b0-9e4b-9ac5bb6bcd6c"
+              },
+              "pos": {
+                "x": 1062,
+                "y": 444
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "fcb510ed-2c08-49b1-90ea-5b07faf149fb"
+              },
+              "pos": {
+                "x": 1010,
+                "y": 197
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "8c97efd8-dc88-443a-8cb7-3a415544b8e0"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  [],
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "2e4b01bf-4d0d-4769-a564-8b2b2ca1f037"
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a1db85920ba944c862535b61e50c9f95",
+      "triggers.bts": "5a566fc7c963bf1119b53b2fee3dc77b"
+    },
+    "VERSION": "0.23"
+  }
+}

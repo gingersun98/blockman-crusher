@@ -1,0 +1,19 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "Bip001_L_Finger01",
+  "icon": "@asset/3D Asset/UnstabbleTimeTesseract.png",
+  "itemname": "item_7581b61b-7f5c-462a-becd-73b1ce1602bf",
+  "mesh": "asset/3D Asset/Tesseract/Icosphere.mesh",
+  "needSave": true,
+  "skill": [],
+  "stack_count_max": 1000,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

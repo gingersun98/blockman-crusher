@@ -1,0 +1,229 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/3D Asset/gun.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "handBuff": "myplugin/strength",
+        "handItemBoneName": "Bip001_L_Finger01",
+        "skill": [
+          "myplugin/2dedc55d-2d6f-4e2d-ab9f-2c2be108caa2"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Purple-Yellow Catapult Pistol/g2047_gun_01_02.mesh"
+    },
+    "name": {
+      "value": "item_951529d8-99cc-4dbe-9dc3-cbb0a4eef98f"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddSkill",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "c0e6bb45-a0ec-4b61-8da4-7240d2853435"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_SkillEntry",
+                        "rawval": "myplugin/2dedc55d-2d6f-4e2d-ab9f-2c2be108caa2"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d36224a5-41bb-4953-a9c3-7fe9a64df7e1"
+              },
+              "pos": {
+                "x": 625,
+                "y": 189
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "c0e6bb45-a0ec-4b61-8da4-7240d2853435"
+              },
+              "pos": {
+                "x": 951,
+                "y": 158
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityVp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "25824abf-150b-4934-900a-6b5357b8cf3e"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 30
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "bdd2c3fb-965e-4827-8485-b65983781d0e"
+              },
+              "pos": {
+                "x": 629,
+                "y": 341
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "25824abf-150b-4934-900a-6b5357b8cf3e"
+              },
+              "pos": {
+                "x": 951,
+                "y": 354
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "2e445d92-df81-4672-80b3-f7ec5b2a9874"
+            },
+            "type": "Trigger_Hand"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "d36224a5-41bb-4953-a9c3-7fe9a64df7e1"
+                  },
+                  {
+                    "action": "bdd2c3fb-965e-4827-8485-b65983781d0e"
+                  },
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "138ff815-b828-4c87-bf09-f569b730385b"
+            }
+          },
+          "type": "Trigger_Hand"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_RemoveSkill",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "b9641e9f-5abc-454f-bfc4-fcd7500445ec"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_SkillEntry",
+                        "rawval": "myplugin/2dedc55d-2d6f-4e2d-ab9f-2c2be108caa2"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "9007ca06-4aac-4d03-b604-2516b386ec9e"
+              },
+              "pos": {
+                "x": 715,
+                "y": 227
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "b9641e9f-5abc-454f-bfc4-fcd7500445ec"
+              },
+              "pos": {
+                "x": 1076,
+                "y": 174
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "043c4017-f4d4-409b-8b85-52bfc088ceee"
+            },
+            "type": "Trigger_UnHand"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "9007ca06-4aac-4d03-b604-2516b386ec9e"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "5b91b5dd-4fd3-4dc9-bf1b-88ec49164bc3"
+            }
+          },
+          "type": "Trigger_UnHand"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2f4af4a067e31355dc964114b1847be0",
+      "triggers.bts": "95de8476d23d64c0f18f06e2ef534d53"
+    },
+    "VERSION": "0.23"
+  }
+}

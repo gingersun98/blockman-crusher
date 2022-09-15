@@ -1,0 +1,1951 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_back.png"
+        },
+        "bottom": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_bottom.png"
+        },
+        "front": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_front.png"
+        },
+        "left": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_left.png"
+        },
+        "right": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_right.png"
+        },
+        "top": {
+          "asset": "asset/Texture/SkyBox/Night/Sky03_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8779655002469220353"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8779655002982187009",
+        "ID": 5,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8779655003744108545",
+        "ID": 6,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -33.3228340148926,
+          "y": 2.72400093078613,
+          "z": -34.8291511535645
+        },
+        "batchType": "Dynamic",
+        "btsKey": "89c668c8-a943-4bf2-ad10-73515192b84e",
+        "collisionUniqueKey": "8779663555069542401",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779663555069542401",
+        "massCenter": {
+          "x": -33.322834014893,
+          "y": 2.7240009307861,
+          "z": -34.829151153564
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Gray-White Stone/g2038_rock_1.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Gray-White Stone/g2038_rock_1.mesh",
+          "selector": "asset/stone/g2030_zs_15.mesh"
+        },
+        "name": "Stone2",
+        "position": {
+          "x": -33.322834014893,
+          "y": 2.7240009307861,
+          "z": -34.829151153564
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -3.3921744823456,
+          "y": -21.412273406982,
+          "z": -11.6248254776
+        },
+        "scale": {
+          "x": 5.10474,
+          "y": 5.10474,
+          "z": 5.10474
+        },
+        "size": {
+          "x": 10.000001907349,
+          "y": 3.9790680408478,
+          "z": 9.4444780349731
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -7.11579465866089,
+          "y": 1.02126264572144,
+          "z": -29.7315368652344
+        },
+        "batchType": "Dynamic",
+        "btsKey": "64f02049-f021-4797-8c1a-0164afa2fe2d",
+        "collisionUniqueKey": "8779679593232154625",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779679593232154625",
+        "massCenter": {
+          "x": -7.1157946586609,
+          "y": 1.0212626457214,
+          "z": -29.731536865234
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
+          "selector": "asset/stone/dashi_03/dashi_03.mesh"
+        },
+        "name": "Stone",
+        "position": {
+          "x": -7.1157946586609,
+          "y": 1.0212626457214,
+          "z": -29.731536865234
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 6.03047,
+          "y": 6.03044,
+          "z": 6.03044
+        },
+        "size": {
+          "x": 11.387475013733,
+          "y": 11.369917869568,
+          "z": 10.916675567627
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "7f801a98-8488-42e9-a4b0-9836fe0d4917",
+        "density": 0.9,
+        "friction": 0.022,
+        "id": "8779705400753143809",
+        "massCenter": {
+          "x": -21.512,
+          "y": 1.4998998641968,
+          "z": -10.901
+        },
+        "material": {
+          "color": {
+            "r": 0
+          },
+          "texture": "part_bingkuai.tga"
+        },
+        "position": {
+          "x": -21.512,
+          "y": 1.4998998641968,
+          "z": -10.901
+        },
+        "restitution": 0.2,
+        "scale": {
+          "x": 38,
+          "y": 8,
+          "z": 10
+        },
+        "size": {
+          "x": 38,
+          "y": 8,
+          "z": 10
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_EffectPart",
+        "batchType": "Dynamic",
+        "csgShapeEffect": {
+          "asset": "asset/effect/Blue Flat Water Effect/lr204_surface_blue_01_3d.effect"
+        },
+        "id": "8780699473324818433",
+        "loop": {
+          "enable": true
+        },
+        "position": {
+          "x": -15.3,
+          "y": 5.6,
+          "z": -9.8
+        },
+        "scale": {
+          "x": 13,
+          "y": 5,
+          "z": 4
+        },
+        "size": {
+          "x": 26,
+          "y": 10,
+          "z": 8
+        },
+        "transform": {
+          "pos": {
+            "x": -15.3,
+            "y": 5.6,
+            "z": -9.8
+          },
+          "scale": {
+            "x": 13,
+            "y": 5,
+            "z": 4
+          }
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -34.0027236938477,
+          "y": 8.20365142822266,
+          "z": -11.8695230484009
+        },
+        "batchType": "Dynamic",
+        "btsKey": "64f02049-f021-4797-8c1a-0164afa2fe2d",
+        "collisionUniqueKey": "8779679593232154625",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779734612893433857",
+        "massCenter": {
+          "x": -34.002723693848,
+          "y": 8.2036514282227,
+          "z": -11.869523048401
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
+          "selector": "asset/stone/dashi_03/dashi_03.mesh"
+        },
+        "name": "Stone",
+        "position": {
+          "x": -34.002723693848,
+          "y": 8.2036514282227,
+          "z": -11.869523048401
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "x": 7.14312,
+          "y": 7.14309,
+          "z": 7.14309
+        },
+        "size": {
+          "x": 13.48851776123,
+          "y": 13.467730522156,
+          "z": 12.930863380432
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_EffectPart",
+        "batchType": "Dynamic",
+        "csgShapeEffect": {
+          "asset": "asset/effect/Blue Vertical Waterfall Effect/lr204_falls_white_3d.effect"
+        },
+        "id": "8779736187005616129",
+        "loop": {
+          "enable": true
+        },
+        "position": {
+          "x": -28,
+          "y": 8.2,
+          "z": -10
+        },
+        "rotation": {
+          "y": 80
+        },
+        "scale": {
+          "x": 7,
+          "y": 5,
+          "z": 5
+        },
+        "size": {
+          "x": 7.3895926475525,
+          "y": 14.468474388123,
+          "z": 4.8056292533875
+        },
+        "transform": {
+          "pos": {
+            "x": -28,
+            "y": 8.2,
+            "z": -10
+          },
+          "rotate": {
+            "y": 80
+          },
+          "scale": {
+            "x": 7,
+            "y": 5,
+            "z": 5
+          }
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -32.8217315673828,
+          "y": 8.52665328979492,
+          "z": -4.5045280456543
+        },
+        "batchType": "Dynamic",
+        "btsKey": "64f02049-f021-4797-8c1a-0164afa2fe2d",
+        "collisionUniqueKey": "8779679593232154625",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779747447181770753",
+        "massCenter": {
+          "x": -32.821731567383,
+          "y": 8.5266532897949,
+          "z": -4.5045280456543
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
+          "selector": "asset/stone/dashi_03/dashi_03.mesh"
+        },
+        "name": "Stone",
+        "position": {
+          "x": -32.821731567383,
+          "y": 8.5266532897949,
+          "z": -4.5045280456543
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 5.77044,
+          "y": 5.77041,
+          "z": 5.77042
+        },
+        "size": {
+          "x": 10.896454811096,
+          "y": 10.879652023315,
+          "z": 10.445972442627
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 24.4416484832764,
+          "y": 6.125816822052,
+          "z": -23.0707492828369
+        },
+        "batchType": "Dynamic",
+        "btsKey": "89c668c8-a943-4bf2-ad10-73515192b84e",
+        "collisionUniqueKey": "8779663555069542401",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779752747429658625",
+        "massCenter": {
+          "x": 24.441648483276,
+          "y": 6.125816822052,
+          "z": -23.070749282837
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Gray Arch Bridge/g2021_huoshan_qiao.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Gray Arch Bridge/g2021_huoshan_qiao.mesh",
+          "selector": "asset/stone/g2030_zs_15.mesh"
+        },
+        "name": "Bridge",
+        "position": {
+          "x": 24.441648483276,
+          "y": 6.125816822052,
+          "z": -23.070749282837
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 0.399685,
+          "y": 0.399685,
+          "z": 0.399685
+        },
+        "size": {
+          "x": 8.0000009536743,
+          "y": 4.041708946228,
+          "z": 2.6200404167175
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 11.6912746429443,
+          "y": 3.75481748580933,
+          "z": 11.1124143600464
+        },
+        "batchType": "Dynamic",
+        "btsKey": "89c668c8-a943-4bf2-ad10-73515192b84e",
+        "collisionUniqueKey": "8779663555069542401",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779756771185917953",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 11.691274642944,
+          "y": 3.7548174858093,
+          "z": 11.112414360046
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Octagonal Array Stone Island/g2030_island_rishi_3.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Octagonal Array Stone Island/g2030_island_rishi_3.mesh",
+          "selector": "asset/stone/g2030_zs_15.mesh"
+        },
+        "name": "Castle",
+        "position": {
+          "x": 11.691274642944,
+          "y": 3.7548174858093,
+          "z": 11.112414360046
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 93
+        },
+        "scale": {
+          "x": 1.33261,
+          "y": 1.33261,
+          "z": 1.33261
+        },
+        "size": {
+          "x": 26.999973297119,
+          "y": 12.787440299988,
+          "z": 20.054552078247
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -1.55479443073273,
+          "y": 2.78226256370544,
+          "z": -14.5705423355103
+        },
+        "batchType": "Dynamic",
+        "btsKey": "64f02049-f021-4797-8c1a-0164afa2fe2d",
+        "collisionUniqueKey": "8779679593232154625",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779769401348390913",
+        "massCenter": {
+          "x": -1.5547944307327,
+          "y": 2.7822625637054,
+          "z": -14.57054233551
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
+          "selector": "asset/stone/dashi_03/dashi_03.mesh"
+        },
+        "name": "Stone",
+        "position": {
+          "x": -1.5547944307327,
+          "y": 2.7822625637054,
+          "z": -14.57054233551
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 6.03047,
+          "y": 6.03044,
+          "z": 6.03044
+        },
+        "size": {
+          "x": 11.387475013733,
+          "y": 11.369917869568,
+          "z": 10.916675567627
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -5.49750471115112,
+          "y": -0.245736837387085,
+          "z": -6.57953071594238
+        },
+        "batchType": "Dynamic",
+        "btsKey": "64f02049-f021-4797-8c1a-0164afa2fe2d",
+        "collisionUniqueKey": "8779679593232154625",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779778333990993921",
+        "massCenter": {
+          "x": -5.4975047111511,
+          "y": -0.24573683738708,
+          "z": -6.5795307159424
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
+          "selector": "asset/stone/dashi_03/dashi_03.mesh"
+        },
+        "name": "Stone",
+        "position": {
+          "x": -5.4975047111511,
+          "y": -0.24573683738708,
+          "z": -6.5795307159424
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 6.03047,
+          "y": 6.03044,
+          "z": 6.03044
+        },
+        "size": {
+          "x": 11.387475013733,
+          "y": 11.369917869568,
+          "z": 10.916675567627
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_EffectPart",
+        "batchType": "Dynamic",
+        "csgShapeEffect": {
+          "asset": "asset/effect/Blue Vertical Waterfall Effect/lr204_falls_white_3d.effect"
+        },
+        "id": "8779791288458362881",
+        "loop": {
+          "enable": true
+        },
+        "position": {
+          "x": -1.9,
+          "y": 3,
+          "z": -8
+        },
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "x": 7,
+          "y": 2
+        },
+        "size": {
+          "x": 7.3895926475525,
+          "y": 5.787389755249,
+          "z": 0.96112585067749
+        },
+        "transform": {
+          "pos": {
+            "x": -1.9,
+            "y": 3,
+            "z": -8
+          },
+          "rotate": {
+            "y": 90
+          },
+          "scale": {
+            "x": 7,
+            "y": 2
+          }
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 30.7692165374756,
+          "y": 8.99681758880615,
+          "z": -0.224968776106834
+        },
+        "batchType": "Dynamic",
+        "btsKey": "89c668c8-a943-4bf2-ad10-73515192b84e",
+        "collisionUniqueKey": "8779663555069542401",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779823613487792129",
+        "massCenter": {
+          "x": 30.769216537476,
+          "y": 8.9968175888062,
+          "z": -0.22496877610683
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh",
+          "selector": "asset/stone/g2030_zs_15.mesh"
+        },
+        "name": "Bridge2",
+        "position": {
+          "x": 30.769216537476,
+          "y": 8.9968175888062,
+          "z": -0.22496877610683
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90.999992370605
+        },
+        "scale": {
+          "x": 0.26138,
+          "y": 0.26138,
+          "z": 0.26138
+        },
+        "size": {
+          "x": 4.9999899864197,
+          "y": 1.360568523407,
+          "z": 2.803121805191
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -11.4910116195679,
+          "y": 6.19400024414062,
+          "z": -19.9212455749512
+        },
+        "batchType": "Dynamic",
+        "btsKey": "3b577aee-7e70-4d5c-b4b4-d2ddcb99602e",
+        "collisionUniqueKey": "8779834418119671809",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779834418119671809",
+        "massCenter": {
+          "x": -11.491011619568,
+          "y": 6.1940002441406,
+          "z": -19.921245574951
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/g2030_zs_17_1.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/g2030_zs_17_1.mesh",
+          "selector": "asset/stone/g2030_zs_17_1.mesh"
+        },
+        "name": "Stone3",
+        "position": {
+          "x": -11.491011619568,
+          "y": 6.1940002441406,
+          "z": -19.921245574951
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 3.19919,
+          "y": 3.19919,
+          "z": 3.19919
+        },
+        "size": {
+          "x": 3.3062570095062,
+          "y": 0.18789167702198,
+          "z": 2.5528862476349
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -16.5550079345703,
+          "y": 6.24500131607056,
+          "z": -18.9042453765869
+        },
+        "batchType": "Dynamic",
+        "btsKey": "3b577aee-7e70-4d5c-b4b4-d2ddcb99602e",
+        "collisionUniqueKey": "8779834418119671809",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779835123292667905",
+        "massCenter": {
+          "x": -16.55500793457,
+          "y": 6.2450013160706,
+          "z": -18.904245376587
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/g2030_zs_17_1.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/g2030_zs_17_1.mesh",
+          "selector": "asset/stone/g2030_zs_17_1.mesh"
+        },
+        "name": "Stone3",
+        "position": {
+          "x": -16.55500793457,
+          "y": 6.2450013160706,
+          "z": -18.904245376587
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 3.19919,
+          "y": 3.19919,
+          "z": 3.19919
+        },
+        "size": {
+          "x": 3.3062570095062,
+          "y": 0.18789167702198,
+          "z": 2.5528862476349
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -21.1590042114258,
+          "y": 6.24200105667114,
+          "z": -15.9762468338013
+        },
+        "batchType": "Dynamic",
+        "btsKey": "3b577aee-7e70-4d5c-b4b4-d2ddcb99602e",
+        "collisionUniqueKey": "8779834418119671809",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779835459884400641",
+        "massCenter": {
+          "x": -21.159004211426,
+          "y": 6.2420010566711,
+          "z": -15.976246833801
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/g2030_zs_17_1.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/g2030_zs_17_1.mesh",
+          "selector": "asset/stone/g2030_zs_17_1.mesh"
+        },
+        "name": "Stone3",
+        "position": {
+          "x": -21.159004211426,
+          "y": 6.2420010566711,
+          "z": -15.976246833801
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 1.93523,
+          "y": 1.93523,
+          "z": 1.93523
+        },
+        "size": {
+          "x": 1.9999961853027,
+          "y": 0.11365803331137,
+          "z": 1.5442727804184
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -31.3432960510254,
+          "y": 17.2206401824951,
+          "z": -20.2422065734863
+        },
+        "batchType": "Dynamic",
+        "btsKey": "1044c062-8b29-46dd-b756-fd19bdf61094",
+        "collisionUniqueKey": "8779839130667483137",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779839130667483137",
+        "massCenter": {
+          "x": -31.343296051025,
+          "y": 17.220640182495,
+          "z": -20.242206573486
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Brown Spire Tower/g2044_5060_house08.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Brown Spire Tower/g2044_5060_house08.mesh",
+          "selector": "asset/plant/tree/g2038_tree_09.mesh"
+        },
+        "name": "Building1",
+        "position": {
+          "x": -31.343296051025,
+          "y": 17.220640182495,
+          "z": -20.242206573486
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 1.15216,
+          "y": 1.15216,
+          "z": 1.15216
+        },
+        "size": {
+          "x": 7.0000128746033,
+          "y": 22.679382324219,
+          "z": 6.9999961853027
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 25.3850708007812,
+          "y": 13.142635345459,
+          "z": -6.25043296813965
+        },
+        "batchType": "Dynamic",
+        "btsKey": "1044c062-8b29-46dd-b756-fd19bdf61094",
+        "collisionUniqueKey": "8779839130667483137",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779862221321093121",
+        "massCenter": {
+          "x": 25.385070800781,
+          "y": 13.142635345459,
+          "z": -6.2504329681396
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Snow-Covered Trapezoidal Stone Pillars/g2021_xuejing_gaoqiang_02.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Snow-Covered Trapezoidal Stone Pillars/g2021_xuejing_gaoqiang_02.mesh",
+          "selector": "asset/plant/tree/g2038_tree_09.mesh"
+        },
+        "name": "BuildIce",
+        "position": {
+          "x": 25.385070800781,
+          "y": 13.142635345459,
+          "z": -6.2504329681396
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 2.34177,
+          "y": 2.34177,
+          "z": 2.34177
+        },
+        "size": {
+          "x": 4.9999923706055,
+          "y": 14.680330276489,
+          "z": 4.9589838981628
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 29.7878036499023,
+          "y": 5.79439830780029,
+          "z": 13.6287641525269
+        },
+        "batchType": "Dynamic",
+        "btsKey": "64ea4ac1-6ef8-4475-bdfb-abbd9beb347a",
+        "collisionUniqueKey": "8779866181760614401",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779866181760614401",
+        "massCenter": {
+          "x": 29.787803649902,
+          "y": 5.7943983078003,
+          "z": 13.628764152527
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Huge Blue Ice Cone Island/g2030_island_bingdao_2.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Huge Blue Ice Cone Island/g2030_island_bingdao_2.mesh",
+          "selector": "asset/stone/g2030_island_bingdao_3_1.mesh"
+        },
+        "name": "Stone_ice",
+        "position": {
+          "x": 29.787803649902,
+          "y": 5.7943983078003,
+          "z": 13.628764152527
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -96.999984741211
+        },
+        "scale": {
+          "x": 2.36098,
+          "y": 2.36097,
+          "z": 2.36098
+        },
+        "size": {
+          "x": 25.000034332275,
+          "y": 16.483291625977,
+          "z": 15.366220474243
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 31.193229675293,
+          "y": 11.7678213119507,
+          "z": 3.0300304889679
+        },
+        "batchType": "Dynamic",
+        "btsKey": "89c668c8-a943-4bf2-ad10-73515192b84e",
+        "collisionUniqueKey": "8779663555069542401",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779872359344652289",
+        "massCenter": {
+          "x": 31.193229675293,
+          "y": 11.767821311951,
+          "z": 3.0300304889679
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Blue Arch/g2038_door_01.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Blue Arch/g2038_door_01.mesh",
+          "selector": "asset/stone/g2030_zs_15.mesh"
+        },
+        "name": "GateIce",
+        "position": {
+          "x": 31.193229675293,
+          "y": 11.767821311951,
+          "z": 3.0300304889679
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 0.654045,
+          "y": 0.654044,
+          "z": 0.654044
+        },
+        "size": {
+          "x": 7.8485460281372,
+          "y": 5.437789440155,
+          "z": 1.3263107538223
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 11.7502126693726,
+          "y": 8.59081554412842,
+          "z": 10.8160305023193
+        },
+        "batchType": "Dynamic",
+        "btsKey": "89c668c8-a943-4bf2-ad10-73515192b84e",
+        "collisionUniqueKey": "8779663555069542401",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779879592169963521",
+        "massCenter": {
+          "x": 11.750212669373,
+          "y": 8.5908155441284,
+          "z": 10.816030502319
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Brown Hexagon Altar/g2021_duchi_tanzi.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Brown Hexagon Altar/g2021_duchi_tanzi.mesh",
+          "selector": "asset/stone/g2030_zs_15.mesh"
+        },
+        "name": "GateGrass",
+        "position": {
+          "x": 11.750212669373,
+          "y": 8.5908155441284,
+          "z": 10.816030502319
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 3.00688,
+          "y": 3.00688,
+          "z": 3.00687
+        },
+        "size": {
+          "x": 5.0000085830688,
+          "y": 0.92153656482697,
+          "z": 5.2400455474854
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 3.54242730140686,
+          "y": 7.75903797149658,
+          "z": 23.4406471252441
+        },
+        "batchType": "Dynamic",
+        "btsKey": "89c668c8-a943-4bf2-ad10-73515192b84e",
+        "collisionUniqueKey": "8779663555069542401",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779881144103534593",
+        "massCenter": {
+          "x": 3.5424273014069,
+          "y": 7.7590379714966,
+          "z": 23.440647125244
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh",
+          "selector": "asset/stone/g2030_zs_15.mesh"
+        },
+        "name": "Bridge3",
+        "position": {
+          "x": 3.5424273014069,
+          "y": 7.7590379714966,
+          "z": 23.440647125244
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 142.99992370605,
+          "z": -20
+        },
+        "scale": {
+          "x": 0.365933,
+          "y": 0.365932,
+          "z": 0.365933
+        },
+        "size": {
+          "x": 7.0000057220459,
+          "y": 1.9047960042953,
+          "z": 3.9243812561035
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 19.1070594787598,
+          "y": 7.65230751037598,
+          "z": 29.3097457885742
+        },
+        "batchType": "Dynamic",
+        "btsKey": "11ac368b-fafa-40e4-9349-e883aa5a1a58",
+        "collisionUniqueKey": "8779883771294056449",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779883771294056449",
+        "isLockedInEditor": true,
+        "massCenter": {
+          "x": 19.10705947876,
+          "y": 7.652307510376,
+          "z": 29.309745788574
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Large Magma Volcanic Island/g2030_island_huoshan_3.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Large Magma Volcanic Island/g2030_island_huoshan_3.mesh",
+          "selector": "asset/stone/g2030_island_rongyan_2.mesh"
+        },
+        "name": "Stone_fire",
+        "partNavMeshType": "nil",
+        "position": {
+          "x": 19.10705947876,
+          "y": 7.652307510376,
+          "z": 29.309745788574
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 180
+        },
+        "scale": {
+          "x": 1.36931,
+          "y": 1.36931,
+          "z": 1.36931
+        },
+        "size": {
+          "x": 30.000030517578,
+          "y": 14.587811470032,
+          "z": 18.863822937012
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 1.39781677722931,
+          "y": 8.37581634521484,
+          "z": 21.7129650115967
+        },
+        "batchType": "Dynamic",
+        "btsKey": "89c668c8-a943-4bf2-ad10-73515192b84e",
+        "collisionUniqueKey": "8779663555069542401",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779902866409078785",
+        "massCenter": {
+          "x": 1.3978167772293,
+          "y": 8.3758163452148,
+          "z": 21.712965011597
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Octagonal Array Stone Island/g2030_men_3.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Octagonal Array Stone Island/g2030_men_3.mesh",
+          "selector": "asset/stone/g2030_zs_15.mesh"
+        },
+        "name": "GateFire",
+        "position": {
+          "x": 1.3978167772293,
+          "y": 8.3758163452148,
+          "z": 21.712965011597
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 47.999996185303
+        },
+        "scale": {
+          "x": 2.11218,
+          "y": 2.11218,
+          "z": 2.11218
+        },
+        "size": {
+          "x": 8.558144569397,
+          "y": 6.6239261627197,
+          "z": 1.2163186073303
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 10.1081590652466,
+          "y": 5.98246574401855,
+          "z": -5.95023250579834
+        },
+        "batchType": "Dynamic",
+        "btsKey": "89c668c8-a943-4bf2-ad10-73515192b84e",
+        "collisionUniqueKey": "8779663555069542401",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779963952244555777",
+        "massCenter": {
+          "x": 10.108159065247,
+          "y": 5.9824657440186,
+          "z": -5.9502325057983
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Gray Arch Bridge/g2021_huoshan_qiao.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Gray Arch Bridge/g2021_huoshan_qiao.mesh",
+          "selector": "asset/stone/g2030_zs_15.mesh"
+        },
+        "name": "Bridge4",
+        "position": {
+          "x": 10.108159065247,
+          "y": 5.9824657440186,
+          "z": -5.9502325057983
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90.999992370605,
+          "z": -5
+        },
+        "scale": {
+          "x": 0.599527,
+          "y": 0.599527,
+          "z": 0.599527
+        },
+        "size": {
+          "x": 11.999991416931,
+          "y": 6.0625586509705,
+          "z": 3.9300575256348
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -24.0416679382324,
+          "y": 5.06921195983887,
+          "z": -10.8665180206299
+        },
+        "batchType": "Dynamic",
+        "btsKey": "89c668c8-a943-4bf2-ad10-73515192b84e",
+        "collisionUniqueKey": "8779663555069542401",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779974142606606337",
+        "massCenter": {
+          "x": -24.041667938232,
+          "y": 5.0692119598389,
+          "z": -10.86651802063
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Gray Arch Bridge/g2021_huoshan_qiao.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Gray Arch Bridge/g2021_huoshan_qiao.mesh",
+          "selector": "asset/stone/g2030_zs_15.mesh"
+        },
+        "name": "Bridge5",
+        "position": {
+          "x": -24.041667938232,
+          "y": 5.0692119598389,
+          "z": -10.86651802063
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 92,
+          "z": -10
+        },
+        "scale": {
+          "x": 0.349724,
+          "y": 0.349724,
+          "z": 0.349724
+        },
+        "size": {
+          "x": 6.9999928474426,
+          "y": 3.5364916324615,
+          "z": 2.2925329208374
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -22.8540134429932,
+          "y": 6.75551319122314,
+          "z": 4.56260395050049
+        },
+        "batchType": "Dynamic",
+        "btsKey": "89c668c8-a943-4bf2-ad10-73515192b84e",
+        "collisionUniqueKey": "8779663555069542401",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779978078898896897",
+        "massCenter": {
+          "x": -22.854013442993,
+          "y": 6.7555131912231,
+          "z": 4.5626039505005
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh",
+          "selector": "asset/stone/g2030_zs_15.mesh"
+        },
+        "name": "Bridge6",
+        "position": {
+          "x": -22.854013442993,
+          "y": 6.7555131912231,
+          "z": 4.5626039505005
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -3.9796884059906,
+          "y": 89.378471374512,
+          "z": 11
+        },
+        "scale": {
+          "x": 0.365933,
+          "y": 0.365932,
+          "z": 0.365933
+        },
+        "size": {
+          "x": 7.0000057220459,
+          "y": 1.9047960042953,
+          "z": 3.9243812561035
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -27.0909328460693,
+          "y": 3.25158929824829,
+          "z": 25.9966087341309
+        },
+        "batchType": "Dynamic",
+        "btsKey": "bb58523f-70c6-4948-bad1-0a68b3fa51f3",
+        "collisionUniqueKey": "8779995855757131777",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779995855757131777",
+        "massCenter": {
+          "x": -27.090932846069,
+          "y": 3.2515892982483,
+          "z": 25.996608734131
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/g2030_island_rongyan_1.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/g2030_island_rongyan_1.mesh",
+          "selector": "asset/stone/g2030_island_rongyan_1.mesh"
+        },
+        "name": "Stone_Lava2",
+        "position": {
+          "x": -27.090932846069,
+          "y": 3.2515892982483,
+          "z": 25.996608734131
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 270
+        },
+        "scale": {
+          "x": 5.72909,
+          "y": 5.72909,
+          "z": 5.72909
+        },
+        "size": {
+          "x": 20.809801101685,
+          "y": 14.269382476807,
+          "z": 22.333269119263
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": -30.0201454162598,
+          "y": 14.3222608566284,
+          "z": 30.1440143585205
+        },
+        "batchType": "Dynamic",
+        "btsKey": "94c2b46a-761d-4321-86e9-1a3e60881ac4",
+        "collisionUniqueKey": "8780005473983676417",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8780005473983676417",
+        "massCenter": {
+          "x": -30.02014541626,
+          "y": 14.322260856628,
+          "z": 30.144014358521
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Pagoda/feixingqi_talou.mesh",
+        "mesh_selector": {
+          "asset": "asset/Pagoda/feixingqi_talou.mesh",
+          "selector": "asset/Pagoda/feixingqi_talou.mesh"
+        },
+        "name": "Pagoda",
+        "position": {
+          "x": -30.02014541626,
+          "y": 14.322260856628,
+          "z": 30.144014358521
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -179.99998474121
+        },
+        "scale": {
+          "x": 1.31633,
+          "y": 1.31633,
+          "z": 1.31633
+        },
+        "size": {
+          "x": 9.9999732971191,
+          "y": 12.433828353882,
+          "z": 9.8189830780029
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "ab9face8-f55a-4c56-a271-58c237b08f3b",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "batchType": "Dynamic",
+            "csgShapeEffect": {
+              "asset": "asset/effect/Blue Flat Water Effect/lr204_surface_blue_01_3d.effect"
+            },
+            "id": "8780012411562819585",
+            "loop": {
+              "enable": true
+            },
+            "position": {
+              "y": 1.6
+            },
+            "rotation": {
+              "y": 0.99999994039536
+            },
+            "scale": {
+              "x": 37,
+              "z": 37
+            },
+            "size": {
+              "x": 74,
+              "y": 2,
+              "z": 74
+            },
+            "transform": {
+              "pos": {
+                "y": 0.6
+              },
+              "scale": {
+                "x": 37,
+                "z": 37
+              }
+            }
+          }
+        ],
+        "density": 0.9,
+        "friction": 0.022,
+        "id": "8780010454117564417",
+        "massCenter": {
+          "y": 1
+        },
+        "material": {
+          "texture": "part_bingkuai.tga"
+        },
+        "name": "Water",
+        "position": {
+          "y": 1
+        },
+        "restitution": 0.2,
+        "rotation": {
+          "y": 1
+        },
+        "scale": {
+          "x": 75,
+          "z": 75
+        },
+        "size": {
+          "x": 75,
+          "z": 75
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/xue",
+        "id": "8780730843223408641",
+        "name": "Snow",
+        "position": {
+          "x": 31.504716873169,
+          "y": 12.752878189087,
+          "z": -16.376010894775
+        },
+        "size": {
+          "x": 0.99999994039536,
+          "y": 0.99999994039536,
+          "z": 0.99999988079071
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/xue",
+        "id": "8780731313085710337",
+        "name": "Snow",
+        "position": {
+          "x": 32.634708404541,
+          "y": 13.690880775452,
+          "z": 11.981990814209
+        },
+        "size": {
+          "x": 0.99999994039536,
+          "y": 0.99999994039536,
+          "z": 0.99999988079071
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8785480625055842305",
+            "layoutFile": {
+              "asset": "asset/Actor/Soldier In White Goggles/UICrushObject.layout"
+            },
+            "position": {
+              "y": 3
+            }
+          }
+        ],
+        "config": "myplugin/9efabf7f-63f2-43e2-afa8-a3c9c051257a",
+        "id": "8785480010479910913",
+        "name": "entity_9efabf7f-63f2-43e2-afa8-a3c9c051257a",
+        "position": {
+          "x": 34.423999786377,
+          "y": 8.944881439209,
+          "z": -22.526000976562
+        },
+        "scale": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
+        },
+        "size": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "anchorPoint": {
+          "x": 10.2412128448486,
+          "y": 11.4568166732788,
+          "z": 0.524031221866608
+        },
+        "batchType": "Dynamic",
+        "btsKey": "89c668c8-a943-4bf2-ad10-73515192b84e",
+        "collisionUniqueKey": "8779663555069542401",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8785579687160168449",
+        "massCenter": {
+          "x": 10.241212844849,
+          "y": 11.456816673279,
+          "z": 0.52403122186661
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/White And Gold Arch/g2038_race_gate.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/White And Gold Arch/g2038_race_gate.mesh",
+          "selector": "asset/stone/g2030_zs_15.mesh"
+        },
+        "name": "GateGrass",
+        "position": {
+          "x": 10.241212844849,
+          "y": 11.456816673279,
+          "z": 0.52403122186661
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 0.659221,
+          "y": 0.659221,
+          "z": 0.659221
+        },
+        "size": {
+          "x": 6.3769278526306,
+          "y": 5.9505591392517,
+          "z": 1.6778643131256
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "batchType": "Dynamic",
+        "cfgName": "myplugin/002d1ae9-00a3-4899-9848-96551459f1b3",
+        "id": "8785623616066879489",
+        "position": {
+          "x": -24.709842681885,
+          "y": 6.7047243118286,
+          "z": -19.566818237305
+        },
+        "scale": {
+          "x": 8.22096,
+          "y": 0.999997,
+          "z": 6.19898
+        },
+        "size": {
+          "x": 8.2209615707397,
+          "y": 0.99999701976776,
+          "z": 6.1989822387695
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8786635505571119105",
+            "layoutFile": {
+              "asset": "asset/Actor/Soldier In White Goggles/UIDangerZone.layout"
+            },
+            "position": {
+              "y": 6
+            }
+          }
+        ],
+        "config": "myplugin/BotMage",
+        "id": "8786599556760584193",
+        "name": "Danger_Mage",
+        "position": {
+          "x": 11.0822277069092,
+          "y": 8.49374771118164,
+          "z": 6.81997585296631
+        },
+        "scale": {
+          "x": 2,
+          "y": 2,
+          "z": 2
+        },
+        "size": {
+          "x": 2,
+          "y": 2,
+          "z": 2
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8786635874869100545",
+            "layoutFile": {
+              "asset": "asset/Actor/Soldier In White Goggles/UIDangerZone.layout"
+            },
+            "position": {
+              "y": 4.5
+            }
+          }
+        ],
+        "config": "myplugin/BotWarrior",
+        "id": "8786600069118787585",
+        "name": "Danger_Ranger",
+        "position": {
+          "x": 32.102230072021,
+          "y": 9.159854888916,
+          "z": 13.311895370483
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5,
+          "z": 1.5
+        },
+        "size": {
+          "x": 1.5,
+          "y": 1.5,
+          "z": 1.5
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8786636003703242753",
+            "layoutFile": {
+              "asset": "asset/Actor/Soldier In White Goggles/UIDangerZone.layout"
+            },
+            "position": {
+              "y": 4.5
+            }
+          }
+        ],
+        "config": "myplugin/BotWarriorA",
+        "id": "8786600144657580033",
+        "name": "Danger_Warrior",
+        "position": {
+          "x": 16.1559753417969,
+          "y": 9.08962535858154,
+          "z": 27.4573612213135
+        },
+        "scale": {
+          "x": 1.5,
+          "y": 1.5,
+          "z": 1.5
+        },
+        "size": {
+          "x": 1.5,
+          "y": 1.5,
+          "z": 1.49999988079071
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "batchType": "Dynamic",
+        "cfgName": "myplugin/86c90ffd-4c27-428a-9a01-401a410505b3",
+        "id": "8787543615556190209",
+        "position": {
+          "x": -1.4365036487579,
+          "y": -3.2802715301514,
+          "z": -1.7039542198181
+        },
+        "scale": {
+          "x": 121.852,
+          "y": 6.06082,
+          "z": 122.378
+        },
+        "size": {
+          "x": 121.852394104,
+          "y": 6.060821056366,
+          "z": 122.37799835205
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "batchType": "Dynamic",
+        "cfgName": "myplugin/3e503d96-c711-4d8e-b79e-2868064156c4",
+        "id": "8788401140617986049",
+        "position": {
+          "x": -1.4939346313477,
+          "y": 15.318216323853,
+          "z": 2.9025814533234
+        },
+        "scale": {
+          "x": 105.989,
+          "y": 13.9618,
+          "z": 73.8792
+        },
+        "size": {
+          "x": 105.98873138428,
+          "y": 13.961847305298,
+          "z": 73.879173278809
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_RegionPart",
+        "batchType": "Dynamic",
+        "cfgName": "myplugin/ae0f2abb-359e-48d0-b6bf-cbd201793e0f",
+        "id": "8788447568026124289",
+        "position": {
+          "x": -29.881244659424,
+          "y": 20.88045501709,
+          "z": 29.90816116333
+        },
+        "scale": {
+          "x": 9.57192,
+          "y": 3.79999,
+          "z": 10.8709
+        },
+        "size": {
+          "x": 9.571925163269,
+          "y": 3.7999882698059,
+          "z": 10.870881080627
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8788531248925310977",
+            "layoutFile": {
+              "asset": "asset/Actor/Soldier In White Goggles/UICrushObject.layout"
+            },
+            "position": {
+              "x": -1,
+              "y": 3
+            }
+          }
+        ],
+        "config": "myplugin/PohonVolcanoBesar",
+        "id": "8788529783520870401",
+        "name": "entity_PohonVolcanoBesar",
+        "position": {
+          "x": -2.8362078666687,
+          "y": 5.9972777366638,
+          "z": 11.846733093262
+        },
+        "scale": {
+          "x": 2,
+          "y": 2,
+          "z": 2
+        },
+        "size": {
+          "x": 2,
+          "y": 2,
+          "z": 2
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8803198094836547585",
+            "layoutFile": {
+              "asset": "asset/Actor/Soldier In White Goggles/UICrushObject.layout"
+            },
+            "position": {
+              "y": 3
+            }
+          }
+        ],
+        "config": "myplugin/PohonSnow1",
+        "id": "8803188287831932929",
+        "name": "entity_PohonSnow1",
+        "position": {
+          "x": 28.8419132232666,
+          "y": 8.21640205383301,
+          "z": -30.3782043457031
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8803197739765432321",
+            "layoutFile": {
+              "asset": "asset/Actor/Soldier In White Goggles/UICrushObject.layout"
+            },
+            "position": {
+              "y": 3
+            }
+          }
+        ],
+        "config": "myplugin/PohonKuningBesar",
+        "id": "8803188989185654785",
+        "name": "entity_PohonKuningBesar",
+        "position": {
+          "x": 14.3221635818481,
+          "y": 7.86673498153687,
+          "z": -26.18092918396
+        },
+        "size": {
+          "x": 0.999999940395355,
+          "y": 0.999999940395355,
+          "z": 0.99999988079071
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8803195350483107841",
+            "layoutFile": {
+              "asset": "asset/Actor/Soldier In White Goggles/UICrushObject.layout"
+            },
+            "position": {
+              "y": 3
+            }
+          }
+        ],
+        "config": "myplugin/PohonVolcano1",
+        "id": "8803189388771131393",
+        "name": "entity_PohonVolcano1",
+        "position": {
+          "x": -7.14827442169189,
+          "y": 6.23872423171997,
+          "z": 28.5789909362793
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8803195949481934849",
+            "layoutFile": {
+              "asset": "asset/Actor/Soldier In White Goggles/UICrushObject.layout"
+            },
+            "position": {
+              "y": 3
+            }
+          }
+        ],
+        "config": "myplugin/PohonVolcano2",
+        "id": "8803189587026034689",
+        "name": "entity_PohonVolcano2",
+        "position": {
+          "x": -28.2367649078369,
+          "y": 8.35107135772705,
+          "z": 13.3838777542114
+        },
+        "size": {
+          "x": 0.999999940395355,
+          "y": 0.999999940395355,
+          "z": 0.99999988079071
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8803197337262997505",
+            "layoutFile": {
+              "asset": "asset/Actor/Soldier In White Goggles/UICrushObject.layout"
+            },
+            "position": {
+              "y": 3
+            }
+          }
+        ],
+        "config": "myplugin/PohonBambuBesar1",
+        "id": "8803190330153189377",
+        "name": "entity_PohonBambuBesar1",
+        "position": {
+          "x": -2.67157983779907,
+          "y": 10.7076387405396,
+          "z": -13.487190246582
+        }
+      }
+    ],
+    "name": {
+      "value": "map_MapArena"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2778c58f5fc2541d9c6caece39e2035f"
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "data": {
+    "attackBound": {
+      "position": {
+        "y": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 1.01,
+        "z": 2
+      }
+    },
+    "attackBoundSkillSystemCfg": {
+      "position": {
+        "y": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 1.01,
+        "z": 2
+      }
+    },
+    "castAction": {
+      "castAction": "attack"
+    },
+    "hurtDistance": 0,
+    "name": {
+      "value": "skill_system_841bf40c-6cfa-4900-a536-16578126dd42"
+    },
+    "skillIcon": {
+      "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
+    },
+    "skillIconPos": {
+      "area_number": 8
+    },
+    "skillIconPushed": {
+      "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "65fc4994b9da89c5d08e3be98ba0b5c3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

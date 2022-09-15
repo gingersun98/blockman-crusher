@@ -1,0 +1,17 @@
+WIDGET_CREATE {
+	If (GetUIVar(instance = $rootInstance, key = "ChooseCharacter") == 1) {
+		SetActorModel(actor = "Actor/Rabbit Ear Fairy Girl/g2038_pet_01_3.actor", instance = $rootInstance)
+	}
+	If (GetUIVar(instance = $rootInstance, key = "ChooseCharacter") == 2) {
+		SetActorModel(actor = "Actor/Redhead Man With Antlers/g2038_pet_02_3.actor", instance = $rootInstance)
+	}
+	If (GetUIVar(instance = $rootInstance, key = "ChooseCharacter") == 3) {
+		SetActorModel(actor = "Actor/Red Eagle Monster/Big Dog.actor", instance = $rootInstance)
+	}
+}
+
+client_499e3530_490c_46c9_8ada_cfd7055c2b50 {
+	If ($p_ChooseCharacter == 1) {
+		SetActorModel(actor = "Actor/Rabbit Ear Fairy Girl/g2038_pet_01_3.actor", instance = $instance)
+	}
+}

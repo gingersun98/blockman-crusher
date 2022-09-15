@@ -1,0 +1,28 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/warrior/123_longzhu1.effect"
+      },
+      "once": false
+    },
+    "damage": 6,
+    "damagePct": 1,
+    "deadRemove": true,
+    "name": {
+      "value": "buff_intensify"
+    },
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "sync": "self"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "956dbb698dc76c64239abc7125172a14"
+    },
+    "VERSION": "0.23"
+  }
+}

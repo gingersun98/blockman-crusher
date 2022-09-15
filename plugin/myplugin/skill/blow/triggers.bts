@@ -1,0 +1,3 @@
+SKILL_CAST {
+	AddEntityBuff(buffTime = 120, cfg = "myplugin/Shock", entity = $obj1)
+}

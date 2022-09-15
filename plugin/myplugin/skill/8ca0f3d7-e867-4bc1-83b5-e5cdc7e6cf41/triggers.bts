@@ -1,0 +1,5 @@
+SKILL_CAST {
+	If ($obj2.CrushObject) {
+		KillEntity(entity = $obj2, from = $obj1)
+	}
+}

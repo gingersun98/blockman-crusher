@@ -1,0 +1,13 @@
+REGION_ENTER {
+	SetEntityPosition(
+		entity = $obj1,
+		map = "MapVillage",
+		pos = {
+			x = 0.14629435539246,
+			y = 1.1340341949463,
+			z = -5.3608655929565
+		},
+		rp = 0,
+		ry = 0
+	)
+}

@@ -1,0 +1,14 @@
+{
+  "data": {
+    "moveSpeed": -4,
+    "name": {
+      "value": "buff_StunKnockback"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e9034bcd5c4dd1a465d9b835e5af00eb"
+    },
+    "VERSION": "0.23"
+  }
+}

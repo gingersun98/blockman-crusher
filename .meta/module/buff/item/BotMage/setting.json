@@ -1,0 +1,19 @@
+{
+  "data": {
+    "name": {
+      "value": "a742d114-8887-4f73-8747-6c7ca6ac2bfc"
+    },
+    "skin": [
+      {
+        "masterName": "custom_hand",
+        "slaveName": "custom_hand_z"
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "352e3f363bc41c5567216eec15245c79"
+    },
+    "VERSION": "0.23"
+  }
+}

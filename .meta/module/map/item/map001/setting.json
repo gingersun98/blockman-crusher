@@ -1,0 +1,2159 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/sky/initial/Rear.png"
+        },
+        "bottom": {
+          "asset": "asset/sky/initial/bottom.png"
+        },
+        "front": {
+          "asset": "asset/sky/initial/forward.png"
+        },
+        "left": {
+          "asset": "asset/sky/initial/Left.png"
+        },
+        "right": {
+          "asset": "asset/sky/initial/right.png"
+        },
+        "top": {
+          "asset": "asset/sky/initial/top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8691705424925736961",
+        "ID": 1,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight",
+        "skyColor": {
+          "b": 140,
+          "g": 132
+        },
+        "skyLineColor": {
+          "g": 59,
+          "r": 62
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8773854968185585665",
+        "ID": 2,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        },
+        "skyColor": {
+          "b": 140,
+          "g": 132
+        },
+        "skyLineColor": {
+          "g": 59,
+          "r": 62
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/wise_man",
+        "id": "8357410430229020673",
+        "name": "wise_man",
+        "position": {
+          "x": 1.2559366226196,
+          "y": 2.17,
+          "z": -1.3130170106888
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/transfer",
+        "id": "8364768943969566721",
+        "name": "transfer",
+        "position": {
+          "x": 0.63917255401611,
+          "y": 1.0500000715256,
+          "z": 17.760816574097
+        },
+        "rotation": {
+          "y": 179.00021362305
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "7bde41e5-f6c3-439d-b64d-9c89c3b5e435",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8364814934628319233",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/plant/plant.mesh",
+        "mesh_selector": {
+          "asset": "asset/plant/plant.mesh",
+          "selector": "asset/plant/plant.mesh"
+        },
+        "name": "Gass",
+        "position": {
+          "x": -15.931818008423,
+          "y": 1.4960944652557,
+          "z": -2.7064380645752
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 1.56702,
+          "y": 1.56702,
+          "z": 1.56702
+        },
+        "size": {
+          "x": 1.56702,
+          "y": 1.56702,
+          "z": 1.56702
+        },
+        "useAnchor": true,
+        "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "11fb946e-f79e-49bf-a879-be3b744f04d7",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8364815710270767105",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/plant/plant.mesh",
+        "mesh_selector": {
+          "asset": "asset/plant/plant.mesh",
+          "selector": "asset/plant/plant.mesh"
+        },
+        "name": "Gass",
+        "position": {
+          "x": -12.089727401733,
+          "y": 1.4614849090576,
+          "z": -9.8623361587524
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 1.56702,
+          "y": 1.56702,
+          "z": 1.56702
+        },
+        "size": {
+          "x": 1.56702,
+          "y": 1.56702,
+          "z": 1.56702
+        },
+        "useAnchor": true,
+        "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "1159116d-1197-433f-86e4-830a3c7e54ff",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8364815870097981441",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/plant/plant.mesh",
+        "mesh_selector": {
+          "asset": "asset/plant/plant.mesh",
+          "selector": "asset/plant/plant.mesh"
+        },
+        "name": "Gass",
+        "position": {
+          "x": -6.8397235870361,
+          "y": 1.5114848613739,
+          "z": 7.2176637649536
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 1.56702,
+          "y": 1.56702,
+          "z": 1.56702
+        },
+        "size": {
+          "x": 1.56702,
+          "y": 1.56702,
+          "z": 1.56702
+        },
+        "useAnchor": true,
+        "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "884a5710-4320-40ec-acda-c78e8715c349",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8364815987558776833",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/plant/plant.mesh",
+        "mesh_selector": {
+          "asset": "asset/plant/plant.mesh",
+          "selector": "asset/plant/plant.mesh"
+        },
+        "name": "Gass",
+        "position": {
+          "x": 14.250274658203,
+          "y": 1.4514849185944,
+          "z": 5.837664604187
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 1.56702,
+          "y": 1.56702,
+          "z": 1.56702
+        },
+        "size": {
+          "x": 1.56702,
+          "y": 1.56702,
+          "z": 1.56702
+        },
+        "useAnchor": true,
+        "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "2c401374-1dec-4e10-b2a9-4eacf8117d2e",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8364817760546013185",
+        "isLockedInEditor": true,
+        "material": {
+          "alpha": 0,
+          "discardAlpha": 1
+        },
+        "name": "Air Wall",
+        "position": {
+          "x": 0.32021749019623,
+          "y": 7.1532292366028,
+          "z": 25.615346908569
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 53.09,
+          "y": 16,
+          "z": 0.5
+        },
+        "size": {
+          "x": 53.09,
+          "y": 16,
+          "z": 0.5
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "cc7d4b64-0179-4a19-bfb5-72470accccd8",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8364827877442273281",
+        "isLockedInEditor": true,
+        "material": {
+          "alpha": 0,
+          "discardAlpha": 1
+        },
+        "name": "Air Wall",
+        "position": {
+          "x": 0.17021751403809,
+          "y": 7.1754245758057,
+          "z": -25.784645080566
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 52.0913,
+          "y": 16,
+          "z": 0.5
+        },
+        "size": {
+          "x": 52.0913,
+          "y": 16,
+          "z": 0.5
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "a6343e18-53aa-4949-bae5-0d84ae9ae6ba",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8364828286538121217",
+        "isLockedInEditor": true,
+        "material": {
+          "alpha": 0,
+          "discardAlpha": 1
+        },
+        "name": "Air Wall",
+        "position": {
+          "x": -26.079784393311,
+          "y": 7.7307133674622,
+          "z": -0.21465474367142
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "x": 52.0913,
+          "y": 16,
+          "z": 0.5
+        },
+        "size": {
+          "x": 52.0913,
+          "y": 16,
+          "z": 0.5
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "f8c99ca0-85e3-4429-8946-c9f4349a2491",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425676784070180865",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/shitou/suishi_06/suishi_06.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/shitou/suishi_06/suishi_06.mesh",
+          "selector": "asset/stone/shitou/suishi_06/suishi_06.mesh"
+        },
+        "position": {
+          "x": 1.5120716094971,
+          "y": 1.0279259681702,
+          "z": 8.2420673370361
+        },
+        "restitution": 0.3,
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "4162bfc6-face-4dec-b547-f52f36d06ab9",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425676928150175745",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/shitou/suishi_06/suishi_06.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/shitou/suishi_06/suishi_06.mesh",
+          "selector": "asset/stone/shitou/suishi_06/suishi_06.mesh"
+        },
+        "position": {
+          "x": -0.1683306992054,
+          "y": 1.0279259681702,
+          "z": 11.607460975647
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -52.999996185303
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "5e0d12d4-185e-42c0-a177-4f1739c2ba8a",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425677406360256513",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/shitou/suishi_01/suishi_01.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/shitou/suishi_01/suishi_01.mesh",
+          "selector": "asset/stone/shitou/suishi_01/suishi_01.mesh"
+        },
+        "position": {
+          "x": 0.96498322486877,
+          "y": 0.99006128311157,
+          "z": 13.446274757385
+        },
+        "restitution": 0.3,
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "fc592302-f883-4bd1-9dcb-16e842b2ff8c",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425678090888708097",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/shitou/suishi_02/suishi_02.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/shitou/suishi_02/suishi_02.mesh",
+          "selector": "asset/stone/shitou/suishi_02/suishi_02.mesh"
+        },
+        "position": {
+          "x": 2.3920388221741,
+          "y": 1.0300608873367,
+          "z": 10.230679512024
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -168.99998474121
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "a124867c-836e-4ec4-ac0d-92ed858a2f7a",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425678916027875329",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/plant/plant.mesh",
+        "mesh_selector": {
+          "asset": "asset/plant/plant.mesh",
+          "selector": "asset/plant/plant.mesh"
+        },
+        "name": "Gass",
+        "position": {
+          "x": 3.3902721405029,
+          "y": 1.4514849185944,
+          "z": 8.9576616287231
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 1.56702,
+          "y": 1.56702,
+          "z": 1.56702
+        },
+        "size": {
+          "x": 1.56702,
+          "y": 1.56702,
+          "z": 1.56702
+        },
+        "useAnchor": true,
+        "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "e483423e-50e6-44b8-bb23-b1db7d57a8c0",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425680034125217793",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/zhibei/daoju_092/daoju_092.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/zhibei/daoju_092/daoju_092.mesh",
+          "selector": "asset/stone/zhibei/daoju_092/daoju_092.mesh"
+        },
+        "position": {
+          "x": -2.2172222137451,
+          "y": 1.362251162529,
+          "z": 9.9945297241211
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -2.4998535081977e-05,
+          "y": -54.999996185303,
+          "z": 90.000007629395
+        },
+        "scale": {
+          "x": 0.63929,
+          "y": 0.63929,
+          "z": 0.63929
+        },
+        "size": {
+          "x": 0.63929,
+          "y": 0.63929,
+          "z": 0.63929
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true,
+        "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "d9bce8be-f53e-41f3-b593-61fefffae087",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425680723324452865",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/zhibei/daoju_092/daoju_092.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/zhibei/daoju_092/daoju_092.mesh",
+          "selector": "asset/stone/zhibei/daoju_092/daoju_092.mesh"
+        },
+        "position": {
+          "x": -1.9215993881226,
+          "y": 1.3622514009476,
+          "z": 13.991678237915
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 90
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true,
+        "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "559d6ec5-bf99-4b5f-80c7-211bbcea1236",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425681476571643905",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/dashi_02/dashi_02.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/dashi_02/dashi_02.mesh",
+          "selector": "asset/stone/dashi_02/dashi_02.mesh"
+        },
+        "position": {
+          "x": -6.2838077545166,
+          "y": 1.6726317405701,
+          "z": 22.046991348267
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -79.999992370605
+        },
+        "scale": {
+          "x": 4.28768,
+          "y": 4.28768,
+          "z": 4.28768
+        },
+        "size": {
+          "x": 4.28768,
+          "y": 4.28768,
+          "z": 4.28768
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "1093dbd4-1d93-48fd-a241-5c4c72a071ae",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425682044375990273",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/dashi_01/dashi_01.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/dashi_01/dashi_01.mesh",
+          "selector": "asset/stone/dashi_01/dashi_01.mesh"
+        },
+        "position": {
+          "x": -1.0726497173309,
+          "y": 2.6223640441895,
+          "z": 24.371601104736
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 5.14911,
+          "y": 5.14911,
+          "z": 5.14911
+        },
+        "size": {
+          "x": 5.14911,
+          "y": 5.14911,
+          "z": 5.14911
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "0ad65554-26cc-4208-b6c2-f9b47297d77e",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425682721364279297",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/dashi_03/dashi_03.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/dashi_03/dashi_03.mesh",
+          "selector": "asset/stone/dashi_03/dashi_03.mesh"
+        },
+        "position": {
+          "x": 9.1063385009766,
+          "y": 4.7027273178101,
+          "z": 23.625722885132
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 133
+        },
+        "scale": {
+          "x": 6.51608,
+          "y": 6.51608,
+          "z": 6.51608
+        },
+        "size": {
+          "x": 6.51608,
+          "y": 6.51608,
+          "z": 6.51608
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "26622173-7ca9-46d9-bae5-25c14002b0d2",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425683853572620289",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/shitou/dashi_04/dashi_04.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/shitou/dashi_04/dashi_04.mesh",
+          "selector": "asset/stone/shitou/dashi_04/dashi_04.mesh"
+        },
+        "position": {
+          "x": 9.6697044372559,
+          "y": 1.582775592804,
+          "z": 16.034620285034
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 37.000003814697
+        },
+        "scale": {
+          "x": 3.6329,
+          "y": 3.6329,
+          "z": 3.6329
+        },
+        "size": {
+          "x": 3.6329,
+          "y": 3.6329,
+          "z": 3.6329
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "ec62c4a6-b3ad-4979-86d5-8371718ad726",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425685310211194881",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/plant/tree/g2038_tree_03.mesh",
+        "mesh_selector": {
+          "asset": "asset/plant/tree/g2038_tree_03.mesh",
+          "selector": "asset/plant/tree/g2038_tree_03.mesh"
+        },
+        "name": "Tree",
+        "position": {
+          "x": 11.80177116394,
+          "y": 4.8468689918518,
+          "z": 12.261286735535
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 0.734666,
+          "y": 0.734666,
+          "z": 0.734666
+        },
+        "size": {
+          "x": 0.734666,
+          "y": 0.734666,
+          "z": 0.734666
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "1c5fe641-563f-46c9-8cf8-945989b050fa",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425686127118860289",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/plant/tree/g2038_tree_08.mesh",
+        "mesh_selector": {
+          "asset": "asset/plant/tree/g2038_tree_08.mesh",
+          "selector": "asset/plant/tree/g2038_tree_08.mesh"
+        },
+        "name": "Tree3",
+        "position": {
+          "x": -18.987964630127,
+          "y": 4.8112940788269,
+          "z": -16.255193710327
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 0.580522,
+          "y": 0.580522,
+          "z": 0.580522
+        },
+        "size": {
+          "x": 0.580522,
+          "y": 0.580522,
+          "z": 0.580522
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "b4756364-aed6-4276-b04a-6cf5c103df59",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425691755640406017",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/shitou/dashi_05/dashi_05.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/shitou/dashi_05/dashi_05.mesh",
+          "selector": "asset/stone/shitou/dashi_05/dashi_05.mesh"
+        },
+        "position": {
+          "x": 11.019287109375,
+          "y": 1.1775026321411,
+          "z": 5.6651792526245
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 2.53765,
+          "y": 2.53765,
+          "z": 2.53765
+        },
+        "size": {
+          "x": 2.53765,
+          "y": 2.53765,
+          "z": 2.53765
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "27849cbb-c822-4451-a7e3-5d8083ee61d5",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8364830072483708929",
+        "isLockedInEditor": true,
+        "material": {
+          "alpha": 0,
+          "discardAlpha": 1
+        },
+        "name": "Air Wall",
+        "position": {
+          "x": 26.270214080811,
+          "y": 7.1680855751038,
+          "z": -0.21465475857258
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "x": 52.0913,
+          "y": 16,
+          "z": 0.5
+        },
+        "size": {
+          "x": 52.0913,
+          "y": 16,
+          "z": 0.5
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "ad8e0465-ab74-4112-9aef-2c13b4e6b7cb",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425733400817991681",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/zhibei/daoju_092/daoju_092.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/zhibei/daoju_092/daoju_092.mesh",
+          "selector": "asset/stone/zhibei/daoju_092/daoju_092.mesh"
+        },
+        "position": {
+          "x": 11.078400611877,
+          "y": 1.362245798111,
+          "z": 8.0116786956787
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "z": 90
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true,
+        "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "af9df80f-4063-465d-8177-96d7155e9be2",
+        "density": 2.5,
+        "friction": 0.28,
+        "id": "8425735461915279361",
+        "isLockedInEditor": true,
+        "material": {
+          "color": {
+            "b": 91,
+            "g": 190
+          },
+          "discardAlpha": 1,
+          "texture": "part_muban.tga"
+        },
+        "position": {
+          "x": -0.10283852368593,
+          "y": 2.0437517166138,
+          "z": -7.3840970993042
+        },
+        "restitution": 0.2,
+        "scale": {
+          "x": 28.3742,
+          "y": 0.25,
+          "z": 14.5258
+        },
+        "size": {
+          "x": 28.3742,
+          "y": 0.25,
+          "z": 14.5258
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "38f2a2f9-24a3-4a0e-94eb-ded3709e57fb",
+        "density": 2.5,
+        "friction": 0.6,
+        "id": "8425742061045612545",
+        "isLockedInEditor": true,
+        "material": {
+          "discardAlpha": 1,
+          "texture": "part_zhuankuai.tga"
+        },
+        "position": {
+          "x": -0.10283852368593,
+          "y": 0.99898052215576,
+          "z": -7.3840970993042
+        },
+        "restitution": 0.15,
+        "scale": {
+          "x": 27,
+          "y": 2.2012,
+          "z": 13
+        },
+        "size": {
+          "x": 27,
+          "y": 2.2012,
+          "z": 13
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "a8b4d0df-f1f9-4bba-81a2-142c5db3739c",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8425750250093887489",
+            "material": {
+              "discardAlpha": 1,
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": 4.7426338195801,
+              "y": 0.78817003965378,
+              "z": 1.2959028482437
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.246714,
+              "y": 0.925452,
+              "z": 0.8
+            },
+            "size": {
+              "x": 0.246714,
+              "y": 0.925452,
+              "z": 0.8
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "6ad6bc8c-3ca7-43d4-ac4a-629f2c75cee9",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8425747050630823937",
+            "material": {
+              "discardAlpha": 1,
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": 4.7426338195801,
+              "y": 1.1781697273254,
+              "z": 0.22590303421021
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.246714,
+              "y": 0.925452,
+              "z": 0.8
+            },
+            "size": {
+              "x": 0.246714,
+              "y": 0.925452,
+              "z": 0.8
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "23d408e5-882d-4a7a-aa59-3f977c88c6a0",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8425746623653150721",
+            "material": {
+              "color": {
+                "b": 91,
+                "g": 190
+              },
+              "discardAlpha": 1,
+              "texture": "part_muban.tga"
+            },
+            "position": {
+              "x": 1.1271615028381,
+              "y": 1.263751745224,
+              "z": 1.3059031963348
+            },
+            "restitution": 0.2,
+            "scale": {
+              "x": 8,
+              "y": 0.25
+            },
+            "size": {
+              "x": 8,
+              "y": 0.25
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "8618a5ea-f11c-472d-87a7-7f19fe7d7c5a",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8425745266058674177",
+            "material": {
+              "color": {
+                "b": 91,
+                "g": 190
+              },
+              "discardAlpha": 1,
+              "texture": "part_muban.tga"
+            },
+            "position": {
+              "x": 1.1271615028381,
+              "y": 1.6837520599365,
+              "z": 0.2659028172493
+            },
+            "restitution": 0.2,
+            "scale": {
+              "x": 8,
+              "y": 0.25
+            },
+            "size": {
+              "x": 8,
+              "y": 0.25
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "c7b9bcb3-5746-4254-99b1-5c95600fe46b",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8425748922489241601",
+            "material": {
+              "discardAlpha": 1,
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": -2.527364730835,
+              "y": 1.1781697273254,
+              "z": 0.2659028172493
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.246714,
+              "y": 0.925452,
+              "z": 0.8
+            },
+            "size": {
+              "x": 0.246714,
+              "y": 0.925452,
+              "z": 0.8
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "9282b7ea-f769-466d-ba51-6c6ff49c4152",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8425750250096492545",
+            "material": {
+              "discardAlpha": 1,
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": -2.527364730835,
+              "y": 0.78817003965378,
+              "z": 1.2959028482437
+            },
+            "restitution": 0.15,
+            "scale": {
+              "x": 0.246714,
+              "y": 0.925452,
+              "z": 0.8
+            },
+            "size": {
+              "x": 0.246714,
+              "y": 0.925452,
+              "z": 0.8
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8425751149563756545",
+        "position": {
+          "x": 1.1271615028381,
+          "y": 1.0670980215073,
+          "z": 0.78590303659439
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "7fba9b27-29c0-419c-967f-bea89dd63fc4",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425751667799031809",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/dashi_03/dashi_03.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/dashi_03/dashi_03.mesh",
+          "selector": "asset/stone/dashi_03/dashi_03.mesh"
+        },
+        "position": {
+          "x": 26.813962936401,
+          "y": 4.7027273178101,
+          "z": 1.4090820550919
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 85.999984741211
+        },
+        "scale": {
+          "x": 9.98053,
+          "y": 9.98051,
+          "z": 9.98052
+        },
+        "size": {
+          "x": 9.98053,
+          "y": 9.98051,
+          "z": 9.98052
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "283480b5-cdbf-41f4-b4d0-a0fad499827f",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425754778002014209",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+          "selector": "asset/stone/shitou/dashi_01/dashi_01.mesh"
+        },
+        "position": {
+          "x": 20.424146652222,
+          "y": 2.6423707008362,
+          "z": 13.335131645203
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 64.999992370605
+        },
+        "scale": {
+          "x": 5.47897,
+          "y": 5.47897,
+          "z": 5.47896
+        },
+        "size": {
+          "x": 5.47897,
+          "y": 5.47897,
+          "z": 5.47896
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "8d365d85-9094-45bd-b283-55c50994ed08",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425759207452721153",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/shu/shu_03/shu_03.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/shu/shu_03/shu_03.mesh",
+          "selector": "asset/stone/shu/shu_03/shu_03.mesh"
+        },
+        "position": {
+          "x": -20.858222961426,
+          "y": 7.4340977668762,
+          "z": 5.0959692001343
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 30.999996185303
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "e631b396-03b9-4513-ad97-83ca76816025",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425764716670992385",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/shu/shu_03/shu_03.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/shu/shu_03/shu_03.mesh",
+          "selector": "asset/stone/shu/shu_03/shu_03.mesh"
+        },
+        "position": {
+          "x": 17.118629455566,
+          "y": 7.4340977668762,
+          "z": -12.467920303345
+        },
+        "restitution": 0.3,
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "c80526c1-f0e7-4d25-a3e4-cfda47f726c0",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425766384542564353",
+        "isLockedInEditor": true,
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/g2030_zs_15.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/g2030_zs_15.mesh",
+          "selector": "asset/stone/g2030_zs_15.mesh"
+        },
+        "position": {
+          "x": -18.908735275269,
+          "y": 2.5876495838165,
+          "z": -4.7337160110474
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 12.4867,
+          "y": 12.4867,
+          "z": 12.4867
+        },
+        "size": {
+          "x": 12.4867,
+          "y": 12.4867,
+          "z": 12.4867
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "f93e2de0-3e94-4f8c-b300-aa795f44bbc0",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425768141183172609",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/shu/shu_03/shu_03.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/shu/shu_03/shu_03.mesh",
+          "selector": "asset/stone/shu/shu_03/shu_03.mesh"
+        },
+        "position": {
+          "x": -5.2476530075073,
+          "y": 2.800096988678,
+          "z": 11.598810195923
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -52.000007629395
+        },
+        "scale": {
+          "x": 0.276149,
+          "y": 0.276149,
+          "z": 0.276149
+        },
+        "size": {
+          "x": 0.276149,
+          "y": 0.276149,
+          "z": 0.276149
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "4f94a740-a772-451b-8d54-90c39385fd45",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425772119939432449",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/plant/tree/g2038_tree_03.mesh",
+        "mesh_selector": {
+          "asset": "asset/plant/tree/g2038_tree_03.mesh",
+          "selector": "asset/plant/tree/g2038_tree_03.mesh"
+        },
+        "name": "Tree",
+        "position": {
+          "x": -15.578227996826,
+          "y": 7.8368730545044,
+          "z": 20.041292190552
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 0.734666,
+          "y": 0.734666,
+          "z": 0.734666
+        },
+        "size": {
+          "x": 0.734666,
+          "y": 0.734666,
+          "z": 0.734666
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "07bd96c3-6eae-4e9e-b24e-0f822afa3ca1",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425776365682229249",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/shu/shu_03/shu_03.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/shu/shu_03/shu_03.mesh",
+          "selector": "asset/stone/shu/shu_03/shu_03.mesh"
+        },
+        "position": {
+          "x": -9.6793899536133,
+          "y": 7.6040983200073,
+          "z": 19.448457717896
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 30.999996185303
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "ad1010d3-ae2c-4446-b45f-d3971769f741",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425778815928107009",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/shu/shu_03/shu_03.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/shu/shu_03/shu_03.mesh",
+          "selector": "asset/stone/shu/shu_03/shu_03.mesh"
+        },
+        "position": {
+          "x": -9.8276519775391,
+          "y": 2.4800972938538,
+          "z": 8.4288101196289
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 0.230012,
+          "y": 0.230012,
+          "z": 0.230012
+        },
+        "size": {
+          "x": 0.230012,
+          "y": 0.230012,
+          "z": 0.230012
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "946e46a1-8541-47d9-a780-a7a31324ba69",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425780226586345473",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/plant/tree/g2038_tree_03.mesh",
+        "mesh_selector": {
+          "asset": "asset/plant/tree/g2038_tree_03.mesh",
+          "selector": "asset/plant/tree/g2038_tree_03.mesh"
+        },
+        "name": "Tree",
+        "position": {
+          "x": -12.708227157593,
+          "y": 5.1168723106384,
+          "z": 9.0912885665894
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -114.99998474121
+        },
+        "scale": {
+          "x": 0.734666,
+          "y": 0.734666,
+          "z": 0.734666
+        },
+        "size": {
+          "x": 0.734666,
+          "y": 0.734666,
+          "z": 0.734666
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "d9b7f75a-aff3-41e8-a269-b934e419f20e",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425780974008188929",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/plant/plant.mesh",
+        "mesh_selector": {
+          "asset": "asset/plant/plant.mesh",
+          "selector": "asset/plant/plant.mesh"
+        },
+        "name": "Gass",
+        "position": {
+          "x": -11.419726371765,
+          "y": 1.5114848613739,
+          "z": 11.897664070129
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -106.99999237061
+        },
+        "scale": {
+          "x": 1.56702,
+          "y": 1.56702,
+          "z": 1.56702
+        },
+        "size": {
+          "x": 1.56702,
+          "y": 1.56702,
+          "z": 1.56702
+        },
+        "useAnchor": true,
+        "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "dbf41ea7-f21a-47ec-b678-b8d25feaef50",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425781621170356225",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/g2030_zs_14.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/g2030_zs_14.mesh",
+          "selector": "asset/stone/g2030_zs_14.mesh"
+        },
+        "position": {
+          "x": -21.862684249878,
+          "y": 2.7109897136688,
+          "z": 9.8418254852295
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 137
+        },
+        "scale": {
+          "x": 7.80147,
+          "y": 7.80147,
+          "z": 7.80146
+        },
+        "size": {
+          "x": 7.80147,
+          "y": 7.80147,
+          "z": 7.80146
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "58a7bced-7d38-40dc-b34c-07edda5467b9",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425782454130098177",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/shitou/dashi_02/.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/shitou/dashi_02/.mesh",
+          "selector": "asset/stone/shitou/dashi_02/.mesh"
+        },
+        "position": {
+          "x": -22.101411819458,
+          "y": 4.8048210144043,
+          "z": 14.196262359619
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 4.61218,
+          "y": 4.61218,
+          "z": 4.61218
+        },
+        "size": {
+          "x": 4.61218,
+          "y": 4.61218,
+          "z": 4.61218
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "5c25b315-71a6-4303-8336-0a4e566cd762",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8425760730099679233",
+            "isLockedInEditor": true,
+            "material": {
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": -10.080374717712,
+              "y": 1.6553361415863,
+              "z": 1.1405010223389
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": -133
+            },
+            "scale": {
+              "x": 0.457073,
+              "y": 1.3971,
+              "z": 1.59474
+            },
+            "size": {
+              "x": 0.457073,
+              "y": 1.3971,
+              "z": 1.59474
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "403c1e9b-d959-4f09-91c2-753648036094",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8425724870163447809",
+            "isLockedInEditor": true,
+            "material": {
+              "discardAlpha": 1,
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": -11.146132469177,
+              "y": 5.2760405540466,
+              "z": 2.3293988704681
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "x": 2.8987287237214e-07,
+              "y": -177,
+              "z": -44.999946594238
+            },
+            "scale": {
+              "x": 0.237033,
+              "y": 0.25,
+              "z": 4.72717
+            },
+            "size": {
+              "x": 0.237033,
+              "y": 0.25,
+              "z": 4.72717
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "677681ef-7004-4d42-9253-0a105055e2c4",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8425709509690228737",
+            "isLockedInEditor": true,
+            "material": {
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": -11.309796333313,
+              "y": 1.6614906787872,
+              "z": 0.68082004785538
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 92
+            },
+            "scale": {
+              "x": 0.457073,
+              "y": 1.4,
+              "z": 1.59474
+            },
+            "size": {
+              "x": 0.457073,
+              "y": 1.4,
+              "z": 1.59474
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "26895c3b-5924-4335-a4e1-0c12450c0505",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8425721456720871425",
+            "isLockedInEditor": true,
+            "material": {
+              "discardAlpha": 1,
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": -11.097390174866,
+              "y": 3.3955221176147,
+              "z": 4.1038942337036
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "y": -176.99998474121
+            },
+            "scale": {
+              "x": 0.25,
+              "y": 3.42818,
+              "z": 0.25
+            },
+            "size": {
+              "x": 0.25,
+              "y": 3.42818,
+              "z": 0.25
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "a52a2bb4-ba10-4bb8-82e7-4bc0ce0f0241",
+            "density": 1.26,
+            "friction": 0.28,
+            "id": "8425720468769816577",
+            "isLockedInEditor": true,
+            "material": {
+              "discardAlpha": 1,
+              "texture": "part_mutou.tga"
+            },
+            "position": {
+              "x": -11.276907920837,
+              "y": 3.706693649292,
+              "z": 0.67859768867493
+            },
+            "restitution": 0.15,
+            "rotation": {
+              "y": -176.99998474121
+            },
+            "scale": {
+              "x": 0.25,
+              "y": 2.8212,
+              "z": 0.25
+            },
+            "size": {
+              "x": 0.25,
+              "y": 2.8212,
+              "z": 0.25
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "751e53e7-dc9a-44ca-8c56-915602c9cb83",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8425702440144158721",
+            "isLockedInEditor": true,
+            "material": {
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": -9.5372800827026,
+              "y": 1.3405350446701,
+              "z": 2.3050248622894
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": -176.99996948242
+            },
+            "scale": {
+              "x": 0.457073,
+              "y": 0.748882,
+              "z": 1.59474
+            },
+            "size": {
+              "x": 0.457073,
+              "y": 0.748882,
+              "z": 1.59474
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "677681ef-7004-4d42-9253-0a105055e2c4",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8425709303741530113",
+            "isLockedInEditor": true,
+            "material": {
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": -12.483708381653,
+              "y": 1.6621029376984,
+              "z": 1.2034571170807
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 136
+            },
+            "scale": {
+              "x": 0.457073,
+              "y": 1.4,
+              "z": 1.59474
+            },
+            "size": {
+              "x": 0.457073,
+              "y": 1.4,
+              "z": 1.59474
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "751e53e7-dc9a-44ca-8c56-915602c9cb83",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8425709509685821441",
+            "isLockedInEditor": true,
+            "material": {
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": -11.190104484558,
+              "y": 1.3405350446701,
+              "z": 4.1087503433228
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 92
+            },
+            "scale": {
+              "x": 0.457073,
+              "y": 0.748882,
+              "z": 1.59474
+            },
+            "size": {
+              "x": 0.457073,
+              "y": 0.748882,
+              "z": 1.59474
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "677681ef-7004-4d42-9253-0a105055e2c4",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8425708912977559553",
+            "isLockedInEditor": true,
+            "material": {
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": -12.419613838196,
+              "y": 1.6553361415863,
+              "z": 3.6490662097931
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": -132.99998474121
+            },
+            "scale": {
+              "x": 0.457073,
+              "y": 1.3971,
+              "z": 1.59474
+            },
+            "size": {
+              "x": 0.457073,
+              "y": 1.3971,
+              "z": 1.59474
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "751e53e7-dc9a-44ca-8c56-915602c9cb83",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8425709303737974785",
+            "isLockedInEditor": true,
+            "material": {
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": -10.016360282898,
+              "y": 1.3405349254608,
+              "z": 3.5861303806305
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 136
+            },
+            "scale": {
+              "x": 0.457073,
+              "y": 0.748882,
+              "z": 1.59474
+            },
+            "size": {
+              "x": 0.457073,
+              "y": 0.748882,
+              "z": 1.59474
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "677681ef-7004-4d42-9253-0a105055e2c4",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8425703212989136897",
+            "isLockedInEditor": true,
+            "material": {
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": -12.962580680847,
+              "y": 1.6585261821747,
+              "z": 2.4845445156097
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": -176.99996948242
+            },
+            "scale": {
+              "x": 0.457073,
+              "y": 1.4,
+              "z": 1.59474
+            },
+            "size": {
+              "x": 0.457073,
+              "y": 1.4,
+              "z": 1.59474
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "e8fe5744-e609-48ba-93cd-c6fb232f2160",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8425723885322141697",
+            "isLockedInEditor": true,
+            "material": {
+              "color": {
+                "b": 98,
+                "g": 105,
+                "r": 181
+              },
+              "discardAlpha": 1,
+              "texture": "part_muban.tga"
+            },
+            "position": {
+              "x": -11.92018032074,
+              "y": 4.4737448692322,
+              "z": 2.3768041133881
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "x": -6.0430861594796e-06,
+              "y": -177,
+              "z": -44.999965667725
+            },
+            "scale": {
+              "x": 1.97542,
+              "y": 0.25,
+              "z": 4.72717
+            },
+            "size": {
+              "x": 1.97542,
+              "y": 0.25,
+              "z": 4.72717
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "b61144ac-8377-4085-a25d-369a6109424d",
+            "density": 2.5,
+            "friction": 0.28,
+            "id": "8425722365525278721",
+            "isLockedInEditor": true,
+            "material": {
+              "color": {
+                "b": 98,
+                "g": 105,
+                "r": 181
+              },
+              "discardAlpha": 1,
+              "texture": "part_muban.tga"
+            },
+            "position": {
+              "x": -10.352492332458,
+              "y": 4.4737610816956,
+              "z": 2.2946536540985
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "x": 6.0430861594796e-06,
+              "y": -177,
+              "z": 44.999965667725
+            },
+            "scale": {
+              "x": 1.97542,
+              "y": 0.25,
+              "z": 4.72717
+            },
+            "size": {
+              "x": 1.97542,
+              "y": 0.25,
+              "z": 4.72717
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8425784073680371713",
+        "position": {
+          "x": -11.24262714386,
+          "y": 3.1525094509125,
+          "z": 2.3455202579498
+        },
+        "rotation": {
+          "y": -176.99998474121
+        },
+        "scale": {
+          "x": 0.991464,
+          "z": 0.999288
+        },
+        "size": {
+          "x": 0.991464,
+          "z": 0.999288
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "4c80c292-28cc-4043-ac10-167c84038441",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8425787986372870145",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/plant/plant.mesh",
+        "mesh_selector": {
+          "asset": "asset/plant/plant.mesh",
+          "selector": "asset/plant/plant.mesh"
+        },
+        "name": "Gass",
+        "position": {
+          "x": -11.689725875854,
+          "y": 1.5314848423004,
+          "z": 2.1376647949219
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 1.56702,
+          "y": 1.56702,
+          "z": 1.56702
+        },
+        "size": {
+          "x": 1.56702,
+          "y": 1.56702,
+          "z": 1.56702
+        },
+        "useAnchor": true,
+        "useCollide": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "1a0857a5-5b10-47bd-8981-dd2773d444b7",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8432617108770340865",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/home/g2044_1020_home01d.mesh",
+        "mesh_selector": {
+          "asset": "asset/home/g2044_1020_home01d.mesh",
+          "selector": "asset/home/g2044_1020_home01d.mesh"
+        },
+        "name": "home",
+        "position": {
+          "x": -10.570921897888,
+          "y": 5.6851439476013,
+          "z": -6.8373069763184
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "x": 1.09558,
+          "y": 1.09558,
+          "z": 1.09558
+        },
+        "size": {
+          "x": 1.09558,
+          "y": 1.09558,
+          "z": 1.09558
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "caeaca8e-9773-4ba3-ae80-5316506d00e2",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8432617270784622593",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/home/g2044_1020_home01d.mesh",
+        "mesh_selector": {
+          "asset": "asset/home/g2044_1020_home01d.mesh",
+          "selector": "asset/home/g2044_1020_home01d.mesh"
+        },
+        "name": "home",
+        "position": {
+          "x": 10.573394775391,
+          "y": 5.3783531188965,
+          "z": -6.9369111061096
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -90
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "95920fa2-85b5-4161-8731-670047fbccb8",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8432620641318551553",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/home/g2044_1020_homegroup04.mesh",
+        "mesh_selector": {
+          "asset": "asset/home/g2044_1020_homegroup04.mesh",
+          "selector": "asset/home/g2044_1020_homegroup04.mesh"
+        },
+        "name": "home",
+        "position": {
+          "x": -0.15310935676098,
+          "y": 5.3783612251282,
+          "z": -11.190722465515
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -90
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "down": -10,
+      "up": 300
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c081a48d935107de2ab1f04cd1c931b0"
+    },
+    "VERSION": "0.23"
+  }
+}

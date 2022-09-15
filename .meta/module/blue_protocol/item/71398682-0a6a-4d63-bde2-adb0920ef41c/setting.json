@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "71398682-0a6a-4d63-bde2-adb0920ef41c"
+    },
+    "name": "OpenLoadOutShop",
+    "register_object": "game/0/triggers_client/list/6",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

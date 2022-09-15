@@ -1,0 +1,82 @@
+{
+  "autoRotateColliderBox": true,
+  "collideEntity": 6,
+  "collider": {
+    "height": 1.5,
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radius": 0.5,
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Capsule"
+  },
+  "followTarget": false,
+  "followTargetRotation": true,
+  "followTargetRotationOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "gravity": 0,
+  "hitEntityCount": 5,
+  "hitEntityEffect": {
+    "effect": "@asset/effect/Orange and Blue Dot Explosion Effect/sots208_ light spot_01_orange blue_3d.effect",
+    "once": true,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": 0
+  },
+  "hitEntitySkill": "myplugin/8ca0f3d7-e867-4bc1-83b5-e5cdc7e6cf41",
+  "hitEntitysRoles": [
+    "hitAllTeam",
+    "hitNpc",
+    "hitAllConfigEntity"
+  ],
+  "hitInterval": 10,
+  "isPitch": true,
+  "lifeTime": 60,
+  "lockRotateBodyPitch": 0,
+  "lockRotateBodyRoll": 0,
+  "lockRotateBodyYaw": 0,
+  "modelSizeScale": {
+    "x": 1,
+    "y": 1,
+    "z": 1
+  },
+  "moveAcc": 0,
+  "moveSpeed": 0.05,
+  "rotateFree": true,
+  "rotateSpeed": 0.05,
+  "startEffect": {
+    "effect": "@asset/effect/Orange and Blue Dot Explosion Effect/sots208_ light spot_01_orange blue_3d.effect",
+    "once": true,
+    "pos": {
+      "x": 1,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": 0
+  },
+  "startWithMoveAcc": true,
+  "vanishShow": false,
+  "vanishTime": 10
+}

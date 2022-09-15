@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "680c1c94-83e4-4cf1-981d-9d29d34d771c"
+    },
+    "name": "Walk",
+    "register_object": "entity/player1/triggers/list/7",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

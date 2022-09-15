@@ -1,0 +1,22 @@
+{
+  "data": {
+    "damage": 5,
+    "maxHp": 10,
+    "moveSpeed": 3,
+    "name": {
+      "value": "buff_strength"
+    },
+    "reachDistance": 1,
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0228c15f3b8d50f29f8b2522937f1e8c"
+    },
+    "VERSION": "0.23"
+  }
+}

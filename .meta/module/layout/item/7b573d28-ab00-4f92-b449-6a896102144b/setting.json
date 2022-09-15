@@ -1,0 +1,814 @@
+{
+  "data": {
+    "md5": "f3c47f141fc61c015829997055eb43d6",
+    "path": "asset/RankingWnd_1.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "ScrollableView",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "BackGroundImage": {
+            "asset": "asset/Texture/GingersunUI/Window03.png"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "VerticalLayoutContainer",
+              "children": [
+                {
+                  "__OBJ_TYPE": "HorizontalLayoutContainer",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "id": {
+                        "value": "38b53827-e499-4e6a-a38d-5fd9954f941f"
+                      },
+                      "name": "NumText",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.2
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "1.",
+                      "text_key": {
+                        "value": "asset/RankingWnd_1.layout.StaticText#c8ffb7d4-9dcf-4582-add5-06aa3cdef9e6"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "c74a518f-5d67-4cf0-a728-36ea51c80639"
+                      },
+                      "name": "NameText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 102
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "text_key": {
+                        "value": "asset/RankingWnd_1.layout.StaticText#53e182ac-f546-4cc4-9e70-9f868c1f077d"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "2714dd4f-ebe6-4d84-a154-7b4631ab36ba"
+                      },
+                      "name": "ScoreText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 281
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "text_key": {
+                        "value": "asset/RankingWnd_1.layout.StaticText#5a1bcc6b-9835-48ff-a115-e035c17120b5"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "a5ad2e8b-f510-41a9-a288-a6eaaca902f0"
+                  },
+                  "name": "Num1",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 460
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "HorizontalLayoutContainer",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "id": {
+                        "value": "7808b965-9e76-400f-a67c-9951311043c2"
+                      },
+                      "name": "NumText",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.2
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "2.",
+                      "text_key": {
+                        "value": "asset/RankingWnd_1.layout.StaticText#1f64d844-a2ad-4abf-b4c0-876260442514"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "f4e8c578-a8c3-40dd-9e3d-92f708793f3c"
+                      },
+                      "name": "NameText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 102
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "text_key": {
+                        "value": "asset/RankingWnd_1.layout.StaticText#726d70cb-01d0-44ec-8cf1-58adfafb8f7f"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "9b71e84a-241e-4195-b504-09f8c3dc48a7"
+                      },
+                      "name": "ScoreText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 281
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "text_key": {
+                        "value": "asset/RankingWnd_1.layout.StaticText#998cd706-9a6e-4576-aa34-2973d6f47aa8"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "6e580ce8-1f79-4e64-bba2-50be8e8cc728"
+                  },
+                  "name": "Num2",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 460
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "HorizontalLayoutContainer",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "id": {
+                        "value": "89489717-28eb-496e-b725-8561f2b4263a"
+                      },
+                      "name": "NumText",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.2
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "3.",
+                      "text_key": {
+                        "value": "asset/RankingWnd_1.layout.StaticText#78bdc1fa-0f1e-497d-81ab-31338ef17432"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "cdad53fa-3399-422f-a307-41e49949b0a5"
+                      },
+                      "name": "NameText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 102
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "text_key": {
+                        "value": "asset/RankingWnd_1.layout.StaticText#3e2e8621-7466-44ce-accf-1c26ad75b49d"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "6f09c6d3-5498-46ee-853c-8b0cb4ef4382"
+                      },
+                      "name": "ScoreText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 281
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "text_key": {
+                        "value": "asset/RankingWnd_1.layout.StaticText#4db5223b-67fb-42b3-ae1f-6d25820cb9b4"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "6ac8fd58-c49c-4eb8-81dd-dabf08f60bb1"
+                  },
+                  "name": "Num3",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 128
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 460
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "HorizontalLayoutContainer",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "id": {
+                        "value": "392caed4-acaf-4c19-9048-a617a6cf058b"
+                      },
+                      "name": "NumText",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.2
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "4.",
+                      "text_key": {
+                        "value": "asset/RankingWnd_1.layout.StaticText#b6c37a9c-cac0-4f42-99f0-36b2cac07ccc"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "aff80a19-5cd6-47b8-8f09-9a7da45edcd6"
+                      },
+                      "name": "NameText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 102
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "text_key": {
+                        "value": "asset/RankingWnd_1.layout.StaticText#849b0564-fb2d-410e-b6d6-481f2e05af59"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "5b482ee8-9dfd-4cb9-ab76-00f9e590e33f"
+                      },
+                      "name": "ScoreText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 281
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "text_key": {
+                        "value": "asset/RankingWnd_1.layout.StaticText#517dc947-1d04-42a0-be9a-ca7bbc15bebf"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "bd6be323-d4f3-4f27-8548-5243520b8507"
+                  },
+                  "name": "Num4",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 192
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 460
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "HorizontalLayoutContainer",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "id": {
+                        "value": "1a04f986-dde3-4e17-8365-712136959bed"
+                      },
+                      "name": "NumText",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.2
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "5.",
+                      "text_key": {
+                        "value": "asset/RankingWnd_1.layout.StaticText#9eef5e88-6f42-492b-9544-46e76f20d8dd"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "062f72cd-6f26-487e-934a-741c10de13c4"
+                      },
+                      "name": "NameText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 102
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "text_key": {
+                        "value": "asset/RankingWnd_1.layout.StaticText#10616629-7109-4d88-8d16-5d96307f7e67"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 20,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "2022f77e-4216-49d2-8d7b-cfbae5b5bd4c"
+                      },
+                      "name": "ScoreText",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 281
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.35
+                        },
+                        "UDim_Y": {
+                          "Offect": 64
+                        }
+                      },
+                      "Text": "- / -",
+                      "text_key": {
+                        "value": "asset/RankingWnd_1.layout.StaticText#e155bb2e-1221-4208-b872-0ad2683f677d"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "e3cae0da-f97a-467f-aee2-8e1521ec906f"
+                  },
+                  "name": "Num5",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 256
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 460
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "f1fe13f3-cc8a-4792-8098-96f1d871e591"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                },
+                "UDim_Y": {
+                  "Scale": 0.3
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 460
+                },
+                "UDim_Y": {
+                  "Offect": 320
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "9237af44-25bc-44a3-8603-52ba67abbc90"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.21
+                }
+              },
+              "Text": "Leaderboard",
+              "text_key": {
+                "value": "asset/RankingWnd_1.layout.StaticText#e932a7f3-87ca-425a-8dd1-7e6537cc4c5c"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/GingersunUI/Checked_02.png"
+              },
+              "HoverImage": {
+                "asset": "asset/Texture/GingersunUI/Checked_02.png"
+              },
+              "id": {
+                "value": "2e14cb77-bb47-4af3-9d3f-4975713ac21b"
+              },
+              "NormalImage": {
+                "asset": "asset/Texture/GingersunUI/Checked_02.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.14
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/GingersunUI/Checked_02.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 56
+                },
+                "UDim_Y": {
+                  "Offect": 56
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/RankingWnd_1.layout.Button#eb996474-e023-42e7-b310-504f47f49a58"
+              },
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_DestoryWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "7657ae04-b549-4e0a-b21a-4cd0f22fb58d"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "b369f4cf-05c3-4703-b4bd-85d0a73794c0"
+                        },
+                        "pos": {
+                          "x": 328,
+                          "y": 333
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "7657ae04-b549-4e0a-b21a-4cd0f22fb58d"
+                        },
+                        "pos": {
+                          "x": 692,
+                          "y": 405
+                        },
+                        "type": "T_Layout"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "a8072438-603e-4c31-8b8d-0a3101006496"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "b369f4cf-05c3-4703-b4bd-85d0a73794c0"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "864e4db7-3fbc-4386-aa87-4029f887f498"
+                      },
+                      "pos": {
+                        "x": 96,
+                        "y": 248
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  }
+                ]
+              }
+            }
+          ],
+          "id": {
+            "value": "9c2bc1a4-4f79-47d1-915e-4f09df00184d"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 512
+            },
+            "UDim_Y": {
+              "Offect": 512
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Bottom"
+          },
+          "Font": "HarmonyOS_Sans_SC_Black",
+          "Font_size": 25,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "0d8dcfc0-eb20-4584-b60f-152c25705839"
+          },
+          "pos": {
+            "UDim_Y": {
+              "Scale": -0.05
+            }
+          },
+          "Text": "Cooming Soon",
+          "text_key": {
+            "value": "asset/RankingWnd_1.layout.StaticText#e94c1cb6-35c1-403e-929f-f08bca1a3653"
+          },
+          "TextColours": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        }
+      ],
+      "id": {
+        "value": "7b4291d1-bdd9-48d3-a320-f58c026472cc"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 1280
+        },
+        "UDim_Y": {
+          "Offect": 720
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "f3c47f141fc61c015829997055eb43d6",
+      "triggers.bts": "480bc48185ae5d4ddd5b39ca3259ed1d"
+    },
+    "VERSION": "0.23"
+  }
+}

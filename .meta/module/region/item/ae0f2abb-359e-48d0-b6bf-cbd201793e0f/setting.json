@@ -1,0 +1,83 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "c5911805-fe88-4fd9-a4f6-6a947e31ce12"
+                      }
+                    }
+                  ],
+                  "proto_id": "0b405762-4991-462b-9c15-97631f5d59d9",
+                  "proto_name": "VICTORY",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "adb60ab2-2b32-4954-85dc-e2dee07c156b"
+              },
+              "pos": {
+                "x": 740
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "c5911805-fe88-4fd9-a4f6-6a947e31ce12"
+              },
+              "pos": {
+                "x": 1123,
+                "y": 291
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "7d518645-d388-4f7b-92f1-296fe2a51ee8"
+            },
+            "type": "Trigger_RegionEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "adb60ab2-2b32-4954-85dc-e2dee07c156b"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "b39a50d5-3ed1-457b-a0d7-03a0a11a8eb6"
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "57841053dcedf708f9336a39d85af846"
+    },
+    "VERSION": "0.23"
+  }
+}

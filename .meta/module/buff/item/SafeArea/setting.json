@@ -1,0 +1,15 @@
+{
+  "data": {
+    "name": {
+      "value": "buff_SafeArea"
+    },
+    "unassailable": true,
+    "undamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e35e807a243eaea87c45af8be63d7348"
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "b4f1a318-c45f-4bae-b3ac-96e7764b2d15"
+    },
+    "name": "WinMoveSaveArea",
+    "register_object": "game/0/triggers/list/10",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "canAbandon": false,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "Bip001_L_Finger11",
+  "icon": "@asset/3D Asset/bow.png",
+  "itemname": "item_33f3159c-becb-45a8-8b7b-f7db3000af7d",
+  "mesh": "asset/3D Asset/Bow/bow.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/297c3114-87de-4985-9aae-580a2ed1f671"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

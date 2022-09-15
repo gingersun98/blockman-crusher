@@ -1,0 +1,247 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "5c9ded16-18c8-45e9-8a94-7493e542d8bf"
+              },
+              "pos": {
+                "x": 863.3644294141,
+                "y": 71.34920927345
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "abfbb3d0-1a46-4454-8742-85a7b63dc1f3"
+              },
+              "pos": {
+                "x": 1280.4100789766,
+                "y": 428.45079072655
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetEntityPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "abfbb3d0-1a46-4454-8742-85a7b63dc1f3"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "110653af-b49c-4040-9198-b570c633f84c"
+              },
+              "pos": {
+                "x": 939.7871252266,
+                "y": 391.3206639297
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_CreateNpc",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_EntityEntry",
+                        "rawval": "myplugin/transfer2"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj",
+                        "action": "5efd3850-7b49-4682-aeb9-8973f7275091"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "action": "110653af-b49c-4040-9198-b570c633f84c"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f7cf0af3-14ca-486f-827a-ff616efbee8a"
+              },
+              "pos": {
+                "x": 418.4899210234,
+                "y": 243.91014346095
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ],
+                  "proto_id": "0b405762-4991-462b-9c15-97631f5d59d9",
+                  "proto_name": "VICTORY",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "03dfef6e-c1c8-44a6-8c95-1ff2861db95e"
+              },
+              "pos": {
+                "x": 390.4644294141,
+                "y": 9.59920927345
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "62d6705d-f9c4-4b6b-99cf-e9ebe42d85d3"
+              },
+              "pos": {
+                "x": 1263.9888356485,
+                "y": 272.79682719535
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetPlayerMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "62d6705d-f9c4-4b6b-99cf-e9ebe42d85d3"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "5efd3850-7b49-4682-aeb9-8973f7275091"
+              },
+              "pos": {
+                "x": 912.9852124141,
+                "y": 227.82899577347
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "5c9ded16-18c8-45e9-8a94-7493e542d8bf"
+                      }
+                    }
+                  ],
+                  "proto_id": "0b405762-4991-462b-9c15-97631f5d59d9",
+                  "proto_name": "VICTORY",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "6b3b9208-2630-4f81-ae19-3249bf2b2717"
+              },
+              "pos": {
+                "x": 430.65,
+                "y": 121.7
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "268151ff-ad13-4bd0-b680-7b331ff6a8ae"
+            },
+            "type": "Trigger_RegionEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  [],
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "4f508e0b-d634-49db-a716-c614d26255dd"
+            },
+            "pos": {
+              "x": 70,
+              "y": 211
+            }
+          },
+          "type": "Trigger_RegionEnter"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "ca1941bbfb329528cfc16f763c64d57d"
+    },
+    "VERSION": "0.23"
+  }
+}

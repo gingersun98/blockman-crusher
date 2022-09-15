@@ -1,0 +1,21 @@
+{
+  "data": {
+    "name": {
+      "value": "skill_e805e224-780f-4625-ac58-c1df25db208b"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff",
+        "buffCfg": "myplugin/1a655cef-79ac-4801-be8b-32976a40c3a5"
+      },
+      "type": "Buff"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6de9aa4f1b54534db234732ad8163ec2",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

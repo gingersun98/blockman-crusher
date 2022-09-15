@@ -1,0 +1,122 @@
+{
+  "data": {
+    "castAction": "attack2",
+    "name": {
+      "value": "skill_9681c16e-bf5f-4507-9890-88d63a721430"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff",
+        "buffCfg": "myplugin/233a3dbe-7588-4e2b-917b-0e3fbf99a068",
+        "buffTime": {
+          "value": 200
+        },
+        "target": "self"
+      },
+      "type": "Buff"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/maxHp.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClickIcon": true
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "f5113bdb-35bf-4593-a8bc-a35548bced9c"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/15a5078e-f6aa-45f1-aba7-6f7b4ecefce0"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "28424d1f-7bce-4c8f-b99a-70096364fa0e"
+              },
+              "pos": {
+                "x": 627,
+                "y": 300
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "f5113bdb-35bf-4593-a8bc-a35548bced9c"
+              },
+              "pos": {
+                "x": 1007,
+                "y": 328
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "a2042b3e-1649-4315-a0c6-c579eb3c043f"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "28424d1f-7bce-4c8f-b99a-70096364fa0e"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "3fcd7b1a-883c-4e89-9ce2-a3dd1e5401e8"
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "708d10001b75bfc5de7dfea3958097a9",
+      "triggers.bts": "da9580b9da0ffa27c27b96b3882046f5"
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "9bc0c50f-859d-4770-9fbb-68ae650cd3c2"
+    },
+    "name": "MatchStart",
+    "register_object": "game/0/triggers/list/4",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

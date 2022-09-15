@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "cd6ac37e-5255-465a-a9e9-c2fe856bda38"
+    },
+    "name": "ChooseWarrior",
+    "register_object": "layout/74de811b-1592-41ba-acd7-12a00c389dab/root/children/2/children/5/children/2/triggers/list/3",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

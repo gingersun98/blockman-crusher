@@ -1,0 +1,5 @@
+WIDGET_CLICKED {
+	SendToServer(msg = "server_6f4f9744_5ed9_469a_9540_c7244c641955")
+	SendToServer(msg = "server_b4f1a318_c45f_4bae_b3ac_96e7764b2d15")
+	DestroyWidget(instance = $rootInstance)
+}

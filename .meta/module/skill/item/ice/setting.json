@@ -1,0 +1,51 @@
+{
+  "data": {
+    "castAction": "attack2",
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 300
+    },
+    "enableCdMask": true,
+    "enableCdTip": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_ice"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/ice",
+            "startPos": {
+              "y": 1
+            }
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/auxiliary/icon_冰冻.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "cad4f09f54e11fc9ba852798a7d1c9a1",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

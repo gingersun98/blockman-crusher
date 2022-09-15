@@ -1,0 +1,23 @@
+{
+  "canAbandon": false,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handBuff": "myplugin/strength",
+  "handItemBoneName": "Bip001_L_Finger01",
+  "icon": "@asset/3D Asset/PickAxe.png",
+  "itemintroduction": "5cba3d8c-1190-4311-8810-9310398a8555",
+  "itemname": "b86bc5f3-0f84-4722-a995-db81d2558d47",
+  "mesh": "asset/3D Asset/pickaxe/Cylinder.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/d355ed5d-b6ac-4b88-874d-e613e5d59be4"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

@@ -1,0 +1,168 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/Actor/merchant/Wise Man.actor"
+      },
+      "girlactor": {
+        "asset": "asset/Actor/merchant/Wise Man.actor",
+        "selector": "editor/hunter/asset/Actor/merchant/Wise Man.actor"
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": "asset/Actor/Rabbit Ear Fairy Girl/g2038_pet_01_3.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "canClick": true,
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": "asset/Actor/Rabbit Ear Elf Girl/g2038_pet_01_2.actor"
+    },
+    "headPic": {
+      "asset": "asset/Actor/merchant/村长.png"
+    },
+    "hideName": true,
+    "name": {
+      "value": "6a432896-0c4b-49d0-957b-e6e46476e47e"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_OpenConversation",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "a6c7e583-addc-457b-b071-2b9bda47af81"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TalkList",
+                        "rawval": {
+                          "talk": [
+                            {
+                              "msg": {
+                                "value": "6143fca4-6f81-46ab-9136-7b1873917063"
+                              },
+                              "npc": "myplugin/wise_man"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_OptionList",
+                        "rawval": {
+                          "option": [
+                            {
+                              "showText": {
+                                "value": "2bd00533-2fa8-46b5-8ca3-e1558b8f5d10"
+                              },
+                              "triggerName": {
+                                "value": "optionIsSelected2"
+                              }
+                            },
+                            {
+                              "showText": {
+                                "value": "ca943644-6458-4384-a97e-72bb611921b0"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_EntityEntry",
+                        "rawval": "myplugin/wise_man"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "84d91809-03c7-4e31-9e29-ad9907b66f36"
+              },
+              "pos": {
+                "x": 732,
+                "y": 146
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "a6c7e583-addc-457b-b071-2b9bda47af81"
+              },
+              "pos": {
+                "x": 1390,
+                "y": 254
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "16cba8cc-afdb-4b6f-91ab-859aa694f819"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "84d91809-03c7-4e31-9e29-ad9907b66f36"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "a80292a6-207f-468d-b05d-5c033a819c5e"
+            },
+            "pos": {
+              "x": 396,
+              "y": 194
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3eccb901f161bf2522297874d50dbb0d",
+      "triggers.bts": "6939a55cf6eaeed57434f367c168dc35"
+    },
+    "VERSION": "0.23"
+  }
+}

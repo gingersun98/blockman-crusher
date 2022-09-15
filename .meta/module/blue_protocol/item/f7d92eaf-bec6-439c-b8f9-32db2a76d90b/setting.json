@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "f7d92eaf-bec6-439c-b8f9-32db2a76d90b"
+    },
+    "name": "OpenLeaderboard",
+    "register_object": "game/0/triggers/list/12",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "6c694b3b-4a84-411b-bec6-e08c4462c2e3"
+    },
+    "name": "PVPStart",
+    "register_object": "game/0/triggers_client/list/8",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

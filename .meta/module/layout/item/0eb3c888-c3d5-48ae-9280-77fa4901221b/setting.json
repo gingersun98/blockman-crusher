@@ -1,0 +1,729 @@
+{
+  "data": {
+    "md5": "ee2e930393d468afd55f035ff37e2aeb",
+    "path": "asset/LoadOutPremium.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "ScrollableView",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "BackGroundImage": {
+            "asset": "asset/Texture/GingersunUI/Window04.png"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "GridView",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "id": {
+                            "value": "af57211d-f322-4d29-9084-c70a72afa3f1"
+                          },
+                          "Image": {
+                            "asset": "asset/3D Asset/BloodTesseract.png"
+                          }
+                        }
+                      ],
+                      "id": {
+                        "value": "240fa52e-583c-44be-b8c6-b35935d361c5"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Card X3.png"
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Scale": 0.2
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 176.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 176.0
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Black",
+                      "Font_size": 15,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "4a55682a-2718-4cd5-99d6-177cd3d58a91"
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Scale": 0.1
+                        }
+                      },
+                      "Text": "BLOOD TESSERACT",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "Alpha": 0.997,
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 16,
+                      "HoverImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Normal.png"
+                      },
+                      "HoverTextColour": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "id": {
+                        "value": "488dd243-218b-4558-a0f3-f5b74aac8346"
+                      },
+                      "name": "Button1",
+                      "NormalImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Normal.png"
+                      },
+                      "NormalTextColour": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": -50
+                        }
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Active.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 128
+                        },
+                        "UDim_Y": {
+                          "Offect": 40
+                        }
+                      },
+                      "Text": "BUY"
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "566d5986-50f3-4983-81bf-e4ee2f68ed6a"
+                      },
+                      "name": "Text1",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": -100
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 176.0
+                        }
+                      },
+                      "Text": "Regenerate Massively &backslashn"Hunger Point" &backslashnfor limited time",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "93b0642e-f6a4-4223-9ec1-deda585bc39a"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/GingersunUI/Card X1.png"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 256.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 512.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "id": {
+                            "value": "d8fd20fb-fc1d-45ba-be0d-b9a4dc43574c"
+                          },
+                          "Image": {
+                            "asset": "asset/3D Asset/LightTesseract.png"
+                          }
+                        }
+                      ],
+                      "id": {
+                        "value": "d826089c-60fc-4951-9e75-93f229fb4933"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Card X3.png"
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Scale": 0.2
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 176.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 176.0
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Black",
+                      "Font_size": 15,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "1f94a8ec-b8e4-4e03-98fc-58266f7d83ca"
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Scale": 0.1
+                        }
+                      },
+                      "Text": "LIGHT TESSERACT",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 16,
+                      "HoverImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Normal.png"
+                      },
+                      "HoverTextColour": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "id": {
+                        "value": "4e3b87b5-f654-40c6-8e8c-62610dfbbe71"
+                      },
+                      "name": "Button2",
+                      "NormalImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Normal.png"
+                      },
+                      "NormalTextColour": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": -50
+                        }
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Active.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 128
+                        },
+                        "UDim_Y": {
+                          "Offect": 40
+                        }
+                      },
+                      "Text": "BUY"
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "e8da93b6-4a7b-44bf-8936-33be46f6f365"
+                      },
+                      "name": "Text1",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": -100
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 176.0
+                        }
+                      },
+                      "Text": "Increase&backslashn"Movement Speed" &backslashnfor limited time",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "2d0a279e-1c25-40da-ba89-f2a3ca4bd18d"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/GingersunUI/Card X1.png"
+                  },
+                  "name": "Image1",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 512
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 256.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 512.0
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticImage",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "id": {
+                            "value": "789218f8-f7ca-4623-8027-9a4f166a3d6c"
+                          },
+                          "Image": {
+                            "asset": "asset/3D Asset/UnstabbleTimeTesseract.png"
+                          }
+                        }
+                      ],
+                      "id": {
+                        "value": "bbd827ef-b759-42d4-a6f6-204849028d33"
+                      },
+                      "Image": {
+                        "asset": "asset/Texture/GingersunUI/Card X3.png"
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Scale": 0.2
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 176.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 176.0
+                        }
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Black",
+                      "Font_size": 15,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "12015545-dc47-4b6f-a3a5-21d2bde385cc"
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Scale": 0.1
+                        }
+                      },
+                      "Text": "TIME TESSERACT",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    },
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 16,
+                      "HoverImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Normal.png"
+                      },
+                      "HoverTextColour": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "id": {
+                        "value": "bf26e96b-c355-4e2a-93c7-49d8c07d84dd"
+                      },
+                      "name": "Button3",
+                      "NormalImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Normal.png"
+                      },
+                      "NormalTextColour": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": -50
+                        }
+                      },
+                      "PushedImage": {
+                        "asset": "asset/Texture/GingersunUI/Button Active.png"
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 128
+                        },
+                        "UDim_Y": {
+                          "Offect": 40
+                        }
+                      },
+                      "Text": "BUY"
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Bottom"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "50c18e12-aeca-4136-86a3-7da6394537b3"
+                      },
+                      "name": "Text1",
+                      "pos": {
+                        "UDim_Y": {
+                          "Offect": -100
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 176.0
+                        }
+                      },
+                      "Text": "Reset the time of&backslashn"Cooldown Skills" &backslashnfor limited time",
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "49dd8b41-0ec3-43cd-b6b0-547cb67a422f"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/GingersunUI/Card X1.png"
+                  },
+                  "name": "Image2",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": 1024
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 256.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 512.0
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "7b84d234-194b-40e5-b22d-330e1a8c3df3"
+              },
+              "rowSize": 5,
+              "size": {
+                "UDim_X": {
+                  "Offect": 968
+                },
+                "UDim_Y": {
+                  "Offect": 512
+                }
+              },
+              "Space": {
+                "x": 100,
+                "y": 50
+              }
+            }
+          ],
+          "id": {
+            "value": "c418a0c7-c166-4928-885c-f75a099ea892"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0.0,
+              "Scale": 0.9
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.9
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right"
+          },
+          "DisabledImage": {
+            "asset": "asset/Texture/GingersunUI/Checked_02.png"
+          },
+          "HoverImage": {
+            "asset": "asset/Texture/GingersunUI/Checked_02.png"
+          },
+          "id": {
+            "value": "5cc84e24-727f-4e33-a99b-ddba5e655895"
+          },
+          "NormalImage": {
+            "asset": "asset/Texture/GingersunUI/Checked_02.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.07
+            },
+            "UDim_Y": {
+              "Scale": 0.05
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/GingersunUI/Checked_02.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 56
+            },
+            "UDim_Y": {
+              "Offect": 56
+            }
+          },
+          "Text": "",
+          "triggers": {
+            "list": [
+              {
+                "actions": [
+                  {
+                    "__OBJ_TYPE": "Action_DestoryWidget",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Widget",
+                              "action": "7657ae04-b549-4e0a-b21a-4cd0f22fb58d"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "b369f4cf-05c3-4703-b4bd-85d0a73794c0"
+                    },
+                    "pos": {
+                      "x": 328,
+                      "y": 333
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "rootInstance"
+                      }
+                    ],
+                    "id": {
+                      "value": "7657ae04-b549-4e0a-b21a-4cd0f22fb58d"
+                    },
+                    "pos": {
+                      "x": 692,
+                      "y": 405
+                    },
+                    "type": "T_Layout"
+                  }
+                ],
+                "custom_trigger_data": {
+                  "name": {
+                    "value": "a8072438-603e-4c31-8b8d-0a3101006496"
+                  },
+                  "type": "Trigger_WidgetClicked"
+                },
+                "root": {
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "b369f4cf-05c3-4703-b4bd-85d0a73794c0"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "864e4db7-3fbc-4386-aa87-4029f887f498"
+                  },
+                  "pos": {
+                    "x": 96,
+                    "y": 248
+                  }
+                },
+                "type": "Trigger_WidgetClicked"
+              }
+            ]
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.985,
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "890f98d3-6e9f-48cf-841e-f96c7bd45e30"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.25
+                }
+              },
+              "Text": "Premium Shop",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              }
+            }
+          ],
+          "id": {
+            "value": "de477562-282e-463f-91cd-e89925d4471e"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/ButtonPanel.png"
+          },
+          "name": "Image1",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.06
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 256.0
+            },
+            "UDim_Y": {
+              "Offect": 48.0
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "4bb4cd0a-18d4-49a4-a8a4-2f0dd65b76de"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "ee2e930393d468afd55f035ff37e2aeb",
+      "triggers.bts": "75092b627a265b12c17d31330af315ef"
+    },
+    "VERSION": "0.22"
+  }
+}

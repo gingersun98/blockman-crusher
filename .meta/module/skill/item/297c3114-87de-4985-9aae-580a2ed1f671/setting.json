@@ -1,0 +1,50 @@
+{
+  "data": {
+    "castAction": "attack2",
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 40
+    },
+    "consumeVp": 5,
+    "enableCdMask": true,
+    "enableCdTip": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "skill_297c3114-87de-4985-9aae-580a2ed1f671"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "bodyPitchOffset": -90,
+            "missileCfg": "myplugin/883c801a-7bc2-4242-a9ee-066a2e86f2d8"
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_开镜_act.png"
+      },
+      "icon_pushed": {
+        "asset": "asset/Texture/Skill/common/icon_开镜_nor.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClick": true,
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a15f41910ba63f1d75b59f0c8022b98e",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

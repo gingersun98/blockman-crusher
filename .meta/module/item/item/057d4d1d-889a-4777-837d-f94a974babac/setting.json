@@ -1,0 +1,32 @@
+{
+  "data": {
+    "candrop": true,
+    "icon": {
+      "asset": "asset/warrior/modao.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "handBuff": "myplugin/Force",
+        "handItemBoneName": "Bip001_L_Finger01",
+        "skill": [
+          "myplugin/GreatSwordSkill"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/warrior/hunter_dao02.mesh"
+    },
+    "name": {
+      "value": "73369d34-b94a-4a42-8fd7-e2a31e0b94ee"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e4ad8065bb50350837b168681522cae1",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "7a260dfa-71a5-45be-861e-6332172e8094"
+    },
+    "name": "StartBattle",
+    "register_object": "game/0/triggers/list/10",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

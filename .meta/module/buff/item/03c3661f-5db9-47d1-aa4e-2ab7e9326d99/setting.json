@@ -1,0 +1,26 @@
+{
+  "data": {
+    "actionPlaybackSpeed": [
+      {
+        "Action": "attack2"
+      }
+    ],
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Blue Vertical Rotating Light Pillar Effect/gfxy207_rotating aperture_blue_3d.effect"
+      }
+    },
+    "name": {
+      "value": "buff_03c3661f-5db9-47d1-aa4e-2ab7e9326d99"
+    },
+    "replaceAction": [
+      []
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ad7da824783ae6b2a3a88ed612bd4655"
+    },
+    "VERSION": "0.23"
+  }
+}

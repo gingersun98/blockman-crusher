@@ -1,0 +1,22 @@
+ENTITY_CLICK {
+	OpenConversation(
+		entity = $obj2,
+		optionList = [
+			{
+				showText = "be33e12d-eb46-4cda-b1a8-6130e796e129",
+				triggerName = "optionIsSelected2"
+			},
+			{
+				showText = "760a8349-0fb5-4685-b22e-94e655a6fcaa",
+				triggerName = ""
+			}
+		],
+		optionNpc = "myplugin/wise_man",
+		talkList = [
+			{
+				msg = "3e0d9eb9-7e20-4243-81c6-25fbc9bba54d",
+				npc = "myplugin/wise_man"
+			}
+		]
+	)
+}

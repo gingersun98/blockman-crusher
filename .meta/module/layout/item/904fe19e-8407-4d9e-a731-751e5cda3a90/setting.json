@@ -1,0 +1,227 @@
+{
+  "data": {
+    "md5": "7d4b0cc15168027705384786bd7c5bb3",
+    "path": "asset/OBJECTIVEPLAYER.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "Font_size": 14,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "78e87eb0-95c1-4cc9-8763-d452833492e1"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "Crush and kill other players. The number of survivor:",
+              "text_key": {
+                "value": "asset/OBJECTIVEPLAYER.layout.StaticText#437f213e-5fd3-4b50-8614-7bcb64d78713"
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 25,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "7a77c0e7-4b19-445b-952d-89102fd760b4"
+                  },
+                  "name": "Survivor",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 48
+                    },
+                    "UDim_Y": {
+                      "Offect": 48
+                    }
+                  },
+                  "Text": "6",
+                  "text_key": {
+                    "value": "asset/OBJECTIVEPLAYER.layout.StaticText#b4a18a6e-bcd8-4fd5-9fb0-630cef087296"
+                  },
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "id": {
+                "value": "da7db3b6-83bf-4d60-997e-dd2e96ea55a0"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 48
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "01be200a-e407-4b22-ac82-22d3219151d1"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/ButtonPanel.png"
+          },
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.1
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 518
+            },
+            "UDim_Y": {
+              "Offect": 41
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "624161df-b6bf-4099-ac12-8b3c8924016b"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": -3.8268656730652
+        },
+        "UDim_Y": {
+          "Offect": -1.9148935079575
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "triggers": {
+        "list": [
+          {
+            "actions": [
+              {
+                "__OBJ_TYPE": "Action_DestoryWidget",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Params",
+                    "params": [
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Widget",
+                          "action": "c50e923d-4f72-49ea-a10b-6fb1a283849c"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "id": {
+                  "value": "f9a4e4b2-4521-4d10-a467-01ba27d2234c"
+                },
+                "pos": {
+                  "x": 355,
+                  "y": 229
+                }
+              },
+              {
+                "__OBJ_TYPE": "Action_GetContextVar",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Context",
+                    "key": "instance"
+                  }
+                ],
+                "id": {
+                  "value": "c50e923d-4f72-49ea-a10b-6fb1a283849c"
+                },
+                "pos": {
+                  "x": 691,
+                  "y": 223
+                },
+                "type": "T_Var"
+              }
+            ],
+            "custom_trigger_data": {
+              "name": {
+                "value": "3900a727-206c-4a90-921b-f0d8a25ca3a9"
+              },
+              "type": "Trigger_RegisterClientProto"
+            },
+            "func_name": "dESTROYWIDGET",
+            "proto_uuid": "ccc9c9a7-1954-4550-a633-e2fd258f2d4c",
+            "root": {
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "f9a4e4b2-4521-4d10-a467-01ba27d2234c"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d95db37e-d5ea-43ba-9842-f52c21c1eb6f"
+              },
+              "pos": {
+                "x": 65,
+                "y": 110
+              }
+            },
+            "type": "Trigger_RegisterClientProto"
+          }
+        ]
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "7d4b0cc15168027705384786bd7c5bb3",
+      "triggers.bts": "9bd5a946b1f3f6afc15a28f15341bbb1"
+    },
+    "VERSION": "0.23"
+  }
+}

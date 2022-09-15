@@ -1,0 +1,376 @@
+{
+  "data": {
+    "md5": "26d61c7799d488f7c01118263082ee20",
+    "path": "asset/Actor/Rabbit Ear Fairy Girl/Objectives.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "Font_size": 14,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "15e94d39-10ae-4f11-bfc9-41ee0042f6a6"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "Victory condition is crush and kill other players.",
+              "text_key": {
+                "value": "asset/Actor/Rabbit Ear Fairy Girl/Objectives.layout.StaticText#43261688-8089-4ee1-a368-9300c7891752"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 25,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "0eb6f0d8-5196-4344-950b-0059c5d07428"
+                  },
+                  "name": "Survivor",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 48
+                    },
+                    "UDim_Y": {
+                      "Offect": 48
+                    }
+                  },
+                  "Text": "",
+                  "text_key": {
+                    "value": "asset/Actor/Rabbit Ear Fairy Girl/Objectives.layout.StaticText#c51ae0f9-4883-44b1-8205-9cabced4dd05"
+                  },
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font": "HarmonyOS_Sans_SC_Regular",
+                  "Font_size": 14,
+                  "id": {
+                    "value": "925c73e6-4845-4dd9-8ad0-dfc987e11711"
+                  },
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Scale": 0.25
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 512
+                    },
+                    "UDim_Y": {
+                      "Offect": 48
+                    }
+                  },
+                  "Text": "Crush Zone (Drop Item)",
+                  "text_key": {
+                    "value": "asset/Actor/Rabbit Ear Fairy Girl/Objectives.layout.StaticText#fdbfaa42-d803-4be6-9105-40f5d832490d"
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Centre"
+                      },
+                      "Font": "HarmonyOS_Sans_SC_Bold",
+                      "Font_size": 25,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "2e625871-e780-4020-95b1-351836ea5da3"
+                      },
+                      "name": "Survivor",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 48
+                        },
+                        "UDim_Y": {
+                          "Offect": 48
+                        }
+                      },
+                      "Text": "",
+                      "text_key": {
+                        "value": "asset/Actor/Rabbit Ear Fairy Girl/Objectives.layout.StaticText#647b83c1-c248-40f0-92bb-173aca4cd43a"
+                      },
+                      "VertFormatting": "CentreAligned"
+                    },
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "id": {
+                            "value": "ca59fcbc-534d-4ea9-b714-2d523bdfbb38"
+                          },
+                          "Image": {
+                            "asset": "asset/3D Asset/Icon33.png"
+                          },
+                          "pos": {
+                            "UDim_Y": {
+                              "Scale": -0.15
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 48
+                            },
+                            "UDim_Y": {
+                              "Offect": 48
+                            }
+                          }
+                        }
+                      ],
+                      "Font": "HarmonyOS_Sans_SC_Regular",
+                      "Font_size": 13,
+                      "HorzFormatting": "RightAligned",
+                      "id": {
+                        "value": "1a524ebb-2f6a-46aa-b38f-2ed8cc1bcd0e"
+                      },
+                      "pos": {
+                        "UDim_X": {
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Scale": 0.25
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 512
+                        },
+                        "UDim_Y": {
+                          "Offect": 48
+                        }
+                      },
+                      "Text": "Danger Zone  Drop Rare Item ",
+                      "text_key": {
+                        "value": "asset/Actor/Rabbit Ear Fairy Girl/Objectives.layout.StaticText#d50ac58a-2822-4e29-86f4-d70073963e5f"
+                      },
+                      "TextColours": {
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                      },
+                      "VertFormatting": "CentreAligned"
+                    }
+                  ],
+                  "id": {
+                    "value": "bbc5f69f-aa8a-4274-87f4-37c8e9c5af87"
+                  },
+                  "Image": {
+                    "asset": "",
+                    "selector": ""
+                  },
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.45
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 48
+                    },
+                    "UDim_Y": {
+                      "Offect": 48
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "f68731b2-e8d4-4f69-a24b-0738868faa3f"
+              },
+              "Image": {
+                "asset": "asset/3D Asset/Icon34.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Offect": 25
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 48
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "7524d9fe-f266-4eaa-a7c5-b22c025d5a2e"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/ButtonPanel.png"
+          },
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.01
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 518
+            },
+            "UDim_Y": {
+              "Offect": 41
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "17302a97-bdb1-4538-b1f7-97bea1603777"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": 4.7977528572082
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "triggers": {
+        "list": [
+          {
+            "actions": [
+              {
+                "__OBJ_TYPE": "Action_DestoryWidget",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Params",
+                    "params": [
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Widget",
+                          "action": "fe5d8f38-b44e-49ba-ba49-c43ba760ba3f"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "id": {
+                  "value": "dd35c3eb-cc9f-4c22-b887-5949fc574f26"
+                },
+                "pos": {
+                  "x": 348,
+                  "y": 268
+                }
+              },
+              {
+                "__OBJ_TYPE": "Action_GetContextVar",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Context",
+                    "key": "instance"
+                  }
+                ],
+                "id": {
+                  "value": "fe5d8f38-b44e-49ba-ba49-c43ba760ba3f"
+                },
+                "pos": {
+                  "x": 709,
+                  "y": 314
+                },
+                "type": "T_Var"
+              }
+            ],
+            "custom_trigger_data": {
+              "name": {
+                "value": "4dfed4e6-a112-4163-9ee1-da3b7bf37ef0"
+              },
+              "type": "Trigger_RegisterClientProto"
+            },
+            "func_name": "DestroyWidget",
+            "proto_uuid": "cd1d91b7-3b1b-48a6-86a9-448f98abe8c9",
+            "root": {
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "dd35c3eb-cc9f-4c22-b887-5949fc574f26"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "aaf45e86-398a-4deb-b59c-4288e0876755"
+              },
+              "pos": {
+                "x": 27,
+                "y": 173
+              }
+            },
+            "type": "Trigger_RegisterClientProto"
+          }
+        ]
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "26d61c7799d488f7c01118263082ee20",
+      "triggers.bts": "a448386878517be793078a4c0fa4c7e8"
+    },
+    "VERSION": "0.23"
+  }
+}

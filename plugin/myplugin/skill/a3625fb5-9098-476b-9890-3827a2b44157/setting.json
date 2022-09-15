@@ -1,0 +1,77 @@
+{
+  "area": [
+    [
+      0,
+      -58
+    ],
+    [
+      0,
+      -238
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 9,
+  "backSwingTime": 0,
+  "castAction": "sword",
+  "castActionTime": -1,
+  "cdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "cdTime": 40,
+  "chargeCdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "chargeCdTime": 0,
+  "chargeEnableCdMask": false,
+  "chargeIsShowCdPoint": false,
+  "chargeTimes": 2,
+  "consumeVp": 5,
+  "customizeSkill": true,
+  "damage": 10,
+  "dmgFactor": 0,
+  "draggingEnabled": false,
+  "enable_pre": false,
+  "enable_rear": false,
+  "enableBackSwing": false,
+  "enableCdMask": true,
+  "enableCdTip": true,
+  "enableChargeTime": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": false,
+  "enablePreSwing": false,
+  "frontSight": "",
+  "horizontalAlignment": 2,
+  "hurtDistance": 0,
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": true,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": true,
+  "isShowCdPoint": false,
+  "isTouch": false,
+  "preSwingTime": 0,
+  "range": 5,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "sustainAction": "",
+  "type": "MeleeAttack",
+  "verticalAlignment": 2
+}

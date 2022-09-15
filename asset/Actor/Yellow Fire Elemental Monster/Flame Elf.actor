@@ -1,0 +1,59 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g2021_huoyuansu.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_pet_1_1_1.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="body" MasterName="body">
+				<Effect>
+					<scale value="3"/>
+					<roll value="-93"/>
+					<SocketName value="Bip001_Spine1"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="-0.161683"/>
+					<pitch value="0"/>
+					<Position_X value="0.648439"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dungeon_huoling_body.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="2"/>
+					<roll value="-85.3419"/>
+					<SocketName value="Bip001_Pelvis"/>
+					<Position_Y value="0"/>
+					<yaw value="1.20436"/>
+					<Position_Z value="0"/>
+					<pitch value="14.9527"/>
+					<Position_X value="-0.59096"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dungeon_huoling_body2.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 9.03838e-43 3.0798e-36 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g2021_huoyuansu.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2021_huoyuansu_zoulu.anim"/>
+			<Anim Name="asset/Anim/g2021_huoyuansu_shouji.anim"/>
+			<Anim Name="asset/Anim/g2021_huoyuansu_gongji.anim"/>
+			<Anim Name="asset/Anim/g2021_huoyuansu_daiji.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_huoyuansu_gongji.anim" Channel="" TimeScale="2" Length="3.266" Times="1"/>
+				<ActorScaleChange beginScale="0.3" endScale="0.3"/>
+			</Skill>
+			<Skill Name="hurt" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_huoyuansu_shouji.anim" Channel="" TimeScale="1" Length="0.633" Times="1"/>
+				<ActorScaleChange beginScale="0.3" endScale="0.3"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_huoyuansu_daiji.anim" Channel="" TimeScale="1" Length="1.5" Times="-1"/>
+				<ActorScaleChange beginScale="0.3" endScale="0.3"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_huoyuansu_zoulu.anim" Channel="" TimeScale="0.8" Length="0.7" Times="-1"/>
+				<ActorScaleChange beginScale="0.3" endScale="0.3"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

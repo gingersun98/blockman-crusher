@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "d35a57d2-efaf-426d-abcb-3acbb84e4fee"
+    },
+    "name": "VictoryCondition",
+    "register_object": "game/0/triggers_client/list/10",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

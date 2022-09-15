@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "fc7383cb-c2ce-4794-87a3-d51e97f39463"
+    },
+    "name": "ClossCrushScore",
+    "register_object": "game/0/triggers_client/list/7",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

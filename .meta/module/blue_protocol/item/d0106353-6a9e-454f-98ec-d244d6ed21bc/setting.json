@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "d0106353-6a9e-454f-98ec-d244d6ed21bc"
+    },
+    "name": "LOSE",
+    "register_object": "game/0/triggers_client/list/12",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

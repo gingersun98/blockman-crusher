@@ -1,0 +1,3 @@
+WIDGET_CLICKED {
+	SendToServer(msg = "server_f7d92eaf_bec6_439c_b8f9_32db2a76d90b")
+}

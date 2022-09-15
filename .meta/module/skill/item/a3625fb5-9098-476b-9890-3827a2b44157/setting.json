@@ -1,0 +1,43 @@
+{
+  "data": {
+    "castAction": "sword",
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 40
+    },
+    "consumeVp": 5,
+    "enableCdMask": true,
+    "enableCdTip": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "b49f2809-bd32-4818-91c6-88af2ed735a3"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 10,
+        "hurtDistance": 0,
+        "range": 5
+      }
+    },
+    "skillReleaseWay": {
+      "iconPos": {
+        "area_number": 9
+      },
+      "isClick": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c8f22b09c022bba0b323cef88a50ff7c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

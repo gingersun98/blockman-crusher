@@ -1,0 +1,368 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/Actor/merchant/Wise Man.actor"
+      },
+      "girlactor": {
+        "asset": "asset/Actor/merchant/Wise Man.actor",
+        "selector": "editor/hunter/asset/Actor/merchant/Wise Man.actor"
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": "asset/Actor/Soldier In White Goggles/g2047_npc_zhanjie_3.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "canClick": true,
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": ""
+    },
+    "headPic": {
+      "asset": "asset/3D Asset/merchant1.png"
+    },
+    "hideName": true,
+    "name": {
+      "value": "cb37925c-0dab-41e4-8218-4134ddb5f63e"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_OpenConversation",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "a6c7e583-addc-457b-b071-2b9bda47af81"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TalkList",
+                        "rawval": {
+                          "talk": [
+                            {
+                              "msg": {
+                                "value": "aaacf747-6418-4c32-9ceb-fc0564e43317"
+                              },
+                              "npc": "myplugin/TestCharacter2"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_OptionList",
+                        "rawval": {
+                          "option": [
+                            {
+                              "showText": {
+                                "value": "9fc46921-1937-4fbb-8d38-7aaa93158ca1"
+                              },
+                              "triggerName": {
+                                "value": "optionIsSelected2"
+                              }
+                            },
+                            {
+                              "showText": {
+                                "value": "268a780f-5308-455d-9bbd-56d9b168d2a6"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_EntityEntry",
+                        "rawval": "myplugin/TestCharacter2"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "84d91809-03c7-4e31-9e29-ad9907b66f36"
+              },
+              "pos": {
+                "x": 732,
+                "y": 145
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "a6c7e583-addc-457b-b071-2b9bda47af81"
+              },
+              "pos": {
+                "x": 1390,
+                "y": 254
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Players"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "c7088ae5-7c85-4e06-9b72-f0dcc98933cc"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "b99e5eca-3afb-4409-a3f1-7ae19b375c64"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "aaca16fc-636d-41ff-95ba-e78bd84fdfe0"
+              },
+              "pos": {
+                "x": 418,
+                "y": 1
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "c7088ae5-7c85-4e06-9b72-f0dcc98933cc"
+              },
+              "pos": {
+                "x": 829
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "b99e5eca-3afb-4409-a3f1-7ae19b375c64"
+              },
+              "pos": {
+                "x": 832,
+                "y": 146
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_OpenConversation",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "f96076d6-fee6-42e1-ad80-bbd125cc28dc"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TalkList",
+                        "rawval": {
+                          "talk": [
+                            {
+                              "msg": {
+                                "value": "aaacf747-6418-4c32-9ceb-fc0564e43317"
+                              },
+                              "npc": "myplugin/TestCharacter2"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_OptionList",
+                        "rawval": {
+                          "option": [
+                            {
+                              "showText": {
+                                "value": "557b6703-f738-4d98-91df-8288e09971b1"
+                              },
+                              "triggerName": {
+                                "value": "optionIsSelected7"
+                              }
+                            },
+                            {
+                              "showText": {
+                                "value": "53d5cf59-f294-4cd0-b2a2-b8617a1250b7"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_EntityEntry",
+                        "rawval": "myplugin/TestCharacter2"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "6544879e-e495-4b7a-8ee3-3493848a671b"
+              },
+              "pos": {
+                "x": 609,
+                "y": 546
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ShowShop",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "fd73c521-2c50-4719-9257-b52cf70fee71"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "8885cbeb-f3a8-4a11-9021-001e5b0cade8"
+              },
+              "pos": {
+                "x": 63.945,
+                "y": 329.6475
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "fd73c521-2c50-4719-9257-b52cf70fee71"
+              },
+              "pos": {
+                "x": 450.9225,
+                "y": 316.4175
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "f96076d6-fee6-42e1-ad80-bbd125cc28dc"
+              },
+              "pos": {
+                "x": 1151,
+                "y": 612
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "945ae85a-4baa-4034-9556-db0389b6a4d4"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "aaca16fc-636d-41ff-95ba-e78bd84fdfe0"
+                  },
+                  [],
+                  {
+                    "action": "6544879e-e495-4b7a-8ee3-3493848a671b"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "a80292a6-207f-468d-b05d-5c033a819c5e"
+            },
+            "pos": {
+              "x": 78,
+              "y": 28
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "55c9d9e7cab5624317de4289054f63e9",
+      "triggers.bts": "8c087cb019fa032f1023464191a60734"
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8751162794937761793"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8751162795089772545",
+        "ID": 8,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight",
+        "skyColor": {
+          "b": 140,
+          "g": 132
+        },
+        "skyLineColor": {
+          "g": 59,
+          "r": 62
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8751162795265818625",
+        "ID": 9,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        },
+        "skyColor": {
+          "b": 140,
+          "g": 132
+        },
+        "skyLineColor": {
+          "g": 59,
+          "r": 62
+        }
+      }
+    ],
+    "name": {
+      "value": "map_06f71322-a816-4ebf-bd5e-583a59b1b1db"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0b34beba332a0b6d390b4090a991afaa"
+    },
+    "VERSION": "0.23"
+  }
+}

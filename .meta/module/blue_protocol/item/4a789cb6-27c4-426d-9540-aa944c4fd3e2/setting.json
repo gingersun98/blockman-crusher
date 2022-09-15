@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "4a789cb6-27c4-426d-9540-aa944c4fd3e2"
+    },
+    "name": "Run",
+    "register_object": "entity/player1/triggers/list/6",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

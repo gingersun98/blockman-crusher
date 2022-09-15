@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "3f80034b-bc5d-4f25-89b9-57bc182df23e"
+    },
+    "name": "ShowClassUI",
+    "register_object": "game/0/triggers_client/list/4",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

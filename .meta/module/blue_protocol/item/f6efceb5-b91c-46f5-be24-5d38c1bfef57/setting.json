@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "f6efceb5-b91c-46f5-be24-5d38c1bfef57"
+    },
+    "name": "LoadOutShop",
+    "register_object": "game/0/triggers/list/20",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

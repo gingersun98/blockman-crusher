@@ -1,0 +1,4 @@
+PART_TOUCH_ENTITY_BEGIN {
+	Damage(damage = 50, entity = $obj2)
+	SetEntityPosition(entity = $obj2, map = "MapArena", pos = $obj2.LokasiSpawn, rp = 0, ry = 0)
+}

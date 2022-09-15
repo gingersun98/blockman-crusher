@@ -1,0 +1,294 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8778066951234912257"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8778066951389839361",
+        "ID": 8,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8778066956782092289",
+        "ID": 9,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/MapDesert",
+        "id": "8778141053110468609",
+        "isLockedInEditor": true,
+        "name": "MapDesert",
+        "position": {
+          "x": 23.171518325806,
+          "y": 1.8960011005402,
+          "z": -22.187467575073
+        },
+        "rotation": {
+          "y": -19.999771118164
+        },
+        "scale": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
+        },
+        "size": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/DesertBuilding",
+        "id": "8778147875594354689",
+        "name": "entity_DesertBuilding",
+        "position": {
+          "x": 29.650859832764,
+          "y": 1.8278992176056,
+          "z": -26.564107894897
+        },
+        "rotation": {
+          "y": 46.999927520752
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/DesertTree",
+        "id": "8778154254889664513",
+        "name": "entity_DesertTree",
+        "position": {
+          "x": 15.435571670532,
+          "y": 0.99989914894104,
+          "z": -18.276351928711
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "ad5f9e3c-04d4-4b65-8521-d31cd63b873e",
+        "collisionUniqueKey": "8778165740560482305",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8778165740560482305",
+        "isLockedInEditor": true,
+        "isVisibleInEditor": false,
+        "massCenter": {
+          "y": 2
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Brown Square Area/g2047_3_27_dimian.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Brown Square Area/g2047_3_27_dimian.mesh",
+          "selector": "asset/stone/g2030_island_rongyan_2.mesh"
+        },
+        "name": "Stone_fire",
+        "partNavMeshType": "nil",
+        "position": {
+          "y": 2
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 1.11113,
+          "y": 1.11113,
+          "z": 1.11113
+        },
+        "size": {
+          "x": 29.999996185303,
+          "y": 7.748731150059e-06,
+          "z": 29.999946594238
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "429ed0c3-1c54-4cd4-8233-4208854a05af",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8778166023893024769",
+        "massCenter": {
+          "x": -19.529993057251,
+          "y": 1.4999008178711,
+          "z": -7.2420434951782
+        },
+        "material": {
+          "color": {
+            "b": 0
+          }
+        },
+        "position": {
+          "x": -19.529993057251,
+          "y": 1.4999008178711,
+          "z": -7.2420434951782
+        },
+        "restitution": 0.3,
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/MapGrassland",
+        "id": "8778171410495094785",
+        "name": "entity_MapGrassland",
+        "position": {
+          "x": -19.028984069824,
+          "y": 0.59589600563049,
+          "z": -12.162016868591
+        },
+        "rotation": {
+          "y": 169.99945068359
+        },
+        "scale": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
+        },
+        "size": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/MapDesert",
+        "id": "8778182790593576961",
+        "isLockedInEditor": true,
+        "name": "MapDesert",
+        "position": {
+          "x": -1.6488540172577,
+          "y": 1.1718963384628,
+          "z": -29.373876571655
+        },
+        "rotation": {
+          "y": -128.99920654297
+        },
+        "scale": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
+        },
+        "size": {
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0.5
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "ad5f9e3c-04d4-4b65-8521-d31cd63b873e",
+        "collisionUniqueKey": "8778165740560482305",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8778190631898398721",
+        "isLockedInEditor": true,
+        "isVisibleInEditor": false,
+        "massCenter": {
+          "y": 2
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Brown Square Area/g2047_3_27_qiang.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Brown Square Area/g2047_3_27_qiang.mesh",
+          "selector": "asset/stone/g2030_island_rongyan_2.mesh"
+        },
+        "name": "Stone_fire",
+        "partNavMeshType": "nil",
+        "position": {
+          "y": 2
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 1.11113,
+          "y": 1.11113,
+          "z": 1.11113
+        },
+        "size": {
+          "x": 30.000009536743,
+          "y": 7.7487356975325e-06,
+          "z": 30.000019073486
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart",
+        "batchType": "Dynamic",
+        "btsKey": "ad5f9e3c-04d4-4b65-8521-d31cd63b873e",
+        "collisionUniqueKey": "8778165740560482305",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8778190895637823489",
+        "isLockedInEditor": true,
+        "isVisibleInEditor": false,
+        "massCenter": {
+          "y": 2
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/Brown Square Area/g2047_3_27_boli.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/Brown Square Area/g2047_3_27_boli.mesh",
+          "selector": "asset/stone/g2030_island_rongyan_2.mesh"
+        },
+        "name": "Stone_fire",
+        "partNavMeshType": "nil",
+        "position": {
+          "y": 2
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 1.11113,
+          "y": 1.11113,
+          "z": 1.11113
+        },
+        "size": {
+          "x": 31.0325050354,
+          "y": 3.6239197254181,
+          "z": 31.032506942749
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      }
+    ],
+    "name": {
+      "value": "map_MainLobby"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e5d173303db9ea25eb9f40893089fd81"
+    },
+    "VERSION": "0.23"
+  }
+}

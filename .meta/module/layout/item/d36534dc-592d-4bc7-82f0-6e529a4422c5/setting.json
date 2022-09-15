@@ -1,0 +1,995 @@
+{
+  "data": {
+    "md5": "f6145a71c9816abc3dcc5618eb2d14fc",
+    "path": "asset/seleceHeroWnd.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.41,
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "772632fb-e130-490a-a5e3-db20bf2f0f2b"
+          },
+          "name": "bg",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "0b3a90b3-8c61-4a72-861e-e102b22e76ba"
+              },
+              "name": "introduceText",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.1
+                },
+                "UDim_Y": {
+                  "Scale": 0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "text_key": {
+                "value": "asset/seleceHeroWnd.layout.StaticText#2188ebd4-aa3a-4f62-993a-c59bfa3331f2"
+              },
+              "TextBoldWeight": "1",
+              "TextColours": {
+                "b": 222,
+                "g": 209,
+                "r": 16
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "RadioButton",
+              "check_box_tile": "Center",
+              "Font_size": 18,
+              "HorzLabelFormatting": "CentreAligned",
+              "id": {
+                "value": "a3ca56a4-b1ae-412e-a48b-0aed6c06ef18"
+              },
+              "ImageXSizeImcress": "1",
+              "name": "master",
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.18
+                },
+                "UDim_Y": {
+                  "Scale": 0.425
+                }
+              },
+              "selectableImage": {
+                "asset": "asset/Texture/GingersunUI/Button Active.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.18
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.12
+                }
+              },
+              "Text": "RANGER",
+              "text_key": {
+                "value": "asset/seleceHeroWnd.layout.RadioButton#4e2d71be-1fc3-48b6-89b2-c5b2819895a8"
+              },
+              "TextBoldWeight": "1",
+              "TextXPos": "0",
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_SetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "ChooseCharacter"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout",
+                                  "action": "fa9f0810-c0b2-43cd-b1d8-d3f7e9be5b57"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "rawval": 2
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "14613ba0-a218-4063-bb50-aa78547c3907"
+                        },
+                        "pos": {
+                          "x": 475,
+                          "y": 65
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "fa9f0810-c0b2-43cd-b1d8-d3f7e9be5b57"
+                        },
+                        "pos": {
+                          "x": 828,
+                          "y": 70
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Proto_Params",
+                            "proto_id": "a1892207-12e4-47ac-8d10-45fca6aeb604",
+                            "proto_name": "ChooseCharacterServer",
+                            "proto_type": "server"
+                          }
+                        ],
+                        "id": {
+                          "value": "4d518d4c-69c2-4269-bcd0-242b14308cc2"
+                        },
+                        "pos": {
+                          "x": 451,
+                          "y": 336
+                        }
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "5ab44644-74ad-4e75-b691-4ff5932dbd1c"
+                      },
+                      "type": "Trigger_RadioButton_Selected"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            [],
+                            [],
+                            []
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "f4d48f01-9b66-4634-9a9a-f1d7512ce1ab"
+                      },
+                      "pos": {
+                        "x": 44,
+                        "y": 200
+                      }
+                    },
+                    "type": "Trigger_RadioButton_Selected"
+                  },
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_SetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "ChooseCharacter"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout",
+                                  "action": "413364be-7523-4e3e-a4f7-a0ce07443123"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "519e69fb-18f8-4da1-9d2b-f1c7ef366f51"
+                        },
+                        "pos": {
+                          "x": 351,
+                          "y": 180
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "413364be-7523-4e3e-a4f7-a0ce07443123"
+                        },
+                        "pos": {
+                          "x": 700,
+                          "y": 241
+                        },
+                        "type": "T_Layout"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "a2e663a2-ed58-497d-877f-a70442aca027"
+                      },
+                      "type": "Trigger_RadioButton_Unselected"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            []
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "643281b0-dd0f-488e-a067-43d27a6687e5"
+                      },
+                      "pos": {
+                        "x": 21,
+                        "y": 199
+                      }
+                    },
+                    "type": "Trigger_RadioButton_Unselected"
+                  }
+                ]
+              },
+              "unselectableImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              }
+            },
+            {
+              "__OBJ_TYPE": "RadioButton",
+              "check_box_tile": "Center",
+              "Font_size": 18,
+              "HorzLabelFormatting": "CentreAligned",
+              "id": {
+                "value": "bca05675-f390-4155-9f39-caa37359ed12"
+              },
+              "ImageXSizeImcress": "1",
+              "name": "warrior",
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.13
+                },
+                "UDim_Y": {
+                  "Scale": 0.25
+                }
+              },
+              "selectableImage": {
+                "asset": "asset/Texture/GingersunUI/Button Active.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.18
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.12
+                }
+              },
+              "Text": "WARRIOR",
+              "text_key": {
+                "value": "asset/seleceHeroWnd.layout.RadioButton#7311f2da-ec90-4fc5-8c9a-f20066b3dccc"
+              },
+              "TextBoldWeight": "1",
+              "TextXPos": "0",
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_SetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "ChooseCharacter"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout",
+                                  "action": "1a47df13-229a-4427-b071-59488353c20f"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "rawval": 1
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "ee93c656-58d1-4ba0-9819-a7e3c48697fb"
+                        },
+                        "pos": {
+                          "x": 436,
+                          "y": 199
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "1a47df13-229a-4427-b071-59488353c20f"
+                        },
+                        "pos": {
+                          "x": 834,
+                          "y": 223
+                        },
+                        "type": "T_Layout"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "e04c57b4-1a63-4e3a-b06f-a1c4281dda93"
+                      },
+                      "type": "Trigger_RadioButton_Selected"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            []
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "57646ab9-b4a9-4e6e-9d56-5f003caf5b2d"
+                      },
+                      "pos": {
+                        "x": 41,
+                        "y": 140
+                      }
+                    },
+                    "type": "Trigger_RadioButton_Selected"
+                  },
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_SetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "ChooseCharacter"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout",
+                                  "action": "e63dddf4-d5dd-47e9-8556-bfc99300799f"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "efc5a970-c213-4614-897d-f07f0ebd236e"
+                        },
+                        "pos": {
+                          "x": 413,
+                          "y": 214
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "e63dddf4-d5dd-47e9-8556-bfc99300799f"
+                        },
+                        "pos": {
+                          "x": 789,
+                          "y": 258
+                        },
+                        "type": "T_Layout"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "ef06d432-88a6-4236-aa6a-17191c5c498c"
+                      },
+                      "type": "Trigger_RadioButton_Unselected"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            []
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "e1e886eb-0449-4f1f-a66d-4967f6ee283b"
+                      },
+                      "pos": {
+                        "x": 55,
+                        "y": 181
+                      }
+                    },
+                    "type": "Trigger_RadioButton_Unselected"
+                  }
+                ]
+              },
+              "unselectableImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              }
+            },
+            {
+              "__OBJ_TYPE": "RadioButton",
+              "check_box_tile": "Center",
+              "Font_size": 18,
+              "HorzLabelFormatting": "CentreAligned",
+              "id": {
+                "value": "bc6130f1-29d2-4db9-9a19-a3df1125ed01"
+              },
+              "ImageXSizeImcress": "1",
+              "name": "warlock",
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.13
+                },
+                "UDim_Y": {
+                  "Scale": 0.6
+                }
+              },
+              "selectableImage": {
+                "asset": "asset/Texture/GingersunUI/Button Active.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.18
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.12
+                }
+              },
+              "Text": "MAGE",
+              "text_key": {
+                "value": "asset/seleceHeroWnd.layout.RadioButton#c1d296a7-3356-4aca-89b0-96438fae53cf"
+              },
+              "TextBoldWeight": "1",
+              "TextXPos": "0",
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_SetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "ChooseCharacter"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout",
+                                  "action": "8018755f-c879-4483-89d2-ce30f17f33c4"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "rawval": 3
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "4a0224a8-a8ce-49df-8be3-fd30c930461b"
+                        },
+                        "pos": {
+                          "x": 484,
+                          "y": 200
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "8018755f-c879-4483-89d2-ce30f17f33c4"
+                        },
+                        "pos": {
+                          "x": 839,
+                          "y": 210
+                        },
+                        "type": "T_Layout"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "b8b53d8d-b555-4bc0-9bbe-4d3d8d49a625"
+                      },
+                      "type": "Trigger_RadioButton_Selected"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            []
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "5f427af8-531c-4e40-9126-0e92262e44b4"
+                      },
+                      "pos": {
+                        "x": 110,
+                        "y": 219
+                      }
+                    },
+                    "type": "Trigger_RadioButton_Selected"
+                  },
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_SetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "ChooseCharacter"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout",
+                                  "action": "63c1e882-d884-40dc-b39f-989aedfb1e69"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "f6d9996b-2db5-4c7d-b218-c2177e702ccd"
+                        },
+                        "pos": {
+                          "x": 446,
+                          "y": 205
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "63c1e882-d884-40dc-b39f-989aedfb1e69"
+                        },
+                        "pos": {
+                          "x": 812,
+                          "y": 219
+                        },
+                        "type": "T_Layout"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "73df433f-ef2a-454b-9470-70e76eeba645"
+                      },
+                      "type": "Trigger_RadioButton_Unselected"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            []
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "7045dd7f-ef95-4849-b421-380dedff82c5"
+                      },
+                      "pos": {
+                        "x": 56,
+                        "y": 194
+                      }
+                    },
+                    "type": "Trigger_RadioButton_Unselected"
+                  }
+                ]
+              },
+              "unselectableImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "id": {
+                    "value": "3681f990-5caa-4654-bb7f-ce5bc3472d4a"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/ui/img_展示台.png"
+                  },
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": -0.02
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.2
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "ActorWindow",
+                  "ActorName": {
+                    "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+                  },
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "ee1ee7f1-fa1a-49f8-bba4-e7b1036ec1f2"
+                  },
+                  "name": "actorWindow",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": -0.23
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1.6
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1.2
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "15a6185c-b786-4be0-a515-442c1e8842e7"
+              },
+              "Image": {
+                "asset": "",
+                "selector": ""
+              },
+              "name": "heroBg",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.2
+                },
+                "UDim_Y": {
+                  "Scale": -0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.25
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.6
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Bottom"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "AutoTextScale": true,
+                  "Font_size": 20,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "a048cf39-8209-4ec4-ba16-93e712724bbf"
+                  },
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.03
+                    },
+                    "UDim_Y": {
+                      "Scale": -0.08
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.7
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.8
+                    }
+                  },
+                  "text_key": {
+                    "value": "asset/seleceHeroWnd.layout.StaticText#473e7669-3b46-4b00-a441-38844e603699"
+                  },
+                  "TextBoldWeight": "1",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "8d9c100f-8585-4c25-a86d-fc78f90682f2"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/ui/icon_go.png"
+                  },
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.06
+                    },
+                    "UDim_Y": {
+                      "Scale": -0.08
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.6
+                    }
+                  },
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "HoverImage": {
+                "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+              },
+              "HoverStretch": {
+                "bottom_left": 17,
+                "bottom_right": 27,
+                "top_left": 17,
+                "top_right": 15
+              },
+              "id": {
+                "value": "f1ac4ef8-b9f2-48a8-93fe-de42aa57dfa4"
+              },
+              "name": "determind",
+              "NormalImage": {
+                "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+              },
+              "NormalStretch": {
+                "bottom_left": 17,
+                "bottom_right": 27,
+                "top_left": 17,
+                "top_right": 15
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.05
+                },
+                "UDim_Y": {
+                  "Scale": -0.06
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/ui/icon_blue_act.png"
+              },
+              "PushedStretch": {
+                "bottom_left": 17,
+                "bottom_right": 27,
+                "top_left": 17,
+                "top_right": 15
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.3
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.13
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/seleceHeroWnd.layout.Button#97012b2c-9c85-4da5-bc57-0b2644ce2847"
+              }
+            }
+          ],
+          "id": {
+            "value": "a15bbc19-7d9f-49e8-9003-08ecc854f3b1"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/Card X5.png"
+          },
+          "name": "planeBg",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.85
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.85
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "2461ff94-021b-44a9-b35d-86d3fc216b45"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "f6145a71c9816abc3dcc5618eb2d14fc",
+      "triggers.bts": "937e407c2a6a02ef98ad378f3edda83c"
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "data": {
+    "boundingVolume": {
+      "radius": 0.45,
+      "type": "Sphere"
+    },
+    "hitBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "hitCount": {
+      "hitEntityCount": 1,
+      "isValid": true
+    },
+    "hitEntityEffect": {
+      "effect": {
+        "asset": "asset/master/boom.effect"
+      }
+    },
+    "hitEntitySkill": "myplugin/hurt",
+    "hitEntitySound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "moveSpeed": 10,
+    "name": {
+      "value": "missile_ray"
+    },
+    "reboundBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/master/g2021_feilong_weiba2.effect"
+      }
+    },
+    "startSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "target_type": "hitPlayer",
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "5241b66b-1477-470a-99ab-d6fe2ab64a0a"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 8
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "6712ecf4-0bbc-4ac9-8a91-cbe3312480a1"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e002b074-6b1c-4e4f-975d-7ca303068d85"
+              },
+              "pos": {
+                "x": 688,
+                "y": 285
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "5241b66b-1477-470a-99ab-d6fe2ab64a0a"
+              },
+              "pos": {
+                "x": 1093,
+                "y": 204
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "6712ecf4-0bbc-4ac9-8a91-cbe3312480a1"
+              },
+              "pos": {
+                "x": 1067,
+                "y": 439
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "548ca71e-7488-4946-ae2b-4da4a3ab9461"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/StunKnockback"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "7e85da6d-4a1f-4e18-b694-a8efa27ec24c"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 100
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ad197d64-262a-41d9-b6c5-b4a3c1d9985a"
+              },
+              "pos": {
+                "x": 604,
+                "y": 41
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "548ca71e-7488-4946-ae2b-4da4a3ab9461"
+              },
+              "pos": {
+                "x": 1067,
+                "y": 17
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "7e85da6d-4a1f-4e18-b694-a8efa27ec24c"
+              },
+              "pos": {
+                "x": 1354,
+                "y": 122
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddSkill",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_SkillEntry"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "23b3974d-c715-442a-8336-f7c241bec436"
+              },
+              "pos": {
+                "x": 726,
+                "y": 570
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "9b72a790-228d-4304-ae0e-0b2454fe20be"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "28827af1-9573-4e46-9000-39acdc984560"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    },
+    "vanishEffect": {
+      "effect": {
+        "asset": "asset/master/light.effect"
+      }
+    },
+    "vanishSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "vanishTime": {
+      "value": 40
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "81bbe564a91161c71cbb73c8f5ec62a8",
+      "triggers.bts": "72cc3f900de3a515fff800d5ea063d11"
+    },
+    "VERSION": "0.23"
+  }
+}

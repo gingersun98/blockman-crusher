@@ -1,0 +1,257 @@
+{
+  "data": {
+    "castAction": "attack",
+    "consumeVp": 10,
+    "name": {
+      "value": "278138d8-18b2-4bde-b55f-40e28008ae67"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 25,
+        "hurtDistance": 0,
+        "range": 2
+      }
+    },
+    "skillReleaseWay": {
+      "isClick": true
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_KillEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "29823245-0cb3-43a6-8d53-f274c97ec25e"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "0a2631ac-c30b-40d7-a907-49d79fc7ffa6"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ae95e7b6-e349-4563-91e1-656980ecdef9"
+              },
+              "pos": {
+                "x": 696,
+                "y": 384
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "11feb0ae-d280-494c-b6e1-2289ffbb6c22"
+              },
+              "pos": {
+                "x": 1009,
+                "y": 222
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "d3c3bdb6-cd96-4a28-a5b0-1461aa5d6eee"
+              },
+              "pos": {
+                "x": 619,
+                "y": 529
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_If",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Condition",
+                  "children": [
+                    {
+                      "action": "04fb213f-593b-430c-8fe1-75d00421273f"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ce7a7f0f-310a-4f91-be1b-c5875f9b0752"
+              },
+              "pos": {
+                "x": 425,
+                "y": 119
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_IfBranch",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "action": "55388cd6-0fe3-42d7-9265-02cd022fd55e",
+                        "rawval": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "ae95e7b6-e349-4563-91e1-656980ecdef9"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "04fb213f-593b-430c-8fe1-75d00421273f"
+              },
+              "pos": {
+                "x": 646,
+                "y": 112
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "CrushObject"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "4104d207-40b0-4f56-9e89-5ec39823a7ad"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "55388cd6-0fe3-42d7-9265-02cd022fd55e"
+              },
+              "pos": {
+                "x": 861,
+                "y": 41
+              },
+              "type": "T_Bool"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "4104d207-40b0-4f56-9e89-5ec39823a7ad"
+              },
+              "pos": {
+                "x": 1227,
+                "y": 90
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "29823245-0cb3-43a6-8d53-f274c97ec25e"
+              },
+              "pos": {
+                "x": 1077,
+                "y": 293
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "0a2631ac-c30b-40d7-a907-49d79fc7ffa6"
+              },
+              "pos": {
+                "x": 1082,
+                "y": 482
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "b73dd916-db76-44a4-92ab-025fc57e2b50"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "ce7a7f0f-310a-4f91-be1b-c5875f9b0752"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "c24f2486-c00b-4e54-815f-3e5759341ccd"
+            },
+            "pos": {
+              "x": 244,
+              "y": 281
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e265c6581651e65d3d498d2e0e37c236",
+      "triggers.bts": "952801932ac16d76ef82db330e0a6f3c"
+    },
+    "VERSION": "0.23"
+  }
+}

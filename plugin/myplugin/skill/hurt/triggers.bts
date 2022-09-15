@@ -1,0 +1,5 @@
+SKILL_CAST {
+	If ($obj2.CrushObject) {
+		RemoveSkill(entity = $obj1, name = "myplugin/hurt")
+	}
+}

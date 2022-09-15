@@ -1,0 +1,47 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/stone/fire3.actor",
+        "selector": "editor/hunter/asset/stone/fire3.actor"
+      },
+      "girlactor": {
+        "asset": "asset/stone/fire3.actor",
+        "selector": "editor/hunter/asset/stone/fire3.actor"
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": "asset/stone/fire3.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "canJump": false,
+    "canMove": false,
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": "asset/stone/fire3.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_fire3"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c26e85533cce089117b3f3e2d76f80e7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

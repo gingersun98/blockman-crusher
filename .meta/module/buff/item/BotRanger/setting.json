@@ -1,0 +1,19 @@
+{
+  "data": {
+    "name": {
+      "value": "buff_BotRanger"
+    },
+    "skin": [
+      {
+        "masterName": "custom_hand",
+        "slaveName": "custom_hand_y"
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "adddbc8274d918c41b11ec9f19f51c98"
+    },
+    "VERSION": "0.23"
+  }
+}

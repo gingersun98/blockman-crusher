@@ -1,0 +1,19 @@
+{
+  "canAbandon": true,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": true,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "Bip001_L_Finger01",
+  "icon": "@asset/3D Asset/RedPotion.png",
+  "itemname": "item_d9575c4c-95cd-44fe-ad35-b44d9b19d730",
+  "mesh": "asset/3D Asset/Potion/potion red.mesh",
+  "needSave": false,
+  "skill": [],
+  "stack_count_max": 10,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

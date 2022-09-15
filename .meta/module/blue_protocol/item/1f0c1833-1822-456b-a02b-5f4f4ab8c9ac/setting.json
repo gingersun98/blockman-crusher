@@ -1,0 +1,19 @@
+{
+  "data": {
+    "id": {
+      "value": "1f0c1833-1822-456b-a02b-5f4f4ab8c9ac"
+    },
+    "name": "ObtainGlobalVarible",
+    "params": [
+      {
+        "param_name": "Player"
+      }
+    ],
+    "register_object": "game/0/triggers/list/11",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

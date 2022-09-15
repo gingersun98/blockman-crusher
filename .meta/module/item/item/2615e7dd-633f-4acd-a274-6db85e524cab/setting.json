@@ -1,0 +1,249 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/3D Asset/BloodTesseract.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "handItemBoneName": "Bip001_L_Finger01"
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/3D Asset/Tesseract/Cube.mesh"
+    },
+    "name": {
+      "value": "item_2615e7dd-633f-4acd-a274-6db85e524cab"
+    },
+    "needSave": true,
+    "stack_count_max": 1000,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityVp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "bd6b255e-974d-4d7f-bd5f-c1970487a56f"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 50
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "22dbdfab-d200-4d17-a796-b3a788ccdb75"
+              },
+              "pos": {
+                "x": 631,
+                "y": 99
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "bd6b255e-974d-4d7f-bd5f-c1970487a56f"
+              },
+              "pos": {
+                "x": 965,
+                "y": 95
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "a6f09305-645c-4cb4-8f6e-b1b8d59499d8"
+            },
+            "type": "Trigger_UseItem"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "22dbdfab-d200-4d17-a796-b3a788ccdb75"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "6968eba0-a3ef-49c7-a54c-176990100224"
+            }
+          },
+          "type": "Trigger_UseItem"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddSkill",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "69ea3f51-1e0f-406c-b57d-760e7be02aa2"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_SkillEntry",
+                        "rawval": "myplugin/c14c37fd-4c5f-4602-ae04-757f7e759286"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "b4510ab9-d245-48d1-b52b-2599b9504302"
+              },
+              "pos": {
+                "x": 689,
+                "y": 72
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "69ea3f51-1e0f-406c-b57d-760e7be02aa2"
+              },
+              "pos": {
+                "x": 1077,
+                "y": 91
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "579cf8f0-9dbd-45d9-82de-bbd0c5298e3d"
+            },
+            "type": "Trigger_Hand"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "b4510ab9-d245-48d1-b52b-2599b9504302"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "1d4a4f49-4b72-41fd-a3dd-39ebbefc724b"
+            }
+          },
+          "type": "Trigger_Hand"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_RemoveSkill",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "ba5484a0-06fe-4fb4-9885-6e7ad07cc05f"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_SkillEntry",
+                        "rawval": "myplugin/c14c37fd-4c5f-4602-ae04-757f7e759286"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "4960b46b-5e28-47b1-92f2-01dc3cb928c4"
+              },
+              "pos": {
+                "x": 775,
+                "y": 219
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "ba5484a0-06fe-4fb4-9885-6e7ad07cc05f"
+              },
+              "pos": {
+                "x": 1165,
+                "y": 176
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "4d7c75e7-85e4-4e8b-a61a-c0091b8976dd"
+            },
+            "type": "Trigger_UnHand"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "4960b46b-5e28-47b1-92f2-01dc3cb928c4"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "b35e93ad-b92e-4e4e-a490-5bd0b719805c"
+            }
+          },
+          "type": "Trigger_UnHand"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f283979d588e08fe493b03a81464f03b",
+      "triggers.bts": "68f0a78a5e66cd13c13b097a6f8f885c"
+    },
+    "VERSION": "0.23"
+  }
+}

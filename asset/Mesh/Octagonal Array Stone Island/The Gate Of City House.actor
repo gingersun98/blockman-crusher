@@ -1,0 +1,74 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="stone01.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2030_island_rishi_3.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="body">
+				<StaticMesh LocalAlpha="1">
+					<SpecularCoef value="0.15"/>
+					<Position_X value="0.00361872"/>
+					<scale value="3.3"/>
+					<SpecularColor value="1 1 1 1"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<Position_Y value="-27.6816"/>
+					<SocketName value="bip01"/>
+					<UseBloom value="false"/>
+					<SpecularStrength value="1"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2030_island_rishi_3.mesh"/>
+					<UseTransparentNearestSlice value="false"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha="1">
+					<SpecularCoef value="0.15"/>
+					<Position_X value="20.3611"/>
+					<scale value="6"/>
+					<SpecularColor value="1 1 1 1"/>
+					<roll value="0"/>
+					<yaw value="90"/>
+					<Position_Z value="-0.776621"/>
+					<Position_Y value="-0.5"/>
+					<SocketName value="bip01"/>
+					<UseBloom value="false"/>
+					<SpecularStrength value="1"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2030_men_3.mesh"/>
+					<UseTransparentNearestSlice value="false"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha="1">
+					<SpecularCoef value="0.15"/>
+					<Position_X value="-16.9543"/>
+					<scale value="3"/>
+					<SpecularColor value="1 1 1 1"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="-8.92064"/>
+					<Position_Y value="-0.360228"/>
+					<SocketName value="bip01"/>
+					<UseBloom value="false"/>
+					<SpecularStrength value="1"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2030_zs_6.mesh"/>
+					<UseTransparentNearestSlice value="false"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha="1">
+					<SpecularCoef value="0.15"/>
+					<Position_X value="0"/>
+					<scale value="3.3"/>
+					<SpecularColor value="1 1 1 1"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0.2"/>
+					<Position_Y value="-28.1"/>
+					<SocketName value="bip01"/>
+					<UseBloom value="true"/>
+					<SpecularStrength value="1"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2030_island_rishi_3_1.mesh"/>
+					<UseTransparentNearestSlice value="false"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims/>
+		<Skills/>
+	</ActorTemplate>
+</ActorTemplates>

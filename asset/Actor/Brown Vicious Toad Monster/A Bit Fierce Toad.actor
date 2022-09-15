@@ -1,0 +1,25 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g2030_BOSS_dahama.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="4 4 4" SoundName4="" WoundBone="" name="g2030_boss_hama.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="body">
+				<Skin ChangeColor="7.58785e+31 3.03474e+32 4.51464e+16 2.93882e+29" UseBloom="false" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g2030_BOSS_dahama.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2030_boss_dahama_daiji.anim"/>
+			<Anim Name="asset/Anim/g2030_boss_dahama_gongji.anim"/>
+			<Anim Name="asset/Anim/g2030_boss_dahama_zoulu.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2030_boss_dahama_gongji.anim" Channel="" TimeScale="1" Length="1.2" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2030_boss_dahama_daiji.anim" Channel="" TimeScale="1" Length="1.366" Times="-1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2030_boss_dahama_zoulu.anim" Channel="" TimeScale="1" Length="0.833" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

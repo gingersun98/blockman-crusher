@@ -1,0 +1,1357 @@
+{
+  "data": {
+    "md5": "f3e0dadfb050e9fde20cbb01de1a9157",
+    "path": "asset/seleceHeroWnd_GingerSun.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.41,
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "4cb75687-d5a9-467c-ad97-e6bdd44eaecd"
+          },
+          "name": "bg",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 22,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "3a60a853-9e7f-4f86-9c13-5916ceb6a7d6"
+              },
+              "name": "introduceText",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.17
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "Text": "Please select your occupation",
+              "text_key": {
+                "value": "asset/seleceHeroWnd_GingerSun.layout.StaticText#16cb9910-b029-4c75-8495-8a5e78e877c9"
+              },
+              "TextBoldWeight": "1",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 85
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "RadioButton",
+              "check_box_tile": "Center",
+              "Font_size": 18,
+              "HorzLabelFormatting": "CentreAligned",
+              "id": {
+                "value": "7835e3cd-ff82-4161-80a1-b44083fe396e"
+              },
+              "ImageXSizeImcress": "1",
+              "name": "master",
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.18
+                },
+                "UDim_Y": {
+                  "Scale": 0.525
+                }
+              },
+              "selectableImage": {
+                "asset": "asset/Texture/GingersunUI/Button Active.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.18
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.12
+                }
+              },
+              "Text": "Mage",
+              "text_key": {
+                "value": "asset/seleceHeroWnd_GingerSun.layout.RadioButton#74d72cd3-760d-4482-871a-dbac38e6201e"
+              },
+              "TextBoldWeight": "1",
+              "TextXPos": "0",
+              "unselectableImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              }
+            },
+            {
+              "__OBJ_TYPE": "RadioButton",
+              "check_box_tile": "Center",
+              "Font_size": 18,
+              "HorzLabelFormatting": "CentreAligned",
+              "id": {
+                "value": "3168ee14-55a5-4c0a-9406-889a7e5a07ce"
+              },
+              "ImageXSizeImcress": "1",
+              "name": "warrior",
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.13
+                },
+                "UDim_Y": {
+                  "Scale": 0.35
+                }
+              },
+              "selectableImage": {
+                "asset": "asset/Texture/GingersunUI/Button Active.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.18
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.12
+                }
+              },
+              "Text": "Warrior",
+              "text_key": {
+                "value": "asset/seleceHeroWnd_GingerSun.layout.RadioButton#930ce149-f60f-47de-a19d-f6f5274d4b49"
+              },
+              "TextBoldWeight": "1",
+              "TextXPos": "0",
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_SetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "Warrior"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout",
+                                  "action": "b3302c0e-5ed3-4be2-a791-feedf50abfe1"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Bool",
+                                  "rawval": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "345efdd1-894f-4b73-91b5-e2129a1d32d7"
+                        },
+                        "pos": {
+                          "x": 472,
+                          "y": 184.5
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "b3302c0e-5ed3-4be2-a791-feedf50abfe1"
+                        },
+                        "pos": {
+                          "x": 811,
+                          "y": 247
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_TriggerCustom",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "key": "triggerNameForExecXXX",
+                                "value": {
+                                  "__OBJ_TYPE": "T_String",
+                                  "rawval": "ClientCustomTrigger_1"
+                                }
+                              },
+                              {
+                                "key": "cfgForExecXXX",
+                                "must": true,
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "fdd39a18-58d6-4916-93b0-a77d661ff0bd"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "custom_trigger_name": "ClientCustomTrigger_1",
+                        "id": {
+                          "value": "bf87bcab-35dc-46a6-b8cf-0945326ea41b"
+                        },
+                        "is_server": false,
+                        "path": "layout/seleceHeroWnd_GingerSun.layout/Root/planeBg/heroBg/actorWindow",
+                        "pos": {
+                          "x": 493,
+                          "y": 406
+                        },
+                        "register_id": "532a6010-884f-4781-8589-aa076709a0b8"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "fdd39a18-58d6-4916-93b0-a77d661ff0bd"
+                        },
+                        "pos": {
+                          "x": 1010,
+                          "y": 409
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_SetIsClipByParentWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Bool"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "12f80bff-d8e6-4c7c-b2bd-76258bc9bc15"
+                        },
+                        "pos": {
+                          "x": 157,
+                          "y": 716
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_SetIsTop",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Bool"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "62801a10-4e76-499f-a4ab-c9230a3a0308"
+                        },
+                        "pos": {
+                          "x": 518,
+                          "y": 714
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_SetWindowIsShow",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "e699f5e6-5bd7-4819-b8a9-f46153fb63a6"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Bool",
+                                  "rawval": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "3fccfd18-56d8-46b4-b627-939c3307ac86"
+                        },
+                        "pos": {
+                          "x": 512,
+                          "y": 866
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetParentWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "a7cbf97d-dd8e-4508-afed-e85b188893d9"
+                        },
+                        "pos": {
+                          "x": 932,
+                          "y": 778
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetWindowByName",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_String",
+                                  "rawval": "actorWindow"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "e699f5e6-5bd7-4819-b8a9-f46153fb63a6"
+                        },
+                        "pos": {
+                          "x": 926,
+                          "y": 893
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Proto_Params",
+                            "proto_id": "e99609dc-9fd8-420e-a1c9-4837e2198344",
+                            "proto_name": "WeaponWarrior",
+                            "proto_type": "server"
+                          }
+                        ],
+                        "id": {
+                          "value": "d1edcf3f-4fed-40c8-8e31-7a4b3fcc788c"
+                        },
+                        "pos": {
+                          "x": 511,
+                          "y": 83
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_SetActorModel",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "92353217-15af-4524-9257-e98b2c28ebfa"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Resource_Actor",
+                                  "rawval": {
+                                    "asset": "asset/Actor/Redhead Man With Antlers/g2038_pet_02_3.actor",
+                                    "selector": "editor/Blockman-Crusher-Simulator/asset/Actor/Redhead Man With Antlers/g2038_pet_02_3.actor"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "fb61302e-2c80-48b4-b826-1b5e5869e48c"
+                        },
+                        "pos": {
+                          "x": 537,
+                          "y": 530
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "92353217-15af-4524-9257-e98b2c28ebfa"
+                        },
+                        "pos": {
+                          "x": 949,
+                          "y": 591
+                        },
+                        "type": "T_Layout"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "a9e3e793-b67b-46d0-a954-765e1dd3fa78"
+                      },
+                      "type": "Trigger_RadioButton_Selected"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "345efdd1-894f-4b73-91b5-e2129a1d32d7"
+                            },
+                            {
+                              "action": "bf87bcab-35dc-46a6-b8cf-0945326ea41b"
+                            },
+                            {
+                              "action": "fb61302e-2c80-48b4-b826-1b5e5869e48c"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "0329ba7f-008a-4174-aef2-e4a577df5d1d"
+                      },
+                      "pos": {
+                        "x": 84,
+                        "y": 209
+                      }
+                    },
+                    "type": "Trigger_RadioButton_Selected"
+                  }
+                ]
+              },
+              "unselectableImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              }
+            },
+            {
+              "__OBJ_TYPE": "RadioButton",
+              "check_box_tile": "Center",
+              "Font_size": 18,
+              "HorzLabelFormatting": "CentreAligned",
+              "id": {
+                "value": "17b55b9a-5b0e-40d3-a56b-0f16ccc531fc"
+              },
+              "ImageXSizeImcress": "1",
+              "name": "warlock",
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.13
+                },
+                "UDim_Y": {
+                  "Scale": 0.7
+                }
+              },
+              "selectableImage": {
+                "asset": "asset/Texture/GingersunUI/Button Active.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.18
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.12
+                }
+              },
+              "Text": "Ranger",
+              "text_key": {
+                "value": "asset/seleceHeroWnd_GingerSun.layout.RadioButton#008852ac-19d3-49ef-b52e-da6d77fe2316"
+              },
+              "TextBoldWeight": "1",
+              "TextXPos": "0",
+              "unselectableImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "id": {
+                    "value": "01e3d76e-fba7-4516-b787-49552a35f784"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/ui/img_展示台.png"
+                  },
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": -0.02
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.2
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "ActorWindow",
+                  "ActorName": {
+                    "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+                  },
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "0ca4755f-efb2-4b89-819e-566016312207"
+                  },
+                  "name": "actorWindow",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": -0.23
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1.6
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1.2
+                    }
+                  },
+                  "triggers": {
+                    "list": [
+                      {
+                        "actions": [
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "5a0d9209-7f9b-4ccf-a735-c8d819765500",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "d743f9e8-e260-44ea-a8e7-efdb57778793"
+                                  },
+                                  {
+                                    "action": "ac74114f-b891-4ed7-b624-74bd32adee64"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "b7dc1d77-e7da-4a77-b3ed-3615d16987e2"
+                            },
+                            "pos": {
+                              "x": 457.16888437495,
+                              "y": 160.33723189535
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "e99609dc-9fd8-420e-a1c9-4837e2198344",
+                                "proto_name": "WeaponWarrior",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "ac74114f-b891-4ed7-b624-74bd32adee64"
+                            },
+                            "pos": {
+                              "x": 671.66888437495,
+                              "y": 578.83723189535
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Warrior"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout",
+                                      "action": "b0dbe100-3914-4aa8-b7c9-4ba24b618f8e"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "5a0d9209-7f9b-4ccf-a735-c8d819765500"
+                            },
+                            "pos": {
+                              "x": 688.16888437495,
+                              "y": 174.33723189535
+                            },
+                            "type": "T_Bool"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_If",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Condition",
+                                "children": [
+                                  {
+                                    "action": "b7dc1d77-e7da-4a77-b3ed-3615d16987e2"
+                                  },
+                                  []
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "c85fa720-72f7-4858-b235-ceac1febd850"
+                            },
+                            "pos": {
+                              "x": 286.16888437495,
+                              "y": 208.33723189535
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetActorModel",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "f112e59c-0ca9-41c1-8d8e-c043cef265e4"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Actor",
+                                      "rawval": {
+                                        "asset": "asset/Actor/Redhead Man With Antlers/g2038_pet_02_3.actor",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/Actor/Redhead Man With Antlers/g2038_pet_02_3.actor"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "d743f9e8-e260-44ea-a8e7-efdb57778793"
+                            },
+                            "pos": {
+                              "x": 701.16888437495,
+                              "y": 333.33723189535
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetWindowByWidget",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "67aebcc6-25de-43aa-a740-407be2dde6ce"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "b0dbe100-3914-4aa8-b7c9-4ba24b618f8e"
+                            },
+                            "pos": {
+                              "x": 1056.8760465437,
+                              "y": 192.10523078293
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetCustomTriggerInstance",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "GetCustomTriggerInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "67aebcc6-25de-43aa-a740-407be2dde6ce"
+                            },
+                            "pos": {
+                              "x": 1441.3780853005,
+                              "y": 205.53347649454
+                            },
+                            "type": "T_Widget"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetCustomTriggerInstance",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "GetCustomTriggerInstance"
+                              }
+                            ],
+                            "id": {
+                              "value": "f112e59c-0ca9-41c1-8d8e-c043cef265e4"
+                            },
+                            "pos": {
+                              "x": 1178.530713952,
+                              "y": 377.12982846465
+                            },
+                            "type": "T_Widget"
+                          }
+                        ],
+                        "custom_trigger_data": {
+                          "name": {
+                            "value": "ClientCustomTrigger_1"
+                          },
+                          "register_id": "532a6010-884f-4781-8589-aa076709a0b8",
+                          "type": "Trigger_Custom_Client"
+                        },
+                        "custom_trigger_name": "ClientCustomTrigger_1",
+                        "root": {
+                          "components": [
+                            {
+                              "__OBJ_TYPE": "Component_Sequence",
+                              "children": [
+                                {
+                                  "action": "c85fa720-72f7-4858-b235-ceac1febd850"
+                                }
+                              ]
+                            }
+                          ],
+                          "id": {
+                            "value": "532a6010-884f-4781-8589-aa076709a0b8"
+                          },
+                          "pos": {
+                            "x": 43,
+                            "y": 165
+                          }
+                        },
+                        "type": "Trigger_Custom_Client"
+                      },
+                      {
+                        "actions": [
+                          {
+                            "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Proto_Params",
+                                "proto_id": "e99609dc-9fd8-420e-a1c9-4837e2198344",
+                                "proto_name": "WeaponWarrior",
+                                "proto_type": "server"
+                              }
+                            ],
+                            "id": {
+                              "value": "d46af1fc-4000-4fab-8997-14cc78eda646"
+                            },
+                            "pos": {
+                              "x": 705,
+                              "y": 582.25
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_SetActorModel",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Widget",
+                                      "action": "1d99b74f-c1dc-43e7-89f5-5ac9a646911e"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Resource_Actor",
+                                      "rawval": {
+                                        "asset": "asset/Actor/Redhead Man With Antlers/g2038_pet_02_3.actor",
+                                        "selector": "editor/Blockman-Crusher-Simulator/asset/Actor/Redhead Man With Antlers/g2038_pet_02_3.actor"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "f4f735ec-3823-4780-b064-46af9f242a72"
+                            },
+                            "pos": {
+                              "x": 734.5,
+                              "y": 336.75
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "924104a4-22db-4e49-9990-45589ab6a3fe",
+                                      "rawval": true
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  {
+                                    "action": "f4f735ec-3823-4780-b064-46af9f242a72"
+                                  },
+                                  {
+                                    "action": "d46af1fc-4000-4fab-8997-14cc78eda646"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "aecc8027-e780-4de3-87f3-1f5a5698404a"
+                            },
+                            "pos": {
+                              "x": 490.5,
+                              "y": 163.75
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_If",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Condition",
+                                "children": [
+                                  {
+                                    "action": "aecc8027-e780-4de3-87f3-1f5a5698404a"
+                                  },
+                                  []
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "600ebf84-add9-47d5-945c-cc1121da3977"
+                            },
+                            "pos": {
+                              "x": 319.5,
+                              "y": 211.75
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Warrior"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout",
+                                      "action": "ad4c8ecf-22ad-4024-be5c-df7637637449"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "924104a4-22db-4e49-9990-45589ab6a3fe"
+                            },
+                            "pos": {
+                              "x": 721.5,
+                              "y": 177.75
+                            },
+                            "type": "T_Bool"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetContextVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "instance"
+                              }
+                            ],
+                            "id": {
+                              "value": "ad4c8ecf-22ad-4024-be5c-df7637637449"
+                            },
+                            "pos": {
+                              "x": 1110,
+                              "y": 183
+                            },
+                            "type": "T_Var"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetContextVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Context",
+                                "key": "instance"
+                              }
+                            ],
+                            "id": {
+                              "value": "1d99b74f-c1dc-43e7-89f5-5ac9a646911e"
+                            },
+                            "pos": {
+                              "x": 1164,
+                              "y": 374
+                            },
+                            "type": "T_Var"
+                          }
+                        ],
+                        "custom_trigger_data": {
+                          "name": {
+                            "value": "a20ab37f-4a51-44ff-b907-73562e1cc94b"
+                          },
+                          "type": "Trigger_RegisterClientProto"
+                        },
+                        "func_name": "ChooseWarrior",
+                        "proto_uuid": "cd6ac37e-5255-465a-a9e9-c2fe856bda38",
+                        "root": {
+                          "components": [
+                            {
+                              "__OBJ_TYPE": "Component_Sequence",
+                              "children": [
+                                {
+                                  "action": "600ebf84-add9-47d5-945c-cc1121da3977"
+                                }
+                              ]
+                            }
+                          ],
+                          "id": {
+                            "value": "60006972-db0b-466d-9b8d-b83a5624f476"
+                          },
+                          "pos": {
+                            "x": 0,
+                            "y": 176
+                          }
+                        },
+                        "type": "Trigger_RegisterClientProto"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "id": {
+                "value": "b94231d3-9b2a-4d8f-8d33-070f2fe336fa"
+              },
+              "Image": {
+                "asset": "",
+                "selector": ""
+              },
+              "name": "heroBg",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.07
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.25
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.6
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Bottom"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "AutoTextScale": true,
+                  "Font_size": 20,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "560b56e9-c801-453a-a624-c313692f04c0"
+                  },
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.03
+                    },
+                    "UDim_Y": {
+                      "Scale": -0.08
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.7
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.8
+                    }
+                  },
+                  "Text": "CONFIRM",
+                  "text_key": {
+                    "value": "asset/seleceHeroWnd_GingerSun.layout.StaticText#83f2966c-1e55-41ef-8cf1-4a0641a1c1d6"
+                  },
+                  "TextBoldWeight": "1",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "99ecfdca-0681-4ba2-b8c3-2d0b794500ac"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/ui/icon_go.png"
+                  },
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.06
+                    },
+                    "UDim_Y": {
+                      "Scale": -0.08
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.6
+                    }
+                  },
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "HoverImage": {
+                "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+              },
+              "HoverStretch": {
+                "bottom_left": 17,
+                "bottom_right": 27,
+                "top_left": 17,
+                "top_right": 15
+              },
+              "id": {
+                "value": "ee1100c2-d81b-4838-b14c-60ceb3f034e6"
+              },
+              "name": "determind",
+              "NormalImage": {
+                "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+              },
+              "NormalStretch": {
+                "bottom_left": 17,
+                "bottom_right": 27,
+                "top_left": 17,
+                "top_right": 15
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.05
+                },
+                "UDim_Y": {
+                  "Scale": -0.06
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/ui/icon_blue_act.png"
+              },
+              "PushedStretch": {
+                "bottom_left": 17,
+                "bottom_right": 27,
+                "top_left": 17,
+                "top_right": 15
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.3
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.13
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/seleceHeroWnd_GingerSun.layout.Button#a15135e7-ff10-4685-83ad-f38c810ad3c5"
+              },
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_DestoryWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "f2fae333-cbfa-4de5-b346-908d166faeca"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "c7d3c2b5-8e87-432f-95e0-9d0e3df0201e"
+                        },
+                        "pos": {
+                          "x": 618,
+                          "y": 301
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "f2fae333-cbfa-4de5-b346-908d166faeca"
+                        },
+                        "pos": {
+                          "x": 977,
+                          "y": 277
+                        },
+                        "type": "T_Layout"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "9bd6b71a-be7a-44f0-ba98-3cc61ebc609e"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "c7d3c2b5-8e87-432f-95e0-9d0e3df0201e"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "b36000f0-9d34-47ed-baa6-6e31f3ead43e"
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  }
+                ]
+              }
+            }
+          ],
+          "id": {
+            "value": "912ac68a-b9b7-4aa5-86a8-eb93eafd88fc"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/Card X6.png"
+          },
+          "name": "planeBg",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.9
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.9
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "8d811baf-0034-458c-8d62-8110f3e08c4c"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "triggers": {
+        "list": [
+          {
+            "custom_trigger_data": {
+              "name": {
+                "value": "d863c5b5-71cb-4a53-8db0-078a49a80943"
+              },
+              "type": "Trigger_WidgetCreate"
+            },
+            "root": {
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    []
+                  ]
+                }
+              ],
+              "id": {
+                "value": "a56ebfeb-1b1f-4eb0-86ff-c9d2afbd1da5"
+              },
+              "pos": {
+                "x": 101,
+                "y": 158
+              }
+            },
+            "type": "Trigger_WidgetCreate"
+          }
+        ]
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "f3e0dadfb050e9fde20cbb01de1a9157",
+      "triggers.bts": "4624f83eeb9e27c166948ef633cbc3c7"
+    },
+    "VERSION": "0.23"
+  }
+}

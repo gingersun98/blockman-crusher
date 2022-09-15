@@ -1,0 +1,11 @@
+HAND_ITEM_CHANGED_HAND {
+	AddSkill(entity = $obj1, name = "myplugin/9681c16e-bf5f-4507-9890-88d63a721430")
+}
+
+HAND_ITEM_CHANGED_UNHAND {
+	RemoveSkill(entity = $obj1, name = "myplugin/9681c16e-bf5f-4507-9890-88d63a721430")
+}
+
+USE_ITEM {
+	ConsumeItem2(entity = $obj1, item = "myplugin/15a5078e-f6aa-45f1-aba7-6f7b4ecefce0", num = 1, reason = "")
+}

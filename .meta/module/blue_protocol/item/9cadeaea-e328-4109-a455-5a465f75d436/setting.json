@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "9cadeaea-e328-4109-a455-5a465f75d436"
+    },
+    "name": "ObjectivesBattle",
+    "register_object": "game/0/triggers/list/21",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

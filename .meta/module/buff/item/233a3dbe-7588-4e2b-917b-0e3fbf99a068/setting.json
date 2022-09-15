@@ -1,0 +1,23 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Yellow Spinning Light Pillar Effect/gfxy207_rotating aperture_01_yellow_3d.effect"
+      }
+    },
+    "damage": 20,
+    "damagePct": 10,
+    "deDmgPct": 1,
+    "moveSpeed": 2,
+    "name": {
+      "value": "buff_233a3dbe-7588-4e2b-917b-0e3fbf99a068"
+    },
+    "reachDistance": 4
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "151527c9d4ffff0d880ce5151dcd09e0"
+    },
+    "VERSION": "0.23"
+  }
+}

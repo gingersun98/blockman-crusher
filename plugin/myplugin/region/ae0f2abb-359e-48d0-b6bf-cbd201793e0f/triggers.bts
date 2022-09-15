@@ -1,0 +1,3 @@
+REGION_ENTER {
+	SendToClient(msg = "client_0b405762_4991_462b_9c15_97631f5d59d9", player = $obj1)
+}

@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "e99609dc-9fd8-420e-a1c9-4837e2198344"
+    },
+    "name": "WeaponWarrior",
+    "register_object": "game/0/triggers/list/1",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,6 @@
+PART_CLICKED {
+	If (@PlayerParticipate == 1) {
+		ExecScript(Clicker = $from, script_name = "ScriptableNode_13")
+		SendToClient(msg = "client_d35a57d2_efaf_426d_abcb_3acbb84e4fee", player = $from)
+	}
+}

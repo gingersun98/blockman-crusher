@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "151873ad-bea2-4052-879a-0a5a11729f7d"
+    },
+    "name": "PrizeLight",
+    "register_object": "game/0/triggers/list/14",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

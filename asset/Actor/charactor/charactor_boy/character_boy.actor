@@ -1,0 +1,1622 @@
+<ActorTemplates>
+	<ActorTemplate Originalscale="1 1 1" WoundAngle="25" SoundName4="" SoundName5="" name="111.actor" SoundName2="" Skeleton="boy_01.skel" IsShowShadow="true" WoundBone="" IntervalTime="2" TextHeight="0" SoundName1="" MaxDistance="16" Volume="0.8" Alpha="1" SoundName3="" MinDistance="1" AttackScale="1" SelectedRingSize="1" SoundFileNum="0">
+		<Skills>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="aim1">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack02_a.anim" Length="0.166" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="aim2">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack02_b.anim" Length="0.5" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="aim3">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack02_c.anim" Length="0.433" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="hi">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_wave.anim" Length="2.833" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="app_selectable_action_10">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/yes.anim" Length="2.366" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="app_selectable_action_2">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_scratch.anim" Length="2.566" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="app_selectable_action_27">
+				<Effect>
+					<Position_Y value="0"/>
+					<SocketName value="s_hand_l"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="0.65"/>
+					<pitch value="0"/>
+					<Times value="-1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/99_money.effect"/>
+					<roll value="90"/>
+					<Position_Z value="0"/>
+					<type_name value="99_money"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/makeitrain.anim" Length="4.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="app_selectable_action_3">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/415_cry.anim" Length="1.866" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="Blasting_gas">
+				<Effect>
+					<Position_Y value="0"/>
+					<SocketName value="s_back"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0.87304347826087"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="0.6"/>
+					<Position_X value="-1.5"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/warrior/123_longzhu1.effect"/>
+					<roll value="-90"/>
+					<Position_Z value="0"/>
+					<type_name value="123_longzhu1"/>
+				</Effect>
+				<Effect>
+					<Position_Y value="0"/>
+					<SocketName value="s_head"/>
+					<TimeScale value="0.5"/>
+					<BeginTime value="0.87478260869565"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="-1.5"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/warrior/123_longzhu2.effect"/>
+					<roll value="-90"/>
+					<Position_Z value="0"/>
+					<type_name value="123_longzhu2"/>
+				</Effect>
+				<Animation TimeScale="2.5" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/longzhu_baofa.anim" Length="3.533" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="Shield_royal">
+				<Animation TimeScale="2" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/dance_in_the_snow.anim" Length="2.533" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="app_selectable_action_38">
+				<Effect>
+					<Position_Y value="0"/>
+					<SocketName value="s_hand_l"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0.04"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0.5"/>
+					<scale value="0.5"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/mofanan.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="mofanan"/>
+				</Effect>
+				<Effect>
+					<Position_Y value="0"/>
+					<SocketName value="s_hand_l"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0.1"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/7_weapon.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="7_weapon"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/mofanan.anim" Length="4.166" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="app_selectable_action_4">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/422_laugh.anim" Length="4.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="app_selectable_action_44">
+				<Effect>
+					<Position_Y value="1"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0.04"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="0.5"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/139_screen2.effect"/>
+					<roll value="0"/>
+					<Position_Z value="1"/>
+					<type_name value="139_screen2"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/pengsaiboge.anim" Length="5.733" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="app_selectable_action_5">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/424_flex.anim" Length="4.2" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="app_selectable_action_6">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/430_thumbs_up.anim" Length="3.7" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="app_selectable_action_7">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/lookdown.anim" Length="1.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="app_selectable_action_8">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/no.anim" Length="2.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="app_selectable_action_9">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/rage.anim" Length="0.833" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="attack">
+				<Effect>
+					<Position_Y value="0.513839"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0.08"/>
+					<FollowActor value="true"/>
+					<yaw value="-92.974"/>
+					<Alpha value="1"/>
+					<Position_X value="-0.256912"/>
+					<scale value="2"/>
+					<pitch value="13.0166"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/attack_bubing01.effect"/>
+					<roll value="26.2029"/>
+					<Position_Z value="0.821657"/>
+					<type_name value="attack_bubing01"/>
+				</Effect>
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack01.anim" Length="0.833" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="attack2">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack03.anim" Length="0.333" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="attack3">
+				<Effect>
+					<Position_Y value="-0.0522673"/>
+					<SocketName value="s_hand_r"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0.02"/>
+					<FollowActor value="true"/>
+					<yaw value="-92.974"/>
+					<Alpha value="0"/>
+					<Position_X value="-0.0224816"/>
+					<scale value="0.5"/>
+					<pitch value="13.0166"/>
+					<Times value="1"/>
+					<CycleTime value="1"/>
+					<FileName value="chuansongmen_luoji.effect"/>
+					<roll value="26.2029"/>
+					<Position_Z value="0.516825"/>
+					<type_name value="chuansongmen_luoji"/>
+				</Effect>
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack01.anim" Length="0.833" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="attack4">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack01.anim" Length="0.833" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="attack5">
+				<Effect>
+					<Position_Y value="-0.256872"/>
+					<SocketName value="s_back"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0.08"/>
+					<FollowActor value="true"/>
+					<yaw value="90"/>
+					<Alpha value="1"/>
+					<Position_X value="-0.256912"/>
+					<scale value="2"/>
+					<pitch value="120"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="bingshuangwuyao_fazhen_sqbs2.effect"/>
+					<roll value="90"/>
+					<Position_Z value="0.821657"/>
+					<type_name value="bingshuangwuyao_fazhen_sqbs2"/>
+				</Effect>
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack01.anim" Length="0.833" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="attack6">
+				<Effect>
+					<Position_Y value="-0.19027"/>
+					<SocketName value="s_back"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0.08"/>
+					<FollowActor value="true"/>
+					<yaw value="-92.974"/>
+					<Alpha value="1"/>
+					<Position_X value="-0.256912"/>
+					<scale value="1"/>
+					<pitch value="13.0166"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="shengmingheiyaoshixiangS_sd.effect"/>
+					<roll value="26.2029"/>
+					<Position_Z value="0.821657"/>
+					<type_name value="shengmingheiyaoshixiangS_sd"/>
+				</Effect>
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack01.anim" Length="0.833" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="attack7">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack03.anim" Length="0.333" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="block1">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_block01_a.anim" Length="0.566" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="block2">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_block01_b.anim" Length="1.1" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="block3">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_block01_c.anim" Length="0.566" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="christmas_idle">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/christmas_idle_boy.anim" Length="10.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="climb_static">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/climb03.anim" Length="1.033" FadeTime="0.05" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="comboAttack1">
+				<Effect>
+					<Position_Y value="0.2"/>
+					<SocketName value="b_head"/>
+					<TimeScale value="0.5"/>
+					<BeginTime value="0.3"/>
+					<FollowActor value="true"/>
+					<yaw value="-90"/>
+					<Alpha value="1"/>
+					<Position_X value="0.2"/>
+					<scale value="2"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="Track_rolling_effect.effect"/>
+					<roll value="-20"/>
+					<Position_Z value="-1.2"/>
+					<type_name value="Track_rolling_effect"/>
+				</Effect>
+				<Animation TimeScale="1.5" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/g2007_player_attack_01.anim" Length="1.5" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="comboAttack2">
+				<Effect>
+					<Position_Y value="0"/>
+					<SocketName value="b_head"/>
+					<TimeScale value="0.5"/>
+					<BeginTime value="0.96"/>
+					<FollowActor value="true"/>
+					<yaw value="180"/>
+					<Alpha value="1"/>
+					<Position_X value="2"/>
+					<scale value="2"/>
+					<pitch value="90"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="Track_rolling_effect.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="Track_rolling_effect"/>
+				</Effect>
+				<Animation TimeScale="1.3" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/g2007_player_attack_03.anim" Length="2.366" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="comboAttack3">
+				<Effect>
+					<Position_Y value="0"/>
+					<SocketName value="b_head"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/zhansha_zi_1.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="zhansha_zi_1"/>
+				</Effect>
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/g2007_player_attack_04.anim" Length="1.333" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="dig">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack03.anim" Length="0.333" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="drink">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_eat02.anim" Length="1.1" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="drink_end">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_eat03.anim" Length="1.1" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="eat">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_eat01.anim" Length="1.1" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="eat_end">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_eat03.anim" Length="1.1" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="fly">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_fly02.anim" Length="1.1" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="fly03">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_fly03.anim" Length="1.3" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="fly_idle">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_fly01.anim" Length="1.1" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="hammer">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack09.anim" Length="0.433" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="hammer_idle">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_stand10.anim" Length="1.1" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="hello">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_standby01.anim" Length="1.1" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="idle">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_stand05.anim" Length="2.033" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="idle_1">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/christmas_wave_boy.anim" Length="6.7" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="idle_2">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/christmas_scratchhead_boy.anim" Length="6.7" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="idle_3">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/balloon_idle.anim" Length="2.3" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="jump1">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_a.anim" Length="0.233" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="jump2">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_b.anim" Length="0.433" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="jump3">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_c.anim" Length="0.5" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="jump_attack">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack05.anim" Length="0.366" FadeTime="0.05" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="p90">
+				<Animation TimeScale="2" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack07.anim" Length="0.433" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="pistol_idle">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_stand06.anim" Length="1.1" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="pistol_reload">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_atstand01.anim" Length="0.7" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="pistol_shoot">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack06.anim" Length="0.433" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="praise">
+				<Effect>
+					<Position_Y value="1.4"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="0.4"/>
+					<BeginTime value="1.52"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="0.5"/>
+					<pitch value="60"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="115_redflower.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0.6"/>
+					<type_name value="115_redflower"/>
+				</Effect>
+				<Animation TimeScale="1.23" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/430_thumbs_up.anim" Length="3.7" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="praise1">
+				<Effect>
+					<Position_Y value="1.4"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="0.4"/>
+					<BeginTime value="1.52"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="0.6"/>
+					<pitch value="60"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="115_blueflower.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0.6"/>
+					<type_name value="115_blueflower"/>
+				</Effect>
+				<Animation TimeScale="1.23" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/430_thumbs_up.anim" Length="3.7" FadeTime="1048580.0" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="qiuqian">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_qiuqian.anim" Length="2.1" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="riding">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/qima.anim" Length="1.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="run">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_walk01.anim" Length="0.633" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="run_attack">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack04.anim" Length="0.366" FadeTime="0.05" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_1">
+				<Effect>
+					<Position_Y value="2.2"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="1.5"/>
+					<pitch value="0"/>
+					<Times value="2"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/custom_head_effect_10.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="custom_head_effect_10"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_wave.anim" Length="2.833" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_10">
+				<Effect>
+					<Position_Y value="2.2"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="1.5"/>
+					<pitch value="0"/>
+					<Times value="2"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/custom_head_effect_9.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="custom_head_effect_9"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/yes.anim" Length="2.366" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_11">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/dance_300.anim" Length="9.6" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_12">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/dance_372.anim" Length="0.866" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_13">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/395_boneless.anim" Length="1.3" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_14">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/397_dance.anim" Length="5.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_15">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/401_reanimation.anim" Length="5.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_16">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/403_snoop.anim" Length="2.633" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_17">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/dance_480.anim" Length="6.7" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_18">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/dance_481.anim" Length="8.166" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_19">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/dance_487.anim" Length="13.433" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_2">
+				<Effect>
+					<Position_Y value="2.2"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<Times value="2"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/custom_head_effect_11.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="custom_head_effect_11"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_scratch.anim" Length="2.566" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_20">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/dance_504.anim" Length="3.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_21">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/dance_506.anim" Length="0.566" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_22">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/dance_507.anim" Length="5.666" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_23">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/620_idontknow.anim" Length="4.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_24">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/621_ok.anim" Length="5.366" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_25">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/623_warmup.anim" Length="5.366" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_26">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/627_ladybow.anim" Length="2.533" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_27">
+				<Effect>
+					<Position_Y value="0"/>
+					<SocketName value="s_hand_l"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="0.65"/>
+					<pitch value="0"/>
+					<Times value="-1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/99_money.effect"/>
+					<roll value="90"/>
+					<Position_Z value="0"/>
+					<type_name value="99_money"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/makeitrain.anim" Length="4.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_28">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_bear_idle.anim" Length="4" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_3">
+				<Effect>
+					<Position_Y value="2.2"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="1.5"/>
+					<pitch value="0"/>
+					<Times value="2"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/custom_head_effect_2.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="custom_head_effect_2"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/415_cry.anim" Length="1.866" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_30">
+				<Effect>
+					<Position_Y value="0"/>
+					<SocketName value="s_back"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0.06"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="0.6"/>
+					<Position_X value="-1.5"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/123_longzhu1.effect"/>
+					<roll value="-90"/>
+					<Position_Z value="0"/>
+					<type_name value="123_longzhu1"/>
+				</Effect>
+				<Effect>
+					<Position_Y value="0"/>
+					<SocketName value="s_head"/>
+					<TimeScale value="0.5"/>
+					<BeginTime value="0.04"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="-1.5"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/123_longzhu2.effect"/>
+					<roll value="-90"/>
+					<Position_Z value="0"/>
+					<type_name value="123_longzhu2"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/longzhu_baofa.anim" Length="3.533" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_32">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/renzhe_boy.anim" Length="2.8" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_34">
+				<Effect>
+					<Position_Y value="0"/>
+					<SocketName value="s_head"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0.08"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<Times value="-1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/127_shop_snow.effect"/>
+					<roll value="90"/>
+					<Position_Z value="0"/>
+					<type_name value="127_shop_snow"/>
+				</Effect>
+				<Effect>
+					<Position_Y value="0"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0.04"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="0.75"/>
+					<Position_X value="0"/>
+					<scale value="0.7"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/snow01.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="snow01"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/dance_in_the_snow.anim" Length="2.533" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_36">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/robot_boytest.anim" Length="21.533" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_38">
+				<Effect>
+					<Position_Y value="0"/>
+					<SocketName value="s_hand_l"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0.04"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0.5"/>
+					<scale value="0.5"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/mofanan.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="mofanan"/>
+				</Effect>
+				<Effect>
+					<Position_Y value="0"/>
+					<SocketName value="s_hand_l"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0.1"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="1"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/7_weapon.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="7_weapon"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/mofanan.anim" Length="4.166" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_4">
+				<Effect>
+					<Position_Y value="2.2"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="1.5"/>
+					<pitch value="0"/>
+					<Times value="2"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/custom_head_effect_1.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="custom_head_effect_1"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/422_laugh.anim" Length="4.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_40">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/renzhe_girl.anim" Length="7.866" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_42">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/shunv.anim" Length="6.233" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_44">
+				<Effect>
+					<Position_Y value="1"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0.04"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="0.5"/>
+					<pitch value="0"/>
+					<Times value="1"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/139_screen2.effect"/>
+					<roll value="0"/>
+					<Position_Z value="1"/>
+					<type_name value="139_screen2"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/pengsaiboge.anim" Length="5.733" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_5">
+				<Effect>
+					<Position_Y value="2.2"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="1.5"/>
+					<pitch value="0"/>
+					<Times value="2"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/custom_head_effect_6.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="custom_head_effect_6"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/424_flex.anim" Length="4.2" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_6">
+				<Effect>
+					<Position_Y value="2.2"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="1.5"/>
+					<pitch value="0"/>
+					<Times value="2"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/custom_head_effect_7.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="custom_head_effect_7"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/430_thumbs_up.anim" Length="3.7" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_7">
+				<Effect>
+					<Position_Y value="2.2"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="1.5"/>
+					<pitch value="0"/>
+					<Times value="2"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/custom_head_effect_4.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="custom_head_effect_4"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/lookdown.anim" Length="1.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_8">
+				<Effect>
+					<Position_Y value="2.2"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="1.5"/>
+					<pitch value="0"/>
+					<Times value="2"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/custom_head_effect_8.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="custom_head_effect_8"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/no.anim" Length="2.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="selectable_action_9">
+				<Effect>
+					<Position_Y value="2.2"/>
+					<SocketName value="BuSuiFu"/>
+					<TimeScale value="1"/>
+					<BeginTime value="0"/>
+					<FollowActor value="true"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_X value="0"/>
+					<scale value="1.5"/>
+					<pitch value="0"/>
+					<Times value="2"/>
+					<CycleTime value="-1"/>
+					<FileName value="asset/Effect/Roles/custom_head_effect_3.effect"/>
+					<roll value="0"/>
+					<Position_Z value="0"/>
+					<type_name value="custom_head_effect_3"/>
+				</Effect>
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/rage.anim" Length="0.833" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="shovel">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack08.anim" Length="0.5" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="shovel_idle">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_stand09.anim" Length="1.1" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="sit1">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/sit_1.anim" Length="5.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="sit2">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/sit_2.anim" Length="4.366" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="sit3">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_qiaoqiaoban.anim" Length="1.033" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="sleep1">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/sleep.anim" Length="1.566" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="smg_idle">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_stand07.anim" Length="1.1" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="smg_jump">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/smg_jump.anim" Length="0.433" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="smg_jump_3">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/smg_jump_3.anim" Length="0.5" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="smg_reload">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_atstand02.anim" Length="0.7" FadeTime="0.05" Channel="upper" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="smg_reload1">
+				<Animation TimeScale="0.7" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_atstand02.anim" Length="0.7" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="smg_reload2">
+				<Animation TimeScale="0.35" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_atstand02.anim" Length="0.7" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="smg_reload3">
+				<Animation TimeScale="0.233" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_atstand02.anim" Length="0.7" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="smg_reload5">
+				<Animation TimeScale="0.14" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_atstand02.anim" Length="0.7" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="smg_run">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/smg_run.anim" Length="0.433" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="smg_shoot">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/boy_attack07.anim" Length="0.433" FadeTime="0.05" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="smg_sneak">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/smg_sneak.anim" Length="1.1" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="smg_sneak_1">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/smg_sneak_1.anim" Length="1.1" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="smg_walk">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/smg_walk.anim" Length="0.7" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="sneak">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_stand04.anim" Length="1.1" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="sprint">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_walk03.anim" Length="0.433" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="swim">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_swim02.anim" Length="1.1" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="swim_idle">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_swim01.anim" Length="1.1" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="walk">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_walk02.anim" Length="1.1" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="walk04">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_walk04.anim" Length="0.7" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="walk05">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_walk05.anim" Length="0.7" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="walk06">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_walk06.anim" Length="0.433" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="walk07">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/boy_walk07.anim" Length="0.433" FadeTime="0.05" Channel="lower" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="back_run">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/back_run.anim" Length="0.633" FadeTime="0.05" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="climb_down">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/climb_down.anim" Length="1.6" FadeTime="0.05" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="climb_left">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/climb_left.anim" Length="0.666" FadeTime="0.05" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="climb_right">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/climb_right.anim" Length="0.666" FadeTime="0.05" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="die_back">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/die_back.anim" Length="0.833" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="die_front">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/die_front.anim" Length="0.733" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="hurt2">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/hurt.anim" Length="0.533" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="hurt">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/hurt2.anim" Length="0.533" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="swim_up">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/swim_up.anim" Length="0.833" FadeTime="0.05" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="throw_1">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/throw_1.anim" Length="0.633" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="throw_2">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/throw_2.anim" Length="1.266" FadeTime="0.05" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="throw_3">
+				<Animation TimeScale="1" Times="1" Name="asset/Actor/charactor/charactor_boy/anim/throw_3.anim" Length="0.733" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="climb_up">
+				<Animation TimeScale="1" Times="-1" Name="asset/Actor/charactor/charactor_boy/anim/climb_up.anim" Length="1.6" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" EnableWound="false" Name="blow">
+				<Animation TimeScale="2" Times="1" Name="asset/Actor/g2007_player_attack_03.anim" Length="2.366" FadeTime="0.25" Channel="" BeginTime="0"/>
+			</Skill>
+		</Skills>
+		<Anims>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/395_boneless.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_qiuqian.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/climb_right.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_walk01.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/smg_sneak.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_stand10.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_atstand01.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/623_warmup.anim"/>
+			<Anim Name="asset/Actor/g2007_player_attack_03.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/climb_up.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/sleep.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_fly03.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/qima.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/throw_3.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/throw_2.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/397_dance.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/throw_1.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_attack09.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/swim_up.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/hurt2.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/g2007_player_attack_01.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/die_front.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_stand05.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/die_back.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/climb_left.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/climb_down.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/back_run.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_walk07.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_walk06.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_walk05.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/sit_1.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/401_reanimation.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/makeitrain.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/422_laugh.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_walk04.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_walk02.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_swim01.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_swim02.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/christmas_scratchhead_boy.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_walk03.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_scratch.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/627_ladybow.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_stand04.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/424_flex.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_qiaoqiaoban.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/smg_walk.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/smg_sneak_1.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_attack02_b.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_bear_idle.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_b.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/430_thumbs_up.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_atstand02.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/renzhe_girl.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_block01_b.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/renzhe_boy.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_a.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/403_snoop.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_stand07.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/pengsaiboge.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/415_cry.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/sit_2.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_block01_c.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_stand09.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_attack08.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/dance_372.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/robot_boytest.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/smg_jump.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/dance_504.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/dance_480.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_wave.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/dance_507.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_attack02_a.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/christmas_idle_boy.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/christmas_wave_boy.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/dance_506.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/621_ok.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/dance_487.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/dance_in_the_snow.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/dance_481.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/g2007_player_attack_04.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/longzhu_baofa.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_attack01.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/smg_jump_3.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/shunv.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/dance_300.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_attack04.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/climb03.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/balloon_idle.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/lookdown.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_jump01_c.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_attack06.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_stand06.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/no.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_attack07.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_eat03.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_attack05.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_fly02.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/smg_run.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/hurt.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_attack03.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_standby01.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_fly01.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/rage.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/620_idontknow.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_eat02.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/mofanan.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/yes.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_eat01.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/g2007_player_attack_03.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_block01_a.anim"/>
+			<Anim Name="asset/Actor/charactor/charactor_boy/anim/boy_attack02_c.anim"/>
+		</Anims>
+		<BodyParts>
+			<BodyPart SlaveName="armor_chest_blue" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="clothes">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_trunk_blue" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_trunk_blue.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+			</BodyPart>
+			<BodyPart SlaveName="armor_chest_green" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="clothes">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_trunk_green" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_trunk_green.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+			</BodyPart>
+			<BodyPart SlaveName="armor_chest_red" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="clothes">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_trunk_red" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_trunk_red.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+			</BodyPart>
+			<BodyPart SlaveName="armor_chest_yellow" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="clothes">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_trunk_yellow" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_trunk_yellow.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+			</BodyPart>
+			<BodyPart SlaveName="armor_foot_blue" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="shoes">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_shoe_l_blue" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_shoe_l_blue.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_shoe_r_blue" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_shoe_r_blue.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+			</BodyPart>
+			<BodyPart SlaveName="armor_foot_green" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="shoes">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_shoe_l_green" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_shoe_l_green.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_shoe_r_green" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_shoe_r_green.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+			</BodyPart>
+			<BodyPart SlaveName="armor_foot_red" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="shoes">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_shoe_l_red" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_shoe_l_red.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_shoe_r_red" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_shoe_r_red.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+			</BodyPart>
+			<BodyPart SlaveName="armor_foot_yellow" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="shoes">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_shoe_l_yellow" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_shoe_l_yellow.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_shoe_r_yellow" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_shoe_r_yellow.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+			</BodyPart>
+			<BodyPart SlaveName="armor_head_blue" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="hair">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="bed_armor_helmet_blue">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/Mesh/Actor_mesh/bed_armor_helmet_blue.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_head"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="armor_head_green" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="hair">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="bed_armor_helmet_green">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/Mesh/Actor_mesh/bed_armor_helmet_green.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_head"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="armor_head_red" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="hair">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="bed_armor_helmet_red">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/Mesh/Actor_mesh/bed_armor_helmet_red.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_head"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="armor_head_yellow" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="hair">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="bed_armor_helmet_yellow">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/Mesh/Actor_mesh/bed_armor_helmet_yellow.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_head"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="armor_thigh_blue" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="pants">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_trousers_blue" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_trousers_blue.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+			</BodyPart>
+			<BodyPart SlaveName="armor_thigh_green" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="pants">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_trousers_green" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_trousers_green.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+			</BodyPart>
+			<BodyPart SlaveName="armor_thigh_red" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="pants">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_trousers_red" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_trousers_red.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+			</BodyPart>
+			<BodyPart SlaveName="armor_thigh_yellow" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="pants">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="bed_armor_trousers_yellow" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/bed_armor_trousers_yellow.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+			</BodyPart>
+			<BodyPart SlaveName="default_pants" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="pants">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="01_trousers_boy" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/01_trousers_boy.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+			</BodyPart>
+			<BodyPart SlaveName="default_clothes" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="clothes">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1.0 1.0 1.0 1.0" type_name="01_trunk_boy" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/01_trunk_boy.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+			</BodyPart>
+			<BodyPart SlaveName="default_face" DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="face">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="01_face_boy">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/Mesh/Actor_mesh/01_face_boy.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_head"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="default_hair" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="hair">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="02_hair_boy">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/Mesh/Actor_mesh/02_hair_boy.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_head"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="default_shoes" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="shoes">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="01_shoes_l_widget">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/Mesh/Actor_mesh/01_shoes_l_widget.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_foot_l"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="01_shoes_r_widget">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/Mesh/Actor_mesh/01_shoes_r_widget.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_foot_r"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="def" DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="def">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1 1 1 1" type_name="01_trousers_boy" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/01_trousers_boy.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1 1 1 1" type_name="01_trunk_boy" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/Actor/charactor/charactor_boy/skin/01_trunk_boy.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="02_hair_boy">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/Mesh/body/02_hair_boy.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_head"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="01_shoes_l_widget">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/Mesh/Actor_mesh/01_shoes_l_widget.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_foot_l"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="01_shoes_r_widget">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/Mesh/Actor_mesh/01_shoes_r_widget.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_foot_r"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="group22" DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="mutex_name_22"/>
+			<BodyPart SlaveName="group23" DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="mutex_name_23"/>
+			<BodyPart SlaveName="group24" DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="mutex_name_24"/>
+			<BodyPart SlaveName="group25" DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="mutex_name_25"/>
+			<BodyPart SlaveName="group26" DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="mutex_name_26"/>
+			<BodyPart SlaveName="group27" DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="mutex_name_27"/>
+			<BodyPart SlaveName="group28" DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="mutex_name_28"/>
+			<BodyPart SlaveName="group29" DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="mutex_name_29"/>
+			<BodyPart SlaveName="warlock" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="def">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1 1 1 1" type_name="3002_shoes_l_widget" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/auxiliary/boy/3002_shoes_l_widget.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1 1 1 1" type_name="3002_shoes_r_widget" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/auxiliary/boy/3002_shoes_r_widget.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1 1 1 1" type_name="3002_trousers_widget" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/auxiliary/boy/3002_trousers_widget.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1 1 1 1" type_name="3002_trunk_widget" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/auxiliary/boy/3002_trunk_widget.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="3002_hair_widget">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/auxiliary/boy/3002_hair_widget.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_head"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="warrior" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="def">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1 1 1 1" type_name="22_shoes_l_widget" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/warrior/boy/22_shoes_l_widget.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1 1 1 1" type_name="22_shoes_r_widget" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/warrior/boy/22_shoes_r_widget.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1 1 1 1" type_name="3003_trousers_widget" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/warrior/boy/3003_trousers_widget.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1 1 1 1" type_name="3003_trunk_widget" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/warrior/boy/3003_trunk_widget.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="13_hair_boy">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/warrior/boy/13_hair_boy.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_head"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="master" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="def">
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1 1 1 1" type_name="13_shoes_l_widget" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/master/boy/13_shoes_l_widget.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1 1 1 1" type_name="13_shoes_r_widget" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/master/boy/13_shoes_r_widget.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1 1 1 1" type_name="71_trunk_boy" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/master/boy/71_trunk_boy.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<Skin EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" OverlayColor="1 1 1 1" type_name="74_trousers_boy" UseEdge="false" SpecularCoef="0.15" UseBloom="false" UseOriginalcolor="false" UseTransparentNearestSlice="false" MeshName="asset/master/boy/74_trousers_boy.skin" LocalAlpha="1" UseOverlayColorReplaceMode="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" UVSpeed="0 0" LocalBrightnessScale="1.0"/>
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="42_hair_boy">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/master/boy/42_hair_boy.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_head"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="custom_hand_12" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="custom_hand">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="Eternal Axe">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/auxiliary/Eternal Axe.mesh"/>
+					<Position_Z value="0.075240537524223"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_hand_r"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="custom_hand_11" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="custom_hand">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="Frozen Codex">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/master/Frozen Codex.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_hand_r"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="custom_hand_1" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" MasterName="custom_hand">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="hunter_dao">
+					<Position_Y value="0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<FileName value="asset/warrior/hunter_dao.mesh"/>
+					<Position_Z value="0"/>
+					<Position_X value="0"/>
+					<UseEdge value="false"/>
+					<SocketName value="s_hand_r"/>
+					<pitch value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<scale value="1"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseReflect value="false"/>
+					<SpecularCoef value="0.15"/>
+					<yaw value="0"/>
+					<roll value="0"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

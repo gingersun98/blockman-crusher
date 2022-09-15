@@ -1,0 +1,163 @@
+{
+  "data": {
+    "castAction": "greatsword",
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 60
+    },
+    "consumeVp": 15,
+    "enableCdMask": true,
+    "enableCdTip": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "50bb180a-2048-495e-94a9-3857ddfb6909"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 30,
+        "hurtDistance": 0
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
+      },
+      "icon_pushed": {
+        "asset": "asset/Texture/Skill/common/icon_近战攻击_nor.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClick": true
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "fcb510ed-2c08-49b1-90ea-5b07faf149fb"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 30
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "64d1a014-9ae4-42b0-9e4b-9ac5bb6bcd6c"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "44f9df95-a5a6-45d6-8733-d9e79c1c9029"
+              },
+              "pos": {
+                "x": 626,
+                "y": 268
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "64d1a014-9ae4-42b0-9e4b-9ac5bb6bcd6c"
+              },
+              "pos": {
+                "x": 994,
+                "y": 472
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "fcb510ed-2c08-49b1-90ea-5b07faf149fb"
+              },
+              "pos": {
+                "x": 1012,
+                "y": 119
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObject",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d90b3953-31af-4723-85c7-88605beb6a24"
+              },
+              "pos": {
+                "x": 1038,
+                "y": 348
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "7f422ff1-5fab-4412-90e8-394d266561ad"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  [],
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "2e4b01bf-4d0d-4769-a564-8b2b2ca1f037"
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e17840dc575173e264c7ee1e5d29d40b",
+      "triggers.bts": "5a566fc7c963bf1119b53b2fee3dc77b"
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "data": {
+    "castAction": "attack",
+    "consumeVp": 5,
+    "frontSight": "myplugin/frontsight1",
+    "name": {
+      "value": "skill_2dedc55d-2d6f-4e2d-ab9f-2c2be108caa2"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "bodyPitchOffset": -90,
+            "missileCfg": "myplugin/b5d4d4ac-0039-4953-9f15-939d78995c60"
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_开枪_act.png"
+      },
+      "icon_pushed": {
+        "asset": "asset/Texture/Skill/common/icon_开枪_nor.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "72ff2dc4bc3b144c07b5dbd05e8c4bbe",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

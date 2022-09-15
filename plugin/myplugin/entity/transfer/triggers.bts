@@ -1,0 +1,8 @@
+ENTITY_TOUCH_ALL {
+		If (@PlayerParticipate >= 2) {
+		SendToClient(msg = "client_6c694b3b_4a84_411b_bec6_e08c4462c2e3", player = $obj2)
+	} ElseIf (@PlayerParticipate < 2) {
+		ShowSystemChat(entity = $obj2, key = "0d0c6e5e-a214-48d8-9275-ce238970b3f3")
+	}
+	$obj2.Dead = false
+}

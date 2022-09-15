@@ -1,0 +1,6 @@
+SKILL_CAST {
+	StartTimer2(interval = 60, object = $obj1, time = 1000, timer = "RegenHunger") {
+		AddEntityVp(entity = $obj1, step = 30)
+	}
+	ConsumeItem2(entity = $obj1, item = "myplugin/2615e7dd-633f-4acd-a274-6db85e524cab", num = 1, reason = "")
+}

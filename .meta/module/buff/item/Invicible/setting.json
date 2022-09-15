@@ -1,0 +1,25 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Blue Electric Wave Effect/gfxy207_spray rotating aperture_blue.effect"
+      },
+      "once": false,
+      "pos": {
+        "y": -0.5
+      }
+    },
+    "moveAcc": 1.5,
+    "moveFactor": 1.5,
+    "moveSpeed": 1.5,
+    "name": {
+      "value": "buff_Invicible"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e1c8eea3b84062a7e79f8ff96a708220"
+    },
+    "VERSION": "0.23"
+  }
+}

@@ -1,0 +1,295 @@
+server_e99609dc_9fd8_420e_a1c9_4837e2198344 {
+	AddItem(cfg = "myplugin/epee", count = 1, entity = $player, reason = "")
+}
+
+GAME_GO {
+	StartTimer2(interval = 100, time = 999, timer = "") {
+		SpawnItemToWorld(
+			count = 1,
+			fullName = "myplugin/copper_coin",
+			map = GetStaticMap(create = true, name = "MapVillage"),
+			pos = GetRandomPosInArea(
+			region = {
+				map = "",
+				max = {
+					__OBJ_TYPE = "Vector3i",
+					x = 10,
+					y = 3,
+					z = -6
+				},
+				min = {
+					__OBJ_TYPE = "Vector3i",
+					x = 6,
+					y = 2,
+					z = -10
+				}
+			}
+		),
+			time = 19980
+		)
+	}
+	StartTimer2(interval = 400, time = 999, timer = "") {
+		SpawnItemToWorld(
+			count = 1,
+			fullName = "myplugin/copper_coin",
+			map = GetStaticMap(create = true, name = "MapVillage"),
+			pos = GetRandomPosInArea(
+			region = {
+				map = "",
+				max = {
+					__OBJ_TYPE = "Vector3i",
+					x = 10,
+					y = 3,
+					z = -6
+				},
+				min = {
+					__OBJ_TYPE = "Vector3i",
+					x = 6,
+					y = 2,
+					z = -10
+				}
+			}
+		),
+			time = 19980
+		)
+	}
+	SendToClient(msg = "client_9b45935c_a4d0_4445_9d8f_7a16cb9d193a", player = $obj1)
+	StartTimer2(interval = 200, time = 999, timer = "") {
+		ShowTip(entity = $obj1, keepTime = 60, textKey = "f0ec6888-ba98-4efb-8558-fd19e802ff04", tipType = "1")
+		If (@PlayerParticipate == 1) {
+			SetEntityPosition(
+				entity = $obj1,
+				map = "MapArena",
+				pos = {
+					x = -29.774475097656,
+					y = 18.696274795532,
+					z = 30.863918304443
+				},
+				rp = 0,
+				ry = 0
+			)
+			CreateNpc(cfgName = "myplugin/transfer2", enableAI = false, level = 0, name = "WINNER", pos = { x = 0, y = 0, z = 0 })
+			ShowTip(entity = $obj1, keepTime = 60, textKey = "83c3e827-57f9-472e-8da1-01e4295e144d", tipType = "1")
+		}
+	}
+}
+
+server_9bc0c50f_859d_4770_9fbb_68ae650cd3c2 {
+	If (@PlayerParticipate == 1) {
+		EnterMap(entity = $player, map = "MapArena", pos = { x = -25.261, y = 6.245, z = -20.386 }, rp = 0, ry = 0)
+		SetEntityRebirthPosition(
+			entity = $player,
+			map = GetStaticMap(create = true, name = "MapVillage"),
+			pos = {
+				x = -0.0035543441772461,
+				y = 1.134033241272,
+				z = -7.619749546051
+			}
+		)
+		$player.JumlahPlayer = 1
+		$player.LokasiSpawn = {
+				x = -25.261,
+				y = 6.245,
+				z = -20.386
+			}
+	}
+	If (@PlayerParticipate == 2) {
+		EnterMap(entity = $player, map = "MapArena", pos = { x = 10.59, y = 9.042, z = -0.402 }, rp = 0, ry = 0)
+		SetEntityRebirthPosition(
+			entity = $player,
+			map = GetStaticMap(create = true, name = "MapVillage"),
+			pos = {
+				x = -0.0035543441772461,
+				y = 1.134033241272,
+				z = -7.619749546051
+			}
+		)
+		$player.JumlahPlayer = 2
+		$player.LokasiSpawn = {
+				x = 10.59,
+				y = 9.042,
+				z = -0.402
+			}
+	}
+	If (@PlayerParticipate == 3) {
+		EnterMap(entity = $player, map = "MapArena", pos = { x = -25.118, y = 8.122, z = 27.786 }, rp = 0, ry = 0)
+		SetEntityRebirthPosition(
+			entity = $player,
+			map = GetStaticMap(create = true, name = "MapVillage"),
+			pos = {
+				x = -0.0035543441772461,
+				y = 1.134033241272,
+				z = -7.619749546051
+			}
+		)
+		$player.JumlahPlayer = 3
+		$player.LokasiSpawn = {
+				x = -25.118,
+				y = 8.122,
+				z = 27.786
+			}
+	}
+	If (@PlayerParticipate == 4) {
+		EnterMap(entity = $player, map = "MapArena", pos = { x = 1.96, y = 6.482, z = 21.472 }, rp = 0, ry = 0)
+		SetEntityRebirthPosition(
+			entity = $player,
+			map = GetStaticMap(create = true, name = "MapVillage"),
+			pos = {
+				x = -0.0035543441772461,
+				y = 1.134033241272,
+				z = -7.619749546051
+			}
+		)
+		$player.JumlahPlayer = 4
+		$player.LokasiSpawn = {
+				x = 1.96,
+				y = 6.482,
+				z = 21.472
+			}
+	}
+	If (@PlayerParticipate == 5) {
+		EnterMap(entity = $player, map = "MapArena", pos = { x = 29.278, y = 8.948, z = -5.644 }, rp = 0, ry = 0)
+		SetEntityRebirthPosition(
+			entity = $player,
+			map = GetStaticMap(create = true, name = "MapVillage"),
+			pos = {
+				x = -0.0035543441772461,
+				y = 1.134033241272,
+				z = -7.619749546051
+			}
+		)
+		$player.JumlahPlayer = 5
+		$player.LokasiSpawn = {
+				x = 29.278,
+				y = 8.948,
+				z = -5.644
+			}
+	}
+	If (@PlayerParticipate == 6) {
+		EnterMap(entity = $player, map = "MapArena", pos = { x = 32.262, y = 8.985, z = -30.204 }, rp = 0, ry = 0)
+		SetEntityRebirthPosition(
+			entity = $player,
+			map = GetStaticMap(create = true, name = "MapVillage"),
+			pos = {
+				x = -0.0035543441772461,
+				y = 1.134033241272,
+				z = -7.619749546051
+			}
+		)
+		$player.JumlahPlayer = 6
+		$player.LokasiSpawn = {
+				x = 32.262,
+				y = 8.985,
+				z = -30.204
+			}
+	}
+	@WIN = @PlayerParticipate + 1
+	SendToClient(msg = "client_ff8a43d1_d9bd_4683_ba9f_40f04f2b69fc", player = $player)
+	EnterMap(entity = $player, map = "MapArena", pos = $player.LokasiSpawn, rp = 0, ry = 0)
+	AddItem(cfg = "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12", count = 1, entity = $player, reason = "")
+}
+
+server_f7a9b15f_bddf_4f27_a412_dbd4d120f327 {
+	KillEntity(entity = $player, from = $player)
+}
+
+GAME_START {
+}
+
+server_a6b87086_519a_4d0a_a1f5_9b437ed25b8b {
+	@EnterGameplay = true
+}
+
+server_54555797_0b11_464b_b77b_d0ece50702bf {
+	@PlayerParticipate = @PlayerParticipate + 1
+}
+
+server_7a260dfa_71a5_45be_861e_6332172e8094 {
+	If (@EnterGameplay) {
+		ShowTip(entity = $player, keepTime = 100, textKey = "d526d657-d5b4-4248-b291-b60a78cc7dcf", tipType = "1")
+	}
+	If (@EnterGameplay) {
+		@PlayerParticipate = GetSurvivePlayersCount()
+		MoveMapPlayerTo(map = GetStaticMap(create = true, name = "MapVillage"), newmap = "MapArena", pos = $player.LokasiSpawn)
+		@PlayerParticipate = @PlayerParticipate + 1
+		$player.Start = true
+		SendToClient(msg = "client_71398682_0a6a_4d63_bde2_adb0920ef41c", player = $player)
+		AddItem(cfg = "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12", count = 1, entity = $player, reason = "")
+		SendToClient(msg = "client_ff8a43d1_d9bd_4683_ba9f_40f04f2b69fc", player = $player)
+	}
+}
+
+server_b4f1a318_c45f_4bae_b3ac_96e7764b2d15 {
+	SetEntityPosition(
+		entity = $player,
+		map = "MapVillage",
+		pos = {
+			x = -2.8271172046661,
+			y = 1.1340341949463,
+			z = -5.5375385284424
+		},
+		rp = 0,
+		ry = 0
+	)
+	@EnterGameplay = false
+	RecoverFullHp(entity = $player)
+	ConsumeItem2(entity = $player, item = "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12", num = 99, reason = "")
+	ConsumeItem2(entity = $player, item = "myplugin/057d4d1d-889a-4777-837d-f94a974babac", num = 99, reason = "")
+	ConsumeItem2(entity = $player, item = "myplugin/15a5078e-f6aa-45f1-aba7-6f7b4ecefce0", num = 99, reason = "")
+	ConsumeItem2(entity = $player, item = "myplugin/33f3159c-becb-45a8-8b7b-f7db3000af7d", num = 99, reason = "")
+	ConsumeItem2(entity = $player, item = "myplugin/547b7be6-2cb9-4e37-9bc4-bd58f37fb3a1", num = 99, reason = "")
+	ConsumeItem2(entity = $player, item = "myplugin/951529d8-99cc-4dbe-9dc3-cbb0a4eef98f", num = 99, reason = "")
+	ConsumeItem2(entity = $player, item = "myplugin/b771344e-32e8-4488-a0f3-7d87111c3590", num = 99, reason = "")
+	ConsumeItem2(entity = $player, item = "myplugin/ce6802e2-dfff-47b3-a5cd-b0479715f636", num = 99, reason = "")
+	@PlayerParticipate = GetSurvivePlayersCount()
+}
+
+server_1f0c1833_1822_456b_a02b_5f4f4ab8c9ac {
+	@WIN = @PlayerParticipate
+}
+
+server_f7d92eaf_bec6_439c_b8f9_32db2a76d90b {
+	SendToClient(msg = "client_31ffbab8_ea6f_4f45_abeb_4d1e7bf9a930", player = $player)
+}
+
+server_a1892207_12e4_47ac_8d10_45fca6aeb604 {
+	ShowShop(entity = $player, showType = "shop")
+}
+
+server_151873ad_bea2_4052_879a_0a5a11729f7d {
+	AddItem(cfg = "myplugin/987b24fd-dab2-49d7-8f81-fb7169ebb5aa", count = 1, entity = $player, reason = "")
+}
+
+server_75bd66bd_cd7f_4a33_b517_4438286446ea {
+	AddItem(cfg = "myplugin/7581b61b-7f5c-462a-becd-73b1ce1602bf", count = 1, entity = $player, reason = "")
+}
+
+server_97b6429d_7556_4374_8a90_7f0d6c457a29 {
+	AddItem(cfg = "myplugin/2615e7dd-633f-4acd-a274-6db85e524cab", count = 1, entity = $player, reason = "")
+}
+
+server_923a0a4c_49ab_478a_88a2_fb1c05e05d1c {
+	AddItem(cfg = "myplugin/copper_coin", count = 100, entity = $player, reason = "")
+}
+
+server_6f4f9744_5ed9_469a_9540_c7244c641955 {
+	AddItem(cfg = "myplugin/copper_coin", count = 250, entity = $player, reason = "")
+}
+
+server_545b2654_a1e6_4b89_b826_487d1202eb19 {
+	AddItem(cfg = "myplugin/copper_coin", count = 500, entity = $player, reason = "")
+}
+
+server_f6efceb5_b91c_46f5_be24_5d38c1bfef57 {
+	SendToClient(msg = "client_71398682_0a6a_4d63_bde2_adb0920ef41c", player = $player)
+}
+
+server_9cadeaea_e328_4109_a455_5a465f75d436 {
+	SendToClient(msg = "client_ff8a43d1_d9bd_4683_ba9f_40f04f2b69fc", player = $player)
+}
+
+server_71a43a7f_f826_41e8_848f_91d771cd1263 {
+	SendToClient(msg = "client_ff8a43d1_d9bd_4683_ba9f_40f04f2b69fc", player = $player)
+	SendToClient(msg = "client_71398682_0a6a_4d63_bde2_adb0920ef41c", player = $player)
+	AddItem(cfg = "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12", count = 1, entity = $player, reason = "")
+}

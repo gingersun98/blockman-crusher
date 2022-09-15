@@ -1,0 +1,99 @@
+{
+  "data": {
+    "castSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "name": {
+      "value": "skill_hut"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack"
+      }
+    },
+    "skillReleaseWay": {
+      "isClick": true
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetEntityPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "6cfc00c5-19f3-4d3b-9b08-25e74559930e"
+              },
+              "pos": {
+                "x": 626,
+                "y": 303
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "9945131c-74a3-4c75-b8be-bd3df3167122"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "6cfc00c5-19f3-4d3b-9b08-25e74559930e"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "e1340114-dce4-4645-88c1-e93972ee4272"
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "87aa8868c039bda340b8dbdec2f44e97",
+      "triggers.bts": "71d4e1546e72cbe5f0b3f5fa3a153df9"
+    },
+    "VERSION": "0.23"
+  }
+}

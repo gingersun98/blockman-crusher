@@ -1,0 +1,38 @@
+[
+  {
+    "array": [
+      {
+        "countRange": {
+          "max": 15,
+          "min": 5
+        },
+        "name": "myplugin/copper_coin",
+        "type": "Item",
+        "weight": 0
+      },
+      {
+        "countRange": {
+          "max": 30,
+          "min": 13
+        },
+        "name": "myplugin/copper_coin",
+        "type": "Item",
+        "weight": 0
+      },
+      {
+        "countRange": {
+          "max": 50,
+          "min": 33
+        },
+        "name": "myplugin/copper_coin",
+        "type": "Item",
+        "weight": 0
+      }
+    ],
+    "countRange": {
+      "max": 3,
+      "min": 1
+    },
+    "type": "List"
+  }
+]

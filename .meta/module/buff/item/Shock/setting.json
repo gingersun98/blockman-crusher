@@ -1,0 +1,22 @@
+{
+  "data": {
+    "antiGravity": 1,
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Blue Vertical Rotating Light Pillar Effect/gfxy207_rotating aperture_blue_3d.effect"
+      },
+      "once": false
+    },
+    "deadRemove": true,
+    "jumpSpeed": 2,
+    "name": {
+      "value": "buff_Shock"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "744e77da6de57ae4cf72e199d1ca8474"
+    },
+    "VERSION": "0.23"
+  }
+}

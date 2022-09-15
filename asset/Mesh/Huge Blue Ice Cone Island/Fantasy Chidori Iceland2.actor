@@ -1,0 +1,26 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="stone01.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2030_island_bingdao_2.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="body">
+				<StaticMesh LocalAlpha="1">
+					<SpecularCoef value="0.15"/>
+					<Position_X value="0"/>
+					<scale value="2.3"/>
+					<SpecularColor value="1 1 1 1"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<Position_Y value="-11.3828"/>
+					<SocketName value="bip01"/>
+					<UseBloom value="false"/>
+					<SpecularStrength value="1"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2030_island_bingdao_2.mesh"/>
+					<UseTransparentNearestSlice value="false"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims/>
+		<Skills/>
+	</ActorTemplate>
+</ActorTemplates>

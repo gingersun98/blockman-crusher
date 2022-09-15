@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handBuff": "myplugin/strength",
+  "handItemBoneName": "Bip001_L_Finger01",
+  "icon": "@asset/3D Asset/gun.png",
+  "itemname": "item_951529d8-99cc-4dbe-9dc3-cbb0a4eef98f",
+  "mesh": "asset/Mesh/Purple-Yellow Catapult Pistol/g2047_gun_01_02.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/2dedc55d-2d6f-4e2d-ab9f-2c2be108caa2"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

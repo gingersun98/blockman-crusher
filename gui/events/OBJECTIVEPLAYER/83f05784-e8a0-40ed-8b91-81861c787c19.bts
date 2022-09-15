@@ -1,0 +1,3 @@
+client_ccc9c9a7_1954_4550_a633_e2fd258f2d4c {
+	DestroyWidget(instance = $instance)
+}

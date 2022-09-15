@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "a6b87086-519a-4d0a-a1f5-9b437ed25b8b"
+    },
+    "name": "JoiMatch",
+    "register_object": "game/0/triggers/list/7",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

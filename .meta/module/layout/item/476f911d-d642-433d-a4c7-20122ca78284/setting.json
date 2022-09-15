@@ -1,0 +1,228 @@
+{
+  "data": {
+    "md5": "edb81ff43b3a8a7d0272bcac1cdc548d",
+    "path": "asset/DefeatEntity.layout",
+    "root": {
+      "Alpha": 0.997,
+      "anchor": {
+        "HorizontalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 18,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "6c9f12ee-167d-454e-bb79-2fdc57e94ffe"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.15
+                }
+              },
+              "Text": "Crush Score is: 0",
+              "text_key": {
+                "value": "asset/DefeatEntity.layout.StaticText#c82c1489-2e62-4676-8d5c-956675fe966f"
+              }
+            }
+          ],
+          "horzFormatting": "CentreAligned",
+          "id": {
+            "value": "249a30e1-cb57-4c11-9446-37933f60e7fa"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/shop6.png.png"
+          },
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.15
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 509
+            },
+            "UDim_Y": {
+              "Offect": 84
+            }
+          },
+          "vertFormatting": "CentreAligned",
+          "WindowTouchThroughMode": "MousePassThroughOpen"
+        }
+      ],
+      "id": {
+        "value": "3e599e33-634d-43ee-9c7c-fa5475c9b079"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "triggers": {
+        "list": [
+          {
+            "actions": [
+              {
+                "__OBJ_TYPE": "Action_StartTimer2",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Params",
+                    "params": [
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Time",
+                          "rawval": {
+                            "value": 200
+                          }
+                        }
+                      },
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Int"
+                        }
+                      },
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_String"
+                        }
+                      },
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Entity",
+                          "action": "4caf91a2-dffb-4363-a22a-81384c8790ae"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "__OBJ_TYPE": "Component_Sequence",
+                    "children": [
+                      {
+                        "action": "114acef8-90f2-48a4-a3c8-23e50dea7c4d"
+                      }
+                    ]
+                  }
+                ],
+                "id": {
+                  "value": "7e2a2288-4879-46a0-b600-be8f7d8e1630"
+                },
+                "pos": {
+                  "x": 614,
+                  "y": 239
+                }
+              },
+              {
+                "__OBJ_TYPE": "Action_DestoryWidget",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Params",
+                    "params": [
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Widget",
+                          "action": "584d324b-7e93-4ee7-bcc5-4341bfe2c9b5"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "id": {
+                  "value": "114acef8-90f2-48a4-a3c8-23e50dea7c4d"
+                },
+                "pos": {
+                  "x": 998,
+                  "y": 420
+                }
+              },
+              {
+                "__OBJ_TYPE": "Action_GetUserContextVar",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Params",
+                    "params": [
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_String",
+                          "rawval": "obj1"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "id": {
+                  "value": "4caf91a2-dffb-4363-a22a-81384c8790ae"
+                },
+                "pos": {
+                  "x": 1057,
+                  "y": 260
+                }
+              },
+              {
+                "__OBJ_TYPE": "Action_GetContextVar",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Context",
+                    "key": "rootInstance"
+                  }
+                ],
+                "id": {
+                  "value": "584d324b-7e93-4ee7-bcc5-4341bfe2c9b5"
+                },
+                "pos": {
+                  "x": 1356,
+                  "y": 457
+                },
+                "type": "T_Layout"
+              }
+            ],
+            "custom_trigger_data": {
+              "name": {
+                "value": "d6264a1a-77ba-45dd-8c8d-215cd4f3fe1c"
+              },
+              "type": "Trigger_WidgetCreate"
+            },
+            "root": {
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "7e2a2288-4879-46a0-b600-be8f7d8e1630"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "2da48d22-e25c-46b5-8177-532981d7da4a"
+              }
+            },
+            "type": "Trigger_WidgetCreate"
+          }
+        ]
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "edb81ff43b3a8a7d0272bcac1cdc548d",
+      "triggers.bts": "8b7e2dd79712f86578ab59a467550466"
+    },
+    "VERSION": "0.23"
+  }
+}

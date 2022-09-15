@@ -1,0 +1,119 @@
+{
+  "area": [
+    [
+      0,
+      -190
+    ],
+    [
+      0,
+      -200
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 8,
+  "backSwingTime": 0,
+  "bodyPitchOffset": [
+    0
+  ],
+  "bodyYawOffset": [
+    0
+  ],
+  "castAction": "attack2",
+  "castActionTime": -1,
+  "castEffect": {
+    "effect": "asset/effect/Blue Circular Ripple Effect/gp202_bowen_01_blue_3d.effect",
+    "once": true,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "selfOnly": false,
+    "yaw": 0
+  },
+  "castInterval": 20,
+  "cdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "cdTime": 400,
+  "chargeCdMaskConfig": {
+    "AntiClockwise": false,
+    "FillPosition": "",
+    "FillType": "Horizontal",
+    "horizontalAlignment": 1,
+    "verticalAlignment": 1
+  },
+  "chargeCdTime": 0,
+  "chargeEnableCdMask": false,
+  "chargeIsShowCdPoint": false,
+  "chargeTimes": 2,
+  "consumeVp": 50,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enable_pre": true,
+  "enable_rear": false,
+  "enableCdMask": true,
+  "enableCdTip": true,
+  "enableChargeTime": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": false,
+  "frontSight": "myplugin/frontsight1",
+  "horizontalAlignment": 2,
+  "icon": "@asset/Texture/Skill/common/icon_火球_act.png",
+  "icon_pushed": "@asset/Texture/Skill/common/icon_火球_nor.png",
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": true,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": true,
+  "isShowCdPoint": false,
+  "isTouch": true,
+  "missileCfg": [
+    "myplugin/4e464607-98b6-48ca-8a70-b886d81c2bdc"
+  ],
+  "missileCount": 1,
+  "preSwingTime": 20,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "startFrom": "foot",
+  "startPitch": [
+    0
+  ],
+  "startPos": [
+    {
+      "x": 0,
+      "y": 1.6,
+      "z": 0
+    }
+  ],
+  "startWait": [
+    0
+  ],
+  "startYaw": [
+    0
+  ],
+  "sustainAction": "",
+  "targetType": "Any",
+  "touchTime": 20,
+  "type": "Missile",
+  "verticalAlignment": 2
+}

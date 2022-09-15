@@ -1,0 +1,48 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/Actor/merchant/Water Well2.actor",
+        "selector": "editor/hunter/asset/Actor/merchant/Water Well2.actor"
+      },
+      "girlactor": {
+        "asset": "asset/Actor/merchant/Water Well2.actor",
+        "selector": "editor/hunter/asset/Actor/merchant/Water Well2.actor"
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": "asset/Actor/merchant/Water Well2.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": "asset/Actor/merchant/Water Well2.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_well"
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0f64882d0a5c049d5a4f902650b51338",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

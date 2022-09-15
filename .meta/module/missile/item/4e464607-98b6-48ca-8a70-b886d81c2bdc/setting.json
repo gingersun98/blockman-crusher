@@ -1,0 +1,39 @@
+{
+  "data": {
+    "followTarget": true,
+    "hitEntityEffect": {
+      "effect": {
+        "asset": "asset/effect/Horizontal Orange Shockwave Effect/gfxy207_shock wave_orange_3d.effect"
+      },
+      "once": true
+    },
+    "hitEntitySkill": "myplugin/2b1fa4c1-8bd1-456b-9cb5-cbb88c35d999",
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/master/hunter_fazhang.mesh"
+      }
+    },
+    "moveSpeed": 10,
+    "name": {
+      "value": "ce770938-4c1d-42b0-ba4b-bdb08108f4c5"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/effect/Small Blue Shockwave Effect/gfxy207_shock wave_blue.effect"
+      }
+    },
+    "vanishEffect": {
+      "effect": {
+        "asset": "asset/effect/Slow Spark Explosion Effects/gfxy207_flame falling_orange_3d.effect"
+      },
+      "once": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8b9c90cb56144cf665d6a1a0edecfbb6",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

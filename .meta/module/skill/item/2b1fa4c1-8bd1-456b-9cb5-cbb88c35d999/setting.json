@@ -1,0 +1,29 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Blue Laser Emission Effect/gp202_launcher_01_blue_3d.effect"
+      }
+    },
+    "name": {
+      "value": "bd23fdf6-4781-4a1d-8848-3235f3439125"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 50,
+        "hurtDistance": 0
+      }
+    },
+    "skillReleaseWay": {
+      "isClick": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "dd0bcec0d7deee0343595af099c45826",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

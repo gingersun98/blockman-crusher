@@ -1,0 +1,330 @@
+{
+  "data": {
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/transfer/g2038_yushanjia_blue.actor",
+        "selector": "editor/hunter/asset/transfer/g2038_yushanjia_blue.actor"
+      },
+      "girlactor": {
+        "asset": "asset/transfer/g2038_yushanjia_blue.actor",
+        "selector": "editor/hunter/asset/transfer/g2038_yushanjia_blue.actor"
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": "asset/transfer/g2038_yushanjia_blue.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "height": 1.8,
+      "radius": 1,
+      "type": "Cylinder"
+    },
+    "canJump": false,
+    "canMove": false,
+    "deadSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "girlactor": {
+      "asset": "asset/transfer/g2038_yushanjia_blue.actor"
+    },
+    "hideName": true,
+    "name": {
+      "value": "entity_transfer2"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_EnterMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "MapVillage"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "a3c5bcde-d972-44cb-98cb-0a6940e534ad"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": -2.039071559906,
+                            "y": 1.1340346717834,
+                            "z": -7.9726314544678
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "9a610f6b-b343-46c8-87bd-60852c541150"
+              },
+              "pos": {
+                "x": 727,
+                "y": 337
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "a3c5bcde-d972-44cb-98cb-0a6940e534ad"
+              },
+              "pos": {
+                "x": 1443,
+                "y": 438
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "PlayerInDungeon1"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_EntityArray",
+                        "action": "8e76b4cd-0fb9-41d3-a024-77b12d9b02c1"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "6efa7daa-c08a-491d-9611-e923aea5eed8"
+              },
+              "pos": {
+                "x": 716,
+                "y": 585
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_NewArrayGet",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "TypeOfVar"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ArrayGlobalVar",
+                        "rawval": "PlayerInDungeon1"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Layout"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "5375410b-b496-4575-b543-d717877a10a6"
+              },
+              "pos": {
+                "x": 560,
+                "y": 1125
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetEntitiesByFullName",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_EntityEntry",
+                        "rawval": "myplugin/player1"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "8e76b4cd-0fb9-41d3-a024-77b12d9b02c1"
+              },
+              "pos": {
+                "x": 1175,
+                "y": 645
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "255c1ee4-555b-441b-a657-919bc14930e0"
+                      }
+                    }
+                  ],
+                  "proto_id": "d35a57d2-efaf-426d-abcb-3acbb84e4fee",
+                  "proto_name": "VictoryCondition",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "58abf834-351c-40c6-9dab-0aa07ff5cd45"
+              },
+              "pos": {
+                "x": 785,
+                "y": 230
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "255c1ee4-555b-441b-a657-919bc14930e0"
+              },
+              "pos": {
+                "x": 1259,
+                "y": 203
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "88bec11d-04ee-405f-a0e3-adb1feaa4be8",
+                      "param_name": "ClickPlayer1"
+                    }
+                  ],
+                  "desc": "TestLeaderboard",
+                  "script_name": "ScriptableNode_12"
+                }
+              ],
+              "id": {
+                "value": "1adfae65-0f86-4dc0-b813-284ddf18d3dc"
+              },
+              "pos": {
+                "x": 611,
+                "y": 816
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "88bec11d-04ee-405f-a0e3-adb1feaa4be8"
+              },
+              "pos": {
+                "x": 1042,
+                "y": 861
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "5095376f-306b-416b-9280-f49d7a064a0a"
+            },
+            "type": "Trigger_ENTITY_TOUCH_ALL"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  [],
+                  [],
+                  [],
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "3ddf50ea-bd15-48b0-bb9e-8f70048168cb"
+            }
+          },
+          "type": "Trigger_ENTITY_TOUCH_ALL"
+        }
+      ]
+    },
+    "unAssailable": true,
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "225f4d4114e7efabd05cd1527bd65bd7",
+      "triggers.bts": "e73378ed143a168585fa021460c1d8ca"
+    },
+    "VERSION": "0.23"
+  }
+}

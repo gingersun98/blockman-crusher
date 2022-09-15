@@ -1,0 +1,5 @@
+WIDGET_CLICKED {
+	SetUIVar(instance = $rootInstance, key = "Prize", value = Random(max = 10, min = 1))
+	DoCustomTriggerCfg(cfgForExecXXX = $rootInstance, triggerNameForExecXXX = "ClientCustomTrigger_1")
+	SetUIVar(key = "AlreadyGacha", value = true)
+}

@@ -1,0 +1,20 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Blue Flying Sword Shield Effect/gfxy207_flying sword shield_01_blue_3d.effect"
+      }
+    },
+    "name": {
+      "value": "buff_803ad0fb-a97c-4026-a78b-34f1952c9c06"
+    },
+    "unassailable": true,
+    "undamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d78cc4d5cb3ec872bb3e14485ecdbaed"
+    },
+    "VERSION": "0.23"
+  }
+}

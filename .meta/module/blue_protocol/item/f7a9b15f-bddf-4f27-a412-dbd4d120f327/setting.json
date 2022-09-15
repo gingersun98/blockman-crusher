@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "f7a9b15f-bddf-4f27-a412-dbd4d120f327"
+    },
+    "name": "KillPlayer",
+    "register_object": "game/0/triggers/list/5",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

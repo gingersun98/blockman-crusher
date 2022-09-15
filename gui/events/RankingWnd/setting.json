@@ -1,0 +1,14 @@
+{
+  "widget": [
+    {
+      "btsKey": "c912faf3-f98a-4478-93b6-f503eb062f5f",
+      "md5": "fc63bf554c69934a24fc7b7ac4752787",
+      "name": "ScrollableView/VerticalLayout/TXTName2"
+    },
+    {
+      "btsKey": "203bbec9-dd4e-4434-be2f-2b912396e85f",
+      "md5": "dea9ffb30fd77b22640d7bff198986ca",
+      "name": "ScrollableView/Button"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "ccc9c9a7-1954-4550-a633-e2fd258f2d4c"
+    },
+    "name": "dESTROYWIDGET",
+    "register_object": "layout/904fe19e-8407-4d9e-a731-751e5cda3a90/root/triggers/list/1",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

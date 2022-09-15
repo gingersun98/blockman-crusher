@@ -1,0 +1,31 @@
+{
+  "data": {
+    "candrop": true,
+    "icon": {
+      "asset": "asset/3D Asset/Dagger.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "handItemBoneName": "Bip001_L_Finger01",
+        "skill": [
+          "myplugin/DaggerSkill"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/3D Asset/Dagger/knife.mesh"
+    },
+    "name": {
+      "value": "c5b5b6d7-31b3-4697-90a0-4841bd721807"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "22a55e452afb8b3fea0d4fc31fc3b0b9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

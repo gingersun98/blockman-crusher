@@ -1,0 +1,90 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="longhun.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_pet_3_3_1.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="body" MasterName="body">
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_L_Foot"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="-0.0884688"/>
+					<pitch value="0"/>
+					<Position_X value="0.0688438"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_longhun2_foot.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_R_Foot"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="-0.110116"/>
+					<pitch value="0"/>
+					<Position_X value="0.0416537"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_longhun2_foot.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_R_Hand"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0.379384"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_longhun2_hand.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.4"/>
+					<roll value="-89"/>
+					<SocketName value="Bip001_Head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0.0510948"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="0.7"/>
+					<FileName value="asset/Effect/Roles/g2021_longhun2_head.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 8.91226e-43 2.21007e-10 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/longhun_2.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/longhun_gongji1.anim"/>
+			<Anim Name="asset/Anim/longhun_gongji2.anim"/>
+			<Anim Name="asset/Anim/longhun_daiji.anim"/>
+			<Anim Name="asset/Anim/longhun_gongji.anim"/>
+			<Anim Name="asset/Anim/longhun_shouji.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/longhun_gongji.anim" Channel="" TimeScale="1" Length="1.4" Times="1"/>
+				<ActorScaleChange beginScale="0.8" endScale="0.8"/>
+			</Skill>
+			<Skill Name="attack2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/longhun_gongji1.anim" Channel="" TimeScale="1" Length="3.066" Times="1"/>
+				<ActorScaleChange beginScale="0.8" endScale="0.8"/>
+			</Skill>
+			<Skill Name="hurt" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/longhun_shouji.anim" Channel="" TimeScale="1" Length="0.633" Times="1"/>
+				<ActorScaleChange beginScale="0.8" endScale="0.8"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/longhun_daiji.anim" Channel="" TimeScale="1" Length="0.966" Times="-1"/>
+				<ActorScaleChange beginScale="0.8" endScale="0.8"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/longhun_daiji.anim" Channel="" TimeScale="1" Length="0.966" Times="-1"/>
+				<ActorScaleChange beginScale="0.8" endScale="0.8"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

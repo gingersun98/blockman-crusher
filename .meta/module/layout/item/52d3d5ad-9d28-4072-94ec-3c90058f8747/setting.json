@@ -1,0 +1,162 @@
+{
+  "data": {
+    "md5": "f423e1d16aea46ba69598d17834622e3",
+    "path": "asset/HUD.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "2174aed4-3666-43f7-af7e-7dab1d216ff7"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/bar_chart.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 56
+                },
+                "UDim_Y": {
+                  "Offect": 56
+                }
+              },
+              "StaticImageStretch": {
+                "bottom_left": 5,
+                "bottom_right": 10,
+                "top_left": 5,
+                "top_right": 5
+              }
+            }
+          ],
+          "DisabledImage": {
+            "asset": "asset/Texture/GingersunUI/CellBig_02.png"
+          },
+          "HoverImage": {
+            "asset": "asset/Texture/GingersunUI/CellBig_02.png"
+          },
+          "id": {
+            "value": "2b8be1b5-28b9-4b43-a751-91a9d8e6394a"
+          },
+          "NormalImage": {
+            "asset": "asset/Texture/GingersunUI/CellBig_02.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/GingersunUI/CellBig_02.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 64
+            },
+            "UDim_Y": {
+              "Offect": 64
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/HUD.layout.Button#ea59ebff-cbe9-4868-90ee-19513f34b54f"
+          },
+          "triggers": {
+            "list": [
+              {
+                "actions": [
+                  {
+                    "__OBJ_TYPE": "Action_CreateLayout",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Res_Layout",
+                              "rawval": {
+                                "asset": "asset/RankingWnd.layout",
+                                "selector": "editor/Blockman-Crusher-Simulator/asset/RankingWnd.layout"
+                              }
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_String"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "cc4e1240-8087-47a2-bc49-1941434d2676"
+                    },
+                    "pos": {
+                      "x": 667,
+                      "y": 304
+                    }
+                  }
+                ],
+                "custom_trigger_data": {
+                  "name": {
+                    "value": "f085a4a9-e12c-488f-913f-dfaf73a064ca"
+                  },
+                  "type": "Trigger_WidgetClicked"
+                },
+                "root": {
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "cc4e1240-8087-47a2-bc49-1941434d2676"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "b17e9450-7a53-4dd7-9b14-10eaed2af66b"
+                  }
+                },
+                "type": "Trigger_WidgetClicked"
+              }
+            ]
+          }
+        }
+      ],
+      "id": {
+        "value": "fddf5f8c-d19c-4c69-9207-a91adb99f060"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "f423e1d16aea46ba69598d17834622e3",
+      "triggers.bts": "2668f25897c33b638898f8f417c4f246"
+    },
+    "VERSION": "0.23"
+  }
+}

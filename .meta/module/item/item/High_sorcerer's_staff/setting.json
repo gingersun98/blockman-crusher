@@ -1,0 +1,34 @@
+{
+  "data": {
+    "canAbandon": true,
+    "candrop": true,
+    "icon": {
+      "asset": "asset/auxiliary/High_sorcerer's_staff.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "handBuff": "myplugin/strength",
+        "skill": [
+          "myplugin/Shield_royal",
+          "myplugin/ice",
+          "myplugin/damage"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/auxiliary/Flamingo Scythe.mesh"
+    },
+    "name": {
+      "value": "item_High_sorcerer's_staff"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b41bcdf2fd7d31ad8956a19148889b58",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

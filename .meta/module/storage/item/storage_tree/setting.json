@@ -1,0 +1,2532 @@
+{
+  "data": {
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "ace4ec93-aa94-47bd-ac77-abc71ba4ae4c",
+        "collisionUniqueKey": "8778163625912221697",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8778163625912221697",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/shitou/dashi_03/dashi_03.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/shitou/dashi_03/dashi_03.mesh",
+          "selector": "asset/stone/shitou/dashi_03/dashi_03.mesh"
+        },
+        "partNavMeshType": "nil",
+        "position": {
+          "x": -11.195479393005,
+          "y": 2.6773202419281,
+          "z": 8.4554262161255
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -2.3324244011746e-06,
+          "y": -69.999992370605,
+          "z": 6.4082805693033e-06
+        },
+        "scale": {
+          "x": 4.05827,
+          "y": 4.05827,
+          "z": 4.05827
+        },
+        "size": {
+          "x": 9.3783950805664,
+          "y": 4.85626745224,
+          "z": 8.0702838897705
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "bb81fd7c-d29a-4652-94a7-1a9deb91df67",
+        "collisionUniqueKey": "8778164932464558081",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8778164932464558081",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/g2030_island_bingdao_3_1.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/g2030_island_bingdao_3_1.mesh",
+          "selector": "asset/stone/g2030_island_bingdao_3_1.mesh"
+        },
+        "name": "Stone_ice",
+        "partNavMeshType": "nil",
+        "position": {
+          "x": -54.371292114258,
+          "y": 7.5946340560913,
+          "z": 6
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 2.49756,
+          "y": 2.49756,
+          "z": 2.49756
+        },
+        "size": {
+          "x": 33.458778381348,
+          "y": 17.134996414185,
+          "z": 33.886058807373
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "6a11be4d-fbf2-426b-a9ff-433c2b7337ba",
+        "collisionUniqueKey": "8778165039196618753",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8778165039196618753",
+        "isLockedInEditor": true,
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/g2030_island_rongyan_2.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/g2030_island_rongyan_2.mesh",
+          "selector": "asset/stone/g2030_island_rongyan_2.mesh"
+        },
+        "name": "Stone_fire",
+        "partNavMeshType": "nil",
+        "position": {
+          "x": -24.04532623291,
+          "y": 4.7318744659424,
+          "z": -72.654876708984
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -17.000003814697
+        },
+        "scale": {
+          "x": 5.1531,
+          "y": 5.1531,
+          "z": 5.15309
+        },
+        "size": {
+          "x": 24.446660995483,
+          "y": 13.30482006073,
+          "z": 16.604238510132
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "ac62f0a1-88b1-4941-993a-97aa1c6bb86b",
+        "collisionUniqueKey": "8779646079467077633",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779646079467077633",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/plant/tree/g2021_duchi_zhiwu.mesh",
+        "mesh_selector": {
+          "asset": "asset/plant/tree/g2021_duchi_zhiwu.mesh",
+          "selector": "asset/plant/tree/g2021_duchi_zhiwu.mesh"
+        },
+        "name": "Dead Tree1",
+        "position": {
+          "x": -11.017421722412,
+          "y": 13.113204956055,
+          "z": -23.884601593018
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 91
+        },
+        "scale": {
+          "x": 8.828,
+          "y": 8.82799,
+          "z": 8.82799
+        },
+        "size": {
+          "x": 26.704130172729,
+          "y": 26.298347473145,
+          "z": 16.913480758667
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "448dd2a3-7d42-4c20-b4f7-2583d6772652",
+        "collisionUniqueKey": "8779646173100654593",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779646173100654593",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/plant/tree/g2021_duchi_zhiwu.mesh",
+        "mesh_selector": {
+          "asset": "asset/plant/tree/g2021_duchi_zhiwu.mesh",
+          "selector": "asset/plant/tree/g2021_duchi_zhiwu.mesh"
+        },
+        "name": "Dead Tree1",
+        "position": {
+          "x": -21.011472702026,
+          "y": 5.8932018280029,
+          "z": -23.65675163269
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -53
+        },
+        "scale": {
+          "x": 4.1497,
+          "y": 4.1497,
+          "z": 4.1497
+        },
+        "size": {
+          "x": 12.552575111389,
+          "y": 12.361846923828,
+          "z": 7.9503803253174
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "6981ce7d-540c-472b-95f8-47e824662191",
+            "collisionUniqueKey": "8779646545912152065",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646545912152065",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_03/dashi_03.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_03/dashi_03.mesh",
+              "selector": "asset/stone/shitou/dashi_03/dashi_03.mesh"
+            },
+            "position": {
+              "x": -38.645576477051,
+              "y": 1.7005410194397,
+              "z": -13.757018089294
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -179.99998474121
+            },
+            "scale": {
+              "x": 4.16651,
+              "y": 4.16651,
+              "z": 4.16651
+            },
+            "size": {
+              "x": 9.6285305023193,
+              "y": 4.9857907295227,
+              "z": 8.2855291366577
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "550ebed1-f79c-4b55-8136-8a24df72aa27",
+            "collisionUniqueKey": "8779646545924308993",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646545924308993",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+              "selector": "asset/stone/shitou/dashi_01/dashi_01.mesh"
+            },
+            "position": {
+              "x": -37.174903869629,
+              "y": 0.70017671585083,
+              "z": -19.710130691528
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -179.99998474121
+            },
+            "scale": {
+              "x": 1.98128,
+              "y": 1.98128,
+              "z": 1.98128
+            },
+            "size": {
+              "x": 4.2150435447693,
+              "y": 1.4785711765289,
+              "z": 3.0936765670776
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "6ae42d2f-c156-4717-a549-ed1b25994ff6",
+            "collisionUniqueKey": "8779646545935335425",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646545935335425",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_02/.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_02/.mesh",
+              "selector": "asset/stone/shitou/dashi_02/.mesh"
+            },
+            "position": {
+              "x": -42.319770812988,
+              "y": -6.7695550918579,
+              "z": 0.341078966856
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -90,
+              "z": 90
+            },
+            "size": {
+              "x": 1.8165633678436,
+              "y": 0.67653876543045,
+              "z": 1.9976184368134
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "f1fa606a-7ded-4b55-b3eb-df26d412ced5",
+            "collisionUniqueKey": "8779646545946066945",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646545946066945",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/suishi_04/suishi_04.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/suishi_04/suishi_04.mesh",
+              "selector": "asset/stone/shitou/suishi_04/suishi_04.mesh"
+            },
+            "position": {
+              "x": -41.149555206299,
+              "y": -0.50336474180222,
+              "z": -16.210155487061
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -179.99998474121
+            },
+            "scale": {
+              "x": 2.2641,
+              "y": 2.2641,
+              "z": 2.2641
+            },
+            "size": {
+              "x": 2.2467699050903,
+              "y": 1.0250341892242,
+              "z": 2.6052756309509
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "379846b2-dba9-4a79-b730-91316e3e6ee7",
+            "collisionUniqueKey": "8779646545956798465",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646545956798465",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_02/.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_02/.mesh",
+              "selector": "asset/stone/shitou/dashi_02/.mesh"
+            },
+            "position": {
+              "x": -31.619773864746,
+              "y": -2.9595620632172,
+              "z": -12.568921089172
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -179.99998474121
+            },
+            "scale": {
+              "x": 5.3849,
+              "y": 5.3849,
+              "z": 5.3849
+            },
+            "size": {
+              "x": 9.7820119857788,
+              "y": 3.643093585968,
+              "z": 10.756976127625
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "3012d8b7-48ab-4254-9636-6570745f6730",
+            "collisionUniqueKey": "8779646545967366145",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646545967366145",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/plant/tree/g2021_duchi_zhiwu.mesh",
+            "mesh_selector": {
+              "asset": "asset/plant/tree/g2021_duchi_zhiwu.mesh",
+              "selector": "asset/plant/tree/g2021_duchi_zhiwu.mesh"
+            },
+            "name": "Dead Tree1",
+            "position": {
+              "x": -27.99391746521,
+              "y": -0.093057334423065,
+              "z": -10.473485946655
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -77.928771972656,
+              "y": 52.758491516113,
+              "z": 12.307524681091
+            },
+            "scale": {
+              "x": 2.0074,
+              "y": 2.0074,
+              "z": 2.0074
+            },
+            "size": {
+              "x": 6.0722551345825,
+              "y": 5.9799914360046,
+              "z": 3.8459632396698
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "b440cbf5-38ec-4f08-b3d3-dc1f7b277c1d",
+            "collisionUniqueKey": "8779646545980440577",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646545980440577",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_02/.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_02/.mesh",
+              "selector": "asset/stone/shitou/dashi_02/.mesh"
+            },
+            "position": {
+              "x": -32.989776611328,
+              "y": -0.54955488443375,
+              "z": -16.388925552368
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 2.14643,
+              "y": 2.14643,
+              "z": 2.14643
+            },
+            "size": {
+              "x": 3.8991260528564,
+              "y": 1.452143073082,
+              "z": 4.287748336792
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Model",
+            "batchType": "Dynamic",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_MeshPart_Storage",
+                "batchType": "Dynamic",
+                "btsKey": "5e9f95bf-e167-4eb3-b340-d83591486fd5",
+                "collisionUniqueKey": "8779646545994743809",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8779646545994743809",
+                "material": {
+                  "discardAlpha": 1
+                },
+                "mesh": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+                "mesh_selector": {
+                  "asset": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+                  "selector": "asset/stone/shitou/dashi_01/dashi_01.mesh"
+                },
+                "position": {
+                  "x": -37.604911804199,
+                  "y": -7.1798219680786,
+                  "z": -21.920133590698
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "z": 90
+                },
+                "size": {
+                  "x": 2.1274344921112,
+                  "y": 0.74627065658569,
+                  "z": 1.561453461647
+                },
+                "staticBatchNo": "1",
+                "useAnchor": true
+              },
+              {
+                "__OBJ_TYPE": "Instance_MeshPart_Storage",
+                "batchType": "Dynamic",
+                "btsKey": "9c81f832-f41c-4597-bd26-add63baa7f8d",
+                "collisionUniqueKey": "8779646546000363521",
+                "density": 2.2,
+                "friction": 0.37,
+                "id": "8779646546000363521",
+                "material": {
+                  "discardAlpha": 1
+                },
+                "mesh": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+                "mesh_selector": {
+                  "asset": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+                  "selector": "asset/stone/shitou/dashi_01/dashi_01.mesh"
+                },
+                "position": {
+                  "x": -37.074913024902,
+                  "y": -7.2098217010498,
+                  "z": -22.110136032104
+                },
+                "restitution": 0.3,
+                "rotation": {
+                  "x": -5.0089556680177e-06,
+                  "y": 2.2311800421448e-05,
+                  "z": -89.999992370605
+                },
+                "size": {
+                  "x": 2.1274344921112,
+                  "y": 0.74627065658569,
+                  "z": 1.561453461647
+                },
+                "staticBatchNo": "1",
+                "useAnchor": true
+              }
+            ],
+            "id": "8779646545993039873",
+            "position": {
+              "x": -37.339912414551,
+              "y": -7.1948213577271,
+              "z": -22.015134811401
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "54b8276f-9ec2-4a19-ad30-63a22adaa98a",
+            "collisionUniqueKey": "8779646546006999041",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646546006999041",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_02/.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_02/.mesh",
+              "selector": "asset/stone/shitou/dashi_02/.mesh"
+            },
+            "position": {
+              "x": -41.259761810303,
+              "y": 6.0004439353943,
+              "z": -11.028921127319
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 1.53532,
+              "y": 1.53532,
+              "z": 1.53532
+            },
+            "size": {
+              "x": 2.7890062332153,
+              "y": 1.0387035608292,
+              "z": 3.06698346138
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "04cdea8a-dc45-491e-9f90-ae2fc513d4ae",
+            "collisionUniqueKey": "8779646546014208001",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646546014208001",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_02/.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_02/.mesh",
+              "selector": "asset/stone/shitou/dashi_02/.mesh"
+            },
+            "position": {
+              "x": -40.689758300781,
+              "y": 4.7504448890686,
+              "z": -13.408922195435
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 2.52943,
+              "y": 2.52943,
+              "z": 2.52943
+            },
+            "size": {
+              "x": 4.5948696136475,
+              "y": 1.7112573385239,
+              "z": 5.0528359413147
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "1dd7fe23-a23d-4146-8067-a57e2b1d25dc",
+            "collisionUniqueKey": "8779646546020024321",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646546020024321",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+              "selector": "asset/stone/shitou/dashi_01/dashi_01.mesh"
+            },
+            "position": {
+              "x": -42.87491607666,
+              "y": 4.98015832901,
+              "z": -7.280125617981
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 4.6971239498816e-05,
+              "y": -38,
+              "z": 179.99998474121
+            },
+            "scale": {
+              "x": 5.49567,
+              "y": 5.49567,
+              "z": 5.49567
+            },
+            "size": {
+              "x": 11.69167804718,
+              "y": 4.1012573242188,
+              "z": 8.5812330245972
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "2c6c7154-6aa5-4e47-a13f-570938ff754c",
+            "collisionUniqueKey": "8779646546025529345",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646546025529345",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_02/.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_02/.mesh",
+              "selector": "asset/stone/shitou/dashi_02/.mesh"
+            },
+            "position": {
+              "x": -34.799766540527,
+              "y": 1.1804403066635,
+              "z": -4.5089254379272
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -179.99998474121
+            },
+            "size": {
+              "x": 1.8165633678436,
+              "y": 0.67653876543045,
+              "z": 1.9976184368134
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "844a9d84-1246-45cc-93dd-a7b60f6bf44e",
+            "collisionUniqueKey": "8779646546030936065",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646546030936065",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+              "selector": "asset/stone/shitou/dashi_01/dashi_01.mesh"
+            },
+            "position": {
+              "x": -41.004909515381,
+              "y": 2.5801773071289,
+              "z": -18.230110168457
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -179.99998474121
+            },
+            "scale": {
+              "x": 1.42317,
+              "y": 1.42317,
+              "z": 1.42317
+            },
+            "size": {
+              "x": 3.0277009010315,
+              "y": 1.0620700120926,
+              "z": 2.2222137451172
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "6a4bb0d1-0bfd-4da0-bf3b-14d1c63326f5",
+            "collisionUniqueKey": "8779646546036375553",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646546036375553",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_02/.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_02/.mesh",
+              "selector": "asset/stone/shitou/dashi_02/.mesh"
+            },
+            "position": {
+              "x": -38.849765777588,
+              "y": 1.8304452896118,
+              "z": -19.128917694092
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -22.999996185303
+            },
+            "scale": {
+              "x": 1.90006,
+              "y": 1.90005,
+              "z": 1.90006
+            },
+            "size": {
+              "x": 3.4515795707703,
+              "y": 1.2854574918747,
+              "z": 3.7955949306488
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "90d7aa5d-58ee-45e9-8706-6dbc86dc310d",
+            "collisionUniqueKey": "8779646546041847809",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646546041847809",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+              "selector": "asset/stone/shitou/dashi_01/dashi_01.mesh"
+            },
+            "position": {
+              "x": -43.634910583496,
+              "y": -3.7098410129547,
+              "z": -1.6701259613037
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -179.99998474121
+            },
+            "scale": {
+              "x": 3.20339,
+              "y": 3.20339,
+              "z": 3.20339
+            },
+            "size": {
+              "x": 6.8150024414062,
+              "y": 2.3905959129333,
+              "z": 5.001944065094
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "092a20f4-ec4f-46cd-b57f-193f903b37a4",
+            "collisionUniqueKey": "8779646546047238145",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646546047238145",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+              "selector": "asset/stone/shitou/dashi_01/dashi_01.mesh"
+            },
+            "position": {
+              "x": -36.624923706055,
+              "y": -11.80982875824,
+              "z": -11.770125389099
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -5.0089565775124e-06,
+              "y": -89.999992370605,
+              "z": -89.999992370605
+            },
+            "scale": {
+              "x": 1.79978,
+              "y": 1.79978,
+              "z": 1.79978
+            },
+            "size": {
+              "x": 3.8289141654968,
+              "y": 1.3431230783463,
+              "z": 2.810272693634
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "1c78b45f-7e7b-481f-9205-ec0a574aee80",
+            "collisionUniqueKey": "8779646546053283841",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646546053283841",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_01/dashi_01.mesh",
+              "selector": "asset/stone/shitou/dashi_01/dashi_01.mesh"
+            },
+            "position": {
+              "x": -34.294898986816,
+              "y": -0.2498222887516,
+              "z": -18.740125656128
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -179.99998474121
+            },
+            "scale": {
+              "x": 2.27766,
+              "y": 2.27767,
+              "z": 2.27767
+            },
+            "size": {
+              "x": 4.8455724716187,
+              "y": 1.6997581720352,
+              "z": 3.5564756393433
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "2af675d0-192d-4183-a764-b830e557b7a1",
+            "collisionUniqueKey": "8779646546059034625",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779646546059034625",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/suishi_02/suishi_02.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/suishi_02/suishi_02.mesh",
+              "selector": "asset/stone/shitou/suishi_02/suishi_02.mesh"
+            },
+            "position": {
+              "x": -42.555641174316,
+              "y": 7.7247567176819,
+              "z": -1.7916007041931
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 172
+            },
+            "scale": {
+              "x": 5.02953,
+              "y": 5.02955,
+              "z": 5.02953
+            },
+            "size": {
+              "x": 6.0809760093689,
+              "y": 1.3779314756393,
+              "z": 4.5435833930969
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          }
+        ],
+        "id": "8779646545908858881",
+        "name": "binglu",
+        "position": {
+          "x": -36.922805786133,
+          "y": -2.6552815437317,
+          "z": -11.004813551903
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "25a3af71-8679-4bb9-94cb-15fdc6d83182",
+        "collisionUniqueKey": "8779646777032507393",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779646777032507393",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/g2030_island_bingdao_3_1.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/g2030_island_bingdao_3_1.mesh",
+          "selector": "asset/stone/g2030_island_bingdao_3_1.mesh"
+        },
+        "name": "Stone_ice",
+        "position": {
+          "x": -54.371292114258,
+          "y": 7.5946340560913,
+          "z": 6
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 2.49756,
+          "y": 2.49756,
+          "z": 2.49756
+        },
+        "size": {
+          "x": 33.45877456665,
+          "y": 17.134994506836,
+          "z": 33.886058807373
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "f9be46b0-fc62-42be-972c-7c3eebd4393f",
+        "collisionUniqueKey": "8779651660905922561",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779651660905922561",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Pagoda/feixingqi_talou.mesh",
+        "mesh_selector": {
+          "asset": "asset/Pagoda/feixingqi_talou.mesh",
+          "selector": "asset/Pagoda/feixingqi_talou.mesh"
+        },
+        "name": "Pagoda",
+        "position": {
+          "x": 28.13000869751,
+          "y": 7.6729207038879,
+          "z": -11.160004615784
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -179.99998474121
+        },
+        "scale": {
+          "x": 1.52978,
+          "y": 1.52978,
+          "z": 1.52978
+        },
+        "size": {
+          "x": 11.621522903442,
+          "y": 14.450039863586,
+          "z": 11.411182403564
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "fe13fdf5-ac4f-4fbe-b23c-c9a84718cb2c",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735564075009",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 23.829427719116,
+              "y": 1.1118135452271,
+              "z": -6.9219393730164
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 29.999996185303
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "8666bf25-ee5a-49bf-acd2-9d5290f0b5ac",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735574675457",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 24.285245895386,
+              "y": 1.6118135452271,
+              "z": -6.4699897766113
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 34.999988555908
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "0962bd89-0944-4009-b3b3-a24b5c91114e",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735584555009",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 25.646171569824,
+              "y": 3.1118135452271,
+              "z": -5.4199233055115
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 49.999988555908
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "2443f96a-586c-4045-9d3b-bb875d1391a3",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735594614785",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 26.541204452515,
+              "y": 4.1118135452271,
+              "z": -4.9004526138306
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 59.999992370605
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "4f74add2-7470-4203-9d3e-85b86f587abb",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735604805633",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 25.198705673218,
+              "y": 2.6118135452271,
+              "z": -5.778302192688
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 44.999992370605
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "c872a518-75fe-486d-a23f-18841304812e",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735615553537",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 25.980556488037,
+              "y": 3.6118135452271,
+              "z": -5.018247127533
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 55.000003814697
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "7d476f09-0bdd-485d-b55b-9c0cfc8bafc0",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735625482241",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 24.617162704468,
+              "y": 2.1118135452271,
+              "z": -6.0943384170532
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 40
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "3ce4e7b4-557b-4ad7-a1db-7246bf75b75d",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735635378177",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 26.96160697937,
+              "y": 4.6118135452271,
+              "z": -4.6806497573853
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 65
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "f34645ca-d935-470b-a509-8c2b303b99a0",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735645061121",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 27.431455612183,
+              "y": 5.1118135452271,
+              "z": -4.5096406936646
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 74.999992370605
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "f3c97b0d-f03c-4362-bce8-25a7672bee0d",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735654907905",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 27.923856735229,
+              "y": 5.6118135452271,
+              "z": -4.4228162765503
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 79.999984741211
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "94d98ee2-9ef9-4b14-8896-3a1f6d6d13c7",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735665295361",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 28.421953201294,
+              "y": 6.1118135452271,
+              "z": -4.3792381286621
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 84.999984741211
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "09f907d5-65f5-4485-ad0e-83c1116ad885",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735675453441",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 28.856958389282,
+              "y": 6.6118135452271,
+              "z": -4.3734254837036
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 89.999984741211
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "46c717ee-8705-4bd1-b24c-5376799118d8",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735686234113",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 29.36284828186,
+              "y": 7.1118135452271,
+              "z": -4.3209466934204
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 99.999984741211
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "1267c517-627f-4827-8386-dad4045ed7b1",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735697309697",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 30.296380996704,
+              "y": 8.1118135452271,
+              "z": -4.6277413368225
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 109.99997711182
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "3aa5a882-77c0-49ba-9721-f83262212adb",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735707975681",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 29.834604263306,
+              "y": 7.6118135452271,
+              "z": -4.4600734710693
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 104.99997711182
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "84242177-2e84-4b85-8847-1d6075faec7b",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735718346753",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 31.24169921875,
+              "y": 9.1118135452271,
+              "z": -4.8793563842773
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 119.99998474121
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "75356bc4-2501-4659-a1a1-ac3ba3f0b509",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735728455681",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 30.79628944397,
+              "y": 8.6118135452271,
+              "z": -4.6720771789551
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 114.99998474121
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "7b469bf3-d794-45d0-a4cd-c09dd8ad876f",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735739334657",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 31.666105270386,
+              "y": 9.6118135452271,
+              "z": -5.1158895492554
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 124.99998474121
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "1e6df7d5-8fc4-45f3-a384-cdf90d983ae5",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735749558273",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 32.068759918213,
+              "y": 10.111813545227,
+              "z": -5.3973660469055
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 129.99998474121
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "63f09d88-8959-4d22-a0a4-2500f48f119b",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735759814657",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 32.516059875488,
+              "y": 10.611813545227,
+              "z": -5.6421546936035
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 134.99998474121
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "10a474e0-7577-4d32-8f7c-5ab899262887",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735771004929",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 33.244888305664,
+              "y": 11.611813545227,
+              "z": -6.3087301254272
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 144.99996948242
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "4c1576fa-275a-4954-a6f3-e44af41221d6",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735781310465",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 32.923496246338,
+              "y": 11.111813545227,
+              "z": -5.9257068634033
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 139.99998474121
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "7b01c0d9-c1cf-4149-863f-e5395864024d",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735791648769",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 33.570056915283,
+              "y": 12.111813545227,
+              "z": -6.6933946609497
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 154.99995422363
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "2f59e8fb-8c2f-448c-9436-dadc6bab3cf5",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735802265601",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 33.79700088501,
+              "y": 12.611813545227,
+              "z": -7.0332546234131
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 159.99993896484
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "581e77d5-900f-4149-aca9-70536a8ea2db",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735812554753",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 34.04528427124,
+              "y": 13.111813545227,
+              "z": -7.4823942184448
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 164.99992370605
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.2,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "21f69894-44bd-4aee-8a5e-13484a4b13c1",
+            "density": 2.93,
+            "friction": 0.74,
+            "id": "8779651735822860289",
+            "material": {
+              "color": {
+                "b": 104,
+                "g": 137,
+                "r": 221
+              },
+              "discardAlpha": 1,
+              "texture": "part_shihuizhuan.tga"
+            },
+            "position": {
+              "x": 34.415920257568,
+              "y": 13.201815605164,
+              "z": -8.4716129302979
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "y": 164.99992370605
+            },
+            "scale": {
+              "x": 2.52985,
+              "y": 0.2,
+              "z": 1.26941
+            },
+            "size": {
+              "x": 2.52985,
+              "y": 0.2,
+              "z": 1.26941
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8779651735560650753",
+        "name": "Stair",
+        "position": {
+          "x": 29.103705406189,
+          "y": 7.1568147540092,
+          "z": -6.1062009334564
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "7cfeb556-bebe-4013-89b2-3c23715e39bb",
+        "collisionUniqueKey": "8779652150231138305",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779652150231138305",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/plant/tree/g2038_tree_09.mesh",
+        "mesh_selector": {
+          "asset": "asset/plant/tree/g2038_tree_09.mesh",
+          "selector": "asset/plant/tree/g2038_tree_09.mesh"
+        },
+        "name": "Tree2",
+        "position": {
+          "x": 24.693229675293,
+          "y": 3.3534650802612,
+          "z": -0.3946704864502
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 0.43184,
+          "y": 0.43184,
+          "z": 0.43184
+        },
+        "size": {
+          "x": 6.9702281951904,
+          "y": 5.8578367233276,
+          "z": 7.986508846283
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "3fc5ab4d-9cb7-425e-a07c-8b122da5672f",
+        "collisionUniqueKey": "8779652265759211521",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779652265759211521",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/g2030_zs_15.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/g2030_zs_15.mesh",
+          "selector": "asset/stone/g2030_zs_15.mesh"
+        },
+        "name": "Stone2",
+        "position": {
+          "x": 20.675107955933,
+          "y": 1.6423907279968,
+          "z": 3.1703059673309
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": -3.3921744823456,
+          "y": -21.412273406982,
+          "z": -11.6248254776
+        },
+        "scale": {
+          "x": 12.5444,
+          "y": 12.5444,
+          "z": 12.5444
+        },
+        "size": {
+          "x": 10.76190662384,
+          "y": 3.3176050186157,
+          "z": 7.3775992393494
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "81e41f97-e796-4cce-ae94-3a4a9cd6992a",
+        "collisionUniqueKey": "8779652752638853121",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779652752638853121",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/dashi_03/dashi_03.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/dashi_03/dashi_03.mesh",
+          "selector": "asset/stone/dashi_03/dashi_03.mesh"
+        },
+        "name": "Stone",
+        "position": {
+          "x": 18.247241973877,
+          "y": -16.960248947144,
+          "z": -12.060718536377
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "x": 23.046615600586,
+          "y": 167.69715881348,
+          "z": -143.18872070313
+        },
+        "scale": {
+          "x": 6.03047,
+          "y": 6.03044,
+          "z": 6.03044
+        },
+        "size": {
+          "x": 13.936018943787,
+          "y": 7.2162342071533,
+          "z": 11.992142677307
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "f80ede19-1ce2-4842-a36c-f6a88ca9be37",
+        "collisionUniqueKey": "8779652988684730369",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779652988684730369",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/plant/tree/g2038_tree_16.mesh",
+        "mesh_selector": {
+          "asset": "asset/plant/tree/g2038_tree_16.mesh",
+          "selector": "asset/plant/tree/g2038_tree_16.mesh"
+        },
+        "name": "Dead Tree2",
+        "position": {
+          "x": 9.6579828262329,
+          "y": 4.8647694587708,
+          "z": -50.525779724121
+        },
+        "restitution": 0.3,
+        "size": {
+          "x": 4.5311102867126,
+          "y": 9.2059154510498,
+          "z": 3.6728849411011
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "e30c7717-6b44-4dab-9a21-b63c8f2c9f8a",
+        "collisionUniqueKey": "8779653236973207553",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779653236973207553",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/g2030_island_rongyan_1.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/g2030_island_rongyan_1.mesh",
+          "selector": "asset/stone/g2030_island_rongyan_1.mesh"
+        },
+        "name": "Stone_fire",
+        "position": {
+          "x": -31.649761199951,
+          "y": 4.1553411483765,
+          "z": -63.39134979248
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -27.999998092651
+        },
+        "scale": {
+          "x": 5.94981,
+          "y": 5.94981,
+          "z": 5.94981
+        },
+        "size": {
+          "x": 21.611520767212,
+          "y": 14.819125175476,
+          "z": 23.193681716919
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "db6a8c3a-a836-46c2-8419-f3bea1a443b1",
+        "collisionUniqueKey": "8779653785436143617",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779653785436143617",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/g2030_zs_17_1.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/g2030_zs_17_1.mesh",
+          "selector": "asset/stone/g2030_zs_17_1.mesh"
+        },
+        "name": "Stone3",
+        "position": {
+          "x": 17.394172668457,
+          "y": 0.55054134130478,
+          "z": 4.0068044662476
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 3.19919,
+          "y": 3.19919,
+          "z": 3.19919
+        },
+        "size": {
+          "x": 3.3062567710876,
+          "y": 0.18789167702198,
+          "z": 2.5528857707977
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "47a49bd8-5452-4c33-8976-80c73c256003",
+            "collisionUniqueKey": "8779654051932848129",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779654051932848129",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_02/.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_02/.mesh",
+              "selector": "asset/stone/shitou/dashi_02/.mesh"
+            },
+            "position": {
+              "x": -13.937031745911,
+              "y": 0.12044456601143,
+              "z": -52.287002563477
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -179.99998474121
+            },
+            "scale": {
+              "x": 3.26593,
+              "y": 3.26593,
+              "z": 3.26593
+            },
+            "size": {
+              "x": 5.9327688217163,
+              "y": 2.2095282077789,
+              "z": 6.5240817070007
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "4b528760-6d96-4616-a53a-7a06f69e716c",
+            "collisionUniqueKey": "8779654051938615297",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779654051938615297",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_03/dashi_03.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_03/dashi_03.mesh",
+              "selector": "asset/stone/shitou/dashi_03/dashi_03.mesh"
+            },
+            "position": {
+              "x": -25.347244262695,
+              "y": 1.7005324363708,
+              "z": -49.546630859375
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "z": -179.99998474121
+            },
+            "scale": {
+              "x": 4.98206,
+              "y": 4.98206,
+              "z": 4.98206
+            },
+            "size": {
+              "x": 11.513212203979,
+              "y": 5.961706161499,
+              "z": 9.9073333740234
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "7503bfbc-a5dd-4d71-92cf-200f68b0fa86",
+            "collisionUniqueKey": "8779654051944054785",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779654051944054785",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/suishi_03/suishi_03.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/suishi_03/suishi_03.mesh",
+              "selector": "asset/stone/shitou/suishi_03/suishi_03.mesh"
+            },
+            "position": {
+              "x": -18.174856185913,
+              "y": 2.9725866317749,
+              "z": -46.814319610596
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 6.3611098606955e-15,
+              "y": 0.99999982118607,
+              "z": -179.99998474121
+            },
+            "scale": {
+              "x": 4.66779,
+              "y": 4.6678,
+              "z": 4.66781
+            },
+            "size": {
+              "x": 2.7476317882538,
+              "y": 1.2413122653961,
+              "z": 3.8312969207764
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "a6c10d36-592f-48bd-a78c-4c8b2870b4a9",
+            "collisionUniqueKey": "8779654051949477889",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779654051949477889",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_04/dashi_04.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_04/dashi_04.mesh",
+              "selector": "asset/stone/shitou/dashi_04/dashi_04.mesh"
+            },
+            "position": {
+              "x": -28.006429672241,
+              "y": 5.5167012214661,
+              "z": -50.884601593018
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 3.87141,
+              "y": 3.87141,
+              "z": 3.87141
+            },
+            "size": {
+              "x": 6.5695390701294,
+              "y": 1.7627036571503,
+              "z": 7.5078320503235
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_MeshPart_Storage",
+            "batchType": "Dynamic",
+            "btsKey": "2d036c01-e0f8-4bbe-bb6e-1b0cebc9cd3f",
+            "collisionUniqueKey": "8779654051954966529",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8779654051954966529",
+            "material": {
+              "discardAlpha": 1
+            },
+            "mesh": "asset/stone/shitou/dashi_03/dashi_03.mesh",
+            "mesh_selector": {
+              "asset": "asset/stone/shitou/dashi_03/dashi_03.mesh",
+              "selector": "asset/stone/shitou/dashi_03/dashi_03.mesh"
+            },
+            "position": {
+              "x": -32.163105010986,
+              "y": 5.1705546379089,
+              "z": -56.175636291504
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 7.4027695518453e-05,
+              "y": -103.99998474121,
+              "z": 179.99990844727
+            },
+            "scale": {
+              "x": 4.98206,
+              "y": 4.98206,
+              "z": 4.98206
+            },
+            "size": {
+              "x": 11.513212203979,
+              "y": 5.961706161499,
+              "z": 9.9073333740234
+            },
+            "staticBatchNo": "1",
+            "useAnchor": true
+          }
+        ],
+        "id": "8779654051931226113",
+        "name": "yanjianglu",
+        "position": {
+          "x": -24.48646402359,
+          "y": 3.4355487823486,
+          "z": -53.776306152344
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "5747b679-1218-4f58-8afc-aff46a563121",
+        "collisionUniqueKey": "8779654296379867137",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779654296379867137",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/shitou/suishi_01/suishi_01.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/shitou/suishi_01/suishi_01.mesh",
+          "selector": "asset/stone/shitou/suishi_01/suishi_01.mesh"
+        },
+        "position": {
+          "x": -5.3244791030884,
+          "y": 0.53787243366241,
+          "z": -25.190940856934
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 3.97049,
+          "y": 3.97049,
+          "z": 3.97049
+        },
+        "size": {
+          "x": 7.6889243125916,
+          "y": 1.0877838134766,
+          "z": 5.7203168869019
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "a43b1852-df12-4be6-98a5-5d2970fe52a3",
+        "collisionUniqueKey": "8779925526651666433",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779925526651666433",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/g2030_island_rongyan_1.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/g2030_island_rongyan_1.mesh",
+          "selector": "asset/stone/g2030_island_rongyan_1.mesh"
+        },
+        "name": "Stone_lava1",
+        "position": {
+          "x": -2.2596688270569,
+          "y": -4.2746572494507,
+          "z": -43.688373565674
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 81.999984741211
+        },
+        "scale": {
+          "x": 5.72909,
+          "y": 5.72909,
+          "z": 5.72909
+        },
+        "size": {
+          "x": 20.809801101685,
+          "y": 14.269382476807,
+          "z": 22.333269119263
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "batchType": "Dynamic",
+        "btsKey": "71d75966-2d45-469b-ba48-0ab634d89281",
+        "collisionUniqueKey": "8779925988876730369",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8779925988876730369",
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/stone/g2030_island_rongyan_1.mesh",
+        "mesh_selector": {
+          "asset": "asset/stone/g2030_island_rongyan_1.mesh",
+          "selector": "asset/stone/g2030_island_rongyan_1.mesh"
+        },
+        "name": "Stone_Lava2",
+        "position": {
+          "x": -12.691553115845,
+          "y": -3.974657535553,
+          "z": -38.209350585938
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 163.99998474121
+        },
+        "scale": {
+          "x": 5.72909,
+          "y": 5.72909,
+          "z": 5.72909
+        },
+        "size": {
+          "x": 20.809801101685,
+          "y": 14.269382476807,
+          "z": 22.333269119263
+        },
+        "staticBatchNo": "1",
+        "useAnchor": true
+      }
+    ]
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b73058d1f74344deaf12a9943b442823"
+    },
+    "VERSION": "0.23"
+  }
+}

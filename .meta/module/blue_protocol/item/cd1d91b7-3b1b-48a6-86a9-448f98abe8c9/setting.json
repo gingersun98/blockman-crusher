@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "cd1d91b7-3b1b-48a6-86a9-448f98abe8c9"
+    },
+    "name": "DestroyWidget",
+    "register_object": "layout/956f303e-9258-4d95-b89e-1e74529c2401/root/triggers/list/1",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

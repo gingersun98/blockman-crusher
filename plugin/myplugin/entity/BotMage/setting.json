@@ -1,0 +1,121 @@
+{
+  "_clientScript": [],
+  "_serverScript": [
+    "server/server_script"
+  ],
+  "actorGirlName": "asset/Actor/Red Blue Element Giant/Elemental Giant.actor",
+  "actorName": "asset/Actor/Red Blue Element Giant/Elemental Giant.actor",
+  "aiFixSpeedRate": 2,
+  "attackNpc": false,
+  "autoAttack": true,
+  "autoMove": false,
+  "autoRotateColliderBox": true,
+  "avoidCliff": true,
+  "avoidCliffHight": 1,
+  "boundingScaleWithSize": true,
+  "canClick": false,
+  "canHurtMove": true,
+  "canJump": true,
+  "canMove": true,
+  "canPickOnDie": false,
+  "canTurnHead": false,
+  "castRealShadowAtFirstPRV": false,
+  "chaseDistance": 6,
+  "chaseInterval": 10,
+  "checkPartTouchEvent": true,
+  "clickDistance": 4,
+  "collider": {
+    "extent": {
+      "x": 0.6,
+      "y": 1.8,
+      "z": 0.6
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+  "collision": true,
+  "damage": 5,
+  "deathHideTime": 20,
+  "destroyTime": 0,
+  "disableShadow": true,
+  "disableShadowAtFirstPRV": true,
+  "dropDamageRatio": 0,
+  "dropDamageStart": 1.5,
+  "enableAI": true,
+  "enableMeshNavigate": true,
+  "equipTrays": [],
+  "eyeHeight": 1.62,
+  "followEntityDistanceWhenHasTarget": 10,
+  "followEntityDistanceWhenNotTarget": 5,
+  "gravity": 0.08,
+  "headPic": "",
+  "hideHolder": false,
+  "hideHp": 0,
+  "hideName": false,
+  "homeSize": 12,
+  "hpBarColor": 4294967551,
+  "hpBarHeight": 0.2,
+  "hpBarWidth": 1.5,
+  "hpFaceCamera": 0,
+  "hurtResistantTime": 0,
+  "isAIGoHomePos": true,
+  "isPlayer": false,
+  "jumpHeight": 0.6,
+  "jumpSpeed": 0.5,
+  "maxHp": 600,
+  "maxVisualAngle": 360,
+  "meetCliffBackRun": true,
+  "moveAcc": 0.2,
+  "moveFactor": 1,
+  "moveSpeed": 0.1,
+  "name": "60e590e1-1950-4f25-9709-ec68f9643b06",
+  "needCheckTouch": true,
+  "nextChaseInterval": 2,
+  "randomPlayDeadActions": [
+    ""
+  ],
+  "reachDistance": 6.5,
+  "setFollowWhenCreate": true,
+  "skillInfoList": [
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 4,
+      "fullName": "myplugin/attack",
+      "priority": 4
+    },
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 5,
+      "fullName": "myplugin/blame2",
+      "priority": 3
+    },
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 5,
+      "fullName": "myplugin/blame",
+      "priority": 2
+    },
+    {
+      "__OBJ_TYPE": "AI_Skill",
+      "attackDis": 10,
+      "fullName": "myplugin/blow",
+      "priority": 1
+    }
+  ],
+  "skillInfos": [],
+  "stepHeight": 1,
+  "textHeight": 2.5,
+  "touchdownTimeToDie": true,
+  "touchdownTimeToDieTick": 5,
+  "unassailable": 0,
+  "undamageable": 0
+}

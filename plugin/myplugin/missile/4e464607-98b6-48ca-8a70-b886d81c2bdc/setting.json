@@ -1,0 +1,99 @@
+{
+  "autoRotateColliderBox": true,
+  "collideEntity": 6,
+  "collider": {
+    "extent": {
+      "x": 0.2,
+      "y": 0.2,
+      "z": 0.2
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+  "followTarget": true,
+  "followTargetRotation": true,
+  "followTargetRotationOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "gravity": 0,
+  "hitEntityEffect": {
+    "effect": "@asset/effect/Horizontal Orange Shockwave Effect/gfxy207_shock wave_orange_3d.effect",
+    "once": true,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": 0
+  },
+  "hitEntitySkill": "myplugin/2b1fa4c1-8bd1-456b-9cb5-cbb88c35d999",
+  "hitEntitysRoles": [
+    "hitAllTeam",
+    "hitAllEntitys",
+    "hitAllConfigEntity"
+  ],
+  "hitInterval": 10,
+  "isPitch": true,
+  "lifeTime": 100,
+  "lockRotateBodyPitch": 0,
+  "lockRotateBodyRoll": 0,
+  "lockRotateBodyYaw": 0,
+  "modelSizeScale": {
+    "x": 1,
+    "y": 1,
+    "z": 1
+  },
+  "moveAcc": 0,
+  "moveSpeed": 0.5,
+  "rotateFree": true,
+  "rotateSpeed": 0,
+  "startEffect": {
+    "effect": "@asset/effect/Small Blue Shockwave Effect/gfxy207_shock wave_blue.effect",
+    "once": false,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": 0
+  },
+  "startWithMoveAcc": true,
+  "vanishEffect": {
+    "effect": "@asset/effect/Slow Spark Explosion Effects/gfxy207_flame falling_orange_3d.effect",
+    "once": true,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": 0
+  },
+  "vanishShow": false,
+  "vanishTime": 10
+}

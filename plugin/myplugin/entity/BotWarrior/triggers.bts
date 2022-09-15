@@ -1,0 +1,19 @@
+ENTITY_DIE {
+	$obj2.firstblood = true
+}
+
+ENTITY_ENTER {
+	AddEntityBuff(cfg = "myplugin/BotWarrior", entity = $obj1, from = $obj1)
+	$obj1.LokasiSpawn = {
+			x = 30.409156799316,
+			y = 9.1930590057373,
+			z = 13.780798912048
+		}
+}
+
+ENTITY_DAMAGE {
+	ExecScript(Clicker = $obj2, Damage = $damage, script_name = "ScriptableNode_17")
+	SendToClient(msg = "client_e7b1b919_d092_43b1_a9e4_e766620c82ed", player = $obj2)
+	$obj2.CrushingScore = $obj2.CrushingScore + $damage
+	SendToClient(msg = "client_45a6eeda_3915_4b5e_b23b_8b263ea888d0", p_CrushingScore = $obj2.CrushingScore, player = $obj2)
+}

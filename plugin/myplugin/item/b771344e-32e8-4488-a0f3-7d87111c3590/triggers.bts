@@ -1,0 +1,8 @@
+HAND_ITEM_CHANGED_HAND {
+	AddSkill(entity = $obj1, name = "myplugin/7c41b303-d6c0-4581-b67c-f3035b62ba0c")
+	AddEntityVp(entity = $obj1, step = 30)
+}
+
+HAND_ITEM_CHANGED_UNHAND {
+	RemoveSkill(entity = $obj1, name = "myplugin/2dedc55d-2d6f-4e2d-ab9f-2c2be108caa2")
+}

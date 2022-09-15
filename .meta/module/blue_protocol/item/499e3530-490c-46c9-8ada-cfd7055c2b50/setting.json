@@ -1,0 +1,20 @@
+{
+  "data": {
+    "id": {
+      "value": "499e3530-490c-46c9-8ada-cfd7055c2b50"
+    },
+    "name": "Choosed",
+    "params": [
+      {
+        "param_name": "ChooseCharacter"
+      }
+    ],
+    "register_object": "layout/ca567c03-6eb1-4a09-b36d-6b7f4af0fb70/root/children/2/children/2/triggers/list/2",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

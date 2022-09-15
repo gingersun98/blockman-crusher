@@ -1,0 +1,59 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g2021_monengbingyao.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_pet_2_2_4.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="body" MasterName="body">
+				<Effect>
+					<scale value="0.4"/>
+					<roll value="0"/>
+					<SocketName value="Bip001"/>
+					<Position_Y value="-0.105905"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_bingling_body.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.4"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_Head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0.214343"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_bingling_head.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 9.09443e-43 1.86978e+31 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g2021_monengbingyao.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2021_monengbingyao_zoulu.anim"/>
+			<Anim Name="asset/Anim/g2021_monengbingyao_shouji.anim"/>
+			<Anim Name="asset/Anim/g2021_monengbingyao_gongji.anim"/>
+			<Anim Name="asset/Anim/g2021_monengbingyao_daiji.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_monengbingyao_gongji.anim" Channel="" TimeScale="1" Length="1.566" Times="1"/>
+				<ActorScaleChange beginScale="1" endScale="1"/>
+			</Skill>
+			<Skill Name="hurt" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_monengbingyao_shouji.anim" Channel="" TimeScale="1" Length="0.633" Times="1"/>
+				<ActorScaleChange beginScale="1" endScale="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_monengbingyao_daiji.anim" Channel="" TimeScale="1" Length="1.233" Times="-1"/>
+				<ActorScaleChange beginScale="1" endScale="1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_monengbingyao_zoulu.anim" Channel="" TimeScale="0.8" Length="0.966" Times="-1"/>
+				<ActorScaleChange beginScale="1" endScale="1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

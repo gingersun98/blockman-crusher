@@ -1,0 +1,22 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip"
+      }
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Orange Desert Path/map4_1.mesh"
+    },
+    "name": {
+      "value": "item_mapdesert"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c6fdfc52361c137ed969b9e3c489a068",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

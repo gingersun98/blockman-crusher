@@ -1,0 +1,9 @@
+ENTITY_DIE {
+	ExecScript(Killer = $obj2, script_name = "ScriptableNode_2")
+	$obj1.CrushingScore = $obj1.CrushingScore + 1
+	SendToClient(msg = "client_45a6eeda_3915_4b5e_b23b_8b263ea888d0", p_CrushingScore = $obj1.CrushingScore, player = $obj1)
+}
+
+ENTITY_CLICK {
+	ExecScript(Clicker = $obj2, script_name = "ScriptableNode_8")
+}

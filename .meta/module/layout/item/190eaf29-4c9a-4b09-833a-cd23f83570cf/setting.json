@@ -1,0 +1,1898 @@
+{
+  "data": {
+    "md5": "86d8d7a5eeb76406b9f6d9c2006d014b",
+    "path": "asset/Winner_Standart.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 50,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "c2376153-73f1-455e-a412-96253486673b"
+                  },
+                  "name": "Victory",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": -5.182975769043,
+                      "Scale": -0.15
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 512
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  },
+                  "Text": "YOU WIN",
+                  "text_key": {
+                    "value": "asset/Winner_Standart.layout.StaticText#10a0fe25-fb33-4e42-865e-9b6472db3e10"
+                  },
+                  "TextColours": {
+                    "g": 255,
+                    "r": 85
+                  },
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "id": {
+                "value": "364a5db7-8f06-421b-8ea5-83256107b022"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/shop6.png.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 1018
+                },
+                "UDim_Y": {
+                  "Offect": 168
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Alpha": 0.997,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "89dfe04b-f410-4b90-ba9c-82978f81af28"
+              },
+              "name": "KillsAsli",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.35
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/Winner_Standart.layout.StaticText#f1599c8c-f7d3-408c-b3cf-a79d49602361"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "5bd801a4-baad-48f1-bcea-c9af1465b4ae"
+              },
+              "name": "ScorePlayer1",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.68
+                }
+              },
+              "Text": "Player",
+              "text_key": {
+                "value": "asset/Winner_Standart.layout.StaticText#225d86f4-623e-4b00-a82e-ac864e31b25c"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "id": {
+                "value": "836d57f2-b1a8-4922-8811-47ea52ca2047"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/GINGERSUNGAMES.png"
+              },
+              "name": "Image1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                },
+                "UDim_Y": {
+                  "Offect": 4.5531315803528,
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 300
+                },
+                "UDim_Y": {
+                  "Offect": 90.0000000000002
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "f1c96ae2-c8a9-4da1-a9f4-1aa1863ba6f2"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/PanelWindow.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "id": {
+                "value": "4908b98c-3d7f-4ac9-b83c-821fa52502f8"
+              },
+              "Image": {
+                "asset": "asset/Texture/ui/img_展示台.png"
+              },
+              "name": "Image1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Scale": 2
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 256
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ActorWindow",
+              "ActorName": {
+                "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+              },
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "414c1f21-82a0-4cdb-8e0d-f8440b7d77d3"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 512
+                },
+                "UDim_Y": {
+                  "Offect": 512
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "f6c4cd32-cfcd-4ba2-89c5-ae521b5ad28b"
+          },
+          "Image": {
+            "asset": "",
+            "selector": ""
+          },
+          "name": "Image2",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "69030b88-579d-4991-994c-e143e8ac9d02"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.03
+                },
+                "UDim_Y": {
+                  "Scale": -0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.8
+                }
+              },
+              "Text": "CONFIRM",
+              "text_key": {
+                "value": "asset/Winner_Standart.layout.StaticText#a6536f28-c62b-41f1-a35e-9e93803b2d67"
+              },
+              "TextBoldWeight": "1",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "b043b5b2-3ca2-4e7b-bb9e-8a89d6d8b3b5"
+              },
+              "Image": {
+                "asset": "asset/Texture/ui/icon_go.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.06
+                },
+                "UDim_Y": {
+                  "Scale": -0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.6
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "HoverImage": {
+            "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+          },
+          "HoverStretch": {
+            "bottom_left": 17,
+            "bottom_right": 27,
+            "top_left": 17,
+            "top_right": 15
+          },
+          "id": {
+            "value": "49fa27e4-ec0d-4616-bd25-730a802e3496"
+          },
+          "name": "determind",
+          "NormalImage": {
+            "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+          },
+          "NormalStretch": {
+            "bottom_left": 17,
+            "bottom_right": 27,
+            "top_left": 17,
+            "top_right": 15
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            },
+            "UDim_Y": {
+              "Scale": -0.06
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/ui/icon_blue_act.png"
+          },
+          "PushedStretch": {
+            "bottom_left": 17,
+            "bottom_right": 27,
+            "top_left": 17,
+            "top_right": 15
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.3
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.13
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/Winner_Standart.layout.Button#8c3a2f70-8c02-4da4-a4bb-a17fbac43d99"
+          },
+          "triggers": {
+            "list": [
+              {
+                "actions": [
+                  {
+                    "__OBJ_TYPE": "Action_If",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Condition",
+                        "children": [
+                          {
+                            "action": "1985a063-f91a-4e4a-b150-57ad12ba477c"
+                          },
+                          {
+                            "action": "d0578589-d78d-4cd7-a290-7bfb015da0d2"
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "01ca99e2-7e63-49ae-a6bd-c4fcdd9c91ec"
+                    },
+                    "pos": {
+                      "x": 244,
+                      "y": 494
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_IfBranch",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Bool",
+                              "action": "9f3f0c2b-633b-4105-bcf8-9d06a6c7752f",
+                              "rawval": true
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "__OBJ_TYPE": "Component_Sequence",
+                        "children": [
+                          {
+                            "action": "3249765c-d983-458d-a48a-d957a97e4aa4"
+                          },
+                          {
+                            "action": "e0a0edbe-a3db-4ee3-a1fd-2eda83c79dd1"
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "1985a063-f91a-4e4a-b150-57ad12ba477c"
+                    },
+                    "pos": {
+                      "x": 520,
+                      "y": 400
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "AlreadyGacha"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "9f3f0c2b-633b-4105-bcf8-9d06a6c7752f"
+                    },
+                    "pos": {
+                      "x": 703,
+                      "y": 119
+                    },
+                    "type": "T_Bool"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_IfBranch",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Bool",
+                              "action": "77dee66d-868e-44bb-b79a-fce623e382ba"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "__OBJ_TYPE": "Component_Sequence",
+                        "children": [
+                          {
+                            "action": "f89094d1-46ef-460a-ac33-0f6e78547212"
+                          },
+                          {
+                            "action": "9110414d-ed67-41e0-a81a-a1646ffd307f"
+                          },
+                          {
+                            "action": "41ac4215-0642-4f93-a20d-8d9dbf48b777"
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "d0578589-d78d-4cd7-a290-7bfb015da0d2"
+                    },
+                    "pos": {
+                      "x": 523.5,
+                      "y": 458.5
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "AlreadyGacha"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "77dee66d-868e-44bb-b79a-fce623e382ba"
+                    },
+                    "pos": {
+                      "x": 720.5,
+                      "y": 377.5
+                    },
+                    "type": "T_Bool"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_TriggerCustom",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "key": "triggerNameForExecXXX",
+                            "value": {
+                              "__OBJ_TYPE": "T_String",
+                              "rawval": "ClientCustomTrigger_1"
+                            }
+                          },
+                          {
+                            "key": "cfgForExecXXX",
+                            "must": true,
+                            "value": {
+                              "__OBJ_TYPE": "T_Widget",
+                              "action": "aaad27f3-6ca8-4731-b82d-ca3c4c263cb7"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "custom_trigger_name": "ClientCustomTrigger_1",
+                    "id": {
+                      "value": "9110414d-ed67-41e0-a81a-a1646ffd307f"
+                    },
+                    "is_server": false,
+                    "path": "layout/Winner_Standart.layout/Root/Image3/Image4/Image",
+                    "pos": {
+                      "x": 779,
+                      "y": 850
+                    },
+                    "register_id": "4ce797cb-61bf-48ef-8417-c6e2134a2910"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "rootInstance"
+                      }
+                    ],
+                    "id": {
+                      "value": "272eb623-2e31-4069-beb2-765187989d9a"
+                    },
+                    "pos": {
+                      "x": 1117,
+                      "y": 522
+                    },
+                    "type": "T_Layout"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "rootInstance"
+                      }
+                    ],
+                    "id": {
+                      "value": "aaad27f3-6ca8-4731-b82d-ca3c4c263cb7"
+                    },
+                    "pos": {
+                      "x": 1254,
+                      "y": 846
+                    },
+                    "type": "T_Layout"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Random",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Int",
+                              "rawval": 1
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Int",
+                              "rawval": 10
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "41f45dd8-f3a0-4f93-9332-c5496d7141fa"
+                    },
+                    "pos": {
+                      "x": 1128,
+                      "y": 679
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_SetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "Prize"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout",
+                              "action": "272eb623-2e31-4069-beb2-765187989d9a"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Int",
+                              "action": "41f45dd8-f3a0-4f93-9332-c5496d7141fa"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "f89094d1-46ef-460a-ac33-0f6e78547212"
+                    },
+                    "pos": {
+                      "x": 766,
+                      "y": 492
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "b4f1a318-c45f-4bae-b3ac-96e7764b2d15",
+                        "proto_name": "WinMoveSaveArea",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "41ac4215-0642-4f93-a20d-8d9dbf48b777"
+                    },
+                    "pos": {
+                      "x": 744,
+                      "y": 984
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "b4f1a318-c45f-4bae-b3ac-96e7764b2d15",
+                        "proto_name": "WinMoveSaveArea",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "3249765c-d983-458d-a48a-d957a97e4aa4"
+                    },
+                    "pos": {
+                      "x": 769,
+                      "y": 230
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_SetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "AlreadyGacha"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Bool"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "e0a0edbe-a3db-4ee3-a1fd-2eda83c79dd1"
+                    },
+                    "pos": {
+                      "x": 1121,
+                      "y": 352
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "6f4f9744-5ed9-469a-9540-c7244c641955",
+                        "proto_name": "Add250Coin",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "d143ce15-b68b-46d7-bffa-9d194228a7f4"
+                    },
+                    "pos": {
+                      "x": 363,
+                      "y": 47
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "b4f1a318-c45f-4bae-b3ac-96e7764b2d15",
+                        "proto_name": "WinMoveSaveArea",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "4cd1f3bd-a82e-4724-9941-c37ae7180279"
+                    },
+                    "pos": {
+                      "x": 370,
+                      "y": 110
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_DestoryWidget",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Widget",
+                              "action": "929a6ae9-414a-4014-9a75-e01f395e5f07"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "861ad27e-e41d-44f6-bf7e-2da070f581f7"
+                    },
+                    "pos": {
+                      "x": 48,
+                      "y": 296
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "rootInstance"
+                      }
+                    ],
+                    "id": {
+                      "value": "929a6ae9-414a-4014-9a75-e01f395e5f07"
+                    },
+                    "pos": {
+                      "x": 375,
+                      "y": 222
+                    },
+                    "type": "T_Layout"
+                  }
+                ],
+                "custom_trigger_data": {
+                  "name": {
+                    "value": "e3c248d8-0187-407a-bff3-a2a7e5bd7a0c"
+                  },
+                  "type": "Trigger_WidgetClicked"
+                },
+                "root": {
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "d143ce15-b68b-46d7-bffa-9d194228a7f4"
+                        },
+                        {
+                          "action": "4cd1f3bd-a82e-4724-9941-c37ae7180279"
+                        },
+                        {
+                          "action": "861ad27e-e41d-44f6-bf7e-2da070f581f7"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "1ed93299-1134-4ee6-813c-cb431f0800a3"
+                  },
+                  "pos": {
+                    "x": 87,
+                    "y": 33
+                  }
+                },
+                "type": "Trigger_WidgetClicked"
+              }
+            ]
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "fb931466-03f4-4f85-ab50-173e223b29f1"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/achievement.png"
+              },
+              "ImageBlendMode": "1",
+              "size": {
+                "UDim_X": {
+                  "Offect": 64
+                },
+                "UDim_Y": {
+                  "Offect": 64
+                }
+              }
+            }
+          ],
+          "HoverImage": {
+            "asset": "asset/Texture/GingersunUI/CellBig_02.png"
+          },
+          "id": {
+            "value": "0ffd5b18-78ff-4d22-b4a3-397ce8aeaf36"
+          },
+          "name": "LEADEROARD",
+          "NormalImage": {
+            "asset": "asset/Texture/GingersunUI/CellBig_02.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/GingersunUI/CellBig_03.png"
+          },
+          "size": {
+            "UDim_Y": {
+              "Offect": 96
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/Winner_Standart.layout.Button#770ce2d5-e52f-4f0e-81da-3d65167106ab"
+          },
+          "triggers": {
+            "list": [
+              {
+                "actions": [
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "f7d92eaf-bec6-439c-b8f9-32db2a76d90b",
+                        "proto_name": "OpenLeaderboard",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "7edce56d-36c8-464b-b267-f6bc4813f162"
+                    },
+                    "pos": {
+                      "x": 363,
+                      "y": 232
+                    }
+                  }
+                ],
+                "custom_trigger_data": {
+                  "name": {
+                    "value": "2fa8b6f4-5fa6-4816-8c4f-c3c13c038ec1"
+                  },
+                  "type": "Trigger_WidgetClicked"
+                },
+                "root": {
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "7edce56d-36c8-464b-b267-f6bc4813f162"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "92165da9-ad0c-448c-a5dd-741a9167f06c"
+                  },
+                  "pos": {
+                    "x": 105,
+                    "y": 199
+                  }
+                },
+                "type": "Trigger_WidgetClicked"
+              }
+            ]
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 15,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "1085de33-da35-4ac1-9655-831fc619d153"
+              },
+              "Text": "CRUSH SCORE",
+              "text_key": {
+                "value": "asset/Winner_Standart.layout.StaticText#7100243b-fc33-4bc4-9724-58fdf1daefea"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 35,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "68fb1036-79d9-49e4-846c-b0fe41db6b35"
+              },
+              "name": "NumberCrush",
+              "Text": "120",
+              "text_key": {
+                "value": "asset/Winner_Standart.layout.StaticText#316ad701-189a-4e13-837e-f4188f299e38"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "517f4bed-cfb0-419c-9f07-79c9053c0562"
+              },
+              "name": "ScorePlayer",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.35
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/Winner_Standart.layout.StaticText#3d1ac0f0-9227-4288-9121-3ff7387a3908"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "14f58f06-8c7d-41e1-88f9-6d852bc76726"
+          },
+          "Image": {
+            "asset": "asset/3D Asset/Icon34.png"
+          },
+          "name": "Image1",
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            },
+            "UDim_Y": {
+              "Scale": -0.15
+            }
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "Font": "HarmonyOS_Sans_SC_Bold",
+          "Font_size": 15,
+          "HorzFormatting": "RightAligned",
+          "id": {
+            "value": "d0ace08d-4d33-4aa6-8a91-14ac5bdb686e"
+          },
+          "Text": "CRUSH SCORE",
+          "text_key": {
+            "value": "asset/Winner_Standart.layout.StaticText#ffa6555a-6f82-4382-a37e-559511f5c2f3"
+          },
+          "TextColours": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "VertFormatting": "BottomAligned",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "07e375a6-563e-4897-bd12-b1baa3f6530c"
+              },
+              "Image": {
+                "asset": "asset/3D Asset/CoinDepan.png"
+              },
+              "name": "Image11",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.05
+                },
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "ActorWindow",
+                  "id": {
+                    "value": "f07f903e-336f-42fd-8e03-c529cf41b212"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 250
+                    },
+                    "UDim_Y": {
+                      "Offect": 250
+                    }
+                  },
+                  "triggers": {
+                    "list": [
+                      {
+                        "actions": [
+                          {
+                            "__OBJ_TYPE": "Action_If",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Condition",
+                                "children": [
+                                  {
+                                    "action": "47419b0e-fbb0-4a13-8014-c634e349afdd"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "deb7e766-ff76-443d-96a6-b7c9aaeaf609"
+                            },
+                            "pos": {
+                              "x": 349,
+                              "y": 179
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "999ff93d-0404-463c-b11f-469f6f2bfb87"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  []
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "47419b0e-fbb0-4a13-8014-c634e349afdd"
+                            },
+                            "pos": {
+                              "x": 494,
+                              "y": 112
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "06d456f0-6cd2-4275-b11f-c37b0f03f29f"
+                            },
+                            "pos": {
+                              "x": 1024,
+                              "y": 77
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "06d456f0-6cd2-4275-b11f-c37b0f03f29f"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": "=="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 3
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "999ff93d-0404-463c-b11f-469f6f2bfb87"
+                            },
+                            "pos": {
+                              "x": 693,
+                              "y": 32
+                            }
+                          }
+                        ],
+                        "custom_trigger_data": {
+                          "name": {
+                            "value": "bd0f03b6-3deb-4b65-8d7d-39ca9dcd656e"
+                          },
+                          "type": "Trigger_WidgetCreate"
+                        },
+                        "root": {
+                          "components": [
+                            {
+                              "__OBJ_TYPE": "Component_Sequence",
+                              "children": [
+                                []
+                              ]
+                            }
+                          ],
+                          "id": {
+                            "value": "3fbe2258-54db-41a0-8ade-ca00886d17b3"
+                          },
+                          "pos": {
+                            "x": 111,
+                            "y": 127
+                          }
+                        },
+                        "type": "Trigger_WidgetCreate"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "107b336d-9e74-43f0-a420-c1b38bcf41ce"
+                  },
+                  "Image": {
+                    "asset": "asset/3D Asset/CoinDepan.png"
+                  }
+                }
+              ],
+              "id": {
+                "value": "58448b99-de81-4b38-ad30-94e3192c14c3"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/Card X3.png"
+              },
+              "name": "Image4",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.1
+                },
+                "UDim_Y": {
+                  "Scale": 0.07
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 250
+                },
+                "UDim_Y": {
+                  "Offect": 250
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/GingersunUI/Button Hover.png"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 20,
+              "HoverImage": {
+                "asset": "asset/Texture/GingersunUI/Button Hover.png"
+              },
+              "HoverTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "id": {
+                "value": "e3e3859d-8608-4621-9793-f48e75ea495f"
+              },
+              "NormalImage": {
+                "asset": "asset/Texture/GingersunUI/Button Hover.png"
+              },
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 171
+                },
+                "UDim_Y": {
+                  "Offect": 57
+                }
+              },
+              "Text": "GACHA",
+              "text_key": {
+                "value": "asset/Winner_Standart.layout.Button#09c0c4a4-f3bf-402b-8129-3ba240656e65"
+              },
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_SetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "Prize"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout",
+                                  "action": "da46925d-9cca-4797-b154-7dc3ae96a343"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "action": "313fe41f-01d4-4336-b1a8-0a2684e9c42c"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "ef90a645-0a34-4200-9777-327cb4c255ca"
+                        },
+                        "pos": {
+                          "x": 312,
+                          "y": 187
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "da46925d-9cca-4797-b154-7dc3ae96a343"
+                        },
+                        "pos": {
+                          "x": 663,
+                          "y": 217
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_Random",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "rawval": 1
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "rawval": 10
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "313fe41f-01d4-4336-b1a8-0a2684e9c42c"
+                        },
+                        "pos": {
+                          "x": 674,
+                          "y": 374
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_TriggerCustom",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "key": "triggerNameForExecXXX",
+                                "value": {
+                                  "__OBJ_TYPE": "T_String",
+                                  "rawval": "ClientCustomTrigger_1"
+                                }
+                              },
+                              {
+                                "key": "cfgForExecXXX",
+                                "must": true,
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "8f4ae351-390a-49f8-b6d8-a8206629852b"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "custom_trigger_name": "ClientCustomTrigger_1",
+                        "id": {
+                          "value": "1b995c08-b2ef-4ae1-a85c-170cf3550639"
+                        },
+                        "is_server": false,
+                        "path": "layout/Winner_Standart.layout/Root/Image3/Image4/Image",
+                        "pos": {
+                          "x": 325,
+                          "y": 545
+                        },
+                        "register_id": "4ce797cb-61bf-48ef-8417-c6e2134a2910"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "8f4ae351-390a-49f8-b6d8-a8206629852b"
+                        },
+                        "pos": {
+                          "x": 800,
+                          "y": 541
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_SetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "AlreadyGacha"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Bool",
+                                  "rawval": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "1f466a3c-a562-45e9-88e0-5d105789068f"
+                        },
+                        "pos": {
+                          "x": 365,
+                          "y": 727
+                        }
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "4e62018f-94ef-4ab8-a1b3-fc989d31a7e6"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "ef90a645-0a34-4200-9777-327cb4c255ca"
+                            },
+                            {
+                              "action": "1b995c08-b2ef-4ae1-a85c-170cf3550639"
+                            },
+                            {
+                              "action": "1f466a3c-a562-45e9-88e0-5d105789068f"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "fa1a3215-5281-4c76-932d-62cc8c320d83"
+                      },
+                      "pos": {
+                        "x": 89,
+                        "y": 123
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  }
+                ]
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 16,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "422d6a63-b468-4168-a9f9-2270cc92a711"
+                  },
+                  "name": "Text1",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": -0.15
+                    }
+                  },
+                  "size": {
+                    "UDim_Y": {
+                      "Offect": 32
+                    }
+                  },
+                  "Text": "500 GOBOG COIN",
+                  "text_key": {
+                    "value": "asset/Winner_Standart.layout.StaticText#a5d4d58b-ffe5-48f0-9cdc-9f5746b0e0a0"
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "word_warpped": false
+                }
+              ],
+              "id": {
+                "value": "bf808188-5842-4e4d-b3f4-a6ef73b814d8"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/ButtonPanel.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 259
+                },
+                "UDim_Y": {
+                  "Offect": 41
+                }
+              },
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Regular",
+              "Font_size": 18,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "72cdca74-cf0f-4ada-bd8e-2210a9fdc990"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 96
+                },
+                "UDim_Y": {
+                  "Offect": 256
+                }
+              },
+              "Text": " \n \n\n \n\n\n\n\nG\nE\nT\n\nP\nR\nI\nZ\nE",
+              "text_key": {
+                "value": "asset/Winner_Standart.layout.StaticText#8516d442-5283-4640-8834-9cf28d9e38b8"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned"
+            }
+          ],
+          "id": {
+            "value": "b70c71e1-c82c-4f5f-b7e9-c02f7c2eef82"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+          },
+          "name": "Image3",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.05
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 350
+            },
+            "UDim_Y": {
+              "Offect": 350
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "2b71c793-f665-43a4-9a7b-80378a921601"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "triggers": {
+        "list": [
+          {
+            "actions": [
+              {
+                "__OBJ_TYPE": "Action_Random",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Params",
+                    "params": [
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Int",
+                          "rawval": 1
+                        }
+                      },
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Int",
+                          "rawval": 10
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "id": {
+                  "value": "7d373cbe-f07c-4fe4-96d5-fa2eefbd896a"
+                },
+                "pos": {
+                  "x": 762,
+                  "y": 234
+                }
+              },
+              {
+                "__OBJ_TYPE": "Action_SetUIVar",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Params",
+                    "params": [
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_UiVar",
+                          "rawval": "Prize"
+                        }
+                      },
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Layout",
+                          "action": "e9fc36a3-3208-4de6-a1af-2f8c213aa111"
+                        }
+                      },
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Int",
+                          "action": "7d373cbe-f07c-4fe4-96d5-fa2eefbd896a"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "id": {
+                  "value": "49523c0a-a8d3-47a5-9b75-129138857bdb"
+                },
+                "pos": {
+                  "x": 400,
+                  "y": 47
+                }
+              },
+              {
+                "__OBJ_TYPE": "Action_SetUIVar",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Params",
+                    "params": [
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_UiVar",
+                          "rawval": "AlreadyGacha"
+                        }
+                      },
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Layout"
+                        }
+                      },
+                      {
+                        "value": {
+                          "__OBJ_TYPE": "T_Bool",
+                          "rawval": true
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "id": {
+                  "value": "dc9b2d0c-549a-4c68-801a-713dfc955880"
+                },
+                "pos": {
+                  "x": 453,
+                  "y": 587
+                }
+              },
+              {
+                "__OBJ_TYPE": "Action_TriggerCustom",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Params",
+                    "params": [
+                      {
+                        "key": "triggerNameForExecXXX",
+                        "value": {
+                          "__OBJ_TYPE": "T_String",
+                          "rawval": "ClientCustomTrigger_1"
+                        }
+                      },
+                      {
+                        "key": "cfgForExecXXX",
+                        "must": true,
+                        "value": {
+                          "__OBJ_TYPE": "T_Widget"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "custom_trigger_name": "ClientCustomTrigger_1",
+                "id": {
+                  "value": "6aa07f3d-a174-405d-b9b3-adafdd8cd1b0"
+                },
+                "is_server": false,
+                "path": "layout/Winner_Standart.layout/Root/Image3/Image4/Image",
+                "pos": {
+                  "x": 413,
+                  "y": 405
+                },
+                "register_id": "4ce797cb-61bf-48ef-8417-c6e2134a2910"
+              },
+              {
+                "__OBJ_TYPE": "Action_GetContextVar",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Context",
+                    "key": "rootInstance"
+                  }
+                ],
+                "id": {
+                  "value": "e9fc36a3-3208-4de6-a1af-2f8c213aa111"
+                },
+                "pos": {
+                  "x": 757,
+                  "y": 104
+                },
+                "type": "T_Layout"
+              }
+            ],
+            "custom_trigger_data": {
+              "name": {
+                "value": "c2ce5768-16bd-4e34-a461-58848c30cccf"
+              },
+              "type": "Trigger_WidgetCreate"
+            },
+            "root": {
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    []
+                  ]
+                }
+              ],
+              "id": {
+                "value": "9d4e8fda-5a18-4476-a9ff-f90b616751d7"
+              },
+              "pos": {
+                "x": 134,
+                "y": 130
+              }
+            },
+            "type": "Trigger_WidgetCreate"
+          }
+        ]
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "86d8d7a5eeb76406b9f6d9c2006d014b",
+      "triggers.bts": "5c24a1f66d1738dfd092b2a4763ad215"
+    },
+    "VERSION": "0.23"
+  }
+}

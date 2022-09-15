@@ -1,0 +1,59 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="15.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_monster_201_3.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="body" MasterName="body">
+				<Effect>
+					<scale value="0.3"/>
+					<roll value="0"/>
+					<SocketName value="Bone009"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0.0234695"/>
+					<pitch value="0"/>
+					<Position_X value="-0.08944"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_feilong_wind.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.7"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_Spine"/>
+					<Position_Y value="0.000425279"/>
+					<yaw value="0"/>
+					<Position_Z value="0.131163"/>
+					<pitch value="86"/>
+					<Position_X value="0.0833626"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_feilong_wind.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 8.84219e-43 2.21007e-10 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/15.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2021_feishou_shouji.anim"/>
+			<Anim Name="asset/Anim/g2021_feishou_gongji.anim"/>
+			<Anim Name="asset/Anim/g2021_feishou_paobu.anim"/>
+			<Anim Name="asset/Anim/g2021_feishou_daiji.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_feishou_gongji.anim" Channel="" TimeScale="0.7" Length="1.633" Times="1"/>
+				<ActorScaleChange beginScale="4" endScale="4"/>
+			</Skill>
+			<Skill Name="hurt" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_feishou_shouji.anim" Channel="" TimeScale="1" Length="0.533" Times="1"/>
+				<ActorScaleChange beginScale="4" endScale="4"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_feishou_daiji.anim" Channel="" TimeScale="0.7" Length="1.1" Times="-1"/>
+				<ActorScaleChange beginScale="4" endScale="4"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_feishou_paobu.anim" Channel="" TimeScale="0.85" Length="0.633" Times="-1"/>
+				<ActorScaleChange beginScale="4" endScale="4"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

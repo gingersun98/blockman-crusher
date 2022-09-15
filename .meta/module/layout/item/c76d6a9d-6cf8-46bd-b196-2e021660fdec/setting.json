@@ -1,0 +1,250 @@
+{
+  "data": {
+    "md5": "ad81be128d2ae5a6d6d77d702339ac2a",
+    "path": "asset/PVPBattle.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Regular",
+              "Font_size": 35,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "07074a1b-6f46-4de0-939c-faab0f75fec8"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.15
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 500
+                }
+              },
+              "Text": "Do you want to join Start for PVP Battle?",
+              "text_key": {
+                "value": "asset/PVPBattle.layout.StaticText#404063b7-8e27-4c15-b9b8-70e01d197768"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HoverImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              },
+              "HoverTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "id": {
+                "value": "287d70a5-b383-4943-b271-88381f9fc64d"
+              },
+              "name": "YES",
+              "NormalImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              },
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.15
+                },
+                "UDim_Y": {
+                  "Scale": -0.1
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/GingersunUI/Button Active.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 136
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              },
+              "Text": "YES",
+              "text_key": {
+                "value": "asset/PVPBattle.layout.Button#1bec8cdc-0182-48b4-bc01-a8656d1d8149"
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HoverImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              },
+              "HoverTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "id": {
+                "value": "178d507c-3a1e-4250-9ddd-9d3652968c29"
+              },
+              "name": "NO",
+              "NormalImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              },
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.15
+                },
+                "UDim_Y": {
+                  "Scale": -0.1
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/GingersunUI/Button Active.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 136
+                },
+                "UDim_Y": {
+                  "Offect": 48
+                }
+              },
+              "Text": "NO",
+              "text_key": {
+                "value": "asset/PVPBattle.layout.Button#8f3e8473-2d6d-4e05-a444-078411c6b74d"
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 35,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "116a9733-23a9-430a-b773-080c204fac15"
+              },
+              "name": "Text1",
+              "size": {
+                "UDim_X": {
+                  "Offect": 128
+                }
+              },
+              "Text": "10",
+              "text_key": {
+                "value": "asset/PVPBattle.layout.StaticText#43f99a5a-89e9-457c-8bbb-ee9c65a9c68b"
+              },
+              "TextColours": {
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned",
+              "Visible": false
+            }
+          ],
+          "id": {
+            "value": "bcc33d70-5fb6-45be-ab99-be8e421e0c3a"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/Window01.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 618
+            },
+            "UDim_Y": {
+              "Offect": 422
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "36c2d16e-8504-4705-bcef-aedb82d9ac1c"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "triggers": {
+        "list": [
+          {
+            "custom_trigger_data": {
+              "name": {
+                "value": "7ed7f4d6-7e73-4f61-84a0-8f2c5d3c8c28"
+              },
+              "type": "Trigger_WidgetCreate"
+            },
+            "root": {
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    []
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f1af4194-0829-427f-92ba-2a05ead8c52a"
+              },
+              "pos": {
+                "x": 115,
+                "y": 110
+              }
+            },
+            "type": "Trigger_WidgetCreate"
+          }
+        ]
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "ad81be128d2ae5a6d6d77d702339ac2a",
+      "triggers.bts": "008441303d83e68cdb81d833e65ecfb7"
+    },
+    "VERSION": "0.23"
+  }
+}

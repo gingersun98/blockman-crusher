@@ -1,0 +1,100 @@
+{
+  "data": {
+    "name": {
+      "value": "skill_f33f3df8-1f42-46c0-b50b-3c343d79c70d"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff",
+        "buffTime": {
+          "value": 2000
+        },
+        "target": "self"
+      },
+      "type": "Buff"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityVp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "7528b3d0-4558-48c2-8d62-e95307a18449"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 30
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "84a44d27-e3ed-4563-94fc-5037bc7892e5"
+              },
+              "pos": {
+                "x": 594,
+                "y": 223
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "7528b3d0-4558-48c2-8d62-e95307a18449"
+              },
+              "pos": {
+                "x": 902,
+                "y": 191
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "8d603a1b-9118-4783-bf64-c02d7fd60525"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "84a44d27-e3ed-4563-94fc-5037bc7892e5"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "4b3622e0-ec4d-4b2b-adb6-e7abe3d26720"
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "30aafa391d3b490b633a4cccfa502787",
+      "triggers.bts": "a2a2abfe66f976fb7eccf7e9fa1efdb8"
+    },
+    "VERSION": "0.23"
+  }
+}

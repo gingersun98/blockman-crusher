@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "e7b1b919-d092-43b1-a9e4-e766620c82ed"
+    },
+    "name": "DisplayCrushScore",
+    "register_object": "game/0/triggers_client/list/5",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

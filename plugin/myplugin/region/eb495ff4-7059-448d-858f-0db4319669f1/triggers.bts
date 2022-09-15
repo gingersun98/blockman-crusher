@@ -1,0 +1,7 @@
+REGION_ENTER {
+	AddEntityBuff(cfg = "myplugin/SafeArea", entity = $obj1, from = $obj1)
+}
+
+REGION_LEAVE {
+	RemoveBuffByFullName(buff = "myplugin/SafeArea", entity = $obj1, toTeam = false)
+}

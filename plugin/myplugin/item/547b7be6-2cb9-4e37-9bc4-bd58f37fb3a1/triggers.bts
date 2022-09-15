@@ -1,0 +1,11 @@
+USE_ITEM {
+	AddEntityVp(entity = $obj1, step = 30)
+}
+
+HAND_ITEM_CHANGED_HAND {
+	AddSkill(entity = $obj1, name = "myplugin/0d98c98c-5c0a-4229-9e30-9b465ce304c5")
+}
+
+HAND_ITEM_CHANGED_UNHAND {
+	RemoveSkill(entity = $obj1, name = "myplugin/0d98c98c-5c0a-4229-9e30-9b465ce304c5")
+}

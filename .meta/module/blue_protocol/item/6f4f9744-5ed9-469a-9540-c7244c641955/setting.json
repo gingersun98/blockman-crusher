@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "6f4f9744-5ed9-469a-9540-c7244c641955"
+    },
+    "name": "Add250Coin",
+    "register_object": "game/0/triggers/list/18",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

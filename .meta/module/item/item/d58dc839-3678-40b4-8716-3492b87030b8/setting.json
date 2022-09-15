@@ -1,0 +1,20 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "item_d58dc839-3678-40b4-8716-3492b87030b8"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7b3de20e4832fe31121bb8203e8bf2c9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

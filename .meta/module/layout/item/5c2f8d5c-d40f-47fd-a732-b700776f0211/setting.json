@@ -1,0 +1,984 @@
+{
+  "data": {
+    "md5": "e2ae08494bcaba599af20824ce0b6aa8",
+    "path": "asset/Lose_Standart.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 50,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "e778f25f-436c-4c62-8171-042086b84b0d"
+                  },
+                  "name": "Victory",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": -5.182975769043,
+                      "Scale": -0.15
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 512
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  },
+                  "Text": "YOU LOSE",
+                  "text_key": {
+                    "value": "asset/Lose_Standart.layout.StaticText#2fd6ea7c-03fd-4851-b4a0-2fb487a474e4"
+                  },
+                  "TextColours": {
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "id": {
+                "value": "6be4b0cb-0fa3-4a3a-9238-414fc164c302"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/shop6.png.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 1018
+                },
+                "UDim_Y": {
+                  "Offect": 168
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Alpha": 0.997,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "3390c8c9-64bb-4e20-b7a2-b74eacf59269"
+              },
+              "name": "KillsAsli",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.35
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/Lose_Standart.layout.StaticText#3c5124ec-ca65-4bb3-b3f5-d269e6b19ab3"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "ba03b291-d8c7-4988-b7df-7fd9eefc823e"
+              },
+              "name": "ScorePlayer1",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.68
+                }
+              },
+              "Text": "Player",
+              "text_key": {
+                "value": "asset/Lose_Standart.layout.StaticText#7c1025ab-8662-43b4-a781-beddf5f17ff9"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "id": {
+                "value": "43135645-496e-4735-bf89-d15ee680f276"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/GINGERSUNGAMES.png"
+              },
+              "name": "Image1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                },
+                "UDim_Y": {
+                  "Offect": 4.5531315803528,
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 300
+                },
+                "UDim_Y": {
+                  "Offect": 119.999999999997
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "6c56fe21-3759-435b-a0bd-afcc37849631"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/PanelWindow.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "id": {
+                "value": "fa661d35-d54a-4239-9ee4-72e0619857f3"
+              },
+              "Image": {
+                "asset": "asset/Texture/ui/img_展示台.png"
+              },
+              "name": "Image1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Scale": 2
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 256
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ActorWindow",
+              "ActorName": {
+                "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+              },
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "beec3e22-ab0b-4594-a4f1-dee607b57b9e"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 512
+                },
+                "UDim_Y": {
+                  "Offect": 512
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "27dd03e6-44c8-4622-a8c7-8ab79cd2ff23"
+          },
+          "Image": {
+            "asset": "",
+            "selector": ""
+          },
+          "name": "Image2",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "62032ffa-a04e-42c7-96d6-e0b48be85398"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.03
+                },
+                "UDim_Y": {
+                  "Scale": -0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.8
+                }
+              },
+              "Text": "CONFIRM",
+              "text_key": {
+                "value": "asset/Lose_Standart.layout.StaticText#a0e0b63d-fc8b-4645-89a1-22fa4c914cb4"
+              },
+              "TextBoldWeight": "1",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "2807ee91-d895-4e50-be7c-32d5526a1210"
+              },
+              "Image": {
+                "asset": "asset/Texture/ui/icon_go.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.06
+                },
+                "UDim_Y": {
+                  "Scale": -0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.6
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "HoverImage": {
+            "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+          },
+          "HoverStretch": {
+            "bottom_left": 17,
+            "bottom_right": 27,
+            "top_left": 17,
+            "top_right": 15
+          },
+          "id": {
+            "value": "d39b9024-f832-4545-b778-8b77294406c3"
+          },
+          "name": "determind",
+          "NormalImage": {
+            "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+          },
+          "NormalStretch": {
+            "bottom_left": 17,
+            "bottom_right": 27,
+            "top_left": 17,
+            "top_right": 15
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            },
+            "UDim_Y": {
+              "Scale": -0.06
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/ui/icon_blue_act.png"
+          },
+          "PushedStretch": {
+            "bottom_left": 17,
+            "bottom_right": 27,
+            "top_left": 17,
+            "top_right": 15
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.3
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.13
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/Lose_Standart.layout.Button#f8cca4d7-10b9-41ed-9b5d-fcce212edf5b"
+          },
+          "triggers": {
+            "list": [
+              {
+                "actions": [
+                  {
+                    "__OBJ_TYPE": "Action_DestoryWidget",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Widget",
+                              "action": "d3ecbea0-f23b-492e-b250-e302b2b9af82"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "e575fefd-a0c7-44a8-bf85-5552de7ba6b4"
+                    },
+                    "pos": {
+                      "x": 469,
+                      "y": 267
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "rootInstance"
+                      }
+                    ],
+                    "id": {
+                      "value": "d3ecbea0-f23b-492e-b250-e302b2b9af82"
+                    },
+                    "pos": {
+                      "x": 844,
+                      "y": 303
+                    },
+                    "type": "T_Layout"
+                  }
+                ],
+                "custom_trigger_data": {
+                  "name": {
+                    "value": "88e65e79-10a7-43bf-b9cc-99bed9e58963"
+                  },
+                  "type": "Trigger_WidgetClicked"
+                },
+                "root": {
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "e575fefd-a0c7-44a8-bf85-5552de7ba6b4"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "2cf253b8-6da7-4de4-a5f5-6d8623340ceb"
+                  },
+                  "pos": {
+                    "x": 185,
+                    "y": 234
+                  }
+                },
+                "type": "Trigger_WidgetClicked"
+              }
+            ]
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "6e084971-9e1f-451f-b799-c4b453721a9f"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/achievement.png"
+              },
+              "ImageBlendMode": "1",
+              "size": {
+                "UDim_X": {
+                  "Offect": 64
+                },
+                "UDim_Y": {
+                  "Offect": 64
+                }
+              }
+            }
+          ],
+          "HoverImage": {
+            "asset": "asset/Texture/GingersunUI/CellBig_02.png"
+          },
+          "id": {
+            "value": "10b0ccf0-62bf-4241-9149-357a7b4f971a"
+          },
+          "name": "LEADEROARD",
+          "NormalImage": {
+            "asset": "asset/Texture/GingersunUI/CellBig_02.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/GingersunUI/CellBig_03.png"
+          },
+          "size": {
+            "UDim_Y": {
+              "Offect": 96
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/Lose_Standart.layout.Button#0036bc71-be15-438f-ad1b-c6676a910852"
+          },
+          "triggers": {
+            "list": [
+              {
+                "actions": [
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "f7d92eaf-bec6-439c-b8f9-32db2a76d90b",
+                        "proto_name": "OpenLeaderboard",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "dd6f26ad-004d-4879-8650-47dd5f9f1b51"
+                    },
+                    "pos": {
+                      "x": 653,
+                      "y": 329
+                    }
+                  }
+                ],
+                "custom_trigger_data": {
+                  "name": {
+                    "value": "f01c6578-07d1-45d3-ac7f-fa40d2245db0"
+                  },
+                  "type": "Trigger_WidgetClicked"
+                },
+                "root": {
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "dd6f26ad-004d-4879-8650-47dd5f9f1b51"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "7309e18d-3b76-48ed-b941-b9478fada95d"
+                  }
+                },
+                "type": "Trigger_WidgetClicked"
+              }
+            ]
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 15,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "7c374b21-c0ef-4bbf-a0e2-596cd43b1374"
+              },
+              "Text": "CRUSH SCORE",
+              "text_key": {
+                "value": "asset/Lose_Standart.layout.StaticText#d8c38f25-0ce5-42a0-85a3-83fad437e25c"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 35,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "559469b9-1dde-4ecb-9efe-f627ced28143"
+              },
+              "name": "NumberCrush",
+              "Text": "120",
+              "text_key": {
+                "value": "asset/Lose_Standart.layout.StaticText#0c5615b1-fb49-4fdc-84ce-b1266ef03219"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "f4841aec-926f-464e-98a6-1547e9b2d830"
+              },
+              "name": "ScorePlayer",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.35
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/Lose_Standart.layout.StaticText#349466ff-a25a-456e-8a69-db073687f12e"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "f4987dde-b8f2-403b-9689-1e4d73c6db83"
+          },
+          "Image": {
+            "asset": "asset/3D Asset/Icon34.png"
+          },
+          "name": "Image1",
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            },
+            "UDim_Y": {
+              "Scale": -0.15
+            }
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "Font": "HarmonyOS_Sans_SC_Bold",
+          "Font_size": 15,
+          "HorzFormatting": "RightAligned",
+          "id": {
+            "value": "648d4413-fce3-492f-be12-05d36ed2ce4e"
+          },
+          "Text": "CRUSH SCORE",
+          "text_key": {
+            "value": "asset/Lose_Standart.layout.StaticText#a36c5c13-fd7e-476c-81a2-77857684352a"
+          },
+          "TextColours": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "VertFormatting": "BottomAligned",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "565bf5ec-65ef-4b4b-942e-6e4456635c3c"
+              },
+              "Image": {
+                "asset": "asset/3D Asset/CoinDepan.png"
+              },
+              "name": "Image11",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.05
+                },
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "ActorWindow",
+                  "id": {
+                    "value": "3a944b55-9665-433d-bb6b-c9562630c693"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 250
+                    },
+                    "UDim_Y": {
+                      "Offect": 250
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "6a3d1eea-2e23-4ba2-a79d-41652e705cb6"
+                  },
+                  "Image": {
+                    "asset": "",
+                    "selector": ""
+                  }
+                }
+              ],
+              "id": {
+                "value": "356b46af-ad95-48e9-8d37-fcd692261b18"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/Card X3.png"
+              },
+              "name": "Image4",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.1
+                },
+                "UDim_Y": {
+                  "Scale": 0.07
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 250
+                },
+                "UDim_Y": {
+                  "Offect": 250
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/GingersunUI/Button Active.png"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 20,
+              "HoverImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              },
+              "HoverTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "id": {
+                "value": "1e6ff454-e47e-430a-9e22-32ccce9f7d43"
+              },
+              "NormalImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              },
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 171
+                },
+                "UDim_Y": {
+                  "Offect": 57
+                }
+              },
+              "Text": "GACHA",
+              "text_key": {
+                "value": "asset/Lose_Standart.layout.Button#be83f6e3-0d70-47d8-a74c-694d9e4ac99c"
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 16,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "9dfe0746-67b2-446d-96d6-8ee744b19124"
+                  },
+                  "name": "Text1",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": -0.15
+                    }
+                  },
+                  "size": {
+                    "UDim_Y": {
+                      "Offect": 32
+                    }
+                  },
+                  "Text": "500 GOBOG COIN",
+                  "text_key": {
+                    "value": "asset/Lose_Standart.layout.StaticText#0f278552-a1c1-48ac-9ffe-b7aa54f77cce"
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "word_warpped": false
+                }
+              ],
+              "id": {
+                "value": "e66eba4d-958f-4a76-bc11-1848a3a847ad"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/ButtonPanel.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 259
+                },
+                "UDim_Y": {
+                  "Offect": 41
+                }
+              },
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Regular",
+              "Font_size": 18,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "318f8ce2-79c0-4ef4-b552-2bb16f981ff7"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 96
+                },
+                "UDim_Y": {
+                  "Offect": 256
+                }
+              },
+              "Text": " \n \n\n \n\n\n\n\nG\nE\nT\n\nP\nR\nI\nZ\nE",
+              "text_key": {
+                "value": "asset/Lose_Standart.layout.StaticText#1613f6ee-b2ac-4087-826c-8134f4b5fb6d"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned"
+            }
+          ],
+          "id": {
+            "value": "76f2c2f7-8372-4a9e-9594-25389be5bcc2"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+          },
+          "name": "Image3",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.05
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 350
+            },
+            "UDim_Y": {
+              "Offect": 350
+            }
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "5863a268-65f8-4382-9a3c-f6d4d1639c7f"
+          },
+          "Image": {
+            "asset": "asset/3D Asset/Icon33.png"
+          },
+          "name": "Image11",
+          "size": {
+            "UDim_X": {
+              "Offect": 256
+            },
+            "UDim_Y": {
+              "Offect": 256
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "e2b1f187-83e7-4f64-b51b-1bc233d46608"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "e2ae08494bcaba599af20824ce0b6aa8",
+      "triggers.bts": "e11283c5e17915b227ee32052ef1bed4"
+    },
+    "VERSION": "0.23"
+  }
+}

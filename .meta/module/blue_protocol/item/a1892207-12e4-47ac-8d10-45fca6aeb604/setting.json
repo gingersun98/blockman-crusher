@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "a1892207-12e4-47ac-8d10-45fca6aeb604"
+    },
+    "name": "OpenShop",
+    "register_object": "game/0/triggers/list/13",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

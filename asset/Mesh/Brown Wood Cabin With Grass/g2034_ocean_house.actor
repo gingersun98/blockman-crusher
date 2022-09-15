@@ -1,0 +1,122 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2034_ocean_house.actor" Originalscale="1 1 1" Skeleton="bone001.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1">
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="1" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="block_cube_074_whitecoral.effect"/>
+					<SocketName value="bone001"/>
+					<Position_X value="-7.60809"/>
+					<Position_Y value="0.208939"/>
+					<Position_Z value="-1.40915"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="block_cube_079_limecoralblock.effect"/>
+					<SocketName value="bone001"/>
+					<Position_X value="-5.00944"/>
+					<Position_Y value="0.30571"/>
+					<Position_Z value="0.198584"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.6"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="block_cube_079_limecoralblock.effect"/>
+					<SocketName value="bone001"/>
+					<Position_X value="-4.40395"/>
+					<Position_Y value="0.270689"/>
+					<Position_Z value="-1.45571"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.2"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="block_cube_079_limecoralblock.effect"/>
+					<SocketName value="bone001"/>
+					<Position_X value="-7.92892"/>
+					<Position_Y value="0.0661764"/>
+					<Position_Z value="-0.549748"/>
+					<yaw value="13"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.6"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="block_cube_079_limecoralblock.effect"/>
+					<SocketName value="bone001"/>
+					<Position_X value="-5.35882"/>
+					<Position_Y value="0.301954"/>
+					<Position_Z value="-1.40229"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="block_cube_079_limecoralblock.effect"/>
+					<SocketName value="bone001"/>
+					<Position_X value="5.93148"/>
+					<Position_Y value="0.222978"/>
+					<Position_Z value="1.57361"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.2"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="block_cube_074_whitecoral.effect"/>
+					<SocketName value="bone001"/>
+					<Position_X value="6.84817"/>
+					<Position_Y value="0.0728364"/>
+					<Position_Z value="0.790364"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.8"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="g2034_ocean_haunthouse.mesh"/>
+					<SocketName value="bone001"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+		</Skills>
+		<Anims>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

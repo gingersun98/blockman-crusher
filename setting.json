@@ -1,0 +1,560 @@
+{
+  "automatch": false,
+  "bagCap": 18,
+  "batchType": "Dynamic",
+  "cameraCfg": {
+    "canSwitchView": true,
+    "defaultPitch": 0,
+    "defaultView": 1,
+    "defaultYaw": 0,
+    "viewModeConfig": [
+      {
+        "enable": false,
+        "lockSlideScreen": false,
+        "viewFovAngle": 75
+      },
+      {
+        "distance": 4,
+        "enable": true,
+        "enableCollisionDetect": true,
+        "lockSlideScreen": false,
+        "offset": {
+          "__OBJ_TYPE": "Vector3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "viewFovAngle": 75
+      },
+      {
+        "distance": 4,
+        "enable": false,
+        "enableCollisionDetect": true,
+        "lockSlideScreen": false,
+        "offset": {
+          "__OBJ_TYPE": "Vector3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "viewFovAngle": 75
+      },
+      {
+        "distance": 4,
+        "enable": true,
+        "enableCollisionDetect": true,
+        "lockBodyRotation": false,
+        "lockSlideScreen": false,
+        "offset": {
+          "__OBJ_TYPE": "Vector3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "viewFovAngle": 75
+      },
+      {
+        "enable": false,
+        "lockBodyRotation": false,
+        "lockSlideScreen": false,
+        "lockViewPos": true,
+        "pos": {
+          "__OBJ_TYPE": "Vector3i",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "viewFovAngle": 75
+      }
+    ]
+  },
+  "canJoinMidway": true,
+  "collisionMatrix": [
+    "1"
+  ],
+  "defaultMap": "MapVillage",
+  "defaultQualityLevel": 2,
+  "dragControlConfig": {
+    "useDragControl": true
+  },
+  "editorFovAngle": 65,
+  "enableBakeLight": true,
+  "enableNewLighting": false,
+  "engineDefUIEnable": {
+    "actionControl": true,
+    "appMainRole": true,
+    "chat": true,
+    "playerinfo": true,
+    "shortcutBar": true,
+    "toolbar": true
+  },
+  "forcePickBlock": true,
+  "hideCloud": false,
+  "hideTeamStatusBar": true,
+  "ignoreEmptyStartPos": false,
+  "initPos": {
+    "map": "MapVillage",
+    "x": -3.52,
+    "y": 1.134,
+    "z": -11.564
+  },
+  "isTimeStopped": false,
+  "jumpControlConfig": {
+    "area": [
+      [
+        0,
+        100
+      ],
+      [
+        0,
+        60
+      ],
+      [
+        0,
+        200
+      ],
+      [
+        0,
+        200
+      ]
+    ],
+    "jumpImage": {
+      "name": "jump_imagesets/icon_jump_nor.png"
+    },
+    "jumpPushImage": {
+      "name": "jump_imagesets/icon_jump_act.png"
+    },
+    "useGroup": "_imagesets_"
+  },
+  "maxPlayers": 6,
+  "meshPartStaticMergeRender": true,
+  "minPlayers": 2,
+  "moveStateConfig": {
+    "isShow": false
+  },
+  "needSave": true,
+  "noLoadHp": true,
+  "notReadUserSettingCfgAtEditor": true,
+  "nowTime": 666.388888888889,
+  "oneDayTime": 300,
+  "partGameStaticBatch": true,
+  "personalSettingUI": {
+    "controlMode": true,
+    "guiSize": false,
+    "horizon": false,
+    "imageQuality": true,
+    "jumpSneakState": false,
+    "luminance": false,
+    "sensitive": true,
+    "volume": true
+  },
+  "personalShop": false,
+  "playerCfg": "myplugin/player1",
+  "playTime": -1,
+  "qualityLevelData": {
+    "maxLevel": [
+      2,
+      0,
+      0.6,
+      0.68,
+      0.00132,
+      3,
+      1.4,
+      1,
+      1,
+      0.22,
+      -0.00132,
+      0.43,
+      1,
+      0,
+      0.1,
+      0,
+      0,
+      2,
+      2,
+      1,
+      0,
+      2,
+      1.8
+    ]
+  },
+  "replay": false,
+  "reportTime": 1200,
+  "screenSpaceCull": false,
+  "skillJack": {
+    "AJackArea": [
+      [
+        0,
+        -40
+      ],
+      [
+        0,
+        -40
+      ],
+      [
+        0,
+        120
+      ],
+      [
+        0,
+        120
+      ]
+    ],
+    "hideBJack": true,
+    "lineSkills": [
+      {
+        "hAlign": 2,
+        "itemSpace": 30,
+        "jackNum": 2,
+        "jackSize": 80,
+        "vAlign": 1,
+        "xOffset": -50,
+        "yOffset": 0
+      },
+      {
+        "hAlign": 1,
+        "itemSpace": 30,
+        "jackNum": 4,
+        "jackSize": 80,
+        "vAlign": 0,
+        "xOffset": 0,
+        "yOffset": 50
+      }
+    ],
+    "sectorSkills": [
+      {
+        "deltaAngle": 45,
+        "jackNum": 3,
+        "jackSize": 88,
+        "radius": 170,
+        "startAngle": 270
+      }
+    ]
+  },
+  "startPos": [
+    {
+      "map": "MapArena",
+      "x": -17.781631469727,
+      "y": 8.515,
+      "z": 15.210754394531
+    }
+  ],
+  "team": [],
+  "teammateHurt": false,
+  "topTeamInfo": {
+    "teamDieIcon": "flag_textures/flag_die",
+    "teamDieIconArea": [
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        -7
+      ],
+      [
+        0,
+        20
+      ],
+      [
+        0,
+        20
+      ]
+    ],
+    "teamInfoArea": [
+      [
+        0,
+        -5
+      ],
+      [
+        0,
+        -3
+      ],
+      [
+        0,
+        53.45
+      ],
+      [
+        0,
+        17
+      ]
+    ]
+  },
+  "uiNavigation": [
+    {
+      "iconPath": "set:main_page.json image:shop_icon.png",
+      "list": 1,
+      "name": "shop"
+    }
+  ],
+  "useHalfImageSize": true,
+  "useNewCollisionFiltering": true,
+  "useNewFirstViewer": true,
+  "useNewQuadConfig": true,
+  "useNewUI": true,
+  "useVoxelTerrain": true,
+  "vars": {
+    "__OBJ_TYPE": [],
+    "entity": [
+      {
+        "key": "CrushingScore",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "CrushObject",
+        "run_type": "server",
+        "save": false
+      },
+      {
+        "key": "Location",
+        "run_type": "server",
+        "save": false,
+        "value": {
+          "__OBJ_TYPE": "ScenePos",
+          "pos": {
+            "__OBJ_TYPE": "Vector3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "key": "Hero",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "JumlahPlayer",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "WinCondition",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "LokasiSpawn",
+        "run_type": "server",
+        "save": false,
+        "value": {
+          "__OBJ_TYPE": "ScenePos",
+          "pos": {
+            "__OBJ_TYPE": "Vector3",
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      },
+      {
+        "key": "firstblood",
+        "run_type": "server",
+        "save": false
+      },
+      {
+        "key": "PlayerParticipate",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "LOOT",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "Start",
+        "run_type": "server",
+        "save": false
+      },
+      {
+        "key": "UIWinner",
+        "run_type": "server",
+        "save": false,
+        "value": []
+      },
+      {
+        "key": "Score",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "EnemyArray",
+        "run_type": "server",
+        "save": false,
+        "value": []
+      },
+      {
+        "key": "JumlahKillPlayer",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "LOSSER",
+        "run_type": "server",
+        "save": false,
+        "value": "LOSSER"
+      },
+      {
+        "key": "WINNER",
+        "run_type": "server",
+        "save": false,
+        "value": "WINNER"
+      },
+      {
+        "key": "PlayerName",
+        "run_type": "server",
+        "save": false,
+        "value": ""
+      },
+      {
+        "key": "StopTimer",
+        "run_type": "server",
+        "save": false
+      },
+      {
+        "key": "Players",
+        "run_type": "server",
+        "save": false
+      },
+      {
+        "key": "OpenShop",
+        "run_type": "server",
+        "save": false
+      },
+      {
+        "key": "WinGame",
+        "run_type": "server",
+        "save": false
+      },
+      {
+        "key": "Dead",
+        "run_type": "server",
+        "save": false
+      }
+    ],
+    "global": [
+      {
+        "key": "KillScore",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "PlayerInDungeon1",
+        "run_type": "server",
+        "save": false,
+        "value": []
+      },
+      {
+        "key": "RandomLoot",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "PlayerParticipate",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "WIN",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "WINCONDITION",
+        "run_type": "server",
+        "save": false,
+        "value": -1
+      },
+      {
+        "key": "EnterGameplay",
+        "run_type": "server",
+        "save": false
+      },
+      {
+        "key": "PlayerJoinMatch",
+        "run_type": "server",
+        "save": false,
+        "value": []
+      },
+      {
+        "key": "EntityPlayer",
+        "run_type": "server",
+        "save": false,
+        "value": []
+      },
+      {
+        "key": "VICTORYPLAYER",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      }
+    ],
+    "ui": [
+      {
+        "key": "Warrior",
+        "run_type": "client",
+        "save": false
+      },
+      {
+        "key": "TimeValue",
+        "run_type": "client",
+        "save": false,
+        "value": 10
+      },
+      {
+        "key": "Walking",
+        "run_type": "client",
+        "save": false,
+        "value": true
+      },
+      {
+        "key": "CrushScore",
+        "run_type": "client",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "Survivor",
+        "run_type": "client",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "ChooseCharacter",
+        "run_type": "client",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "Prize",
+        "run_type": "client",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "AlreadyGacha",
+        "run_type": "client",
+        "save": false
+      }
+    ]
+  },
+  "waitAtInitPos": true,
+  "waitGoTime": 100,
+  "waitPlayerTime": 1200,
+  "waitStartTime": 300
+}

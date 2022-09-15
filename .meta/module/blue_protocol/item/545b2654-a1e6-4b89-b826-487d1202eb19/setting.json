@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "545b2654-a1e6-4b89-b826-487d1202eb19"
+    },
+    "name": "Add500Coin",
+    "register_object": "game/0/triggers/list/19",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

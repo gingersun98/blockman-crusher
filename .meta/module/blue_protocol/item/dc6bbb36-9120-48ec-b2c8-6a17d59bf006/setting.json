@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "dc6bbb36-9120-48ec-b2c8-6a17d59bf006"
+    },
+    "name": "AddScore",
+    "register_object": "entity/player1/triggers/list/5",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}

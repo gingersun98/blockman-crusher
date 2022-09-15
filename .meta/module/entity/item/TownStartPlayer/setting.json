@@ -1,0 +1,36 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/White Windmill Hut/g2043_city2_decoration_02.actor"
+    },
+    "boundingVolume": {
+      "height": 5,
+      "radius": 3,
+      "type": "Sector"
+    },
+    "boundingVolumeEntityCfg": {
+      "height": 5,
+      "radius": 3,
+      "type": "Sector"
+    },
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideName": true,
+    "maxHp": 1,
+    "name": {
+      "value": "1eee0763-f613-4f85-8172-9657962bffe1"
+    },
+    "unAssailable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "143df08d603d94e8f218e460e32fdf32",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

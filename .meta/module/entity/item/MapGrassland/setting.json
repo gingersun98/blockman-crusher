@@ -1,0 +1,22 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Mesh/Green Grass Path/map2.actor"
+    },
+    "canJump": false,
+    "canMove": false,
+    "collision": true,
+    "hideName": true,
+    "maxHp": 1,
+    "name": {
+      "value": "45e83f04-81d7-4a85-86d4-80f8330ae2f6"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "cc195c6385514f11b7dc350d475c4137",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.23"
+  }
+}

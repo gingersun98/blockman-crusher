@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "71a43a7f-f826-41e8-848f-91d771cd1263"
+    },
+    "name": "StartUpPrepare",
+    "register_object": "game/0/triggers/list/22",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.23"
+  }
+}
