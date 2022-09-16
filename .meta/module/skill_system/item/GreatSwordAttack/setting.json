@@ -1,5 +1,15 @@
 {
   "data": {
+    "attackBound": {
+      "size": {
+        "y": 2.5
+      }
+    },
+    "attackBoundSkillSystemCfg": {
+      "size": {
+        "y": 2.5
+      }
+    },
     "castAction": {
       "castAction": "greatsword"
     },
@@ -29,7 +39,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "4e6a6c144df7a0bb98576597067b50e2",
+      "setting.json": "e4c26092cf90eb15c3a428a5699faad2",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

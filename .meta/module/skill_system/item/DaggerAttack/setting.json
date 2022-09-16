@@ -1,5 +1,15 @@
 {
   "data": {
+    "attackBound": {
+      "size": {
+        "y": 2.5
+      }
+    },
+    "attackBoundSkillSystemCfg": {
+      "size": {
+        "y": 2.5
+      }
+    },
     "castAction": {
       "castAction": "attack"
     },
@@ -29,7 +39,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3f41a5b9ff18694213409b8f8a4d5c35",
+      "setting.json": "2de67cd742c2e93c605d9cd2d8fa53d1",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

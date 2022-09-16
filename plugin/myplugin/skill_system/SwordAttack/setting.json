@@ -38,7 +38,7 @@
     "size": {
       "__OBJ_TYPE": "Vector3",
       "x": 1,
-      "y": 1,
+      "y": 2.5,
       "z": 1
     },
     "type": "Box"
@@ -76,7 +76,7 @@
     "size": {
       "__OBJ_TYPE": "Vector3",
       "x": 1,
-      "y": 1,
+      "y": 2.5,
       "z": 1
     },
     "type": "Box"
