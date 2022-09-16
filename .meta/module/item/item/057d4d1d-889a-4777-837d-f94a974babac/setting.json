@@ -10,7 +10,7 @@
         "handBuff": "myplugin/Force",
         "handItemBoneName": "Bip001_L_Finger01",
         "skill": [
-          "myplugin/GreatSwordSkill"
+          "myplugin/GreatSwordAttack"
         ]
       },
       "type": "InHand"
@@ -24,9 +24,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e4ad8065bb50350837b168681522cae1",
+      "setting.json": "83fff9ccb826b79ff494dbae454bafa0",
       "triggers.bts": ""
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

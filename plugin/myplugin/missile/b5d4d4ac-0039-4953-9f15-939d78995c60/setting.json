@@ -54,18 +54,18 @@
   "lockRotateBodyPitch": 0,
   "lockRotateBodyRoll": 0,
   "lockRotateBodyYaw": 0,
-  "modelMesh": "asset/Mesh/Green Shell/g2050_missile_bullet.mesh",
+  "modelMesh": "",
   "modelSizeScale": {
     "x": 1,
     "y": 1,
     "z": 1
   },
   "moveAcc": 0,
-  "moveSpeed": 1,
+  "moveSpeed": 0.35,
   "rotateFree": true,
   "rotateSpeed": 0,
   "startEffect": {
-    "effect": "@asset/effect/Orange Arrow Effect/gfxy207_quick hit_3d.effect",
+    "effect": "@asset/effect/Orange Arrow Effect_0/gfxy207_quick hit_3d.effect",
     "once": false,
     "pos": {
       "x": 0,

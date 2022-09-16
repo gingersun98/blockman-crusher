@@ -12,7 +12,7 @@
   "mesh": "asset/warrior/hunter_dao02.mesh",
   "needSave": false,
   "skill": [
-    "myplugin/GreatSwordSkill"
+    "myplugin/GreatSwordAttack"
   ],
   "stack_count_max": 1,
   "syncGameData": {

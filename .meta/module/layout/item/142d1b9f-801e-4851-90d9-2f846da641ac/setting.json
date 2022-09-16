@@ -15,7 +15,7 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
-            "value": "6ba09113-904e-4003-9b7c-09b2f5abd75e"
+            "value": "cadc748d-9f21-4b60-b725-c12f8c9e36c9"
           },
           "Image": {
             "asset": "asset/3D Asset/Icon31.png"
@@ -23,7 +23,7 @@
         }
       ],
       "id": {
-        "value": "3efb36b8-ae35-404b-aa76-25436aa080da"
+        "value": "6a5dbe72-7228-4345-afdf-004c245c0e56"
       },
       "size": {
         "UDim_X": {
@@ -40,6 +40,6 @@
     "EXPORT": {
       "layout": "730463562cef5ccd4e43aa6b4f84edcd"
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

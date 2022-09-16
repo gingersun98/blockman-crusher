@@ -11,26 +11,23 @@
       "value": 20
     },
     "missileModel": {
-      "modelMesh": {
-        "asset": "asset/Mesh/Green Shell/g2050_missile_bullet.mesh"
-      },
       "type": "mesh"
     },
-    "moveSpeed": 20,
+    "moveSpeed": 7,
     "name": {
       "value": "missile_b5d4d4ac-0039-4953-9f15-939d78995c60"
     },
     "startEffect": {
       "effect": {
-        "asset": "asset/effect/Orange Arrow Effect/gfxy207_quick hit_3d.effect"
+        "asset": "asset/effect/Orange Arrow Effect_0/gfxy207_quick hit_3d.effect"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "eb9bc1113efab3eca4220e1e1b3e2404",
+      "setting.json": "5971a16fb33527ae552f7c975430841e",
       "triggers.bts": ""
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

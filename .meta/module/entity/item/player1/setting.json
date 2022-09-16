@@ -1195,7 +1195,6 @@
                       "must": true,
                       "value": {
                         "__OBJ_TYPE": "T_String",
-                        "action": "09ce3a59-9020-4d88-a066-5af547b19c8f",
                         "rawval": "LOSSER"
                       }
                     }
@@ -1203,8 +1202,7 @@
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "0339c85f-fbdb-4366-b894-07a7088f607f"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -1404,16 +1402,14 @@
                       "key": "JumlahKillPlayer",
                       "must": true,
                       "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "action": "63fd6f17-0680-48d4-9831-d4d7eceed751"
+                        "__OBJ_TYPE": "T_Int"
                       }
                     }
                   ],
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "ff51cc92-a6ae-4664-a38d-6b498c612322"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -6079,18 +6075,14 @@
                 {
                   "__OBJ_TYPE": "Component_Sequence",
                   "children": [
-                    {
-                      "action": "0b5c495b-5dfd-4c22-b25b-3e25f96d3f7c"
-                    },
+                    [],
                     {
                       "action": "34714fca-c76c-45c0-8b90-1b0e76aaa3ad"
                     },
                     {
                       "action": "50c61a3f-412e-47a3-8c41-2deb26f774a3"
                     },
-                    {
-                      "action": "e18f0f7d-754c-4444-a17f-8c2e065f0632"
-                    }
+                    []
                   ]
                 }
               ],
@@ -8386,15 +8378,9 @@
                     {
                       "action": "4ef87e04-14a5-4c5f-92dc-fff59b85d4ed"
                     },
-                    {
-                      "action": "60d15799-cebc-4f05-8e73-f75270aae3ae"
-                    },
-                    {
-                      "action": "c85a9d92-f6d1-4c16-bd94-3e074a97286c"
-                    },
-                    {
-                      "action": "090f171c-7823-417c-a20e-14b1995f4027"
-                    },
+                    [],
+                    [],
+                    [],
                     []
                   ]
                 }
@@ -8510,16 +8496,14 @@
                       "key": "JumlahKillPlayer",
                       "must": true,
                       "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "action": "7c7893fb-14d3-4faa-9334-269ff960fe39"
+                        "__OBJ_TYPE": "T_Int"
                       }
                     }
                   ],
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "40e1fd2f-bcd7-46b3-914d-bedf9adb7776"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -8610,8 +8594,7 @@
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "ab69d301-a44e-463c-bab3-8865f19f8ad3"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -8765,16 +8748,14 @@
                       "key": "ObtainPlayer",
                       "must": true,
                       "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "action": "a50e73a7-5dc1-49bf-97bb-4b1daf790dad"
+                        "__OBJ_TYPE": "T_Int"
                       }
                     }
                   ],
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "77afac0f-5ca3-4c9a-a564-9cd796782c11"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -9554,16 +9535,14 @@
                       "data_type": "T_String",
                       "key": "PlayerName",
                       "value": {
-                        "__OBJ_TYPE": "T_String",
-                        "action": "1d20779f-8aa2-4c85-94e5-70e3e8645a89"
+                        "__OBJ_TYPE": "T_String"
                       }
                     }
                   ],
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "1d367271-f88b-48a2-aeaf-727379894ffc"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -9614,16 +9593,14 @@
                       "key": "JumlahKillPlayer",
                       "must": true,
                       "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "action": "2f50249f-f1f5-4314-8acd-54676d1d7304"
+                        "__OBJ_TYPE": "T_Int"
                       }
                     }
                   ],
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "af0f5a53-e933-4d68-8732-ee58a9e4c7cb"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -9779,7 +9756,6 @@
                       "must": true,
                       "value": {
                         "__OBJ_TYPE": "T_String",
-                        "action": "bb8cc855-67f8-46d0-aaf1-38273d60150c",
                         "rawval": "WINNER"
                       }
                     }
@@ -9787,8 +9763,7 @@
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "08018fac-b590-45f2-8ed3-d79a75555f2c"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -10121,16 +10096,14 @@
                       "key": "ObtainPlayer",
                       "must": true,
                       "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "action": "4a52a629-dbfb-4a62-9c99-004b1cc823c6"
+                        "__OBJ_TYPE": "T_Int"
                       }
                     }
                   ],
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "c5321883-7694-4426-9e86-867493ba8dab"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -11104,8 +11077,7 @@
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "798a9839-b34d-4356-812e-d70c11710357"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -12235,12 +12207,8 @@
                   {
                     "action": "cc581d31-7989-45eb-b67a-8d8a0b2c774f"
                   },
-                  {
-                    "action": "5fc28dad-e226-4df7-a965-f68da58e19df"
-                  },
-                  {
-                    "action": "18e04010-c5c5-404c-874d-2b0341e9a88a"
-                  },
+                  [],
+                  [],
                   {
                     "action": "4095d827-89bc-422c-a30a-2b0abf4ca60e"
                   },
@@ -13350,16 +13318,14 @@
                       "key": "CrushingScore",
                       "must": true,
                       "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "action": "b859cccb-75d1-4182-9b9c-3994135ec589"
+                        "__OBJ_TYPE": "T_Int"
                       }
                     }
                   ],
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "08b4b9a7-77e4-49b9-9d0e-2740fa39e88c"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -13375,6 +13341,52 @@
                 "x": 845.39631129749,
                 "y": 718.34253040885
               }
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityVp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "06999d04-78ea-4a4e-9c0f-3f3c9d6dc003"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": -5
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "5443010b-0cde-4e59-a8a2-f0f154f2d738"
+              },
+              "pos": {
+                "x": 369,
+                "y": 721
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "06999d04-78ea-4a4e-9c0f-3f3c9d6dc003"
+              },
+              "pos": {
+                "x": 735,
+                "y": 777
+              },
+              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -13398,7 +13410,7 @@
                     "action": "db38db8d-f16c-4767-91eb-5dc78edc691d"
                   },
                   {
-                    "action": "18368dfc-5ecb-446f-a8ea-8c5a697a38b4"
+                    "action": "5443010b-0cde-4e59-a8a2-f0f154f2d738"
                   }
                 ]
               }
@@ -13637,8 +13649,8 @@
   "meta": {
     "EXPORT": {
       "setting.json": "5fb35661cf21e57a74e4e9dc1eb6e7d8",
-      "triggers.bts": "157f0e471edb55a56d41831121b3ee63"
+      "triggers.bts": "836c48b278c3ee0990c6803e03d0f7a4"
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

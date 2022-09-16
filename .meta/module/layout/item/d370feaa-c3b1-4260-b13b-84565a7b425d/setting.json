@@ -16,7 +16,7 @@
           },
           "ClippedByParent": true,
           "id": {
-            "value": "6cc75b14-0d5c-40f7-b687-2ac7d88b5fd9"
+            "value": "fd00fc0e-079b-463a-81a1-37087abb7d97"
           },
           "Image": {
             "asset": "asset/Texture/Gui/imagesets/bottom_bar.imageset",
@@ -42,7 +42,7 @@
             "VerticalAlignment": "Bottom"
           },
           "id": {
-            "value": "5f153c72-9363-4078-a2b1-6cc9c72b0e78"
+            "value": "515483c1-6a77-4051-8251-554719b61196"
           },
           "Image": {
             "asset": "asset/Texture/Gui/imagesets/bottom_bar.imageset",
@@ -73,7 +73,7 @@
             "VerticalAlignment": "Bottom"
           },
           "id": {
-            "value": "28952587-10db-4d9c-9400-63f2b386dd7d"
+            "value": "0680ad34-c689-40e0-a929-3491c0094554"
           },
           "name": "ItemCellBase",
           "pos": {
@@ -97,7 +97,7 @@
       ],
       "ClippedByParent": true,
       "id": {
-        "value": "ec4cf3a9-b3cd-4bda-8560-c4866f563b18"
+        "value": "4174a4d1-b527-4ce4-af04-b2fff30e8b2f"
       },
       "size": {
         "UDim_X": {
@@ -113,6 +113,6 @@
     "EXPORT": {
       "layout": "01f914757272e59b854c22c146d1ec8e"
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

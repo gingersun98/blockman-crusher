@@ -125,12 +125,6 @@ GAME_GO {
 		}
 	ExecScript(ClickerEntity = $obj1, PlayerParticipate = @PlayerParticipate, script_name = "ScriptableNode_15")
 	SendToClient(msg = "client_32210dcd_0836_451a_bb99_bfe7ed88c6f9", p_CrushingScore = GetEntityScore(entity = $obj1))
-	SendToClient(
-		msg = "client_8ff76711_c566_4396_aad5_45d7a5209a8d",
-		p_JumlahKillPlayer = GetPlayerKillCount(entity = $obj1),
-		player = $obj1
-	)
-	SendToClient(msg = "client_e2e1cd10_a8fb_4d2e_b0bb_8c728c8a1e31", p_PlayerName = $obj1.PlayerName, player = $obj1)
 	AddItem(cfg = "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12", count = 1, entity = $obj1, reason = "")
 	SendToClient(msg = "client_ff8a43d1_d9bd_4683_ba9f_40f04f2b69fc", player = $obj1)
 	StartTimer2(interval = 200, object = $obj1, time = 999, timer = "") {
@@ -189,7 +183,7 @@ ENTITY_DAMAGE {
 	ExecScript(Clicker = $obj2, Damage = $damage, script_name = "ScriptableNode_22")
 	SendToClient(msg = "client_e7b1b919_d092_43b1_a9e4_e766620c82ed", player = $obj2)
 	$obj2.CrushingScore = $obj2.CrushingScore + $damage
-	SendToClient(msg = "client_45a6eeda_3915_4b5e_b23b_8b263ea888d0", p_CrushingScore = $obj2.CrushingScore, player = $obj2)
+	AddEntityVp(entity = $obj2, step = -5)
 }
 
 ENTITY_REBIRTH {

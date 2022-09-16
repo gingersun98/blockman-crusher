@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "ad81be128d2ae5a6d6d77d702339ac2a",
+    "md5": "8a38244c3ab2ee0281240053af15fb29",
     "path": "asset/PVPBattle.layout",
     "root": {
       "anchor": {
@@ -24,7 +24,7 @@
               "Font_size": 35,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "07074a1b-6f46-4de0-939c-faab0f75fec8"
+                "value": "9907fcf5-976e-4bde-8ec5-1c2785e45365"
               },
               "pos": {
                 "UDim_Y": {
@@ -63,7 +63,7 @@
                 "r": 255
               },
               "id": {
-                "value": "287d70a5-b383-4943-b271-88381f9fc64d"
+                "value": "d2121266-9be4-4c19-9c2b-16445b9fc1b2"
               },
               "name": "YES",
               "NormalImage": {
@@ -115,7 +115,7 @@
                 "r": 255
               },
               "id": {
-                "value": "178d507c-3a1e-4250-9ddd-9d3652968c29"
+                "value": "d4251ffe-870d-4097-b809-eb9d097a6260"
               },
               "name": "NO",
               "NormalImage": {
@@ -160,7 +160,7 @@
               "Font_size": 35,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "116a9733-23a9-430a-b773-080c204fac15"
+                "value": "bb86934f-5ce2-4abc-bebe-6d34d08930a7"
               },
               "name": "Text1",
               "size": {
@@ -180,7 +180,7 @@
             }
           ],
           "id": {
-            "value": "bcc33d70-5fb6-45be-ab99-be8e421e0c3a"
+            "value": "feeb5a00-7cf1-4cbe-ad1a-82c74f6c16b0"
           },
           "Image": {
             "asset": "asset/Texture/GingersunUI/Window01.png"
@@ -196,7 +196,7 @@
         }
       ],
       "id": {
-        "value": "36c2d16e-8504-4705-bcef-aedb82d9ac1c"
+        "value": "dc41f1cb-7c2a-4672-90cf-97692db177a4"
       },
       "size": {
         "UDim_X": {
@@ -242,9 +242,9 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "ad81be128d2ae5a6d6d77d702339ac2a",
+      "layout": "8a38244c3ab2ee0281240053af15fb29",
       "triggers.bts": "008441303d83e68cdb81d833e65ecfb7"
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

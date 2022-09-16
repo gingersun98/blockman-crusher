@@ -11,7 +11,7 @@
   "mesh": "asset/warrior/hunter_dao.mesh",
   "needSave": false,
   "skill": [
-    "myplugin/SwordSkill"
+    "myplugin/SwordAttack"
   ],
   "stack_count_max": 1,
   "syncGameData": {

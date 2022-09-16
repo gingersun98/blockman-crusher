@@ -11,7 +11,7 @@
   "mesh": "asset/3D Asset/Dagger/knife.mesh",
   "needSave": false,
   "skill": [
-    "myplugin/DaggerSkill"
+    "myplugin/DaggerAttack"
   ],
   "stack_count_max": 1,
   "syncGameData": {

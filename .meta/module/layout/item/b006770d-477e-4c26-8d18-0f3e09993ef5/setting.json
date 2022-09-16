@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "8448d146552e2f336fae135d9f182d23",
+    "md5": "31966b6820cc6676a826653b2e507d4a",
     "path": "asset/RandW.layout",
     "root": {
       "anchor": {
@@ -18,7 +18,7 @@
             "asset": "asset/Texture/Skill/common/icon_走_nor.png"
           },
           "id": {
-            "value": "3f96b775-d24d-4855-b293-79be3ab4a5b0"
+            "value": "54886686-46f9-4dca-8e76-19a44df8c105"
           },
           "NormalImage": {
             "asset": "asset/Texture/Skill/common/icon_走_nor.png"
@@ -613,7 +613,7 @@
         }
       ],
       "id": {
-        "value": "e9adb434-7846-411e-a4b4-32158bd2ff43"
+        "value": "e9ca53d0-cb4f-4bc1-a999-c045549edf24"
       },
       "size": {
         "UDim_X": {
@@ -630,9 +630,9 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "8448d146552e2f336fae135d9f182d23",
+      "layout": "31966b6820cc6676a826653b2e507d4a",
       "triggers.bts": "beabc385ee40f15801aeeafe1c937328"
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

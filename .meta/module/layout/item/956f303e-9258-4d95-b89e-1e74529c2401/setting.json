@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "26d61c7799d488f7c01118263082ee20",
+    "md5": "b6262109e3304b9e9299dc39b14180c6",
     "path": "asset/Actor/Rabbit Ear Fairy Girl/Objectives.layout",
     "root": {
       "anchor": {
@@ -23,7 +23,7 @@
               "Font_size": 14,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "15e94d39-10ae-4f11-bfc9-41ee0042f6a6"
+                "value": "e27a271d-9c08-4f14-b127-c6a20b283cef"
               },
               "size": {
                 "UDim_X": {
@@ -60,7 +60,7 @@
                   "Font_size": 25,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "0eb6f0d8-5196-4344-950b-0059c5d07428"
+                    "value": "b20b026c-f9b0-439a-aa13-e5ec02a434ee"
                   },
                   "name": "Survivor",
                   "size": {
@@ -82,7 +82,7 @@
                   "Font": "HarmonyOS_Sans_SC_Regular",
                   "Font_size": 14,
                   "id": {
-                    "value": "925c73e6-4845-4dd9-8ad0-dfc987e11711"
+                    "value": "c8f20726-3e1b-489f-8eb3-3e0b5b11dfa6"
                   },
                   "pos": {
                     "UDim_X": {
@@ -124,7 +124,7 @@
                       "Font_size": 25,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "2e625871-e780-4020-95b1-351836ea5da3"
+                        "value": "1a9fb7a2-b58c-4d32-8927-cc48b1133308"
                       },
                       "name": "Survivor",
                       "size": {
@@ -151,7 +151,7 @@
                             "VerticalAlignment": "Centre"
                           },
                           "id": {
-                            "value": "ca59fcbc-534d-4ea9-b714-2d523bdfbb38"
+                            "value": "bb32bea2-f6cf-4419-a67a-96f8078a0fbe"
                           },
                           "Image": {
                             "asset": "asset/3D Asset/Icon33.png"
@@ -175,7 +175,7 @@
                       "Font_size": 13,
                       "HorzFormatting": "RightAligned",
                       "id": {
-                        "value": "1a524ebb-2f6a-46aa-b38f-2ed8cc1bcd0e"
+                        "value": "dfc3eb7e-50ea-4c4e-bdef-562f058f637f"
                       },
                       "pos": {
                         "UDim_X": {
@@ -206,7 +206,7 @@
                     }
                   ],
                   "id": {
-                    "value": "bbc5f69f-aa8a-4274-87f4-37c8e9c5af87"
+                    "value": "f9bc8666-82b4-441e-b3e3-123a5f13b01c"
                   },
                   "Image": {
                     "asset": "",
@@ -228,7 +228,7 @@
                 }
               ],
               "id": {
-                "value": "f68731b2-e8d4-4f69-a24b-0738868faa3f"
+                "value": "aa0fcb7e-23c4-4e4c-83a6-3004d645aa8f"
               },
               "Image": {
                 "asset": "asset/3D Asset/Icon34.png"
@@ -249,7 +249,7 @@
             }
           ],
           "id": {
-            "value": "7524d9fe-f266-4eaa-a7c5-b22c025d5a2e"
+            "value": "6aad95ae-38c8-40df-8099-69cb2664dc40"
           },
           "Image": {
             "asset": "asset/Texture/GingersunUI/ButtonPanel.png"
@@ -270,7 +270,7 @@
         }
       ],
       "id": {
-        "value": "17302a97-bdb1-4538-b1f7-97bea1603777"
+        "value": "4fe18bf2-a810-41c8-9c37-f934a3c82b86"
       },
       "pos": {
         "UDim_X": {
@@ -368,9 +368,9 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "26d61c7799d488f7c01118263082ee20",
+      "layout": "b6262109e3304b9e9299dc39b14180c6",
       "triggers.bts": "a448386878517be793078a4c0fa4c7e8"
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

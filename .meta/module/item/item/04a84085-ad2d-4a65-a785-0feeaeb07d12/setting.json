@@ -9,7 +9,7 @@
         "__OBJ_TYPE": "ItemInHand",
         "handItemBoneName": "Bip001_L_Finger01",
         "skill": [
-          "myplugin/DaggerSkill"
+          "myplugin/DaggerAttack"
         ]
       },
       "type": "InHand"
@@ -23,9 +23,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "22a55e452afb8b3fea0d4fc31fc3b0b9",
+      "setting.json": "be7b0d3580a7244bdee93ff8d3d20a9c",
       "triggers.bts": ""
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

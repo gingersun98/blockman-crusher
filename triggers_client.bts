@@ -7,7 +7,6 @@ client_abf59f08_7e45_4edc_8b5d_95ae1ad9584d {
 }
 
 Client_Init_Finished {
-	CreateWindow(name = "", res = "RandW")
 }
 
 client_3f80034b_bc5d_4f25_89b9_57bc182df23e {

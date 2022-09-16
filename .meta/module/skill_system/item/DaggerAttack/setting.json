@@ -1,0 +1,37 @@
+{
+  "data": {
+    "castAction": {
+      "castAction": "attack"
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 20
+    },
+    "damage": 10,
+    "enableCdMask": true,
+    "enableCdTip": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "hurtDistance": 0,
+    "isLimit": true,
+    "name": {
+      "value": "skill_system_DaggerAttack"
+    },
+    "skillIcon": {
+      "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
+    },
+    "skillIconPos": {
+      "area_number": 8
+    },
+    "skillIconPushed": {
+      "asset": "asset/Texture/Skill/common/icon_近战攻击_nor.png"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3f41a5b9ff18694213409b8f8a4d5c35",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "data": {
+    "castAction": {
+      "castAction": "sword"
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 40
+    },
+    "damage": 20,
+    "enableCdMask": true,
+    "enableCdTip": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "hurtDistance": 0,
+    "isLimit": true,
+    "name": {
+      "value": "78bd86d4-18a6-4fc2-ada3-cb97eae44e06"
+    },
+    "skillIcon": {
+      "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
+    },
+    "skillIconPos": {
+      "area_number": 8
+    },
+    "skillIconPushed": {
+      "asset": "asset/Texture/Skill/common/icon_近战攻击_nor.png"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2dad9ad979b3216b6e6c647fa7a4fafc",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

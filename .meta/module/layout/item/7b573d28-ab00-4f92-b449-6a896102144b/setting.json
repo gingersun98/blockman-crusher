@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "f3c47f141fc61c015829997055eb43d6",
+    "md5": "ca6232070295cac84ee4f2c0a996d481",
     "path": "asset/RankingWnd_1.layout",
     "root": {
       "anchor": {
@@ -29,7 +29,7 @@
                       "Font": "HarmonyOS_Sans_SC_Regular",
                       "Font_size": 20,
                       "id": {
-                        "value": "38b53827-e499-4e6a-a38d-5fd9954f941f"
+                        "value": "9190e469-79f0-48d9-9942-10b55c4e5674"
                       },
                       "name": "NumText",
                       "size": {
@@ -57,7 +57,7 @@
                       "Font_size": 20,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "c74a518f-5d67-4cf0-a728-36ea51c80639"
+                        "value": "75e6e728-f80e-45ac-83ff-e689d16332f9"
                       },
                       "name": "NameText",
                       "pos": {
@@ -90,7 +90,7 @@
                       "Font_size": 20,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "2714dd4f-ebe6-4d84-a154-7b4631ab36ba"
+                        "value": "f02e866f-4c50-46e5-8b2b-aa88f726a9c1"
                       },
                       "name": "ScoreText",
                       "pos": {
@@ -119,7 +119,7 @@
                     }
                   ],
                   "id": {
-                    "value": "a5ad2e8b-f510-41a9-a288-a6eaaca902f0"
+                    "value": "d8abb890-aa38-4982-80dc-d19ab9a288f8"
                   },
                   "name": "Num1",
                   "size": {
@@ -139,7 +139,7 @@
                       "Font": "HarmonyOS_Sans_SC_Regular",
                       "Font_size": 20,
                       "id": {
-                        "value": "7808b965-9e76-400f-a67c-9951311043c2"
+                        "value": "8b1674b4-dcc4-4336-b008-bc0c5fa82285"
                       },
                       "name": "NumText",
                       "size": {
@@ -167,7 +167,7 @@
                       "Font_size": 20,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "f4e8c578-a8c3-40dd-9e3d-92f708793f3c"
+                        "value": "a8254e07-acff-41ca-9652-175271554a94"
                       },
                       "name": "NameText",
                       "pos": {
@@ -200,7 +200,7 @@
                       "Font_size": 20,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "9b71e84a-241e-4195-b504-09f8c3dc48a7"
+                        "value": "796bb465-583e-4ad6-b08e-c29e44345513"
                       },
                       "name": "ScoreText",
                       "pos": {
@@ -229,7 +229,7 @@
                     }
                   ],
                   "id": {
-                    "value": "6e580ce8-1f79-4e64-bba2-50be8e8cc728"
+                    "value": "048aceea-bc63-40ee-bf4e-694f2723193c"
                   },
                   "name": "Num2",
                   "pos": {
@@ -254,7 +254,7 @@
                       "Font": "HarmonyOS_Sans_SC_Regular",
                       "Font_size": 20,
                       "id": {
-                        "value": "89489717-28eb-496e-b725-8561f2b4263a"
+                        "value": "c8660f6e-5e18-4f60-8b80-0014d67d8fda"
                       },
                       "name": "NumText",
                       "size": {
@@ -282,7 +282,7 @@
                       "Font_size": 20,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "cdad53fa-3399-422f-a307-41e49949b0a5"
+                        "value": "6902ff59-38c8-47fe-b7e8-0d78cfb95efd"
                       },
                       "name": "NameText",
                       "pos": {
@@ -315,7 +315,7 @@
                       "Font_size": 20,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "6f09c6d3-5498-46ee-853c-8b0cb4ef4382"
+                        "value": "1857cd68-3b0f-41c9-b975-40c11018fc79"
                       },
                       "name": "ScoreText",
                       "pos": {
@@ -344,7 +344,7 @@
                     }
                   ],
                   "id": {
-                    "value": "6ac8fd58-c49c-4eb8-81dd-dabf08f60bb1"
+                    "value": "15038c79-a830-466c-8827-31b2e82000e7"
                   },
                   "name": "Num3",
                   "pos": {
@@ -369,7 +369,7 @@
                       "Font": "HarmonyOS_Sans_SC_Regular",
                       "Font_size": 20,
                       "id": {
-                        "value": "392caed4-acaf-4c19-9048-a617a6cf058b"
+                        "value": "282c46fd-a198-4afa-88f7-a000ac1b3d0f"
                       },
                       "name": "NumText",
                       "size": {
@@ -397,7 +397,7 @@
                       "Font_size": 20,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "aff80a19-5cd6-47b8-8f09-9a7da45edcd6"
+                        "value": "4194eed9-0e9a-4e66-ad4e-1cccbbdfc96a"
                       },
                       "name": "NameText",
                       "pos": {
@@ -430,7 +430,7 @@
                       "Font_size": 20,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "5b482ee8-9dfd-4cb9-ab76-00f9e590e33f"
+                        "value": "0022c273-66b4-46f6-a94c-23181bacabcf"
                       },
                       "name": "ScoreText",
                       "pos": {
@@ -459,7 +459,7 @@
                     }
                   ],
                   "id": {
-                    "value": "bd6be323-d4f3-4f27-8548-5243520b8507"
+                    "value": "aa1a08cc-d838-4645-bf35-703f2c796b44"
                   },
                   "name": "Num4",
                   "pos": {
@@ -484,7 +484,7 @@
                       "Font": "HarmonyOS_Sans_SC_Regular",
                       "Font_size": 20,
                       "id": {
-                        "value": "1a04f986-dde3-4e17-8365-712136959bed"
+                        "value": "fb393ccf-793a-4cd8-8eeb-b0c021aea6ea"
                       },
                       "name": "NumText",
                       "size": {
@@ -512,7 +512,7 @@
                       "Font_size": 20,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "062f72cd-6f26-487e-934a-741c10de13c4"
+                        "value": "07a97c45-989a-49ea-91e1-4e80728fbcfe"
                       },
                       "name": "NameText",
                       "pos": {
@@ -545,7 +545,7 @@
                       "Font_size": 20,
                       "HorzFormatting": "CentreAligned",
                       "id": {
-                        "value": "2022f77e-4216-49d2-8d7b-cfbae5b5bd4c"
+                        "value": "a7f731fb-842c-4a11-a856-3b47d8ea337e"
                       },
                       "name": "ScoreText",
                       "pos": {
@@ -574,7 +574,7 @@
                     }
                   ],
                   "id": {
-                    "value": "e3cae0da-f97a-467f-aee2-8e1521ec906f"
+                    "value": "e788cac4-de8a-4ff0-a780-095d6b33090b"
                   },
                   "name": "Num5",
                   "pos": {
@@ -593,7 +593,7 @@
                 }
               ],
               "id": {
-                "value": "f1fe13f3-cc8a-4792-8098-96f1d871e591"
+                "value": "43b91971-a16b-4634-87ff-53db85fc2dcc"
               },
               "pos": {
                 "UDim_X": {
@@ -621,7 +621,7 @@
               "Font_size": 25,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "9237af44-25bc-44a3-8603-52ba67abbc90"
+                "value": "5fa4ce82-6e88-4db8-82c2-59ce94a388eb"
               },
               "pos": {
                 "UDim_Y": {
@@ -650,7 +650,7 @@
                 "asset": "asset/Texture/GingersunUI/Checked_02.png"
               },
               "id": {
-                "value": "2e14cb77-bb47-4af3-9d3f-4975713ac21b"
+                "value": "24a6b254-f248-4acf-980b-2523754e0bce"
               },
               "NormalImage": {
                 "asset": "asset/Texture/GingersunUI/Checked_02.png"
@@ -752,7 +752,7 @@
             }
           ],
           "id": {
-            "value": "9c2bc1a4-4f79-47d1-915e-4f09df00184d"
+            "value": "f916e7c7-7763-46d0-bc0a-15b485dfcdb9"
           },
           "size": {
             "UDim_X": {
@@ -773,7 +773,7 @@
           "Font_size": 25,
           "HorzFormatting": "CentreAligned",
           "id": {
-            "value": "0d8dcfc0-eb20-4584-b60f-152c25705839"
+            "value": "5178716b-a99e-4c01-ac9e-cb99ce4eca1a"
           },
           "pos": {
             "UDim_Y": {
@@ -792,7 +792,7 @@
         }
       ],
       "id": {
-        "value": "7b4291d1-bdd9-48d3-a320-f58c026472cc"
+        "value": "48144d9d-bd31-4059-8be1-49818790a504"
       },
       "size": {
         "UDim_X": {
@@ -806,9 +806,9 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "f3c47f141fc61c015829997055eb43d6",
+      "layout": "ca6232070295cac84ee4f2c0a996d481",
       "triggers.bts": "480bc48185ae5d4ddd5b39ca3259ed1d"
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

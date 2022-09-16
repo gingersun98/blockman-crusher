@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "f423e1d16aea46ba69598d17834622e3",
+    "md5": "1aaac1aa926a27cd8d7b8edc3859c5cb",
     "path": "asset/HUD.layout",
     "root": {
       "anchor": {
@@ -21,7 +21,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "2174aed4-3666-43f7-af7e-7dab1d216ff7"
+                "value": "d66cd0ec-2abc-4a98-a012-d54173158a62"
               },
               "Image": {
                 "asset": "asset/Texture/GingersunUI/bar_chart.png"
@@ -49,7 +49,7 @@
             "asset": "asset/Texture/GingersunUI/CellBig_02.png"
           },
           "id": {
-            "value": "2b8be1b5-28b9-4b43-a751-91a9d8e6394a"
+            "value": "e4fac5d8-0b79-4613-a98b-f18d662ca16c"
           },
           "NormalImage": {
             "asset": "asset/Texture/GingersunUI/CellBig_02.png"
@@ -138,7 +138,7 @@
         }
       ],
       "id": {
-        "value": "fddf5f8c-d19c-4c69-9207-a91adb99f060"
+        "value": "24d5a306-6085-4bab-b448-c5ecfb0b20af"
       },
       "size": {
         "UDim_X": {
@@ -154,9 +154,9 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "f423e1d16aea46ba69598d17834622e3",
+      "layout": "1aaac1aa926a27cd8d7b8edc3859c5cb",
       "triggers.bts": "2668f25897c33b638898f8f417c4f246"
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

@@ -31,7 +31,7 @@
       "type": "mesh"
     },
     "moveAcc": 2,
-    "moveSpeed": 15,
+    "moveSpeed": 7,
     "name": {
       "value": "missile_883c801a-7bc2-4242-a9ee-066a2e86f2d8"
     },
@@ -46,9 +46,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f5c434cadae7b14de73a2dc14b070567",
+      "setting.json": "46ab28adbfd6d2cc6dd30e7e2f83a014",
       "triggers.bts": ""
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

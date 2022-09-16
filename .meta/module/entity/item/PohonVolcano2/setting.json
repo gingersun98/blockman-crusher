@@ -325,16 +325,14 @@
                       "key": "CrushingScore",
                       "must": true,
                       "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "action": "88a5768e-6a13-4e07-acda-346e2c6f4d8f"
+                        "__OBJ_TYPE": "T_Int"
                       }
                     }
                   ],
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "1bb1fa02-1bde-49c7-9510-95e9b0a30f54"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -3921,9 +3919,7 @@
                   {
                     "action": "8d384a82-7dec-4aae-8c55-1a2e5fdf51dd"
                   },
-                  {
-                    "action": "752b1280-05e2-4c6f-a35e-b603b730839a"
-                  },
+                  [],
                   {
                     "action": "80c7ef17-91df-4634-9f38-f289126636fd"
                   },
@@ -4143,16 +4139,14 @@
                       "key": "CrushingScore",
                       "must": true,
                       "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "action": "adb8bf3c-9e63-46c2-a420-4f2481cf1a09"
+                        "__OBJ_TYPE": "T_Int"
                       }
                     }
                   ],
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "8854ffb4-d4cd-4f95-ae1e-de36fbe96306"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -4670,6 +4664,52 @@
                 "y": 907
               },
               "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityVp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "58177776-df97-4563-bbb4-464cef851bbd"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": -5
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e109f2de-367b-4178-b337-053179e2667c"
+              },
+              "pos": {
+                "x": 455,
+                "y": 472
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "58177776-df97-4563-bbb4-464cef851bbd"
+              },
+              "pos": {
+                "x": 821,
+                "y": 528
+              },
+              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -4690,7 +4730,7 @@
                     "action": "90e21c92-7dce-4ffa-8903-6a07274014aa"
                   },
                   {
-                    "action": "69ff8960-5cc5-40a3-9eb6-393a16c2632d"
+                    "action": "e109f2de-367b-4178-b337-053179e2667c"
                   },
                   {
                     "action": "3ca0bea2-48d4-4275-bff9-91006b53fcbb"
@@ -4820,8 +4860,8 @@
   "meta": {
     "EXPORT": {
       "setting.json": "9b289c33d8c4d732e1d4820f279b41db",
-      "triggers.bts": "7c39eb884acf19695656ccf80c232e8b"
+      "triggers.bts": "fe2f82431f50443b4f25801e8e177f17"
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

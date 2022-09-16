@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "edb81ff43b3a8a7d0272bcac1cdc548d",
+    "md5": "3645b15e3cf5682b8ebfac8ab63a8082",
     "path": "asset/DefeatEntity.layout",
     "root": {
       "Alpha": 0.997,
@@ -23,7 +23,7 @@
               "Font_size": 18,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "6c9f12ee-167d-454e-bb79-2fdc57e94ffe"
+                "value": "57cf01af-7b32-4a34-8485-e9a559689192"
               },
               "pos": {
                 "UDim_Y": {
@@ -38,7 +38,7 @@
           ],
           "horzFormatting": "CentreAligned",
           "id": {
-            "value": "249a30e1-cb57-4c11-9446-37933f60e7fa"
+            "value": "26f8f516-dab6-4898-82ac-064714c7ca83"
           },
           "Image": {
             "asset": "asset/Texture/GingersunUI/shop6.png.png"
@@ -61,7 +61,7 @@
         }
       ],
       "id": {
-        "value": "3e599e33-634d-43ee-9c7c-fa5475c9b079"
+        "value": "1f843044-cbf2-4c34-a46d-6b7e20ce341f"
       },
       "size": {
         "UDim_X": {
@@ -220,9 +220,9 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "edb81ff43b3a8a7d0272bcac1cdc548d",
+      "layout": "3645b15e3cf5682b8ebfac8ab63a8082",
       "triggers.bts": "8b7e2dd79712f86578ab59a467550466"
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

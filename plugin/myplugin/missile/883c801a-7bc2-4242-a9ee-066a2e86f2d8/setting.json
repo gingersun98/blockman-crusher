@@ -59,7 +59,7 @@
     "z": 1
   },
   "moveAcc": 0.1,
-  "moveSpeed": 0.75,
+  "moveSpeed": 0.35,
   "rotateFree": true,
   "rotateSpeed": 0,
   "startWithMoveAcc": true,

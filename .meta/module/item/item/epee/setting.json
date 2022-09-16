@@ -9,7 +9,7 @@
         "__OBJ_TYPE": "ItemInHand",
         "handItemBoneName": "Bip001_L_Finger01",
         "skill": [
-          "myplugin/SwordSkill"
+          "myplugin/SwordAttack"
         ]
       },
       "type": "InHand"
@@ -23,9 +23,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "bc2a2eaf9cb67ce409d52843ab74059c",
+      "setting.json": "9cd4db669301b28c492e5b6fe6e3d959",
       "triggers.bts": ""
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }

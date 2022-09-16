@@ -1,14 +1,14 @@
 {
   "widget": [
     {
-      "btsKey": "fefd5f40-a8cd-44ee-a9fa-1b218b56bb2c",
-      "md5": "e8d0c9b834be56ca13d60660764b2d5f",
-      "name": "planeBg/warrior"
-    },
-    {
       "btsKey": "ec8a9c61-2212-4b01-a11d-be639ddd446b",
       "md5": "e8d0c9b834be56ca13d60660764b2d5f",
       "name": "planeBg/warlock"
+    },
+    {
+      "btsKey": "fefd5f40-a8cd-44ee-a9fa-1b218b56bb2c",
+      "md5": "e8d0c9b834be56ca13d60660764b2d5f",
+      "name": "planeBg/warrior"
     },
     {
       "btsKey": "775184d9-a905-4c99-a6ec-53fd07049346",

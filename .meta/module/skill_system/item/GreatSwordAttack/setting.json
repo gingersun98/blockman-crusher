@@ -1,0 +1,37 @@
+{
+  "data": {
+    "castAction": {
+      "castAction": "greatsword"
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 60
+    },
+    "damage": 30,
+    "enableCdMask": true,
+    "enableCdTip": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "hurtDistance": 0,
+    "isLimit": true,
+    "name": {
+      "value": "e958914c-97cd-4bf6-bc61-fb9dbb68e5c0"
+    },
+    "skillIcon": {
+      "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
+    },
+    "skillIconPos": {
+      "area_number": 8
+    },
+    "skillIconPushed": {
+      "asset": "asset/Texture/Skill/common/icon_近战攻击_nor.png"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4e6a6c144df7a0bb98576597067b50e2",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

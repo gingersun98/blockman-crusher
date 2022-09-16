@@ -11162,9 +11162,7 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "a09a9135-a829-4a7c-8232-d9b5b5127116"
-                  },
+                  [],
                   []
                 ]
               }
@@ -12032,8 +12030,8 @@
       "setting.json": "9e985fe97a96201091017569f32089f4",
       "shop.csv": "4dbbe3d39b1fcfd15531b2989fd7ee87",
       "triggers.bts": "07428c75e3a16ca183d98c967df1ee36",
-      "triggers_client.bts": "c709e7998d4e1c5adae0f75acf2df415"
+      "triggers_client.bts": "5925d4588d45ff02b2ee632fff2815d0"
     },
-    "VERSION": "0.23"
+    "VERSION": "0.24"
   }
 }
