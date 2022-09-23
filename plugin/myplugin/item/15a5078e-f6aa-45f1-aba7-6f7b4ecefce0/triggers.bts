@@ -8,4 +8,5 @@ HAND_ITEM_CHANGED_UNHAND {
 
 USE_ITEM {
 	ConsumeItem2(entity = $obj1, item = "myplugin/15a5078e-f6aa-45f1-aba7-6f7b4ecefce0", num = 1, reason = "")
+	ShowTip(entity = $obj1, keepTime = 60, textKey = "20597794-e845-4fc1-9d76-a3d0c2830e99", tipType = "1")
 }

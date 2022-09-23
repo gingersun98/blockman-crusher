@@ -7,7 +7,7 @@
       }
     },
     "cdTime": {
-      "value": 40
+      "value": 100
     },
     "name": {
       "value": "skill_blame"
@@ -34,7 +34,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "65424427d98a53251ed929bda84dc8cc",
+      "setting.json": "320effc7bc1f381dd5fd083d50e5164b",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

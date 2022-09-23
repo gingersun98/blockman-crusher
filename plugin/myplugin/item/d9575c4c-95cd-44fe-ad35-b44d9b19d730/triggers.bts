@@ -5,3 +5,7 @@ HAND_ITEM_CHANGED_HAND {
 HAND_ITEM_CHANGED_UNHAND {
 	RemoveSkill(entity = $obj1, name = "myplugin/bda3e94b-07ae-46ec-838a-881a3290b08f")
 }
+
+USE_ITEM {
+	ShowTip(entity = $obj1, keepTime = 60, textKey = "c7cd8996-8698-4f5f-a0ae-425cf8885a55", tipType = "1")
+}

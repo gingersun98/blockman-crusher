@@ -19,8 +19,7 @@
       "asset": "asset/Actor/Red Blue Element Giant/Elemental Giant.actor"
     },
     "AI_attack": {
-      "attackMode": "autoAttack",
-      "chaseDistance": 6,
+      "chaseDistance": 15,
       "enable": true,
       "skillList": [
         {
@@ -45,7 +44,7 @@
       ]
     },
     "AI_home": {
-      "homeSize": 6
+      "homeSize": 15
     },
     "AI_walkRules": {
       "ai_navigation": {
@@ -54,6 +53,16 @@
       "faceCliff": {
         "height": 1
       }
+    },
+    "boundingVolume": {
+      "height_c": 2,
+      "radius_c": 0.75,
+      "type": "Capsule"
+    },
+    "boundingVolumeEntityCfg": {
+      "height_c": 2,
+      "radius_c": 0.75,
+      "type": "Capsule"
     },
     "collision": true,
     "damage": 5,
@@ -68,7 +77,7 @@
     },
     "hideHp": false,
     "hpBarWidth": 1.5,
-    "maxHp": 600,
+    "maxHp": 400,
     "moveSpeed": 2,
     "name": {
       "value": "60e590e1-1950-4f25-9709-ec68f9643b06"
@@ -1227,16 +1236,14 @@
                       "key": "CrushingScore",
                       "must": true,
                       "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "action": "0e258486-af81-4aa4-bc1c-117103272f85"
+                        "__OBJ_TYPE": "T_Int"
                       }
                     }
                   ],
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "abf1fb27-89eb-4e95-be53-f94468462c1b"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -1251,6 +1258,52 @@
               "pos": {
                 "x": 456.908799375,
                 "y": 773.426626875
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "d3b96632-552c-48c7-8bb2-7b7c26c6e21d"
+              },
+              "pos": {
+                "x": 408.5,
+                "y": 706
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityVp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "d3b96632-552c-48c7-8bb2-7b7c26c6e21d"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": -5
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c450311a-c35a-460c-9fcc-5d126c6d94ef"
+              },
+              "pos": {
+                "x": 63.5,
+                "y": 584
               }
             }
           ],
@@ -1275,7 +1328,7 @@
                     "action": "576752cd-ac9f-4b21-9ce4-9fd1db87c94c"
                   },
                   {
-                    "action": "f9803a05-0d4a-4119-9702-8db2daa9cc36"
+                    "action": "c450311a-c35a-460c-9fcc-5d126c6d94ef"
                   }
                 ]
               }
@@ -1295,8 +1348,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "fe44eebb2d50d026ae70a4293fc5900b",
-      "triggers.bts": "0029c22f533cd912eba781fa13a4c4f8"
+      "setting.json": "acf4373c90b33d0ed06d746704f33ae1",
+      "triggers.bts": "3ab91a188ce4c94aedac3181aa0b7dc5"
     },
     "VERSION": "0.24"
   }

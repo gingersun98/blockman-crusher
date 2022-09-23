@@ -7,7 +7,7 @@
   "actorName": "asset/Actor/Yellow Fire Elemental Monster/Flame Elf.actor",
   "aiFixSpeedRate": 2,
   "attackNpc": false,
-  "autoAttack": true,
+  "autoAttack": false,
   "autoMove": false,
   "autoRotateColliderBox": true,
   "avoidCliff": true,
@@ -20,27 +20,24 @@
   "canPickOnDie": false,
   "canTurnHead": false,
   "castRealShadowAtFirstPRV": false,
-  "chaseDistance": 6,
+  "chaseDistance": 15,
   "chaseInterval": 10,
   "checkPartTouchEvent": true,
   "clickDistance": 4,
   "collider": {
-    "extent": {
-      "x": 0.6,
-      "y": 1.8,
-      "z": 0.6
-    },
+    "height": 2.2,
     "offset": {
       "x": 0,
       "y": 0,
       "z": 0
     },
+    "radius": 0.75,
     "rotation": {
       "x": 0,
       "y": 0,
       "z": 0
     },
-    "type": "Box"
+    "type": "Capsule"
   },
   "collision": true,
   "damage": 5,
@@ -61,7 +58,7 @@
   "hideHolder": false,
   "hideHp": 0,
   "hideName": false,
-  "homeSize": 12,
+  "homeSize": 30,
   "hpBarColor": 4294967551,
   "hpBarHeight": 0.2,
   "hpBarWidth": 1.52,

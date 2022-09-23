@@ -36,6 +36,27 @@
       "patrolDistance": 10,
       "patrolMode": "randomPath"
     },
+    "boundingVolume": {
+      "height_c": 4,
+      "position": {
+        "x": -0.75,
+        "z": 0.75
+      },
+      "radius_c": 0.75,
+      "type": "Capsule"
+    },
+    "boundingVolumeEntityCfg": {
+      "height_c": 4,
+      "memory": {
+        "Sector": "1.000000-0.500000"
+      },
+      "position": {
+        "x": -0.75,
+        "z": 0.75
+      },
+      "radius_c": 0.75,
+      "type": "Capsule"
+    },
     "canMove": false,
     "canRevive": true,
     "collision": true,
@@ -47,7 +68,13 @@
     "girlactor": {
       "asset": "asset/Mesh/Bare Red Crooked Branche/g2038_tree_15.actor"
     },
+    "hideHp": false,
     "hideName": true,
+    "hpBarColor": {
+      "b": 255,
+      "g": 170,
+      "r": 170
+    },
     "maxHp": 75,
     "moveSpeed": 0,
     "name": {
@@ -4859,7 +4886,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "d066901017b7f501e1e434a848862232",
+      "setting.json": "7eb490da79394497fae41550f08d7d56",
       "triggers.bts": "fe2f82431f50443b4f25801e8e177f17"
     },
     "VERSION": "0.24"

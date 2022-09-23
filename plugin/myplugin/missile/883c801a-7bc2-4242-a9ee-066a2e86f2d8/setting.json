@@ -48,7 +48,7 @@
   ],
   "hitInterval": 10,
   "isPitch": true,
-  "lifeTime": 100,
+  "lifeTime": 20,
   "lockRotateBodyPitch": 0,
   "lockRotateBodyRoll": 0,
   "lockRotateBodyYaw": 0,

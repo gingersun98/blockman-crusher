@@ -42,7 +42,7 @@
   "hitEntitySkill": "myplugin/Knockback",
   "hitEntitysRoles": [
     "hitAllTeam",
-    "hitPlayer",
+    "hitAllEntitys",
     "hitAllConfigEntity"
   ],
   "hitInterval": 10,

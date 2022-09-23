@@ -25,22 +25,19 @@
   "checkPartTouchEvent": true,
   "clickDistance": 4,
   "collider": {
-    "extent": {
-      "x": 0.6,
-      "y": 1.8,
-      "z": 0.6
-    },
+    "height": 5,
     "offset": {
       "x": 0,
-      "y": 0,
+      "y": -0.5,
       "z": 0
     },
+    "radius": 0.75,
     "rotation": {
       "x": 0,
       "y": 0,
       "z": 0
     },
-    "type": "Box"
+    "type": "Capsule"
   },
   "collision": true,
   "damage": 0,
@@ -58,12 +55,12 @@
   "gravity": 0.08,
   "headPic": "",
   "hideHolder": false,
-  "hideHp": 1,
+  "hideHp": 0,
   "hideName": true,
   "homeSize": 40,
-  "hpBarColor": 4294967551,
+  "hpBarColor": 4311722666,
   "hpBarHeight": 0.2,
-  "hpBarWidth": 1,
+  "hpBarWidth": 1.5,
   "hpFaceCamera": 0,
   "hurtResistantTime": 0,
   "idleProb": 0,
@@ -75,7 +72,7 @@
   "isPlayer": false,
   "jumpHeight": 0.6,
   "jumpSpeed": 0.5,
-  "maxHp": 150,
+  "maxHp": 200,
   "maxVisualAngle": 360,
   "meetCliffBackRun": true,
   "moveAcc": 0.2,

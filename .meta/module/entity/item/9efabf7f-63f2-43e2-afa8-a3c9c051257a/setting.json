@@ -47,7 +47,13 @@
     "girlactor": {
       "asset": "asset/Mesh/Snow Covered Pine Tree/g2038_tree_14.actor"
     },
+    "hideHp": false,
     "hideName": true,
+    "hpBarColor": {
+      "b": 255,
+      "g": 170,
+      "r": 170
+    },
     "maxHp": 75,
     "moveSpeed": 0,
     "name": {
@@ -4924,7 +4930,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "1da1d594dea5e98725994492f45aa1db",
+      "setting.json": "0968dbefb6b94e5a5b8c330fbaa19f90",
       "triggers.bts": "7bb120d855ecff19b2b9b36ce65ea52e"
     },
     "VERSION": "0.24"

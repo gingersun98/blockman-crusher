@@ -224,6 +224,125 @@
                 "y": 315
               },
               "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetHeadText",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "3e296987-f813-4d48-92ca-ea0c1d1f3b44"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "rawval": {
+                          "value": "aec85c41-26ca-4e3c-a1d0-6eaa28083acb"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "83d94362-6b17-494c-a463-6de4b7c569a1"
+              },
+              "pos": {
+                "x": 662,
+                "y": 541
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "3e296987-f813-4d48-92ca-ea0c1d1f3b44"
+              },
+              "pos": {
+                "x": 1018,
+                "y": 556
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ShowTip",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "d2667c7f-a1e2-49fe-840e-95b96f458165"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TipType"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "rawval": {
+                          "value": "20597794-e845-4fc1-9d76-a3d0c2830e99"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 60
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "37011f47-5d2a-4ca4-8e1f-407ef97eb377"
+              },
+              "pos": {
+                "x": 701,
+                "y": 726
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "d2667c7f-a1e2-49fe-840e-95b96f458165"
+              },
+              "pos": {
+                "x": 1137,
+                "y": 749
+              },
+              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -239,6 +358,9 @@
                 "children": [
                   {
                     "action": "85735bbe-4024-436b-9fb1-7200c07baddf"
+                  },
+                  {
+                    "action": "37011f47-5d2a-4ca4-8e1f-407ef97eb377"
                   }
                 ]
               }
@@ -255,7 +377,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "4ee56094ed7c03382632fe30cc86727e",
-      "triggers.bts": "6e586b14a7295023cb44ad71c3037117"
+      "triggers.bts": "15fa0d3f951a0053fb7b276c0e70a20d"
     },
     "VERSION": "0.24"
   }

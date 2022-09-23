@@ -24,6 +24,9 @@
       "once": true
     },
     "hitEntitySkill": "myplugin/61a15cd6-cfbd-4c55-86dc-f623218cf3c1",
+    "lifeTime": {
+      "value": 20
+    },
     "missileModel": {
       "modelMesh": {
         "asset": "asset/3D Asset/Bow/arrow.mesh"
@@ -46,7 +49,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "46ab28adbfd6d2cc6dd30e7e2f83a014",
+      "setting.json": "cc8a48b5df118941065eb582d05ea73b",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

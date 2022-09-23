@@ -36,6 +36,24 @@
       "patrolDistance": 10,
       "patrolMode": "randomPath"
     },
+    "boundingVolume": {
+      "height_c": 3,
+      "position": {
+        "x": 0.2,
+        "y": -0.2
+      },
+      "radius_c": 0.75,
+      "type": "Capsule"
+    },
+    "boundingVolumeEntityCfg": {
+      "height_c": 3,
+      "position": {
+        "x": 0.2,
+        "y": -0.2
+      },
+      "radius_c": 0.75,
+      "type": "Capsule"
+    },
     "canMove": false,
     "canRevive": true,
     "collision": true,
@@ -47,7 +65,13 @@
     "girlactor": {
       "asset": "asset/Mesh/Bare Brown Tree Trunk/Bare Tree Trunk.actor"
     },
+    "hideHp": false,
     "hideName": true,
+    "hpBarColor": {
+      "b": 255,
+      "g": 170,
+      "r": 170
+    },
     "maxHp": 200,
     "moveSpeed": 0,
     "name": {
@@ -4859,7 +4883,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "565ec974678ce9cf06271c70948c5d23",
+      "setting.json": "a18ed0d42df743cb02b2fbd702f13f0f",
       "triggers.bts": "fe2f82431f50443b4f25801e8e177f17"
     },
     "VERSION": "0.24"

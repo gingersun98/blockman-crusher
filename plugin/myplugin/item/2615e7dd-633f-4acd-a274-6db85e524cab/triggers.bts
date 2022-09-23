@@ -1,5 +1,6 @@
 USE_ITEM {
 	AddEntityVp(entity = $obj1, step = 50)
+	ShowTip(entity = $obj1, keepTime = 60, textKey = "81555549-e94c-4434-8017-169ffbb6efd5", tipType = "1")
 }
 
 HAND_ITEM_CHANGED_HAND {

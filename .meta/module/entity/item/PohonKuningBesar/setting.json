@@ -37,24 +37,30 @@
       "patrolMode": "randomPath"
     },
     "boundingVolume": {
+      "height_c": 10,
       "position": {
         "x": 1
       },
+      "radius_c": 1.5,
       "size": {
         "x": 3,
         "y": 5,
         "z": 3
-      }
+      },
+      "type": "Capsule"
     },
     "boundingVolumeEntityCfg": {
+      "height_c": 10,
       "position": {
         "x": 1
       },
+      "radius_c": 1.5,
       "size": {
         "x": 3,
         "y": 5,
         "z": 3
-      }
+      },
+      "type": "Capsule"
     },
     "canMove": false,
     "canRevive": true,
@@ -67,8 +73,15 @@
     "girlactor": {
       "asset": "asset/Mesh/Thick Green Tree/g2044_3040_tree01.actor"
     },
+    "hideHp": false,
     "hideName": true,
-    "maxHp": 250,
+    "hpBarColor": {
+      "b": 255,
+      "g": 170,
+      "r": 170
+    },
+    "hpBarWidth": 1.5,
+    "maxHp": 200,
     "moveSpeed": 0,
     "name": {
       "value": "9f02d7f9-4019-41fb-9e70-a7d90cd20dbd"
@@ -4879,7 +4892,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6a4c88e8d1ef48ecda5db1f32ee71df5",
+      "setting.json": "482655915bf22be6dd0f6fcb042d9c73",
       "triggers.bts": "fe2f82431f50443b4f25801e8e177f17"
     },
     "VERSION": "0.24"

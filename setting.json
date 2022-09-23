@@ -555,6 +555,6 @@
   },
   "waitAtInitPos": true,
   "waitGoTime": 100,
-  "waitPlayerTime": 1200,
+  "waitPlayerTime": 300,
   "waitStartTime": 300
 }

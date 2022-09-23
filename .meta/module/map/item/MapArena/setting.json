@@ -98,7 +98,6 @@
           "y": 3.9790680408478,
           "z": 9.4444780349731
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -144,7 +143,6 @@
           "y": 11.369917869568,
           "z": 10.916675567627
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -267,7 +265,6 @@
           "y": 13.467730522156,
           "z": 12.930863380432
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -357,7 +354,6 @@
           "y": 10.879652023315,
           "z": 10.445972442627
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -403,7 +399,6 @@
           "y": 4.041708946228,
           "z": 2.6200404167175
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -453,7 +448,6 @@
           "y": 12.787440299988,
           "z": 20.054552078247
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -499,7 +493,6 @@
           "y": 11.369917869568,
           "z": 10.916675567627
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -545,7 +538,6 @@
           "y": 11.369917869568,
           "z": 10.916675567627
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -636,7 +628,6 @@
           "y": 1.360568523407,
           "z": 2.803121805191
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -682,7 +673,6 @@
           "y": 0.18789167702198,
           "z": 2.5528862476349
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -728,7 +718,6 @@
           "y": 0.18789167702198,
           "z": 2.5528862476349
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -774,7 +763,6 @@
           "y": 0.11365803331137,
           "z": 1.5442727804184
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -820,7 +808,6 @@
           "y": 22.679382324219,
           "z": 6.9999961853027
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -866,7 +853,6 @@
           "y": 14.680330276489,
           "z": 4.9589838981628
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -915,7 +901,6 @@
           "y": 16.483291625977,
           "z": 15.366220474243
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -961,7 +946,6 @@
           "y": 5.437789440155,
           "z": 1.3263107538223
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -1007,7 +991,6 @@
           "y": 0.92153656482697,
           "z": 5.2400455474854
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -1057,7 +1040,6 @@
           "y": 1.9047960042953,
           "z": 3.9243812561035
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -1108,15 +1090,14 @@
           "y": 14.587811470032,
           "z": 18.863822937012
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
         "anchorPoint": {
-          "x": 1.39781677722931,
-          "y": 8.37581634521484,
-          "z": 21.7129650115967
+          "x": 0.980169415473938,
+          "y": 9.08480644226074,
+          "z": 21.3369121551514
         },
         "batchType": "Dynamic",
         "btsKey": "89c668c8-a943-4bf2-ad10-73515192b84e",
@@ -1125,9 +1106,9 @@
         "friction": 0.37,
         "id": "8779902866409078785",
         "massCenter": {
-          "x": 1.3978167772293,
-          "y": 8.3758163452148,
-          "z": 21.712965011597
+          "x": 0.980169415473938,
+          "y": 9.08480644226074,
+          "z": 21.3369121551514
         },
         "material": {
           "discardAlpha": 1
@@ -1139,9 +1120,9 @@
         },
         "name": "GateFire",
         "position": {
-          "x": 1.3978167772293,
-          "y": 8.3758163452148,
-          "z": 21.712965011597
+          "x": 0.980169415473938,
+          "y": 9.08480644226074,
+          "z": 21.3369121551514
         },
         "restitution": 0.3,
         "rotation": {
@@ -1157,7 +1138,6 @@
           "y": 6.6239261627197,
           "z": 1.2163186073303
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -1207,7 +1187,6 @@
           "y": 6.0625586509705,
           "z": 3.9300575256348
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -1257,7 +1236,6 @@
           "y": 3.5364916324615,
           "z": 2.2925329208374
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -1308,7 +1286,6 @@
           "y": 1.9047960042953,
           "z": 3.9243812561035
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -1357,7 +1334,6 @@
           "y": 14.269382476807,
           "z": 22.333269119263
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -1406,7 +1382,6 @@
           "y": 12.433828353882,
           "z": 9.8189830780029
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -1588,7 +1563,6 @@
           "y": 5.9505591392517,
           "z": 1.6778643131256
         },
-        "staticBatchNo": "1",
         "useAnchor": true
       },
       {
@@ -1629,7 +1603,7 @@
         ],
         "config": "myplugin/BotMage",
         "id": "8786599556760584193",
-        "name": "Danger_Mage",
+        "name": "Elemental_Monster",
         "position": {
           "x": 11.0822277069092,
           "y": 8.49374771118164,
@@ -1652,40 +1626,6 @@
         "children": [
           {
             "__OBJ_TYPE": "Instance_SceneUI",
-            "id": "8786635874869100545",
-            "layoutFile": {
-              "asset": "asset/Actor/Soldier In White Goggles/UIDangerZone.layout"
-            },
-            "position": {
-              "y": 4.5
-            }
-          }
-        ],
-        "config": "myplugin/BotWarrior",
-        "id": "8786600069118787585",
-        "name": "Danger_Ranger",
-        "position": {
-          "x": 32.102230072021,
-          "y": 9.159854888916,
-          "z": 13.311895370483
-        },
-        "scale": {
-          "x": 1.5,
-          "y": 1.5,
-          "z": 1.5
-        },
-        "size": {
-          "x": 1.5,
-          "y": 1.5,
-          "z": 1.5
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "batchType": "Dynamic",
-        "children": [
-          {
-            "__OBJ_TYPE": "Instance_SceneUI",
             "id": "8786636003703242753",
             "layoutFile": {
               "asset": "asset/Actor/Soldier In White Goggles/UIDangerZone.layout"
@@ -1697,7 +1637,7 @@
         ],
         "config": "myplugin/BotWarriorA",
         "id": "8786600144657580033",
-        "name": "Danger_Warrior",
+        "name": "Fire_Monster",
         "position": {
           "x": 16.1559753417969,
           "y": 9.08962535858154,
@@ -1833,6 +1773,16 @@
           "x": 28.8419132232666,
           "y": 8.21640205383301,
           "z": -30.3782043457031
+        },
+        "scale": {
+          "x": 0.8,
+          "y": 0.8,
+          "z": 0.8
+        },
+        "size": {
+          "x": 0.800000011920929,
+          "y": 0.800000011920929,
+          "z": 0.800000011920929
         }
       },
       {
@@ -1936,6 +1886,29 @@
           "y": 10.7076387405396,
           "z": -13.487190246582
         }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_SceneUI",
+            "id": "8815122668239011841",
+            "layoutFile": {
+              "asset": "asset/Actor/Soldier In White Goggles/UIDangerZone.layout"
+            },
+            "position": {
+              "y": 3.2
+            }
+          }
+        ],
+        "config": "myplugin/BotRangerM",
+        "id": "8815121751307649025",
+        "name": "Ice_Monster",
+        "position": {
+          "x": 28.422025680542,
+          "y": 10.0180587768555,
+          "z": 13.9629697799683
+        }
       }
     ],
     "name": {
@@ -1944,7 +1917,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "ec133d8d3589e1be9241a9f61066a7f7"
+      "setting.json": "4de53b5eb7e9f79ce1cb5d6cc04910f4"
     },
     "VERSION": "0.24"
   }

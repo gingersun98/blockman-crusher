@@ -3,8 +3,8 @@
   "_serverScript": [
     "server/server_script"
   ],
-  "actorGirlName": "asset/Actor/Red Blue Element Giant/Elemental Giant.actor",
-  "actorName": "asset/Actor/Red Blue Element Giant/Elemental Giant.actor",
+  "actorGirlName": "asset/Actor/Blue Ice Elemental Monster/Frost Elf.actor",
+  "actorName": "asset/Actor/Blue Ice Elemental Monster/Frost Elf.actor",
   "aiFixSpeedRate": 2,
   "attackNpc": false,
   "autoAttack": false,
@@ -68,13 +68,13 @@
   "isPlayer": false,
   "jumpHeight": 0.6,
   "jumpSpeed": 0.5,
-  "maxHp": 400,
+  "maxHp": 350,
   "maxVisualAngle": 360,
   "meetCliffBackRun": true,
   "moveAcc": 0.2,
   "moveFactor": 1,
   "moveSpeed": 0.1,
-  "name": "60e590e1-1950-4f25-9709-ec68f9643b06",
+  "name": "847dac74-f3b1-4e07-9418-cbb49bc9b672",
   "needCheckTouch": true,
   "nextChaseInterval": 2,
   "randomPlayDeadActions": [

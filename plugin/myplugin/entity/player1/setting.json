@@ -31,7 +31,7 @@
   "checkPartTouchEvent": true,
   "clickDistance": 4,
   "collider": {
-    "height": 1.5,
+    "height": 2,
     "offset": {
       "x": 0,
       "y": 0,

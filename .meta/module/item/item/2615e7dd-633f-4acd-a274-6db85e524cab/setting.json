@@ -67,6 +67,67 @@
                 "y": 95
               },
               "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ShowTip",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "bcc6637a-8d73-4d89-8a3d-0313b64f7246"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TipType"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "rawval": {
+                          "value": "81555549-e94c-4434-8017-169ffbb6efd5"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 60
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "32799f7a-8f79-4fbe-a750-a9fc3bd5902d"
+              },
+              "pos": {
+                "x": 607,
+                "y": 346.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "bcc6637a-8d73-4d89-8a3d-0313b64f7246"
+              },
+              "pos": {
+                "x": 1043,
+                "y": 369.5
+              },
+              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -82,6 +143,9 @@
                 "children": [
                   {
                     "action": "22dbdfab-d200-4d17-a796-b3a788ccdb75"
+                  },
+                  {
+                    "action": "32799f7a-8f79-4fbe-a750-a9fc3bd5902d"
                   }
                 ]
               }
@@ -242,7 +306,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "f283979d588e08fe493b03a81464f03b",
-      "triggers.bts": "68f0a78a5e66cd13c13b097a6f8f885c"
+      "triggers.bts": "cec721fed28b74bc3333a149ded07811"
     },
     "VERSION": "0.24"
   }

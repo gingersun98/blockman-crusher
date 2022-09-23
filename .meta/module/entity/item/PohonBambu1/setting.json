@@ -47,7 +47,13 @@
     "girlactor": {
       "asset": "asset/Mesh/Small Green Bamboo Cluster/Green Bamboo2.actor"
     },
+    "hideHp": false,
     "hideName": true,
+    "hpBarColor": {
+      "b": 255,
+      "g": 170,
+      "r": 170
+    },
     "maxHp": 75,
     "moveSpeed": 0,
     "name": {
@@ -4859,7 +4865,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9bb57913a344af9b416828b11fe76a8e",
+      "setting.json": "9031949e3353e6e4a6651a7048286432",
       "triggers.bts": "fe2f82431f50443b4f25801e8e177f17"
     },
     "VERSION": "0.24"

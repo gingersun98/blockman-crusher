@@ -165,6 +165,93 @@
             }
           },
           "type": "Trigger_UnHand"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ShowTip",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "b773cf77-2cf4-48dd-bfc2-850b9a2af9f3"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TipType"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "rawval": {
+                          "value": "c7cd8996-8698-4f5f-a0ae-425cf8885a55"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 60
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "0c7eaed5-27c5-491b-a61e-2424d16d98a9"
+              },
+              "pos": {
+                "x": 627,
+                "y": 261.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "b773cf77-2cf4-48dd-bfc2-850b9a2af9f3"
+              },
+              "pos": {
+                "x": 1063,
+                "y": 284.5
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "bac1b7be-e97a-410b-920d-dee8d33ae1d4"
+            },
+            "type": "Trigger_UseItem"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "0c7eaed5-27c5-491b-a61e-2424d16d98a9"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "d09016d2-8eb9-4d87-afa1-a62cb115e16b"
+            }
+          },
+          "type": "Trigger_UseItem"
         }
       ]
     }
@@ -172,7 +259,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "5eaede7668ef303fb024a9232ac9b244",
-      "triggers.bts": "ad6b14b4bf762b921ea1688ef8c54583"
+      "triggers.bts": "f7b308d13c1e897109197059d8b8b6b2"
     },
     "VERSION": "0.24"
   }
