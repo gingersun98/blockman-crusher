@@ -85,7 +85,7 @@
   "ignoreMovePreS": false,
   "isClick": true,
   "isShowCdPoint": false,
-  "isTouch": true,
+  "isTouch": false,
   "missileCfg": [
     "myplugin/4e464607-98b6-48ca-8a70-b886d81c2bdc"
   ],
@@ -113,7 +113,6 @@
   ],
   "sustainAction": "",
   "targetType": "Camera",
-  "touchTime": 20,
   "type": "Missile",
   "verticalAlignment": 2
 }

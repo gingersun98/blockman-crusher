@@ -1,11 +1,22 @@
 {
   "data": {
     "attackBound": {
+      "height_c": 2.5,
+      "memory": {
+        "Capsule": "1.000000-0.500000"
+      },
       "size": {
         "y": 2.5
       }
     },
     "attackBoundSkillSystemCfg": {
+      "height_c": 2.5,
+      "memory": {
+        "Capsule": "1.000000-0.500000",
+        "Cylinder": "1.000000-0.500000",
+        "Sector": "1.000000-0.500000",
+        "Sphere": "1.000000-0.500000"
+      },
       "size": {
         "y": 2.5
       }
@@ -39,7 +50,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "4ba0169c5dc98c046b33efa28c95c16a",
+      "setting.json": "eb496f134d1a2da12722d4e1a4238a6a",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

@@ -120,7 +120,6 @@
     "die"
   ],
   "reachDistance": 6.5,
-  "reviveTime": 40,
   "setFollowWhenCreate": true,
   "skillInfos": [],
   "stepHeight": 0.6,

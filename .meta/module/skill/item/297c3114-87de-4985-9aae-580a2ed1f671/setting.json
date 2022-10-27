@@ -1,6 +1,6 @@
 {
   "data": {
-    "castAction": "attack2",
+    "castAction": "attack",
     "cdAnimation": "Clockwise",
     "cdTime": {
       "value": 40
@@ -45,7 +45,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "c42e26abdfb3d742a468089ac454c864",
+      "setting.json": "3660fe683520faee51c597397b688ffb",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

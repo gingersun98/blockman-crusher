@@ -9,10 +9,10 @@
       "min": 0
     },
     "height": 1,
-    "height_c": 1.5,
+    "height_c": 2.5,
     "memory": {
       "__OBJ_TYPE": "BoundingVolumeMemory",
-      "Capsule": "",
+      "Capsule": "1.000000-0.500000",
       "Cylinder": "",
       "Sector": "",
       "Sphere": ""
@@ -51,10 +51,10 @@
       "min": 0
     },
     "height": 1,
-    "height_c": 1.5,
+    "height_c": 2.5,
     "memory": {
       "__OBJ_TYPE": "BoundingVolumeMemory",
-      "Capsule": "",
+      "Capsule": "1.000000-0.500000",
       "Cylinder": "",
       "Sector": "",
       "Sphere": ""

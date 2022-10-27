@@ -94,14 +94,16 @@ GAME_START {
 GAME_GO {
 	StartTimer2(interval = 100, object = $obj1, time = 999, timer = "") {
 		If (@PlayerParticipate == 1) {
-			MoveMapPlayerTo(
-				map = GetStaticMap(create = true, name = "MapArena"),
-				newmap = "MapArena",
+			SetEntityPosition(
+				entity = $obj1,
+				map = "MapArena",
 				pos = {
-					x = -30.457454681396,
-					y = 18.696274795532,
-					z = 30.612281799316
-				}
+					x = -29.8121337890625,
+					y = 18.6962747955322,
+					z = 29.7592029571533
+				},
+				rp = 0,
+				ry = 0
 			)
 			StopTimer2(timer = "Victory")
 		}

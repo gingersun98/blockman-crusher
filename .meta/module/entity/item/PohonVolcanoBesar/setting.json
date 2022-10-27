@@ -38,12 +38,16 @@
     },
     "boundingVolume": {
       "height": 3,
+      "height_c": 2,
       "radius": 0.75,
+      "radius_c": 0.75,
       "type": "Capsule"
     },
     "boundingVolumeEntityCfg": {
       "height": 3,
+      "height_c": 2,
       "radius": 0.75,
+      "radius_c": 0.75,
       "type": "Capsule"
     },
     "canMove": false,
@@ -4871,7 +4875,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "94644bd0cdc933c18fa22555bf9f289e",
+      "setting.json": "94b112e7a0709f0be263d2e43c23e824",
       "triggers.bts": "2c80a81c3b17abad8fe355473ac0a385"
     },
     "VERSION": "0.24"

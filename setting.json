@@ -280,13 +280,6 @@
       ]
     ]
   },
-  "uiNavigation": [
-    {
-      "iconPath": "set:main_page.json image:shop_icon.png",
-      "list": 1,
-      "name": "shop"
-    }
-  ],
   "useHalfImageSize": true,
   "useNewCollisionFiltering": true,
   "useNewFirstViewer": true,

@@ -56,16 +56,12 @@
         "area_number": 8
       },
       "isClick": true,
-      "isClickIcon": true,
-      "isTouch": true,
-      "touchTime": {
-        "value": 20
-      }
+      "isClickIcon": true
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "948211edd9d4b8d26ed78bebb8d5196e",
+      "setting.json": "ff0c0bbb05ec50c46bde0205528046f5",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

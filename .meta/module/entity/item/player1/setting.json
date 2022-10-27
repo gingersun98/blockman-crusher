@@ -28,7 +28,6 @@
       "height_c": 2,
       "type": "Capsule"
     },
-    "canRevive": true,
     "collision": true,
     "deadAction": {
       "deathHideTime": {
@@ -8541,10 +8540,10 @@
                 {
                   "__OBJ_TYPE": "Component_Sequence",
                   "children": [
-                    {
-                      "action": "7f381586-aa9d-420a-8e5d-50733b05c910"
-                    },
                     [],
+                    {
+                      "action": "a7954135-2122-453c-b8c0-b93b1ebb5975"
+                    },
                     {
                       "action": "d39912a1-e7cb-4431-b5cd-4bd934b9d499"
                     }
@@ -8616,8 +8615,8 @@
                 "value": "7f381586-aa9d-420a-8e5d-50733b05c910"
               },
               "pos": {
-                "x": 1740.47951671011,
-                "y": 884.912841452949
+                "x": 1736.25821544213,
+                "y": 834.257226237325
               }
             },
             {
@@ -8644,8 +8643,8 @@
                 "value": "c516078c-3124-4ec3-9726-adfe81e43c48"
               },
               "pos": {
-                "x": 2440.4881507814,
-                "y": 882.952426877008
+                "x": 2436.26684951343,
+                "y": 832.296811661385
               }
             },
             {
@@ -8667,8 +8666,8 @@
                 "value": "d39912a1-e7cb-4431-b5cd-4bd934b9d499"
               },
               "pos": {
-                "x": 1728.5910626253,
-                "y": 1101.960860409
+                "x": 1753.91887023311,
+                "y": 1283.47681493166
               }
             },
             {
@@ -10165,6 +10164,74 @@
                 "y": 3012.45
               },
               "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetEntityPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "c6fe2c2d-ef2f-410f-999b-9213f9963b6a"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "MapArena"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": -29.8121337890625,
+                            "y": 18.6962747955322,
+                            "z": 29.7592029571533
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "a7954135-2122-453c-b8c0-b93b1ebb5975"
+              },
+              "pos": {
+                "x": 1730.73351986717,
+                "y": 1003.26260135392
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "c6fe2c2d-ef2f-410f-999b-9213f9963b6a"
+              },
+              "pos": {
+                "x": 2255.58197751795,
+                "y": 963.863789519537
+              },
+              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -10462,7 +10529,8 @@
                   },
                   {
                     "action": "b431d60f-de34-4454-9399-4e83938087e4"
-                  }
+                  },
+                  []
                 ]
               }
             ],
@@ -10799,8 +10867,8 @@
                 "value": "565517d6-e191-4edf-b3c4-8c96d5397367"
               },
               "pos": {
-                "x": 1346,
-                "y": 196.5
+                "x": 1423,
+                "y": 209.5
               },
               "type": "T_Int"
             },
@@ -10852,8 +10920,8 @@
                 "value": "b5a02be3-8f53-4fe7-952f-2acb439892e0"
               },
               "pos": {
-                "x": 892,
-                "y": 309.5
+                "x": 900,
+                "y": 266.5
               }
             },
             {
@@ -10880,8 +10948,8 @@
                 "value": "7944b613-ea45-4d1f-a599-32531b5ad616"
               },
               "pos": {
-                "x": 1139,
-                "y": 415.5
+                "x": 1158,
+                "y": 406.5
               }
             },
             {
@@ -10915,8 +10983,8 @@
                 "value": "88e0d81a-bd7c-4be4-8bb4-f36283f2fb91"
               },
               "pos": {
-                "x": 1042,
-                "y": 142.5
+                "x": 1119,
+                "y": 155.5
               }
             }
           ],
@@ -10936,7 +11004,9 @@
                   },
                   {
                     "action": "505275f8-d6e6-4214-a5bc-a8ab4f963f84"
-                  }
+                  },
+                  [],
+                  []
                 ]
               }
             ],
@@ -11647,8 +11717,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "764f4a39e1839d288f809f65d881f0e7",
-      "triggers.bts": "9d70171450dc5dcfad2f96b24ffc996f"
+      "setting.json": "7ac6beb8f7e98374d2a213fe93f33a6f",
+      "triggers.bts": "07d3cebfc5570e2e4712bba7174f36ab"
     },
     "VERSION": "0.24"
   }

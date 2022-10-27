@@ -174,7 +174,6 @@
         }
       }
     ],
-    "showShop": true,
     "startPos": {
       "map": "MapArena",
       "pos": {
@@ -12827,7 +12826,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "33114881f37c6f8e8e074d8c1d6c33ec",
+      "setting.json": "a13316bd066c10ceacb0fa58402b0722",
       "shop.csv": "9ff5f9aec788b75bcfac21d778da6d78",
       "triggers.bts": "b1c2433acc4048acf077ef9b8e488e9f",
       "triggers_client.bts": "d74f49191d3597ccfdb2d7f5dc1b3321"

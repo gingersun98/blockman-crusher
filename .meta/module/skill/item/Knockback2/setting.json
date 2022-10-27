@@ -11,7 +11,8 @@
     },
     "skill": {
       "base": {
-        "__OBJ_TYPE": "Skill_MeleeAttack"
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "hurtDistance": 1
       }
     },
     "skillReleaseWay": {
@@ -195,7 +196,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "eb03d18d9302bf9e324b6a4e4c26222f",
+      "setting.json": "82b9c48de0c31d9e6640eec7634e2a5e",
       "triggers.bts": "204fef465f82563ce699c56705da60a4"
     },
     "VERSION": "0.24"
