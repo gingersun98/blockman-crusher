@@ -29,7 +29,7 @@
       }
     },
     "girlactor": {
-      "asset": ""
+      "asset": "empty.actor"
     },
     "headPic": {
       "asset": "asset/3D Asset/merchant1.png"
@@ -188,8 +188,8 @@
                 "value": "b99e5eca-3afb-4409-a3f1-7ae19b375c64"
               },
               "pos": {
-                "x": 832,
-                "y": 146
+                "x": 1155.25413868398,
+                "y": 52.6154710468492
               },
               "type": "T_Entity"
             },
@@ -260,51 +260,6 @@
               }
             },
             {
-              "__OBJ_TYPE": "Action_ShowShop",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "fd73c521-2c50-4719-9257-b52cf70fee71"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_String"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "8885cbeb-f3a8-4a11-9021-001e5b0cade8"
-              },
-              "pos": {
-                "x": 63.945,
-                "y": 329.6475
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_GetContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "obj2"
-                }
-              ],
-              "id": {
-                "value": "fd73c521-2c50-4719-9257-b52cf70fee71"
-              },
-              "pos": {
-                "x": 450.9225,
-                "y": 316.4175
-              },
-              "type": "T_Entity"
-            },
-            {
               "__OBJ_TYPE": "Action_GetContextVar",
               "components": [
                 {
@@ -318,6 +273,51 @@
               "pos": {
                 "x": 1151,
                 "y": 612
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ShowShop",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "3733bbfd-10d2-4d9f-8463-85ee269f95ae"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d8eb927f-e1ef-458d-910d-20821f7ee6e7"
+              },
+              "pos": {
+                "x": 382.517397442713,
+                "y": 197.544195862431
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "3733bbfd-10d2-4d9f-8463-85ee269f95ae"
+              },
+              "pos": {
+                "x": 460.45524233305,
+                "y": 329.3516504836
               },
               "type": "T_Entity"
             }
@@ -336,10 +336,10 @@
                   {
                     "action": "aaca16fc-636d-41ff-95ba-e78bd84fdfe0"
                   },
-                  [],
                   {
-                    "action": "6544879e-e495-4b7a-8ee3-3493848a671b"
-                  }
+                    "action": "d8eb927f-e1ef-458d-910d-20821f7ee6e7"
+                  },
+                  []
                 ]
               }
             ],
@@ -361,7 +361,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "55c9d9e7cab5624317de4289054f63e9",
-      "triggers.bts": "8c087cb019fa032f1023464191a60734"
+      "triggers.bts": "8c1b12c10d7b2675c479fcf45c3c3cbf"
     },
     "VERSION": "0.24"
   }

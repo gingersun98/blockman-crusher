@@ -3,56 +3,6 @@ server_e99609dc_9fd8_420e_a1c9_4837e2198344 {
 }
 
 GAME_GO {
-	StartTimer2(interval = 100, time = 999, timer = "") {
-		SpawnItemToWorld(
-			count = 1,
-			fullName = "myplugin/copper_coin",
-			map = GetStaticMap(create = true, name = "MapVillage"),
-			pos = GetRandomPosInArea(
-			region = {
-				map = "",
-				max = {
-					__OBJ_TYPE = "Vector3i",
-					x = 10,
-					y = 3,
-					z = -6
-				},
-				min = {
-					__OBJ_TYPE = "Vector3i",
-					x = 6,
-					y = 2,
-					z = -10
-				}
-			}
-		),
-			time = 19980
-		)
-	}
-	StartTimer2(interval = 400, time = 999, timer = "") {
-		SpawnItemToWorld(
-			count = 1,
-			fullName = "myplugin/copper_coin",
-			map = GetStaticMap(create = true, name = "MapVillage"),
-			pos = GetRandomPosInArea(
-			region = {
-				map = "",
-				max = {
-					__OBJ_TYPE = "Vector3i",
-					x = 10,
-					y = 3,
-					z = -6
-				},
-				min = {
-					__OBJ_TYPE = "Vector3i",
-					x = 6,
-					y = 2,
-					z = -10
-				}
-			}
-		),
-			time = 19980
-		)
-	}
 	SendToClient(msg = "client_9b45935c_a4d0_4445_9d8f_7a16cb9d193a", player = $obj1)
 	StartTimer2(interval = 200, time = 999, timer = "") {
 		ShowTip(entity = $obj1, keepTime = 60, textKey = "f0ec6888-ba98-4efb-8558-fd19e802ff04", tipType = "1")
@@ -292,4 +242,35 @@ server_71a43a7f_f826_41e8_848f_91d771cd1263 {
 	SendToClient(msg = "client_ff8a43d1_d9bd_4683_ba9f_40f04f2b69fc", player = $player)
 	SendToClient(msg = "client_71398682_0a6a_4d63_bde2_adb0920ef41c", player = $player)
 	AddItem(cfg = "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12", count = 1, entity = $player, reason = "")
+}
+
+server_76f81965_e3be_420d_b772_d293c96c43f7 {
+	GameOverToPlayer(entity = $player)
+}
+
+server_f2c75bd9_5bfc_4d96_9eb3_67db2cce6b0b {
+	RecoverFullHp(entity = $player)
+	PlayerOneMoreGame(entity = $player)
+	GameOver()
+}
+
+server_296cfe30_7fd3_49c3_a716_78c1ca7d3eac {
+	Foreach(array = GetAllPlayers(), key = "ThePlayer") {
+		AddItem(cfg = "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12", count = 1, entity = $ThePlayer, reason = "")
+		EnterMap(
+			entity = $ThePlayer,
+			map = "MapArena",
+			pos = {
+				x = -22.1615962982178,
+				y = 8.12225250244141,
+				z = 22.5275974273682
+			},
+			rp = 0,
+			ry = 0
+		)
+	}
+}
+
+server_98944707_4b78_4c20_80cf_00149708868d {
+	GameOverToPlayer(entity = $player)
 }

@@ -9,7 +9,7 @@
         "__OBJ_TYPE": "Skill_Buff",
         "buffCfg": "myplugin/bea51d78-ffb2-44ee-883e-5420681cb31d",
         "buffTime": {
-          "value": 200
+          "value": 100
         },
         "target": "self"
       },
@@ -67,14 +67,14 @@
                       "value": {
                         "__OBJ_TYPE": "T_Time",
                         "rawval": {
-                          "value": 60
+                          "value": 20
                         }
                       }
                     },
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Int",
-                        "rawval": 1000
+                        "rawval": 5
                       }
                     },
                     {
@@ -178,8 +178,8 @@
                 "value": "fea54bb3-48fc-4464-afe0-6c686fbc7972"
               },
               "pos": {
-                "x": 620,
-                "y": 511
+                "x": 642,
+                "y": 470
               }
             },
             {
@@ -194,10 +194,206 @@
                 "value": "b04e049c-dcf9-4ab0-9261-6b3dc2513fea"
               },
               "pos": {
-                "x": 1023,
-                "y": 582
+                "x": 1045,
+                "y": 541
               },
               "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Promp"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "Regen 30 Hunger for 5 sec"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "f5d81ad4-40d7-4f61-8075-aa5a980f819b"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "406bf528-4065-4832-b5e4-f54be1a44e7f"
+              },
+              "pos": {
+                "x": 659,
+                "y": 765.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "f5d81ad4-40d7-4f61-8075-aa5a980f819b"
+              },
+              "pos": {
+                "x": 1052,
+                "y": 794.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "2f2db7f3-b437-49cc-8a40-eed6e0a41cc6"
+              },
+              "pos": {
+                "x": 1044,
+                "y": 649.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "a09c705c-def3-45a3-a1a2-9ee4f194b677"
+              },
+              "pos": {
+                "x": 1400,
+                "y": 1050.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Promp"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "a09c705c-def3-45a3-a1a2-9ee4f194b677"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "136eac42-2e17-4a90-9911-f74b1a4b31fc"
+              },
+              "pos": {
+                "x": 1057,
+                "y": 1045.5
+              },
+              "type": "T_String"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "b7f7d88a-63ce-4a2f-a3e8-8168d1a66924"
+              },
+              "pos": {
+                "x": 1069,
+                "y": 928.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "2f2db7f3-b437-49cc-8a40-eed6e0a41cc6"
+                      }
+                    }
+                  ],
+                  "proto_id": "fe4e7880-b40c-4be5-b09e-8f5485644233",
+                  "proto_name": "Promp",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "c1da6ac8-0bfa-4a6a-a6fd-18512c533f2e"
+              },
+              "pos": {
+                "x": 663,
+                "y": 641
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params": [
+                    {
+                      "data_type": "T_String",
+                      "key": "Promp",
+                      "must": true,
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "action": "136eac42-2e17-4a90-9911-f74b1a4b31fc"
+                      }
+                    }
+                  ],
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "b7f7d88a-63ce-4a2f-a3e8-8168d1a66924"
+                      }
+                    }
+                  ],
+                  "proto_id": "5e6f8c55-f768-4903-81ec-60633b35c0fa",
+                  "proto_name": "PrompText",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "3ee56018-d525-4d33-b5f1-20433ecd7d4e"
+              },
+              "pos": {
+                "x": 640,
+                "y": 998
+              }
             }
           ],
           "custom_trigger_data": {
@@ -216,6 +412,15 @@
                   },
                   {
                     "action": "fea54bb3-48fc-4464-afe0-6c686fbc7972"
+                  },
+                  {
+                    "action": "c1da6ac8-0bfa-4a6a-a6fd-18512c533f2e"
+                  },
+                  {
+                    "action": "406bf528-4065-4832-b5e4-f54be1a44e7f"
+                  },
+                  {
+                    "action": "3ee56018-d525-4d33-b5f1-20433ecd7d4e"
                   }
                 ]
               }
@@ -231,8 +436,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "058d73a68581309c3feb8dccebd85d24",
-      "triggers.bts": "0fdb691a7eff3e10be18d0657e76ed80"
+      "setting.json": "3651c4fa11d0e12b563c869f854feace",
+      "triggers.bts": "4aa87f15d4da1ae62ffb29413fad921d"
     },
     "VERSION": "0.24"
   }

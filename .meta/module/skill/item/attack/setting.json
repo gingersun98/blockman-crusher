@@ -7,7 +7,7 @@
       }
     },
     "cdTime": {
-      "value": 40
+      "value": 60
     },
     "name": {
       "value": "skill_attack"
@@ -15,7 +15,7 @@
     "skill": {
       "base": {
         "__OBJ_TYPE": "Skill_MeleeAttack",
-        "damage": 2,
+        "damage": 10,
         "hurtDistance": 0,
         "range": 2
       }
@@ -26,7 +26,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "712940aa397d02e63b844a712366060a",
+      "setting.json": "34d30fe05fa8da50f14edcb3cada38d7",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

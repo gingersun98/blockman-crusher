@@ -46,7 +46,7 @@
     "type": "Capsule"
   },
   "collision": true,
-  "damage": 5,
+  "damage": 0,
   "damageViewBobbing": [
     {
       "count": 2,

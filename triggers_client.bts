@@ -1,5 +1,5 @@
 client_31ffbab8_ea6f_4f45_abeb_4d1e7bf9a930 {
-	CreateWindow(name = "", res = "RankingWnd_1")
+	CreateWindow(name = "", res = "mainWnd_1")
 }
 
 client_abf59f08_7e45_4edc_8b5d_95ae1ad9584d {
@@ -18,7 +18,7 @@ client_e7b1b919_d092_43b1_a9e4_e766620c82ed {
 }
 
 client_71398682_0a6a_4d63_bde2_adb0920ef41c {
-	CreateWindow(name = "", res = "LoadOutPremium")
+	CreateWindow(name = "", res = "LoadOut")
 }
 
 client_fc7383cb_c2ce_4794_87a3_d51e97f39463 {
@@ -33,11 +33,10 @@ client_ff8a43d1_d9bd_4683_ba9f_40f04f2b69fc {
 }
 
 client_d35a57d2_efaf_426d_abcb_3acbb84e4fee {
-	CreateWindow(name = "", res = "Winner")
 }
 
 client_0b405762_4991_462b_9c15_97631f5d59d9 {
-	CreateWindow(name = "", res = "Winner_Standart")
+	CreateWindow(name = "", res = "mainWnd")
 }
 
 client_d0106353_6a9e_454f_98ec_d244d6ed21bc {
@@ -46,4 +45,16 @@ client_d0106353_6a9e_454f_98ec_d244d6ed21bc {
 
 client_9b45935c_a4d0_4445_9d8f_7a16cb9d193a {
 	SendToServer(msg = "server_71a43a7f_f826_41e8_848f_91d771cd1263")
+}
+
+client_060f2d56_f293_4899_9249_36094cfa3a50 {
+	CreateWindow(name = "", res = "mainWnd")
+}
+
+client_806f8155_0fa7_449d_9c6f_47040e1f7405 {
+	CreateWindow(name = "", res = "UIKills")
+}
+
+client_fe4e7880_b40c_4be5_b09e_8f5485644233 {
+	CreateWindow(name = "", res = "UIPrompItem")
 }

@@ -2,7 +2,7 @@
   "addCollision": 0,
   "antiGravity": 0,
   "continueDamage": 0,
-  "continueHeal": 10,
+  "continueHeal": 20,
   "damage": 0,
   "damagePct": 0,
   "deadRemove": false,

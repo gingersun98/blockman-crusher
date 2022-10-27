@@ -91,29 +91,26 @@
               }
             },
             {
-              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "__OBJ_TYPE": "Action_RecoverFullHp",
               "components": [
                 {
-                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
-                  "params_default": [
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Entity",
-                        "action": "4a8f30e3-7356-4ee9-af38-3504a7d64bf1"
+                        "action": "7be9ed3e-6971-43dd-a28a-17edf3e93637"
                       }
                     }
-                  ],
-                  "proto_id": "cd1d91b7-3b1b-48a6-86a9-448f98abe8c9",
-                  "proto_name": "DestroyWidget",
-                  "proto_type": "client"
+                  ]
                 }
               ],
               "id": {
-                "value": "94218dcb-4735-49f7-a222-31900e718f43"
+                "value": "794bd2cf-7895-45f1-b436-dc220c3ab1a5"
               },
               "pos": {
-                "x": 1352,
-                "y": 459
+                "x": 712.954961430783,
+                "y": 382.517397442715
               }
             },
             {
@@ -125,11 +122,581 @@
                 }
               ],
               "id": {
-                "value": "4a8f30e3-7356-4ee9-af38-3504a7d64bf1"
+                "value": "7be9ed3e-6971-43dd-a28a-17edf3e93637"
               },
               "pos": {
-                "x": 1785,
-                "y": 525
+                "x": 1099.06407152555,
+                "y": 459.739219461664
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "44a16d10-fdc9-4c1d-a394-bed36aea7abf"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 999
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "8cbf8e09-0f05-4cde-b32f-008837e68624"
+              },
+              "pos": {
+                "x": 717.673547562388,
+                "y": 568.353214107748
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "44a16d10-fdc9-4c1d-a394-bed36aea7abf"
+              },
+              "pos": {
+                "x": 1100.901375,
+                "y": 564.921
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "ae25b54e-3789-4d47-9fd3-f2f33c7709a0"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/057d4d1d-889a-4777-837d-f94a974babac"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 999
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "6bf7dcf7-8be1-4d00-bc25-9c2ac8af1ef3"
+              },
+              "pos": {
+                "x": 715.9640862812,
+                "y": 719.44360705388
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "ae25b54e-3789-4d47-9fd3-f2f33c7709a0"
+              },
+              "pos": {
+                "x": 1117.71391371881,
+                "y": 722.95714294613
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "38a4e753-a927-434b-a00e-9a0ed9b92ac6"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/15a5078e-f6aa-45f1-aba7-6f7b4ecefce0"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 999
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f10cc2d0-e6c0-4220-8dd0-6294fbcd1f33"
+              },
+              "pos": {
+                "x": 735.6437112812,
+                "y": 868.77723205388
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "38a4e753-a927-434b-a00e-9a0ed9b92ac6"
+              },
+              "pos": {
+                "x": 1122.3444137188,
+                "y": 874.60601794613
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "3f83884e-ec94-46e8-b610-7d82d0688366"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/33f3159c-becb-45a8-8b7b-f7db3000af7d"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 999
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "a8560158-0ae1-470b-8fd1-9b0476be4682"
+              },
+              "pos": {
+                "x": 737.9589612812,
+                "y": 1034.3176070539
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "3f83884e-ec94-46e8-b610-7d82d0688366"
+              },
+              "pos": {
+                "x": 1139.7087887188,
+                "y": 1037.8311429461
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "f922e4c4-bed7-4a84-be7f-1bd43707ebdb"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/547b7be6-2cb9-4e37-9bc4-bd58f37fb3a1"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 999
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d1c73268-7d7b-4542-9d2e-6840ce2f244a"
+              },
+              "pos": {
+                "x": 749.5352112812,
+                "y": 1188.2817320539
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "f922e4c4-bed7-4a84-be7f-1bd43707ebdb"
+              },
+              "pos": {
+                "x": 1151.2850387188,
+                "y": 1191.7952679461
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "3a9e2389-88ef-4444-8d08-df51a099d2d8"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/951529d8-99cc-4dbe-9dc3-cbb0a4eef98f"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 999
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "a79bd09f-cd25-4ebd-97fb-a49e47974fde"
+              },
+              "pos": {
+                "x": 758.7962112812,
+                "y": 1338.7729820539
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "3a9e2389-88ef-4444-8d08-df51a099d2d8"
+              },
+              "pos": {
+                "x": 1160.5460387188,
+                "y": 1342.2865179461
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "3c0c2926-94df-4262-90c7-74643132bde0"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/b771344e-32e8-4488-a0f3-7d87111c3590"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 999
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c516b30b-e118-42e0-82c7-9739a66411d8"
+              },
+              "pos": {
+                "x": 764.5843362812,
+                "y": 1493.8947320539
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "3c0c2926-94df-4262-90c7-74643132bde0"
+              },
+              "pos": {
+                "x": 1166.3341637188,
+                "y": 1497.4082679461
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "715ae46f-864b-4d72-a19c-671878366420"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/ce6802e2-dfff-47b3-a5cd-b0479715f636"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 999
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "a277d742-fbe8-4804-af87-bbcf05f11ebe"
+              },
+              "pos": {
+                "x": 765.7419612812,
+                "y": 1650.1741070539
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "715ae46f-864b-4d72-a19c-671878366420"
+              },
+              "pos": {
+                "x": 1167.4917887188,
+                "y": 1653.6876429461
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "5bb0aa61-243d-4143-8294-e3774138a7a5"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/d9575c4c-95cd-44fe-ad35-b44d9b19d730"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 999
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "89d061b6-4040-45af-a456-7c40f973cf85"
+              },
+              "pos": {
+                "x": 765.7419612812,
+                "y": 1814.5568570539
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "5bb0aa61-243d-4143-8294-e3774138a7a5"
+              },
+              "pos": {
+                "x": 1167.4917887188,
+                "y": 1818.0703929461
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ConsumeItem2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "81cb4931-41b4-414b-a41f-3f20bd7f87e6"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/epee"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 999
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "75113835-78dd-4dc3-a908-01f0add2c6f5"
+              },
+              "pos": {
+                "x": 773.8453362812,
+                "y": 1962.7328570539
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "81cb4931-41b4-414b-a41f-3f20bd7f87e6"
+              },
+              "pos": {
+                "x": 1175.5951637188,
+                "y": 1966.2463929461
               },
               "type": "T_Entity"
             },
@@ -148,230 +715,34 @@
                     {
                       "value": {
                         "__OBJ_TYPE": "T_Int",
-                        "action": "b5a3d7fc-7541-45ce-8cb3-e7b8a1d106f3"
+                        "action": "3e33bb33-9668-4814-a3ab-30762a81fb06"
                       }
                     }
                   ]
                 }
               ],
               "id": {
-                "value": "aa4b1f0d-9132-4f86-9f66-ead8670f85dd"
+                "value": "b1d16c33-9c52-4bcf-86ba-baf448884236"
               },
               "pos": {
-                "x": 903,
-                "y": 570
+                "x": 64,
+                "y": 1575
               }
             },
             {
-              "__OBJ_TYPE": "Action_ComputeInt",
+              "__OBJ_TYPE": "Action_GetAllPlayersCount",
               "components": [
                 {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "action": "4f2558b9-7187-49d5-ad68-bb89ff3daf4d"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_BinaryOperCompute"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "rawval": 1
-                      }
-                    }
-                  ]
+                  "__OBJ_TYPE": "Component_Params"
                 }
               ],
               "id": {
-                "value": "b5a3d7fc-7541-45ce-8cb3-e7b8a1d106f3"
+                "value": "3e33bb33-9668-4814-a3ab-30762a81fb06"
               },
               "pos": {
-                "x": 1181,
-                "y": 697
+                "x": 431,
+                "y": 1687
               }
-            },
-            {
-              "__OBJ_TYPE": "Action_GetGlobalVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_GlobalVar",
-                        "rawval": "PlayerParticipate"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "4f2558b9-7187-49d5-ad68-bb89ff3daf4d"
-              },
-              "pos": {
-                "x": 1622,
-                "y": 700
-              },
-              "type": "T_Int"
-            },
-            {
-              "__OBJ_TYPE": "Action_If",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Condition",
-                  "children": [
-                    {
-                      "action": "ace85054-2b91-4692-8118-6097b0fa056c"
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "dfe8f1f0-e83e-44d1-9eb1-5ec96b6f87d9"
-              },
-              "pos": {
-                "x": 537,
-                "y": 396
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_IfBranch",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Bool",
-                        "action": "6b26f9a0-a876-498e-b0c3-42439e277c3f"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "__OBJ_TYPE": "Component_Sequence",
-                  "children": [
-                    {
-                      "action": "aa4b1f0d-9132-4f86-9f66-ead8670f85dd"
-                    },
-                    {
-                      "action": "ce7a13ad-8b54-4dce-811a-d12e9d11e25b"
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "ace85054-2b91-4692-8118-6097b0fa056c"
-              },
-              "pos": {
-                "x": 719,
-                "y": 420
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_GetObjectVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_ObjectVar",
-                        "rawval": "Participation"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "5db40f64-1203-498e-be4a-1215d6858292"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "6b26f9a0-a876-498e-b0c3-42439e277c3f"
-              },
-              "pos": {
-                "x": 936,
-                "y": 450
-              },
-              "type": "T_Bool"
-            },
-            {
-              "__OBJ_TYPE": "Action_GetContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "obj1"
-                }
-              ],
-              "id": {
-                "value": "5db40f64-1203-498e-be4a-1215d6858292"
-              },
-              "pos": {
-                "x": 1293,
-                "y": 548
-              },
-              "type": "T_Entity"
-            },
-            {
-              "__OBJ_TYPE": "Action_SetObjectVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_ObjectVar",
-                        "rawval": "Participation"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Bool",
-                        "rawval": true
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "0025aaee-1a57-4034-b134-c8b1aaec4151"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "ce7a13ad-8b54-4dce-811a-d12e9d11e25b"
-              },
-              "pos": {
-                "x": 937,
-                "y": 817
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_GetContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "obj1"
-                }
-              ],
-              "id": {
-                "value": "0025aaee-1a57-4034-b134-c8b1aaec4151"
-              },
-              "pos": {
-                "x": 1338,
-                "y": 943
-              },
-              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -388,6 +759,18 @@
                   {
                     "action": "baaaab7b-56af-4591-9b79-5fc988b53547"
                   },
+                  {
+                    "action": "794bd2cf-7895-45f1-b436-dc220c3ab1a5"
+                  },
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
                   [],
                   []
                 ]
@@ -397,8 +780,8 @@
               "value": "ac3c3ea2-3816-4d35-8b82-cdffabf66eb4"
             },
             "pos": {
-              "x": 240,
-              "y": 275
+              "x": 136.858771441919,
+              "y": 930.892006674547
             }
           },
           "type": "Trigger_RegionEnter"
@@ -409,7 +792,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
-      "triggers.bts": "1092d7678c598a24635acf21c67d99ea"
+      "triggers.bts": "1ca6c4ed439197354c5baa0f1a7d196f"
     },
     "VERSION": "0.24"
   }

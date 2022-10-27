@@ -1,6 +1,7 @@
 {
   "data": {
     "boundingVolume": {
+      "height": 1.5,
       "type": "Capsule"
     },
     "boundingVolumeMissileCfg": {
@@ -29,7 +30,7 @@
     },
     "missileModel": {
       "modelMesh": {
-        "asset": "asset/3D Asset/Bow/arrow.mesh"
+        "asset": "asset/3D Asset/arrow5/arrow.mesh"
       },
       "type": "mesh"
     },
@@ -49,7 +50,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "cc8a48b5df118941065eb582d05ea73b",
+      "setting.json": "5c05cbc5d8f0d5ed10ef5764ebb6f166",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

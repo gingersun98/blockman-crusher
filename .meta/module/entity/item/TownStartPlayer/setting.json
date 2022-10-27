@@ -3,6 +3,12 @@
     "actorName": {
       "asset": "asset/Actor/White Windmill Hut/g2043_city2_decoration_02.actor"
     },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
     "boundingVolume": {
       "height": 5,
       "radius": 3,
@@ -17,7 +23,7 @@
     "canMove": false,
     "collision": true,
     "girlactor": {
-      "asset": ""
+      "asset": "empty.actor"
     },
     "hideName": true,
     "maxHp": 1,
@@ -28,7 +34,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "143df08d603d94e8f218e460e32fdf32",
+      "setting.json": "db86b88d9174a90cd33dac59ca57c518",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

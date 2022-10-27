@@ -1,0 +1,81 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "71e3d65a-f113-400b-b30d-f0a4fb133ae4"
+                      }
+                    }
+                  ],
+                  "proto_id": "31ffbab8-ea6f-4f45-abeb-4d1e7bf9a930",
+                  "proto_name": "OpenLeaderboard",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "aeb37ec2-8fa2-4b99-b3b8-aa338da08cb5"
+              },
+              "pos": {
+                "x": 717,
+                "y": 262
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "from"
+                }
+              ],
+              "id": {
+                "value": "71e3d65a-f113-400b-b30d-f0a4fb133ae4"
+              },
+              "pos": {
+                "x": 1158,
+                "y": 284
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "9070c638-2a11-4202-bc82-c711da1cb183"
+            },
+            "type": "Trigger_MeshPartClicked"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "799a59d3-40bc-42d4-9006-d814866801b7"
+            }
+          },
+          "type": "Trigger_MeshPartClicked"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "8a4e9dfcf4ac5177d44dced5aee8ff33"
+    },
+    "VERSION": "0.24"
+  }
+}

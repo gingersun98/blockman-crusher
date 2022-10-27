@@ -1,22 +1,3 @@
 ENTITY_CLICK {
-	OpenConversation(
-		entity = $obj2,
-		optionList = [
-			{
-				showText = "dc974a7c-35d2-4c30-9eb4-7b147331caf7",
-				triggerName = "optionIsSelected2"
-			},
-			{
-				showText = "83ed463e-3bf5-4f62-969d-a3ba2df9973d",
-				triggerName = "optionIsSelected3"
-			}
-		],
-		optionNpc = "myplugin/TestCharacter1",
-		talkList = [
-			{
-				msg = "a0e89ce2-87da-4f35-9c4b-8b7241fa29eb",
-				npc = "myplugin/TestCharacter1"
-			}
-		]
-	)
+	SendToClient(msg = "client_71398682_0a6a_4d63_bde2_adb0920ef41c", player = $obj2)
 }

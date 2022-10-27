@@ -52,7 +52,7 @@
   "lockRotateBodyPitch": 0,
   "lockRotateBodyRoll": 0,
   "lockRotateBodyYaw": 0,
-  "modelMesh": "asset/3D Asset/Bow/arrow.mesh",
+  "modelMesh": "asset/3D Asset/arrow5/arrow.mesh",
   "modelSizeScale": {
     "x": 1,
     "y": 1,

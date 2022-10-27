@@ -1,0 +1,25 @@
+{
+  "data": {
+    "id": {
+      "value": "5e6f8c55-f768-4903-81ec-60633b35c0fa"
+    },
+    "name": "PrompText",
+    "params": [
+      {
+        "param_name": "Promp",
+        "param_type": "T_String",
+        "param_type_old": "T_String",
+        "value": {
+          "__OBJ_TYPE": "T_String"
+        }
+      }
+    ],
+    "register_object": "layout/fe7f5ad7-2384-411d-99aa-838497342e78/root/children/1/children/1/triggers/list/1",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.24"
+  }
+}

@@ -25,13 +25,13 @@
   "checkPartTouchEvent": true,
   "clickDistance": 4,
   "collider": {
-    "height": 3,
+    "height": 1.5,
     "offset": {
-      "x": 0.2,
-      "y": -0.2,
+      "x": 0,
+      "y": 0,
       "z": 0
     },
-    "radius": 0.75,
+    "radius": 0.5,
     "rotation": {
       "x": 0,
       "y": 0,
@@ -97,7 +97,7 @@
   ],
   "skillInfos": [],
   "stepHeight": 0,
-  "textHeight": 2.5,
+  "textHeight": 1.5,
   "touchdownTimeToDie": true,
   "touchdownTimeToDieTick": 5,
   "unassailable": 0,

@@ -1,3 +1,9 @@
 {
-  "widget": []
+  "widget": [
+    {
+      "btsKey": "25ce17e2-5bf5-464a-8643-3b583f7b9cf5",
+      "md5": "dea9ffb30fd77b22640d7bff198986ca",
+      "name": "Button"
+    }
+  ]
 }

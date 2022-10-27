@@ -2,22 +2,22 @@
   "area": [
     [
       0,
-      -228
+      -126
     ],
     [
       0,
-      -68
+      -366
     ],
     [
       0,
-      88
+      70
     ],
     [
       0,
-      88
+      70
     ]
   ],
-  "area_number": 7,
+  "area_number": 5,
   "backSwingTime": 0,
   "buffCfg": "myplugin/Invicible",
   "buffTime": 100,

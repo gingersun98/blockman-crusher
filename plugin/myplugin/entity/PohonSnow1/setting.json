@@ -28,10 +28,10 @@
     "height": 5,
     "offset": {
       "x": 0,
-      "y": -0.5,
+      "y": 0,
       "z": 0
     },
-    "radius": 0.75,
+    "radius": 0.5,
     "rotation": {
       "x": 0,
       "y": 0,

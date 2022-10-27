@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "f2c75bd9-5bfc-4d96-9eb3-67db2cce6b0b"
+    },
+    "name": "GameOverWin",
+    "register_object": "game/0/triggers/list/23",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.24"
+  }
+}

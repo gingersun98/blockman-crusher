@@ -1,0 +1,1078 @@
+{
+  "data": {
+    "md5": "be177512d85ad8ccc6feacdac4a267c6",
+    "path": "asset/mainWnd_1.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 50,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "bd0e4a13-7b0d-4a9c-96de-ac5e5c032499"
+                  },
+                  "name": "Victory",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": -5.182975769043,
+                      "Scale": -0.15
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 512
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  },
+                  "Text": "YOU WIN",
+                  "text_key": {
+                    "value": "asset/mainWnd_1.layout.StaticText#81c6258d-f9f6-4b47-9c7e-d8affe70cd0a"
+                  },
+                  "TextColours": {
+                    "g": 255,
+                    "r": 85
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "Visible": false
+                }
+              ],
+              "id": {
+                "value": "eec17f42-5653-44f9-a7a0-f04317813be7"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/win.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.03
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 258
+                },
+                "UDim_Y": {
+                  "Offect": 176
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Alpha": 0.997,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "75353143-3e4e-4193-82e2-5602e4e2090a"
+              },
+              "name": "KillsAsli",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.35
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/mainWnd_1.layout.StaticText#343524c3-00a8-4737-ac16-f1fe404deb74"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "e2e6c560-4ce9-4101-b995-4070c46149ee"
+              },
+              "name": "ScorePlayer1",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.68
+                }
+              },
+              "Text": "Player",
+              "text_key": {
+                "value": "asset/mainWnd_1.layout.StaticText#206cf436-554c-457f-8982-8f04ae875628"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "id": {
+                "value": "9c9a45e7-17ba-4d96-99b1-35be0a626e37"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/GINGERSUNGAMES.png"
+              },
+              "name": "Image1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                },
+                "UDim_Y": {
+                  "Offect": 4.5531315803528,
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 300
+                },
+                "UDim_Y": {
+                  "Offect": 90.0000000000002
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "f77dd0c9-4330-484a-8189-dbec808c513d"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/PanelWindow.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 2.86102289992485e-06
+            },
+            "UDim_Y": {
+              "Offect": 1.9726028442383
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right"
+          },
+          "HoverImage": {
+            "asset": "asset/Texture/GingersunUI/party_vip_level4.png"
+          },
+          "id": {
+            "value": "2e47faaf-3179-4d3d-a752-9fa063a21255"
+          },
+          "name": "Btn_allRank",
+          "NormalImage": {
+            "asset": "asset/Texture/GingersunUI/party_vip_level4.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.01
+            },
+            "UDim_Y": {
+              "Scale": 0.12
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/GingersunUI/party_vip_level4.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 128
+            },
+            "UDim_Y": {
+              "Offect": 36
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/mainWnd_1.layout.Button#369d5bde-fbb7-44ba-89ef-6f2327c37fcd"
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right"
+          },
+          "HoverImage": {
+            "asset": "asset/Texture/GingersunUI/party_vip_level3.png"
+          },
+          "id": {
+            "value": "f6523e21-23ff-4924-aa44-a9868c03efb6"
+          },
+          "name": "Btn_currentServerRank",
+          "NormalImage": {
+            "asset": "asset/Texture/GingersunUI/party_vip_level3.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.01
+            },
+            "UDim_Y": {
+              "Scale": 0.07
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/GingersunUI/party_vip_level3.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 128
+            },
+            "UDim_Y": {
+              "Offect": 36
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/mainWnd_1.layout.Button#99e3892b-7ad8-4ed7-8b84-c15a35edfb0c"
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "Font": "HarmonyOS_Sans_SC_Bold",
+          "Font_size": 15,
+          "HorzFormatting": "RightAligned",
+          "id": {
+            "value": "8f6ff189-b343-45e9-9f7d-3dda7438c9f3"
+          },
+          "Text": "CRUSH SCORE",
+          "text_key": {
+            "value": "asset/mainWnd_1.layout.StaticText#84d9089b-01e3-460a-8e34-022a41277b57"
+          },
+          "TextColours": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "VertFormatting": "BottomAligned",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "Alpha": 0.979,
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "d919327a-2d7f-4cd2-b2cc-cfe1658beba4"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/achievement.png"
+              },
+              "ImageBlendMode": "1",
+              "size": {
+                "UDim_X": {
+                  "Offect": 64
+                },
+                "UDim_Y": {
+                  "Offect": 64
+                }
+              },
+              "Visible": false
+            }
+          ],
+          "HoverImage": {
+            "asset": "asset/Texture/GingersunUI/2483841.png"
+          },
+          "id": {
+            "value": "c8e92900-9753-47dd-9b5c-9159b2a46602"
+          },
+          "name": "LEADEROARD",
+          "NormalImage": {
+            "asset": "asset/Texture/GingersunUI/2483841.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/GingersunUI/2483841.png"
+          },
+          "size": {
+            "UDim_Y": {
+              "Offect": 96
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/mainWnd_1.layout.Button#a31130df-436c-480a-b0d9-c278288c17f4"
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "id": {
+                "value": "210dc990-f851-4a23-a79d-480eaff9e8e2"
+              },
+              "Image": {
+                "asset": "asset/Texture/ui/img_展示台.png"
+              },
+              "name": "Image1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Scale": 2
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 256
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ActorWindow",
+              "ActorName": {
+                "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+              },
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "76fb8fce-ed20-4f1f-bd24-172ceed56783"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 512
+                },
+                "UDim_Y": {
+                  "Offect": 512
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "abdee32e-c92e-4832-8ffc-c5e4af70e23a"
+          },
+          "Image": {
+            "asset": "",
+            "selector": ""
+          },
+          "name": "Image2",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "0d988c74-9ad6-4ea5-9f13-96ed26db472a"
+              },
+              "Image": {
+                "asset": "asset/3D Asset/CoinDepan.png"
+              },
+              "name": "Image11",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.05
+                },
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "ActorWindow",
+                  "id": {
+                    "value": "20649507-f351-48f7-a7c5-4f3e084a5b24"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 250
+                    },
+                    "UDim_Y": {
+                      "Offect": 250
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "a71acf5c-7b3f-4a1a-8e25-cd1ed9c47a83"
+                  },
+                  "Image": {
+                    "asset": "asset/3D Asset/CoinDepan.png"
+                  }
+                }
+              ],
+              "id": {
+                "value": "855d1d70-683e-439e-a5e9-cd89235a1a34"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/Card X3.png"
+              },
+              "name": "Image4",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.1
+                },
+                "UDim_Y": {
+                  "Scale": 0.07
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 250
+                },
+                "UDim_Y": {
+                  "Offect": 250
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/GingersunUI/Button Hover.png"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 20,
+              "HoverImage": {
+                "asset": "asset/Texture/GingersunUI/Button Hover.png"
+              },
+              "HoverTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "id": {
+                "value": "74b222b8-913a-4acf-82bc-44481f845a0f"
+              },
+              "NormalImage": {
+                "asset": "asset/Texture/GingersunUI/Button Hover.png"
+              },
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 171
+                },
+                "UDim_Y": {
+                  "Offect": 57
+                }
+              },
+              "Text": "GOBOG",
+              "text_key": {
+                "value": "asset/mainWnd_1.layout.Button#cc9b0503-fb76-4926-8bf5-a550f252e2d9"
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 16,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "d7ccb46f-59b2-498b-905d-2384df9d7c2b"
+                  },
+                  "name": "Text1",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": -0.15
+                    }
+                  },
+                  "size": {
+                    "UDim_Y": {
+                      "Offect": 32
+                    }
+                  },
+                  "Text": "500 GOBOG COIN",
+                  "text_key": {
+                    "value": "asset/mainWnd_1.layout.StaticText#07db542a-ac77-418b-bb8c-bff15588a4d6"
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "word_warpped": false
+                }
+              ],
+              "id": {
+                "value": "dc85d89b-9b2e-4cbf-a87b-ee3cac6fbcce"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/ButtonPanel.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 259
+                },
+                "UDim_Y": {
+                  "Offect": 41
+                }
+              },
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Regular",
+              "Font_size": 18,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "c8fc59c0-e5ae-4d95-a507-d57c85ed06f4"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 96
+                },
+                "UDim_Y": {
+                  "Offect": 256
+                }
+              },
+              "Text": " \n \n\n \n\n\n\n\nG\nE\nT\n\nM\nE\nD\nA\nL",
+              "text_key": {
+                "value": "asset/mainWnd_1.layout.StaticText#df2e97ca-8bbe-4977-8ec1-6fdb744ed078"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned"
+            }
+          ],
+          "id": {
+            "value": "525fb6eb-6ae5-4983-bbd2-19de1171393e"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+          },
+          "name": "Image3",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.05
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 350
+            },
+            "UDim_Y": {
+              "Offect": 350
+            }
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "0e60800e-0206-46cb-be44-37bae7e064e4"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.03
+                },
+                "UDim_Y": {
+                  "Scale": -0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.8
+                }
+              },
+              "Text": "CONFIRM",
+              "text_key": {
+                "value": "asset/mainWnd_1.layout.StaticText#48edc62a-f7af-4974-bc7c-cdde7b946131"
+              },
+              "TextBoldWeight": "1",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "71e897f7-aff0-4e72-87e7-3a85473ca0dd"
+              },
+              "Image": {
+                "asset": "asset/Texture/ui/icon_go.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.06
+                },
+                "UDim_Y": {
+                  "Scale": -0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.6
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "HoverImage": {
+            "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+          },
+          "HoverStretch": {
+            "bottom_left": 17,
+            "bottom_right": 27,
+            "top_left": 17,
+            "top_right": 15
+          },
+          "id": {
+            "value": "a1c4a4f6-08e5-4b75-a978-27aed0250909"
+          },
+          "name": "determind",
+          "NormalImage": {
+            "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+          },
+          "NormalStretch": {
+            "bottom_left": 17,
+            "bottom_right": 27,
+            "top_left": 17,
+            "top_right": 15
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            },
+            "UDim_Y": {
+              "Scale": -0.06
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/ui/icon_blue_act.png"
+          },
+          "PushedStretch": {
+            "bottom_left": 17,
+            "bottom_right": 27,
+            "top_left": 17,
+            "top_right": 15
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.3
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.13
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/mainWnd_1.layout.Button#d3d9c753-a7bd-4a38-bb47-c413b3cc9893"
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "Font_size": 30,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "259db389-19f5-4486-ab52-6fb775f94927"
+              },
+              "name": "Txt_powerTip",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "CONFIRM",
+              "text_key": {
+                "value": "asset/mainWnd_1.layout.StaticText#f8946664-83b6-486c-a37a-0ebb05879d16"
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "Font_size": 30,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "3a803c27-f80e-4b20-8bd9-cb6895480401"
+              },
+              "name": "Txt_power",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.2
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.2
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "0",
+              "text_key": {
+                "value": "asset/mainWnd_1.layout.StaticText#5fc7b8d8-f6e7-4153-9f93-668adabc2ce6"
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "Font_size": 30,
+              "HoverImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              },
+              "HoverTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "id": {
+                "value": "f341c3c4-33f8-40a3-aa3e-26b41b2e8095"
+              },
+              "name": "Btn_add",
+              "NormalImage": {
+                "asset": "asset/Texture/GingersunUI/Button Normal.png"
+              },
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.1
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/GingersunUI/Button Active.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 228
+                },
+                "UDim_Y": {
+                  "Offect": 76
+                }
+              },
+              "Text": "CONFIRM",
+              "text_key": {
+                "value": "asset/mainWnd_1.layout.Button#b4a83ded-154c-4ee1-a2da-4ed30c27a163"
+              },
+              "TextOffset": {
+                "y": -3
+              },
+              "Visible": false
+            }
+          ],
+          "id": {
+            "value": "b5cdc3f2-f646-402a-802b-832b4d4ea30f"
+          },
+          "Image": {
+            "asset": "",
+            "selector": ""
+          },
+          "name": "Img_thisPowerBg",
+          "pos": {
+            "UDim_Y": {
+              "Scale": -0.06
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.4
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.13
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 15,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "8cd3cb0e-d78e-49dd-8e63-24ac2a765ac7"
+              },
+              "Text": "CRUSH SCORE",
+              "text_key": {
+                "value": "asset/mainWnd_1.layout.StaticText#2e2ca46c-b1ed-48ff-b501-8ef6bda94e04"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 35,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "017ffa83-286a-4250-acfe-cf4a68169f93"
+              },
+              "name": "NumberCrush",
+              "Text": "120",
+              "text_key": {
+                "value": "asset/mainWnd_1.layout.StaticText#98f57816-af7f-49fb-93d1-897453408416"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "46084d1d-3481-49a7-9ced-c6c3de211563"
+              },
+              "name": "ScorePlayer",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.35
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/mainWnd_1.layout.StaticText#4e38b997-e923-4466-954a-bea777134ded"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "525c655f-f3b2-40db-92f3-127b5ed9cf93"
+          },
+          "Image": {
+            "asset": "asset/3D Asset/Icon34.png"
+          },
+          "name": "Image1",
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            },
+            "UDim_Y": {
+              "Scale": -0.15
+            }
+          },
+          "Visible": false
+        }
+      ],
+      "id": {
+        "value": "6809804f-f517-44b2-9751-c2838b8928c4"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "be177512d85ad8ccc6feacdac4a267c6",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

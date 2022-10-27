@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "e7f5a0f888a0c8b0888371bb5d2ab51d",
+    "md5": "349f258c369ff18bbb123a6990e2bfc8",
     "path": "asset/seleceHeroWnd_GingerSun.layout",
     "root": {
       "anchor": {
@@ -16,7 +16,7 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
-            "value": "dc24e286-ef2a-4bf3-b0db-ad8537456830"
+            "value": "c16ddcb8-6076-447d-9e67-e6adc46e58b4"
           },
           "name": "bg",
           "size": {
@@ -46,7 +46,7 @@
               "Font_size": 22,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "1588f0cc-da99-4c26-8632-63aa3befabef"
+                "value": "236ab681-3324-416f-b517-a7cd1d8466c1"
               },
               "name": "introduceText",
               "pos": {
@@ -78,11 +78,10 @@
             },
             {
               "__OBJ_TYPE": "RadioButton",
-              "check_box_tile": "Center",
               "Font_size": 18,
               "HorzLabelFormatting": "CentreAligned",
               "id": {
-                "value": "2c45b30b-99be-4b53-96d1-a44dbc79436d"
+                "value": "fd4721f7-ffa3-40b4-a4d4-5b7a03914c56"
               },
               "ImageXSizeImcress": "1",
               "name": "master",
@@ -124,11 +123,10 @@
             },
             {
               "__OBJ_TYPE": "RadioButton",
-              "check_box_tile": "Center",
               "Font_size": 18,
               "HorzLabelFormatting": "CentreAligned",
               "id": {
-                "value": "3a09cc5a-c005-44fc-b9a6-72c7f67cf893"
+                "value": "ac2cc601-c708-4d99-a5e6-32238777ee91"
               },
               "ImageXSizeImcress": "1",
               "name": "warrior",
@@ -510,11 +508,10 @@
             },
             {
               "__OBJ_TYPE": "RadioButton",
-              "check_box_tile": "Center",
               "Font_size": 18,
               "HorzLabelFormatting": "CentreAligned",
               "id": {
-                "value": "5178d7fb-9fa3-4894-93d6-dfa8c6b27f90"
+                "value": "cb0262d2-ef43-4d2a-b704-95b4a9dc54fa"
               },
               "ImageXSizeImcress": "1",
               "name": "warlock",
@@ -568,7 +565,7 @@
                     "VerticalAlignment": "Bottom"
                   },
                   "id": {
-                    "value": "56239511-305e-4f4f-91cb-4bf0a458a934"
+                    "value": "4b7bbfb6-1fd5-4a1d-8b11-d04997b640ca"
                   },
                   "Image": {
                     "asset": "asset/Texture/ui/img_展示台.png"
@@ -599,7 +596,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "af2c6b72-4fed-4967-adb6-5e0c7480a17f"
+                    "value": "3bd99cfa-4b4c-44fc-b8a6-ddc43df63c4c"
                   },
                   "name": "actorWindow",
                   "pos": {
@@ -1051,7 +1048,7 @@
                 }
               ],
               "id": {
-                "value": "5492dfdf-a4b4-4a31-a954-f1634caa24aa"
+                "value": "879b8edc-58bb-456d-9b71-806e55c6fa7f"
               },
               "Image": {
                 "asset": "",
@@ -1091,7 +1088,7 @@
                   "Font_size": 20,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "e84cd616-4bdb-4dd2-af10-8acdb27368c0"
+                    "value": "1b7a6f9d-22a3-44f3-abd9-bf717529fdb7"
                   },
                   "pos": {
                     "UDim_X": {
@@ -1131,7 +1128,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "77145aed-6c5f-4fcf-9f53-3d7ec710d22d"
+                    "value": "9dc58449-1663-433e-aa7d-045417df8554"
                   },
                   "Image": {
                     "asset": "asset/Texture/ui/icon_go.png"
@@ -1167,7 +1164,7 @@
                 "top_right": 15
               },
               "id": {
-                "value": "3c94b4ac-5a6a-48de-b8d1-0deebefcc3f3"
+                "value": "3f658bd0-763a-492b-b545-afb6e3d0f594"
               },
               "name": "determind",
               "NormalImage": {
@@ -1283,7 +1280,7 @@
             }
           ],
           "id": {
-            "value": "e828ef5b-849f-4c89-a9d3-cc28d4a79cb0"
+            "value": "736633b3-7f28-493f-adde-babde1f48cfe"
           },
           "Image": {
             "asset": "asset/Texture/GingersunUI/Card X6.png"
@@ -1302,7 +1299,7 @@
         }
       ],
       "id": {
-        "value": "9d13cfb3-b102-4c27-bf85-8f105f6e54f8"
+        "value": "8843fb76-9aa0-43ad-9c23-a2012b166d28"
       },
       "size": {
         "UDim_X": {
@@ -1349,7 +1346,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "e7f5a0f888a0c8b0888371bb5d2ab51d",
+      "layout": "349f258c369ff18bbb123a6990e2bfc8",
       "triggers.bts": "2f0c1661438d0c2d003ed0892b3d48cc"
     },
     "VERSION": "0.24"

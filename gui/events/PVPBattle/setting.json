@@ -1,6 +1,16 @@
 {
   "widget": [
     {
+      "btsKey": "1cfb38ed-b3ea-4f99-b012-279f1b8b9be9",
+      "md5": "dea9ffb30fd77b22640d7bff198986ca",
+      "name": "Image/NO"
+    },
+    {
+      "btsKey": "5bcb3d2a-fc1a-44e8-a339-c37d4d942396",
+      "md5": "b9ea7efd8df1655538e5d9d408dd4f8c",
+      "name": "Image/YES"
+    },
+    {
       "btsKey": "804fa82b-20f3-4574-a0a3-9a48b53da96e",
       "md5": "431a8a7b752ad8d0b72150a9ea3198e7",
       "name": ""

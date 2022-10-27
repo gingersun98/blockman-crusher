@@ -20,7 +20,7 @@
   "area_number": 8,
   "backSwingTime": 0,
   "buffCfg": "myplugin/03c3661f-5db9-47d1-aa4e-2ab7e9326d99",
-  "buffTime": 200,
+  "buffTime": 100,
   "castAction": "attack2",
   "castActionTime": -1,
   "cdMaskConfig": {

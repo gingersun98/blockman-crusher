@@ -1,0 +1,55 @@
+{
+  "data": {
+    "md5": "18b0d62b1a0dc8222893112eeff52f17",
+    "path": "asset/UICrossHair.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.988,
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "a47ebdc3-8437-4209-ade6-9d810d6226b0"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/Cross2.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 32
+            },
+            "UDim_Y": {
+              "Offect": 32
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "14e7fa93-ae96-4aca-96f6-444359bbcff2"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 128
+        },
+        "UDim_Y": {
+          "Offect": 128
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "18b0d62b1a0dc8222893112eeff52f17",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

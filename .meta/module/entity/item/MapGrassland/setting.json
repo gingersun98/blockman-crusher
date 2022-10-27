@@ -3,6 +3,12 @@
     "actorName": {
       "asset": "asset/Mesh/Green Grass Path/map2.actor"
     },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
     "canJump": false,
     "canMove": false,
     "collision": true,
@@ -14,7 +20,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "cc195c6385514f11b7dc350d475c4137",
+      "setting.json": "9ab912b487744eb8e3c13a533727a81d",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

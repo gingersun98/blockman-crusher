@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "806f8155-0fa7-449d-9c6f-47040e1f7405"
+    },
+    "name": "Killer",
+    "register_object": "game/0/triggers_client/list/15",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.24"
+  }
+}

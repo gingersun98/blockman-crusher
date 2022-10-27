@@ -10,30 +10,19 @@ ENTITY_ENTER {
 		AddEntityVp(entity = $obj1, step = 5)
 	}
 	@PlayerParticipate = @PlayerParticipate + 1
+	SendToClient(msg = "client_31ffbab8_ea6f_4f45_abeb_4d1e7bf9a930", player = $obj1)
 }
 
 ENTITY_DIE {
-	Foreach(array = GetAllPlayers(), key = "ThePlayer") {
-		ShowTip(
-			entity = $ThePlayer,
-			keepTime = 100,
-			textKey = Concat(p1 = Concat(p1 = GetEntityName(), p2 = "already Crush and Kill"), p2 = GetEntityName(entity = $obj1)),
-			tipType = "1"
-		)
-	}
+	SendToClient(msg = "client_806f8155_0fa7_449d_9c6f_47040e1f7405", player = $obj2)
 	$obj1.firstblood = true
 	SendToClient(msg = "client_cd1d91b7_3b1b_48a6_86a9_448f98abe8c9", player = $obj1)
 	@PlayerParticipate = @PlayerParticipate - 1
 	SendToClient(msg = "client_d0106353_6a9e_454f_98ec_d244d6ed21bc", player = $obj1)
 	$obj1.Start = false
 	$obj2.JumlahKillPlayer = GetPlayerKillCount(entity = $obj2)
-	StartTimer2(interval = 200, object = $obj2, time = 999, timer = "Victory") {
-		If (@PlayerParticipate == 1) {
-			SendToClient(msg = "client_0b405762_4991_462b_9c15_97631f5d59d9", player = $obj2)
-			StopTimer2(timer = "Victory")
-		}
-		ShowTip(entity = $obj2, keepTime = 100, textKey = "3a6e998a-e730-4c65-bc62-40b307544555", tipType = "1")
-	}
+	$obj2.Promp = ""
+	SendToClient(msg = "client_5e6f8c55_f768_4903_81ec_60633b35c0fa", p_Promp = $obj2.Promp, player = $obj2)
 }
 
 server_dc6bbb36_9120_48ec_b2c8_6a17d59bf006 {
@@ -127,7 +116,7 @@ GAME_GO {
 	SendToClient(msg = "client_32210dcd_0836_451a_bb99_bfe7ed88c6f9", p_CrushingScore = GetEntityScore(entity = $obj1))
 	AddItem(cfg = "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12", count = 1, entity = $obj1, reason = "")
 	SendToClient(msg = "client_ff8a43d1_d9bd_4683_ba9f_40f04f2b69fc", player = $obj1)
-	StartTimer2(interval = 200, object = $obj1, time = 999, timer = "") {
+	StartTimer2(interval = 100, object = $obj1, time = 999, timer = "") {
 		If (@PlayerParticipate == 1) {
 			SetEntityPosition(
 				entity = $obj1,
@@ -184,6 +173,7 @@ ENTITY_DAMAGE {
 	SendToClient(msg = "client_e7b1b919_d092_43b1_a9e4_e766620c82ed", player = $obj2)
 	$obj2.CrushingScore = $obj2.CrushingScore + $damage
 	AddEntityVp(entity = $obj2, step = -5)
+	SendToClient(msg = "client_1d7079a5_f1da_4b0c_b482_a769a235ba8a", p_CrushPoint = $obj2.CrushingScore, player = $obj2)
 }
 
 ENTITY_REBIRTH {

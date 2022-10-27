@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "1fcbcd1282243492ea83eaaa2e4ab874",
+    "md5": "d4c05e35b7af4fad32f57930c54a3e86",
     "path": "asset/Actor/Soldier In White Goggles/UIDangerZone.layout",
     "root": {
       "anchor": {
@@ -15,7 +15,7 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
-            "value": "feeeae30-056f-41ec-a55e-1a2aeeb60d99"
+            "value": "d3055cab-3e55-4f7b-bb63-8236fda45a56"
           },
           "Image": {
             "asset": "asset/3D Asset/Icon33.png"
@@ -31,7 +31,7 @@
         }
       ],
       "id": {
-        "value": "c501dd78-9805-4440-9f5f-fbda4703eb0f"
+        "value": "ddbd5480-388b-4488-a0f6-b5ee984f9e7e"
       },
       "size": {
         "UDim_X": {
@@ -46,7 +46,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "1fcbcd1282243492ea83eaaa2e4ab874"
+      "layout": "d4c05e35b7af4fad32f57930c54a3e86"
     },
     "VERSION": "0.24"
   }

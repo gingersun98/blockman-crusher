@@ -37,7 +37,6 @@
         "batchType": "Dynamic",
         "config": "myplugin/MapDesert",
         "id": "8778141053110468609",
-        "isLockedInEditor": true,
         "name": "MapDesert",
         "position": {
           "x": 23.171518325806,
@@ -104,7 +103,7 @@
         "mesh": "asset/Mesh/Brown Square Area/g2047_3_27_dimian.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Brown Square Area/g2047_3_27_dimian.mesh",
-          "selector": "asset/stone/g2030_island_rongyan_2.mesh"
+          "selector": "asset/Mesh/Brown Square Area/g2047_3_27_dimian.mesh"
         },
         "name": "Stone_fire",
         "partNavMeshType": "nil",
@@ -118,9 +117,9 @@
           "z": 1.11113
         },
         "size": {
-          "x": 29.999996185303,
-          "y": 7.748731150059e-06,
-          "z": 29.999946594238
+          "x": 1.11113,
+          "y": 1.11113,
+          "z": 1.11113
         },
         "staticBatchNo": "1",
         "useAnchor": true
@@ -180,7 +179,6 @@
         "batchType": "Dynamic",
         "config": "myplugin/MapDesert",
         "id": "8778182790593576961",
-        "isLockedInEditor": true,
         "name": "MapDesert",
         "position": {
           "x": -1.6488540172577,
@@ -220,7 +218,7 @@
         "mesh": "asset/Mesh/Brown Square Area/g2047_3_27_qiang.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Brown Square Area/g2047_3_27_qiang.mesh",
-          "selector": "asset/stone/g2030_island_rongyan_2.mesh"
+          "selector": "asset/Mesh/Brown Square Area/g2047_3_27_qiang.mesh"
         },
         "name": "Stone_fire",
         "partNavMeshType": "nil",
@@ -234,9 +232,9 @@
           "z": 1.11113
         },
         "size": {
-          "x": 30.000009536743,
-          "y": 7.7487356975325e-06,
-          "z": 30.000019073486
+          "x": 1.11113,
+          "y": 1.11113,
+          "z": 1.11113
         },
         "useAnchor": true
       },
@@ -259,7 +257,7 @@
         "mesh": "asset/Mesh/Brown Square Area/g2047_3_27_boli.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Brown Square Area/g2047_3_27_boli.mesh",
-          "selector": "asset/stone/g2030_island_rongyan_2.mesh"
+          "selector": "asset/Mesh/Brown Square Area/g2047_3_27_boli.mesh"
         },
         "name": "Stone_fire",
         "partNavMeshType": "nil",
@@ -273,9 +271,9 @@
           "z": 1.11113
         },
         "size": {
-          "x": 31.0325050354,
-          "y": 3.6239197254181,
-          "z": 31.032506942749
+          "x": 1.11113,
+          "y": 1.11113,
+          "z": 1.11113
         },
         "staticBatchNo": "1",
         "useAnchor": true
@@ -287,7 +285,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "654be177e5fff18b7051d78f26d9304a"
+      "setting.json": "a0fa7ca69bf224dd32d3f245c38cfbcc"
     },
     "VERSION": "0.24"
   }

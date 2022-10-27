@@ -20,7 +20,7 @@
   "area_number": 8,
   "backSwingTime": 0,
   "buffCfg": "myplugin/6e7e92f7-531a-434c-991c-7ed0ab3115a2",
-  "buffTime": 200,
+  "buffTime": 100,
   "castAction": "tesseract_3",
   "castActionTime": -1,
   "cdMaskConfig": {

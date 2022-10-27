@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "98944707-4b78-4c20-80cf-00149708868d"
+    },
+    "name": "End",
+    "register_object": "game/0/triggers/list/25",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.24"
+  }
+}

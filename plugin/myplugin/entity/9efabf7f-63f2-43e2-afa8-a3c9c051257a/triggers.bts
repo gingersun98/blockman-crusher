@@ -108,8 +108,6 @@ ENTITY_CLICK {
 }
 
 ENTITY_DAMAGE {
-	SendToClient(msg = "client_e7b1b919_d092_43b1_a9e4_e766620c82ed", player = $obj2)
-	$obj2.CrushingScore = $obj2.CrushingScore + $damage
 	AddEntityVp(entity = $obj2, step = -5)
 	ExecScript(Clicker = $obj2, Damage = $damage, script_name = "ScriptableNode_9")
 	ExecScript(ClickerEntity = $obj2, CrushScore = $obj2.CrushingScore, script_name = "ScriptableNode_10")

@@ -95,7 +95,7 @@
     0
   ],
   "sustainAction": "",
-  "targetType": "Any",
+  "targetType": "Camera",
   "type": "Missile",
   "verticalAlignment": 2
 }

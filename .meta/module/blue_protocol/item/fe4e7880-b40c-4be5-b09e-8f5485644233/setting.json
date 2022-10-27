@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "fe4e7880-b40c-4be5-b09e-8f5485644233"
+    },
+    "name": "Promp",
+    "register_object": "game/0/triggers_client/list/16",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.24"
+  }
+}

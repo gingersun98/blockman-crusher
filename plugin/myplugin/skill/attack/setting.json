@@ -28,7 +28,7 @@
     "horizontalAlignment": 1,
     "verticalAlignment": 1
   },
-  "cdTime": 40,
+  "cdTime": 60,
   "chargeCdMaskConfig": {
     "AntiClockwise": false,
     "FillPosition": "",
@@ -42,7 +42,7 @@
   "chargeTimes": 2,
   "consumeVp": 0,
   "customizeSkill": true,
-  "damage": 2,
+  "damage": 10,
   "dmgFactor": 0,
   "draggingEnabled": false,
   "enable_pre": false,

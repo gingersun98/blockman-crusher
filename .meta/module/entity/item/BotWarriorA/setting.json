@@ -19,6 +19,7 @@
       "asset": "asset/Actor/Yellow Fire Elemental Monster/Flame Elf.actor"
     },
     "AI_attack": {
+      "attackMode": "autoAttack",
       "chaseDistance": 15,
       "enable": true,
       "skillList": [
@@ -27,17 +28,12 @@
           "priority": 3
         },
         {
-          "attackDis": 6,
+          "attackDis": 10,
           "fullName": "myplugin/blame",
           "priority": 2
         },
         {
-          "attackDis": 10,
-          "fullName": "myplugin/Blasting_gas",
-          "priority": 1
-        },
-        {
-          "attackDis": 10,
+          "attackDis": 3,
           "fullName": "myplugin/Shield_royal",
           "priority": 1
         }
@@ -47,20 +43,21 @@
       "homeSize": 15
     },
     "AI_walkRules": {
-      "ai_navigation": {
-        "enable": true
-      },
       "faceCliff": {
         "height": 1
       }
     },
     "boundingVolume": {
-      "height_c": 2.2,
+      "height": 2.2,
+      "height_c": 2,
+      "radius": 0.75,
       "radius_c": 0.75,
       "type": "Capsule"
     },
     "boundingVolumeEntityCfg": {
-      "height_c": 2.2,
+      "height": 2.2,
+      "height_c": 2,
+      "radius": 0.75,
       "radius_c": 0.75,
       "type": "Capsule"
     },
@@ -1361,12 +1358,8 @@
                   {
                     "action": "830cee17-5d1c-436d-9423-885598d12f11"
                   },
-                  {
-                    "action": "bc694b4f-cce9-41df-add2-7956dae5becc"
-                  },
-                  {
-                    "action": "1e1c7071-8df3-4e3f-a048-98e31694a056"
-                  },
+                  [],
+                  [],
                   {
                     "action": "7335719a-0c00-4f60-9d1e-63f25094d45f"
                   }
@@ -1388,8 +1381,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "77e030f50e6c2aa008fbcd935721090d",
-      "triggers.bts": "025e48451277ec5b0a2155d1592e3c06"
+      "setting.json": "c7766bb673d32b4438e85a75341dde8f",
+      "triggers.bts": "a5a56b580b1bcf6968f0d07858d8fc03"
     },
     "VERSION": "0.24"
   }

@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": {
+      "value": "060f2d56-f293-4899-9249-36094cfa3a50"
+    },
+    "name": "RankButton",
+    "register_object": "game/0/triggers_client/list/14",
+    "save": true,
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.24"
+  }
+}

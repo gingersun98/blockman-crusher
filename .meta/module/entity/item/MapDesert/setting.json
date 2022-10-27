@@ -3,6 +3,12 @@
     "actorName": {
       "asset": "asset/Mesh/Orange Desert Path/map4.actor"
     },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
     "canJump": false,
     "canMove": false,
     "collision": true,
@@ -14,7 +20,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3d3589485b9247e19605bf4c36ff8864",
+      "setting.json": "fe13e0a1980d2321ed64178c8bf3bf55",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

@@ -39,7 +39,7 @@
     },
     "yaw": 0
   },
-  "hitEntitySkill": "myplugin/hurt",
+  "hitEntitySkill": "myplugin/Knockback2",
   "hitEntitysRoles": [
     "hitAllTeam",
     "hitPlayer",

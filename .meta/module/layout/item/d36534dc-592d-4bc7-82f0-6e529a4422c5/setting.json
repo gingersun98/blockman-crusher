@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "de714428b4e16b956173b68f158b491d",
+    "md5": "f2dca776b20a0de9ad02f3656a9751f4",
     "path": "asset/seleceHeroWnd.layout",
     "root": {
       "anchor": {
@@ -16,7 +16,7 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
-            "value": "52f54861-85ce-4a96-a41d-4742e7c9b8cd"
+            "value": "112375f4-009a-49aa-8cdc-0e049139aaa8"
           },
           "name": "bg",
           "size": {
@@ -42,7 +42,7 @@
               "Font_size": 20,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "dd11cfb5-ebe7-41e3-9458-ebb391d11548"
+                "value": "3b898dba-a7de-46ce-ac7f-364cb116daef"
               },
               "name": "introduceText",
               "pos": {
@@ -80,7 +80,7 @@
               "Font_size": 18,
               "HorzLabelFormatting": "CentreAligned",
               "id": {
-                "value": "07aaa5ae-dab2-43f0-9642-e8fadf84afec"
+                "value": "f36a8c39-733f-4798-9069-d8c19349ff8e"
               },
               "ImageXSizeImcress": "1",
               "name": "master",
@@ -309,7 +309,7 @@
               "Font_size": 18,
               "HorzLabelFormatting": "CentreAligned",
               "id": {
-                "value": "fcac7bed-4c8b-49cc-823b-c3ade4e04efc"
+                "value": "276ecc30-cb6b-46ed-ae7a-1bc91af6a727"
               },
               "ImageXSizeImcress": "1",
               "name": "warrior",
@@ -518,7 +518,7 @@
               "Font_size": 18,
               "HorzLabelFormatting": "CentreAligned",
               "id": {
-                "value": "5f42a183-2033-4af1-9f21-4815c2d94ddb"
+                "value": "e80c0e4c-f759-44a6-8e3f-e171437672b8"
               },
               "ImageXSizeImcress": "1",
               "name": "warlock",
@@ -735,7 +735,7 @@
                     "VerticalAlignment": "Bottom"
                   },
                   "id": {
-                    "value": "ced1abe8-8ab3-4c63-928d-c6b3c1a48eae"
+                    "value": "87e40960-7deb-4f00-bb07-16687bf28ea1"
                   },
                   "Image": {
                     "asset": "asset/Texture/ui/img_展示台.png"
@@ -766,7 +766,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "b5bdfa05-258c-4403-9b1c-083115949548"
+                    "value": "43c28eef-c2b6-4283-8fea-2d928e1716da"
                   },
                   "name": "actorWindow",
                   "pos": {
@@ -783,11 +783,38 @@
                       "Offect": 0,
                       "Scale": 1.2
                     }
+                  },
+                  "Visible": false
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "id": {
+                    "value": "3aca03af-1f3e-4e0a-86a7-7ca233c2d439"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/GingersunUI/mage.png"
+                  },
+                  "name": "actorWindow2",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": -71.5923199814658
+                    },
+                    "UDim_Y": {
+                      "Offect": 23.2112311124788
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 417.431398868582
+                    },
+                    "UDim_Y": {
+                      "Offect": 319.86593008043
+                    }
                   }
                 }
               ],
               "id": {
-                "value": "b51c5dea-de42-4c16-8f85-c42caf3b1b68"
+                "value": "b725b31d-0899-499d-8a4e-e9a6c363e8a7"
               },
               "Image": {
                 "asset": "",
@@ -830,7 +857,7 @@
                   "Font_size": 20,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "211a7f7a-6a69-43c3-851e-804b5d77a30f"
+                    "value": "675934b8-57bc-4ba5-b3c9-6a4542ede165"
                   },
                   "pos": {
                     "UDim_X": {
@@ -869,7 +896,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "879ee309-6e03-4624-97fd-4522cb8f0078"
+                    "value": "58517938-3d72-4540-bd48-35b92ca9bdb6"
                   },
                   "Image": {
                     "asset": "asset/Texture/ui/icon_go.png"
@@ -905,7 +932,7 @@
                 "top_right": 15
               },
               "id": {
-                "value": "ab8cb5ad-c68f-4217-8d37-0d9bd077b2e4"
+                "value": "a3ebbd29-39df-4cd2-872f-e83938dc1610"
               },
               "name": "determind",
               "NormalImage": {
@@ -951,7 +978,7 @@
             }
           ],
           "id": {
-            "value": "d2d81fd5-c040-45dc-ab21-ff454109d3db"
+            "value": "c6862e39-87df-441f-9659-9f1b093d5dbc"
           },
           "Image": {
             "asset": "asset/Texture/GingersunUI/Card X5.png"
@@ -970,7 +997,7 @@
         }
       ],
       "id": {
-        "value": "9554e6bb-0bfb-4132-bdfc-bf050c88e67c"
+        "value": "72b0890b-d697-4ad0-b88c-fe334cbe1277"
       },
       "size": {
         "UDim_X": {
@@ -987,8 +1014,8 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "de714428b4e16b956173b68f158b491d",
-      "triggers.bts": "761e43af3268252bcdf0531bf2cc15c8"
+      "layout": "f2dca776b20a0de9ad02f3656a9751f4",
+      "triggers.bts": "0720f08f58114fa2704af88a8f45d496"
     },
     "VERSION": "0.24"
   }

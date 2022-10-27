@@ -19,26 +19,23 @@
       "asset": "asset/Actor/Blue Ice Elemental Monster/Frost Elf.actor"
     },
     "AI_attack": {
+      "attackMode": "autoAttack",
       "chaseDistance": 15,
       "enable": true,
       "skillList": [
         {
+          "attackDis": 3,
           "fullName": "myplugin/attack",
           "priority": 4
         },
         {
-          "attackDis": 5,
+          "attackDis": 10,
           "fullName": "myplugin/blame2",
           "priority": 3
         },
         {
-          "attackDis": 5,
-          "fullName": "myplugin/blame",
-          "priority": 2
-        },
-        {
           "attackDis": 10,
-          "fullName": "myplugin/blow",
+          "fullName": "myplugin/ice",
           "priority": 1
         }
       ]
@@ -47,20 +44,21 @@
       "homeSize": 15
     },
     "AI_walkRules": {
-      "ai_navigation": {
-        "enable": true
-      },
       "faceCliff": {
         "height": 1
       }
     },
     "boundingVolume": {
+      "height": 2,
       "height_c": 2,
+      "radius": 0.75,
       "radius_c": 0.75,
       "type": "Capsule"
     },
     "boundingVolumeEntityCfg": {
+      "height": 2,
       "height_c": 2,
+      "radius": 0.75,
       "radius_c": 0.75,
       "type": "Capsule"
     },
@@ -1321,12 +1319,8 @@
                   {
                     "action": "9c2b01d6-fd54-4971-8083-b573faa7ad49"
                   },
-                  {
-                    "action": "77a7dff2-0b80-401f-9308-df754d655f8d"
-                  },
-                  {
-                    "action": "576752cd-ac9f-4b21-9ce4-9fd1db87c94c"
-                  },
+                  [],
+                  [],
                   {
                     "action": "94b10c7e-788d-4468-a45c-ce5531a30580"
                   }
@@ -1348,8 +1342,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b7a14d47224db1e03d1b92b8b7e18bb2",
-      "triggers.bts": "3ab91a188ce4c94aedac3181aa0b7dc5"
+      "setting.json": "945a499e4467b1c8184904a6efa8608a",
+      "triggers.bts": "19fae2c17814de76480196d35ca861e3"
     },
     "VERSION": "0.24"
   }

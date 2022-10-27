@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "76f81965-e3be-420d-b772-d293c96c43f7"
+    },
+    "name": "GameOverKill",
+    "register_object": "game/0/triggers/list/22",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.24"
+  }
+}

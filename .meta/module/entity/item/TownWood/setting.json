@@ -3,13 +3,14 @@
     "actorName": {
       "asset": "asset/Actor/Dart On A Stump/A Piece Of Wood.actor"
     },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
     "boundingVolume": {
-      "position": {
-        "x": 0.7
-      },
-      "rotate": {
-        "z": 90
-      },
+      "height": 1.5,
       "type": "Capsule"
     },
     "boundingVolumeEntityCfg": {
@@ -25,7 +26,7 @@
     "canMove": false,
     "collision": true,
     "girlactor": {
-      "asset": ""
+      "asset": "empty.actor"
     },
     "hideName": true,
     "maxHp": 1,
@@ -36,7 +37,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "80f0a118fc19a55d4744e2ee34556a36",
+      "setting.json": "7fd825f70dabd555c708f254b5b8c2a4",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

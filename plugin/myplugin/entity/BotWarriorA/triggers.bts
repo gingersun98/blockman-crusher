@@ -13,7 +13,5 @@ ENTITY_ENTER {
 
 ENTITY_DAMAGE {
 	ExecScript(Clicker = $obj2, Damage = $damage, script_name = "ScriptableNode_18")
-	SendToClient(msg = "client_e7b1b919_d092_43b1_a9e4_e766620c82ed", player = $obj2)
-	$obj2.CrushingScore = $obj2.CrushingScore + $damage
 	AddEntityVp(entity = $obj2, step = -5)
 }

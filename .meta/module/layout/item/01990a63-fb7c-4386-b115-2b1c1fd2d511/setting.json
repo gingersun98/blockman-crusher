@@ -1,0 +1,2262 @@
+{
+  "data": {
+    "md5": "03a80fb888b33dbd409393b1669ddc1a",
+    "path": "asset/mainWnd.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 50,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "95af4be3-da23-4b5a-95b9-1cbae5126958"
+                  },
+                  "name": "Victory",
+                  "pos": {
+                    "UDim_Y": {
+                      "Offect": -5.182975769043,
+                      "Scale": -0.15
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 512
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  },
+                  "Text": "YOU WIN",
+                  "text_key": {
+                    "value": "asset/mainWnd.layout.StaticText#da29e464-b9d5-4be7-938b-14cc15e9d509"
+                  },
+                  "TextColours": {
+                    "g": 255,
+                    "r": 85
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "Visible": false
+                }
+              ],
+              "id": {
+                "value": "0cd38278-b57b-4dd4-87ff-8a6407c3a0dd"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/win.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.03
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 258
+                },
+                "UDim_Y": {
+                  "Offect": 176
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Alpha": 0.997,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "26084892-429e-47af-a2a4-d35fa7e26dab"
+              },
+              "name": "KillsAsli",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.35
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/mainWnd.layout.StaticText#e31fb321-70df-43be-9255-56f6fbbdd94c"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "d462fa7e-b7f3-4ef0-b5ff-ef7ca7e25994"
+              },
+              "name": "ScorePlayer1",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.68
+                }
+              },
+              "Text": "Player",
+              "text_key": {
+                "value": "asset/mainWnd.layout.StaticText#8a9b0f85-b97e-40b8-a588-612541a1caa0"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "id": {
+                "value": "83a42d24-f4e9-40fc-97bc-6db64161d15c"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/GINGERSUNGAMES.png"
+              },
+              "name": "Image1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.05
+                },
+                "UDim_Y": {
+                  "Offect": 4.5531315803528,
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 300
+                },
+                "UDim_Y": {
+                  "Offect": 90.0000000000002
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "7a80720c-6622-4aab-8dae-9c75a303c49e"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/PanelWindow.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 0.3550729751587
+            },
+            "UDim_Y": {
+              "Offect": 0.5428504943848
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 1
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Centre"
+          },
+          "HoverImage": {
+            "asset": "asset/Texture/GingersunUI/party_vip_level4.png"
+          },
+          "id": {
+            "value": "c351844d-c899-4051-8b16-1911058596cd"
+          },
+          "name": "Btn_allRank",
+          "NormalImage": {
+            "asset": "asset/Texture/GingersunUI/party_vip_level4.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            },
+            "UDim_Y": {
+              "Scale": -0.15
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/GingersunUI/party_vip_level4.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 196
+            },
+            "UDim_Y": {
+              "Offect": 64
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/mainWnd.layout.Button#6c660517-1fa0-456a-9625-37410f4115b7"
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Centre"
+          },
+          "HoverImage": {
+            "asset": "asset/Texture/GingersunUI/party_vip_level3.png"
+          },
+          "id": {
+            "value": "3d60ba9f-7b49-4af1-a7d0-071a9fda2bd7"
+          },
+          "name": "Btn_currentServerRank",
+          "NormalImage": {
+            "asset": "asset/Texture/GingersunUI/party_vip_level3.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/GingersunUI/party_vip_level3.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 196
+            },
+            "UDim_Y": {
+              "Offect": 64
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/mainWnd.layout.Button#6c86afbb-1819-4447-a7ce-84ea0ec87391"
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "Font": "HarmonyOS_Sans_SC_Bold",
+          "Font_size": 15,
+          "HorzFormatting": "RightAligned",
+          "id": {
+            "value": "5655831b-6136-4a80-b3d1-34a35e31726f"
+          },
+          "Text": "CRUSH SCORE",
+          "text_key": {
+            "value": "asset/mainWnd.layout.StaticText#bca298a4-ca20-4a44-a144-84941e311cfd"
+          },
+          "TextColours": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "VertFormatting": "BottomAligned",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "Alpha": 0.979,
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "2284be94-1192-4aae-b095-a3754ded3155"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/achievement.png"
+              },
+              "ImageBlendMode": "1",
+              "size": {
+                "UDim_X": {
+                  "Offect": 64
+                },
+                "UDim_Y": {
+                  "Offect": 64
+                }
+              },
+              "Visible": false
+            }
+          ],
+          "HoverImage": {
+            "asset": "asset/Texture/GingersunUI/2483841.png"
+          },
+          "id": {
+            "value": "6943d5d1-733a-4694-90f7-4dda31c36533"
+          },
+          "name": "LEADEROARD",
+          "NormalImage": {
+            "asset": "asset/Texture/GingersunUI/2483841.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/GingersunUI/2483841.png"
+          },
+          "size": {
+            "UDim_Y": {
+              "Offect": 96
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/mainWnd.layout.Button#7041916d-2bae-4a2a-915b-2096f73d26fa"
+          },
+          "triggers": {
+            "list": [
+              {
+                "actions": [
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "f7d92eaf-bec6-439c-b8f9-32db2a76d90b",
+                        "proto_name": "OpenLeaderboard",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "7edce56d-36c8-464b-b267-f6bc4813f162"
+                    },
+                    "pos": {
+                      "x": 363,
+                      "y": 232
+                    }
+                  }
+                ],
+                "custom_trigger_data": {
+                  "name": {
+                    "value": "2fa8b6f4-5fa6-4816-8c4f-c3c13c038ec1"
+                  },
+                  "type": "Trigger_WidgetClicked"
+                },
+                "root": {
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "7edce56d-36c8-464b-b267-f6bc4813f162"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "92165da9-ad0c-448c-a5dd-741a9167f06c"
+                  },
+                  "pos": {
+                    "x": 105,
+                    "y": 199
+                  }
+                },
+                "type": "Trigger_WidgetClicked"
+              }
+            ]
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Bottom"
+              },
+              "id": {
+                "value": "efa53a7b-6a06-4e55-baab-04d5b78e8180"
+              },
+              "Image": {
+                "asset": "asset/Texture/ui/img_展示台.png"
+              },
+              "name": "Image1",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Scale": 2
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 256
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "ActorWindow",
+              "ActorName": {
+                "asset": "asset/Actor/charactor/charactor_boy/character_boy.actor"
+              },
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "818996dc-31a4-4aae-9ce1-90dedbc6e973"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 512
+                },
+                "UDim_Y": {
+                  "Offect": 512
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "e6d3275e-2d8f-4d46-8bed-ad6af6c08f28"
+          },
+          "Image": {
+            "asset": "",
+            "selector": ""
+          },
+          "name": "Image2",
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "3286cd0f-5a8a-426f-b423-9200fb0c6278"
+              },
+              "Image": {
+                "asset": "asset/3D Asset/CoinDepan.png"
+              },
+              "name": "Image11",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.05
+                },
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "ActorWindow",
+                  "id": {
+                    "value": "1b64ab83-cd06-4cf2-ab32-9cfec4be69eb"
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 250
+                    },
+                    "UDim_Y": {
+                      "Offect": 250
+                    }
+                  },
+                  "triggers": {
+                    "list": [
+                      {
+                        "actions": [
+                          {
+                            "__OBJ_TYPE": "Action_If",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Condition",
+                                "children": [
+                                  {
+                                    "action": "47419b0e-fbb0-4a13-8014-c634e349afdd"
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "deb7e766-ff76-443d-96a6-b7c9aaeaf609"
+                            },
+                            "pos": {
+                              "x": 349,
+                              "y": 179
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_IfBranch",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Bool",
+                                      "action": "999ff93d-0404-463c-b11f-469f6f2bfb87"
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "__OBJ_TYPE": "Component_Sequence",
+                                "children": [
+                                  []
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "47419b0e-fbb0-4a13-8014-c634e349afdd"
+                            },
+                            "pos": {
+                              "x": 494,
+                              "y": 112
+                            }
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_GetUIVar",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_UiVar",
+                                      "rawval": "Prize"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Layout"
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "06d456f0-6cd2-4275-b11f-c37b0f03f29f"
+                            },
+                            "pos": {
+                              "x": 1024,
+                              "y": 77
+                            },
+                            "type": "T_Int"
+                          },
+                          {
+                            "__OBJ_TYPE": "Action_ComputeBool",
+                            "components": [
+                              {
+                                "__OBJ_TYPE": "Component_Params",
+                                "params": [
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "action": "06d456f0-6cd2-4275-b11f-c37b0f03f29f"
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_BinaryOperBool",
+                                      "rawval": "=="
+                                    }
+                                  },
+                                  {
+                                    "value": {
+                                      "__OBJ_TYPE": "T_Double",
+                                      "rawval": 3
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "id": {
+                              "value": "999ff93d-0404-463c-b11f-469f6f2bfb87"
+                            },
+                            "pos": {
+                              "x": 693,
+                              "y": 32
+                            }
+                          }
+                        ],
+                        "custom_trigger_data": {
+                          "name": {
+                            "value": "bd0f03b6-3deb-4b65-8d7d-39ca9dcd656e"
+                          },
+                          "type": "Trigger_WidgetCreate"
+                        },
+                        "root": {
+                          "components": [
+                            {
+                              "__OBJ_TYPE": "Component_Sequence",
+                              "children": [
+                                []
+                              ]
+                            }
+                          ],
+                          "id": {
+                            "value": "3fbe2258-54db-41a0-8ade-ca00886d17b3"
+                          },
+                          "pos": {
+                            "x": 111,
+                            "y": 127
+                          }
+                        },
+                        "type": "Trigger_WidgetCreate"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "24349c17-e711-4f43-adc0-77189de3e31a"
+                  },
+                  "Image": {
+                    "asset": "asset/3D Asset/CoinDepan.png"
+                  }
+                }
+              ],
+              "id": {
+                "value": "492faebe-8ada-4e67-9723-9fb29c1438bc"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/Card X3.png"
+              },
+              "name": "Image4",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.1
+                },
+                "UDim_Y": {
+                  "Scale": 0.07
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 250
+                },
+                "UDim_Y": {
+                  "Offect": 250
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "DisabledImage": {
+                "asset": "asset/Texture/GingersunUI/Button Hover.png"
+              },
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 20,
+              "HoverImage": {
+                "asset": "asset/Texture/GingersunUI/Button Hover.png"
+              },
+              "HoverTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "id": {
+                "value": "43f7b6b1-dac9-45bc-81cd-9ee67a959ed1"
+              },
+              "NormalImage": {
+                "asset": "asset/Texture/GingersunUI/Button Hover.png"
+              },
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 171
+                },
+                "UDim_Y": {
+                  "Offect": 57
+                }
+              },
+              "Text": "GOBOG",
+              "text_key": {
+                "value": "asset/mainWnd.layout.Button#cdcce070-9963-4840-8135-3a73c83793dc"
+              },
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_SetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "Prize"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout",
+                                  "action": "da46925d-9cca-4797-b154-7dc3ae96a343"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "action": "313fe41f-01d4-4336-b1a8-0a2684e9c42c"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "ef90a645-0a34-4200-9777-327cb4c255ca"
+                        },
+                        "pos": {
+                          "x": 312,
+                          "y": 187
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "da46925d-9cca-4797-b154-7dc3ae96a343"
+                        },
+                        "pos": {
+                          "x": 663,
+                          "y": 217
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_Random",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "rawval": 1
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Int",
+                                  "rawval": 10
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "313fe41f-01d4-4336-b1a8-0a2684e9c42c"
+                        },
+                        "pos": {
+                          "x": 674,
+                          "y": 374
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_TriggerCustom",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "key": "triggerNameForExecXXX",
+                                "value": {
+                                  "__OBJ_TYPE": "T_String",
+                                  "rawval": "ClientCustomTrigger_1"
+                                }
+                              },
+                              {
+                                "key": "cfgForExecXXX",
+                                "must": true,
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "8f4ae351-390a-49f8-b6d8-a8206629852b"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "custom_trigger_name": "ClientCustomTrigger_1",
+                        "id": {
+                          "value": "1b995c08-b2ef-4ae1-a85c-170cf3550639"
+                        },
+                        "is_server": false,
+                        "path": "layout/Winner_Standart.layout/Root/Image3/Image4/Image",
+                        "pos": {
+                          "x": 325,
+                          "y": 545
+                        },
+                        "register_id": "4ce797cb-61bf-48ef-8417-c6e2134a2910"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "8f4ae351-390a-49f8-b6d8-a8206629852b"
+                        },
+                        "pos": {
+                          "x": 800,
+                          "y": 541
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_SetUIVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_UiVar",
+                                  "rawval": "AlreadyGacha"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Layout"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Bool",
+                                  "rawval": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "1f466a3c-a562-45e9-88e0-5d105789068f"
+                        },
+                        "pos": {
+                          "x": 365,
+                          "y": 727
+                        }
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "4e62018f-94ef-4ab8-a1b3-fc989d31a7e6"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "ef90a645-0a34-4200-9777-327cb4c255ca"
+                            },
+                            {
+                              "action": "1b995c08-b2ef-4ae1-a85c-170cf3550639"
+                            },
+                            {
+                              "action": "1f466a3c-a562-45e9-88e0-5d105789068f"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "fa1a3215-5281-4c76-932d-62cc8c320d83"
+                      },
+                      "pos": {
+                        "x": 89,
+                        "y": 123
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  }
+                ]
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 16,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "9841f6e3-1d9b-49a0-a39a-9e3613f51709"
+                  },
+                  "name": "Text1",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": -0.15
+                    }
+                  },
+                  "size": {
+                    "UDim_Y": {
+                      "Offect": 32
+                    }
+                  },
+                  "Text": "500 GOBOG COIN",
+                  "text_key": {
+                    "value": "asset/mainWnd.layout.StaticText#d422e57d-4ac7-4416-b1a4-20ffec449c9d"
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "word_warpped": false
+                }
+              ],
+              "id": {
+                "value": "87632b94-fee5-43d9-a8ae-798b17574284"
+              },
+              "Image": {
+                "asset": "asset/Texture/GingersunUI/ButtonPanel.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 259
+                },
+                "UDim_Y": {
+                  "Offect": 41
+                }
+              },
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "Font": "HarmonyOS_Sans_SC_Regular",
+              "Font_size": 18,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "aa3d4fe3-d329-49a4-892b-65bebf939e6a"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 96
+                },
+                "UDim_Y": {
+                  "Offect": 256
+                }
+              },
+              "Text": " \n \n\n \n\n\n\n\nG\nE\nT\n\nM\nE\nD\nA\nL",
+              "text_key": {
+                "value": "asset/mainWnd.layout.StaticText#cec9bb0c-5695-49f8-a034-f3e0963fca1e"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned"
+            }
+          ],
+          "id": {
+            "value": "f12549f9-d268-477e-a845-9f2218c33b8d"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
+          },
+          "name": "Image3",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.05
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 350
+            },
+            "UDim_Y": {
+              "Offect": 350
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "Font_size": 20,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "bd29fc1f-be08-4022-9f6c-77774b418769"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.03
+                },
+                "UDim_Y": {
+                  "Scale": -0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.8
+                }
+              },
+              "Text": "CONFIRM",
+              "text_key": {
+                "value": "asset/mainWnd.layout.StaticText#6a761ba5-2bae-43f0-80a2-997875b474ea"
+              },
+              "TextBoldWeight": "1",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "8ef3ad09-fffc-4f6f-bd44-353a5925160c"
+              },
+              "Image": {
+                "asset": "asset/Texture/ui/icon_go.png"
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.06
+                },
+                "UDim_Y": {
+                  "Scale": -0.08
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.15
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.6
+                }
+              },
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "HoverImage": {
+            "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+          },
+          "HoverStretch": {
+            "bottom_left": 17,
+            "bottom_right": 27,
+            "top_left": 17,
+            "top_right": 15
+          },
+          "id": {
+            "value": "ddbebec1-1bcf-42ed-a61c-1330da64e9ac"
+          },
+          "name": "determind",
+          "NormalImage": {
+            "asset": "asset/Texture/ui/icon_bule_nor（三宫格左右20px固定）.png"
+          },
+          "NormalStretch": {
+            "bottom_left": 17,
+            "bottom_right": 27,
+            "top_left": 17,
+            "top_right": 15
+          },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            },
+            "UDim_Y": {
+              "Scale": -0.06
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/ui/icon_blue_act.png"
+          },
+          "PushedStretch": {
+            "bottom_left": 17,
+            "bottom_right": 27,
+            "top_left": 17,
+            "top_right": 15
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.3
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.13
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/mainWnd.layout.Button#4d19c1c7-399a-47a5-a350-dc9994d816fc"
+          },
+          "triggers": {
+            "list": [
+              {
+                "actions": [
+                  {
+                    "__OBJ_TYPE": "Action_If",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Condition",
+                        "children": [
+                          {
+                            "action": "1985a063-f91a-4e4a-b150-57ad12ba477c"
+                          },
+                          {
+                            "action": "d0578589-d78d-4cd7-a290-7bfb015da0d2"
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "01ca99e2-7e63-49ae-a6bd-c4fcdd9c91ec"
+                    },
+                    "pos": {
+                      "x": 244,
+                      "y": 494
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_IfBranch",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Bool",
+                              "action": "9f3f0c2b-633b-4105-bcf8-9d06a6c7752f",
+                              "rawval": true
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "__OBJ_TYPE": "Component_Sequence",
+                        "children": [
+                          {
+                            "action": "3249765c-d983-458d-a48a-d957a97e4aa4"
+                          },
+                          {
+                            "action": "e0a0edbe-a3db-4ee3-a1fd-2eda83c79dd1"
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "1985a063-f91a-4e4a-b150-57ad12ba477c"
+                    },
+                    "pos": {
+                      "x": 520,
+                      "y": 400
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "AlreadyGacha"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "9f3f0c2b-633b-4105-bcf8-9d06a6c7752f"
+                    },
+                    "pos": {
+                      "x": 703,
+                      "y": 119
+                    },
+                    "type": "T_Bool"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_IfBranch",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Bool",
+                              "action": "77dee66d-868e-44bb-b79a-fce623e382ba"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "__OBJ_TYPE": "Component_Sequence",
+                        "children": [
+                          {
+                            "action": "f89094d1-46ef-460a-ac33-0f6e78547212"
+                          },
+                          {
+                            "action": "9110414d-ed67-41e0-a81a-a1646ffd307f"
+                          },
+                          {
+                            "action": "41ac4215-0642-4f93-a20d-8d9dbf48b777"
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "d0578589-d78d-4cd7-a290-7bfb015da0d2"
+                    },
+                    "pos": {
+                      "x": 523.5,
+                      "y": 458.5
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "AlreadyGacha"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "77dee66d-868e-44bb-b79a-fce623e382ba"
+                    },
+                    "pos": {
+                      "x": 720.5,
+                      "y": 377.5
+                    },
+                    "type": "T_Bool"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_TriggerCustom",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "key": "triggerNameForExecXXX",
+                            "value": {
+                              "__OBJ_TYPE": "T_String",
+                              "rawval": "ClientCustomTrigger_1"
+                            }
+                          },
+                          {
+                            "key": "cfgForExecXXX",
+                            "must": true,
+                            "value": {
+                              "__OBJ_TYPE": "T_Widget",
+                              "action": "aaad27f3-6ca8-4731-b82d-ca3c4c263cb7"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "custom_trigger_name": "ClientCustomTrigger_1",
+                    "id": {
+                      "value": "9110414d-ed67-41e0-a81a-a1646ffd307f"
+                    },
+                    "is_server": false,
+                    "path": "layout/Winner_Standart.layout/Root/Image3/Image4/Image",
+                    "pos": {
+                      "x": 779,
+                      "y": 850
+                    },
+                    "register_id": "4ce797cb-61bf-48ef-8417-c6e2134a2910"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "rootInstance"
+                      }
+                    ],
+                    "id": {
+                      "value": "272eb623-2e31-4069-beb2-765187989d9a"
+                    },
+                    "pos": {
+                      "x": 1117,
+                      "y": 522
+                    },
+                    "type": "T_Layout"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "rootInstance"
+                      }
+                    ],
+                    "id": {
+                      "value": "aaad27f3-6ca8-4731-b82d-ca3c4c263cb7"
+                    },
+                    "pos": {
+                      "x": 1254,
+                      "y": 846
+                    },
+                    "type": "T_Layout"
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Random",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Int",
+                              "rawval": 1
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Int",
+                              "rawval": 10
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "41f45dd8-f3a0-4f93-9332-c5496d7141fa"
+                    },
+                    "pos": {
+                      "x": 1128,
+                      "y": 679
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_SetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "Prize"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout",
+                              "action": "272eb623-2e31-4069-beb2-765187989d9a"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Int",
+                              "action": "41f45dd8-f3a0-4f93-9332-c5496d7141fa"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "f89094d1-46ef-460a-ac33-0f6e78547212"
+                    },
+                    "pos": {
+                      "x": 766,
+                      "y": 492
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "b4f1a318-c45f-4bae-b3ac-96e7764b2d15",
+                        "proto_name": "WinMoveSaveArea",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "41ac4215-0642-4f93-a20d-8d9dbf48b777"
+                    },
+                    "pos": {
+                      "x": 744,
+                      "y": 984
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "b4f1a318-c45f-4bae-b3ac-96e7764b2d15",
+                        "proto_name": "WinMoveSaveArea",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "3249765c-d983-458d-a48a-d957a97e4aa4"
+                    },
+                    "pos": {
+                      "x": 769,
+                      "y": 230
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_SetUIVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_UiVar",
+                              "rawval": "AlreadyGacha"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Layout"
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Bool"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "e0a0edbe-a3db-4ee3-a1fd-2eda83c79dd1"
+                    },
+                    "pos": {
+                      "x": 1121,
+                      "y": 352
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "6f4f9744-5ed9-469a-9540-c7244c641955",
+                        "proto_name": "Add250Coin",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "d143ce15-b68b-46d7-bffa-9d194228a7f4"
+                    },
+                    "pos": {
+                      "x": 363,
+                      "y": 47
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Proto_Params",
+                        "proto_id": "b4f1a318-c45f-4bae-b3ac-96e7764b2d15",
+                        "proto_name": "WinMoveSaveArea",
+                        "proto_type": "server"
+                      }
+                    ],
+                    "id": {
+                      "value": "4cd1f3bd-a82e-4724-9941-c37ae7180279"
+                    },
+                    "pos": {
+                      "x": 370,
+                      "y": 110
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_DestoryWidget",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Widget",
+                              "action": "929a6ae9-414a-4014-9a75-e01f395e5f07"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "861ad27e-e41d-44f6-bf7e-2da070f581f7"
+                    },
+                    "pos": {
+                      "x": 48,
+                      "y": 296
+                    }
+                  },
+                  {
+                    "__OBJ_TYPE": "Action_GetContextVar",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Context",
+                        "key": "rootInstance"
+                      }
+                    ],
+                    "id": {
+                      "value": "929a6ae9-414a-4014-9a75-e01f395e5f07"
+                    },
+                    "pos": {
+                      "x": 375,
+                      "y": 222
+                    },
+                    "type": "T_Layout"
+                  }
+                ],
+                "custom_trigger_data": {
+                  "name": {
+                    "value": "e3c248d8-0187-407a-bff3-a2a7e5bd7a0c"
+                  },
+                  "type": "Trigger_WidgetClicked"
+                },
+                "root": {
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "d143ce15-b68b-46d7-bffa-9d194228a7f4"
+                        },
+                        {
+                          "action": "4cd1f3bd-a82e-4724-9941-c37ae7180279"
+                        },
+                        {
+                          "action": "861ad27e-e41d-44f6-bf7e-2da070f581f7"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "1ed93299-1134-4ee6-813c-cb431f0800a3"
+                  },
+                  "pos": {
+                    "x": 87,
+                    "y": 33
+                  }
+                },
+                "type": "Trigger_WidgetClicked"
+              }
+            ]
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "Font_size": 30,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "f7a044de-095c-4479-9b99-ba6c7dcdf1d1"
+              },
+              "name": "Txt_powerTip",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "CONFIRM",
+              "text_key": {
+                "value": "asset/mainWnd.layout.StaticText#39faa808-752d-49ab-8e4d-27dbe884943d"
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "Font_size": 30,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "e84a0e8d-53ae-4e17-b48c-d442dea161a1"
+              },
+              "name": "Txt_power",
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.2
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.2
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 1
+                }
+              },
+              "Text": "0",
+              "text_key": {
+                "value": "asset/mainWnd.layout.StaticText#ec14bb49-3928-42e3-953c-6b81372116f9"
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Bottom"
+              },
+              "Font_size": 30,
+              "HoverImage": {
+                "asset": "asset/Texture/GingersunUI/Window03_Btn.png"
+              },
+              "HoverTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "id": {
+                "value": "e714dff3-74cf-42aa-8638-078e2aa37cbb"
+              },
+              "name": "Btn_add",
+              "NormalImage": {
+                "asset": "asset/Texture/GingersunUI/Window03_Btn.png"
+              },
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "pos": {
+                "UDim_X": {
+                  "Scale": -0.1
+                },
+                "UDim_Y": {
+                  "Scale": -0.06
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/GingersunUI/Window03_Btn.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 256
+                },
+                "UDim_Y": {
+                  "Offect": 72
+                }
+              },
+              "Text": "CONFIRM",
+              "text_key": {
+                "value": "asset/mainWnd.layout.Button#03805e67-7436-4284-b688-ad2eb40d39e8"
+              },
+              "TextOffset": {
+                "y": -3
+              },
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Proto_Params",
+                            "proto_id": "b4f1a318-c45f-4bae-b3ac-96e7764b2d15",
+                            "proto_name": "WinMoveSaveArea",
+                            "proto_type": "server"
+                          }
+                        ],
+                        "id": {
+                          "value": "aa1c4644-7985-4585-88ef-b94e49c7366f"
+                        },
+                        "pos": {
+                          "x": 880,
+                          "y": 178
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_DestoryWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "e8fc5d36-0d6a-43b9-941e-7862051015b2"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "05cb0902-a24e-4310-a52b-3ba5200b88cf"
+                        },
+                        "pos": {
+                          "x": 487,
+                          "y": 381
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "e8fc5d36-0d6a-43b9-941e-7862051015b2"
+                        },
+                        "pos": {
+                          "x": 890,
+                          "y": 383
+                        },
+                        "type": "T_Layout"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Proto_Params",
+                            "proto_id": "f2c75bd9-5bfc-4d96-9eb3-67db2cce6b0b",
+                            "proto_name": "GameOverWin",
+                            "proto_type": "server"
+                          }
+                        ],
+                        "id": {
+                          "value": "467c55e0-ea99-40be-80cd-b6046679b79e"
+                        },
+                        "pos": {
+                          "x": 871,
+                          "y": 97
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Proto_Params",
+                            "proto_id": "98944707-4b78-4c20-80cf-00149708868d",
+                            "proto_name": "End",
+                            "proto_type": "server"
+                          }
+                        ],
+                        "id": {
+                          "value": "7fa50f87-9ff1-4165-acdf-6d343c9e52e7"
+                        },
+                        "pos": {
+                          "x": 525,
+                          "y": 137
+                        }
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "413b1dd0-bf69-4c10-8d28-96ac0e063c59"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "7fa50f87-9ff1-4165-acdf-6d343c9e52e7"
+                            },
+                            {
+                              "action": "05cb0902-a24e-4310-a52b-3ba5200b88cf"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "ff67833f-448d-4b42-81f3-3e03c5a62d7f"
+                      },
+                      "pos": {
+                        "x": 240,
+                        "y": 222
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  },
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_SetIsDisableWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Bool"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "cb3915e6-697b-4b42-9a2e-d032cc075aad"
+                        },
+                        "pos": {
+                          "x": 428,
+                          "y": 381
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_SetIsAbleTouchThrough",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "47484013-f7c5-4afb-8bb8-a504abe2939c"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Bool",
+                                  "rawval": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "56365ac9-10d9-402d-adf1-bb412b0d5ccd"
+                        },
+                        "pos": {
+                          "x": 418,
+                          "y": 122
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_SetIsTop",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Bool"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "b5d67d62-ff19-423b-b9a1-3b55e71e3443"
+                        },
+                        "pos": {
+                          "x": 396,
+                          "y": 462
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetCustomTriggerInstance",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "GetCustomTriggerInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "47484013-f7c5-4afb-8bb8-a504abe2939c"
+                        },
+                        "pos": {
+                          "x": 781,
+                          "y": 161
+                        },
+                        "type": "T_Widget"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_SetWindowIsShow",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "7da10415-07ef-4cec-947b-962598e2ad4c"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Bool",
+                                  "rawval": true
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "64b7aff9-b523-44c7-965b-f9201809e698"
+                        },
+                        "pos": {
+                          "x": 401,
+                          "y": 246
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetCustomTriggerInstance",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "GetCustomTriggerInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "7da10415-07ef-4cec-947b-962598e2ad4c"
+                        },
+                        "pos": {
+                          "x": 755,
+                          "y": 274
+                        },
+                        "type": "T_Widget"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "ShowConfirm"
+                      },
+                      "register_id": "c3b55587-19ec-4665-bb5d-64abe006a11a",
+                      "type": "Trigger_Custom_Client"
+                    },
+                    "custom_trigger_name": "ShowConfirm",
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "64b7aff9-b523-44c7-965b-f9201809e698"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "c3b55587-19ec-4665-bb5d-64abe006a11a"
+                      },
+                      "pos": {
+                        "x": 132,
+                        "y": 161
+                      }
+                    },
+                    "type": "Trigger_Custom_Client"
+                  }
+                ]
+              }
+            }
+          ],
+          "id": {
+            "value": "0a740c06-5a05-47d4-abe3-dca68ba9ce9c"
+          },
+          "Image": {
+            "asset": ""
+          },
+          "name": "Img_thisPowerBg",
+          "pos": {
+            "UDim_Y": {
+              "Scale": -0.06
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.4
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.13
+            }
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 15,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "ba7647a3-0046-43d3-8177-664d970158e1"
+              },
+              "Text": "CRUSH SCORE",
+              "text_key": {
+                "value": "asset/mainWnd.layout.StaticText#38045ea0-b3d9-4eff-9a21-82bec115899b"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 35,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "33cf87f0-7f45-4b28-b720-37153cbb43ed"
+              },
+              "name": "NumberCrush",
+              "Text": "120",
+              "text_key": {
+                "value": "asset/mainWnd.layout.StaticText#22686916-8e34-4770-af79-bb4761dbb5db"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned",
+              "Visible": false
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font": "HarmonyOS_Sans_SC_Black",
+              "Font_size": 25,
+              "HorzFormatting": "RightAligned",
+              "id": {
+                "value": "c75c09ce-ea7b-4315-a5ac-3b13fe95f0b4"
+              },
+              "name": "ScorePlayer",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.35
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/mainWnd.layout.StaticText#dbf76bd2-0ea7-4b16-b09d-d500e6b2e3eb"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "BottomAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "id": {
+            "value": "058e25ef-dbcd-444d-a716-47b3dd6d7b1b"
+          },
+          "Image": {
+            "asset": "asset/3D Asset/Icon34.png"
+          },
+          "name": "Image1",
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.05
+            },
+            "UDim_Y": {
+              "Scale": -0.15
+            }
+          },
+          "Visible": false
+        }
+      ],
+      "id": {
+        "value": "023256d0-1486-475c-a67e-e5d8a6f9e879"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "03a80fb888b33dbd409393b1669ddc1a",
+      "triggers.bts": "9b527da3a2f1ca159f318c0aeaa24b6a"
+    },
+    "VERSION": "0.24"
+  }
+}

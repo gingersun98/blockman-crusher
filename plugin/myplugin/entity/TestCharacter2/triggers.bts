@@ -1,23 +1,4 @@
 ENTITY_CLICK {
 	$obj2.Players = $obj2
-	OpenConversation(
-		entity = $obj2,
-		optionList = [
-			{
-				showText = "557b6703-f738-4d98-91df-8288e09971b1",
-				triggerName = "optionIsSelected7"
-			},
-			{
-				showText = "53d5cf59-f294-4cd0-b2a2-b8617a1250b7",
-				triggerName = ""
-			}
-		],
-		optionNpc = "myplugin/TestCharacter2",
-		talkList = [
-			{
-				msg = "aaacf747-6418-4c32-9ceb-fc0564e43317",
-				npc = "myplugin/TestCharacter2"
-			}
-		]
-	)
+	ShowShop(entity = $obj2, showType = "shop")
 }

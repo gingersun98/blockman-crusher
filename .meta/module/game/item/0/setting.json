@@ -24,8 +24,9 @@
     "isTimeStopped": false,
     "needSave": true,
     "nowTime": {
-      "m": 39,
-      "s": 59
+      "h": 0,
+      "m": 23,
+      "s": 20
     },
     "oneDayTime": {
       "value": 6000
@@ -34,80 +35,8 @@
       "max": 6,
       "min": 2
     },
+    "qualityLevel": "1",
     "shops": [
-      {
-        "items": [
-          {
-            "coinId": "copper_coin",
-            "detail": {
-              "value": "030edb7c-8b83-4b6d-8ce1-7417ad8b2ec1"
-            },
-            "item": {
-              "item": "2615e7dd-633f-4acd-a274-6db85e524cab"
-            },
-            "limit": 5,
-            "limitType": "Personal",
-            "name": {
-              "value": "c5875b09-08dd-402d-8e0f-f02a0994f9bc"
-            },
-            "price": 500
-          },
-          {
-            "coinId": "copper_coin",
-            "detail": {
-              "value": "4355e8a4-80e5-4ba7-8502-77e03ad15142"
-            },
-            "item": {
-              "item": "987b24fd-dab2-49d7-8f81-fb7169ebb5aa"
-            },
-            "limit": 5,
-            "limitType": "Personal",
-            "name": {
-              "value": "28ba4018-b3e9-4ffb-86fa-0d84943c7012"
-            },
-            "price": 500
-          },
-          {
-            "coinId": "copper_coin",
-            "detail": {
-              "value": "2a98078f-2570-42ef-b502-f910acd0e49b"
-            },
-            "item": {
-              "item": "7581b61b-7f5c-462a-becd-73b1ce1602bf"
-            },
-            "limit": 5,
-            "limitType": "Personal",
-            "name": {
-              "value": "dc0f4812-7abe-42c4-8c81-dc84a4dad9ee"
-            },
-            "price": 500
-          }
-        ],
-        "name": {
-          "value": "bf1282b5-a268-4f85-8351-479649b34e30"
-        }
-      },
-      {
-        "items": [
-          {
-            "coinId": "gDiamonds",
-            "detail": {
-              "value": "296bb502-a238-441f-8418-6f748aaaf537"
-            },
-            "item": {
-              "item": "copper_coin"
-            },
-            "name": {
-              "value": "286eaf76-bc3a-485e-a189-e9609d283ed8"
-            },
-            "num": 500,
-            "price": 100
-          }
-        ],
-        "name": {
-          "value": "dbdfd223-af15-4584-8140-e96496a95f1f"
-        }
-      },
       {
         "items": [
           {
@@ -249,9 +178,9 @@
     "startPos": {
       "map": "MapArena",
       "pos": {
-        "x": -17.781631469727,
-        "y": 8.515,
-        "z": 15.210754394531
+        "x": -24.5824356079102,
+        "y": 8.12225250244141,
+        "z": 21.9889430999756
       }
     },
     "team": {
@@ -2647,16 +2576,14 @@
                       "key": "JumlahKillPlayer",
                       "must": true,
                       "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "action": "0c4fbb5c-86c0-4a6a-a0ed-7945277b3bff"
+                        "__OBJ_TYPE": "T_Int"
                       }
                     }
                   ],
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "bbcd0196-9d90-44b1-9dea-b4b080e5fbd7"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -2752,8 +2679,7 @@
                       "data_type": "T_String",
                       "key": "PlayerName",
                       "value": {
-                        "__OBJ_TYPE": "T_String",
-                        "action": "f482ba3c-2f75-40a7-9ac1-2d4b0a6deb46"
+                        "__OBJ_TYPE": "T_String"
                       }
                     }
                   ],
@@ -2834,16 +2760,14 @@
                       "key": "ObtainPlayer",
                       "must": true,
                       "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "action": "b2cbad55-2e30-45f9-885f-49c7a1354b46"
+                        "__OBJ_TYPE": "T_Int"
                       }
                     }
                   ],
                   "params_default": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "b9a262c8-3f0e-4f30-84c8-9d0515e21d61"
+                        "__OBJ_TYPE": "T_Entity"
                       }
                     }
                   ],
@@ -3479,8 +3403,8 @@
                 "value": "fa0d0541-6d79-4cda-ac8b-450839a15b3d"
               },
               "pos": {
-                "x": 479.04761904762,
-                "y": 393.33333333334
+                "x": 468.04761904762,
+                "y": 367.33333333334
               }
             },
             {
@@ -3984,12 +3908,8 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "01d95492-2039-4031-9bef-b98956c6e0fb"
-                  },
-                  {
-                    "action": "4d525da9-4055-4532-b9b3-04b4790e9fb8"
-                  },
+                  [],
+                  [],
                   {
                     "action": "11d2d248-fe54-449a-9421-196c3493ae4e"
                   },
@@ -9175,7 +9095,7 @@
                 "value": "e83b6c88-d9c1-41c2-82b1-e424f9cf37ab"
               },
               "pos": {
-                "x": 340
+                "x": 359
               }
             },
             {
@@ -9190,8 +9110,7 @@
                 "value": "369dd356-9c83-4e8e-b0d7-1e0c0b33de94"
               },
               "pos": {
-                "x": 833,
-                "y": 238
+                "x": 852.4481
               },
               "type": "T_Entity"
             },
@@ -9219,8 +9138,8 @@
                 "value": "8fb07788-6bfb-4eb8-950d-f762d80a50d1"
               },
               "pos": {
-                "x": 431.708951875,
-                "y": 393.6993878125
+                "x": 337.708951875,
+                "y": 471.6993878125
               }
             },
             {
@@ -9755,8 +9674,8 @@
                 "value": "64e80237-5d1c-463e-9ec7-6306304fb130"
               },
               "pos": {
-                "x": 337,
-                "y": 163
+                "x": 401.21550625,
+                "y": 155.689875
               }
             },
             {
@@ -9771,8 +9690,8 @@
                 "value": "9e1bd776-e427-4237-b7aa-bdfdb956b06a"
               },
               "pos": {
-                "x": 906,
-                "y": 117
+                "x": 893.8449375,
+                "y": 181.42183125
               },
               "type": "T_Entity"
             },
@@ -9810,8 +9729,8 @@
                 "value": "720d0384-901f-4cd2-82dc-13627eaf19da"
               },
               "pos": {
-                "x": 800,
-                "y": 440
+                "x": 509,
+                "y": 383
               }
             },
             {
@@ -9826,8 +9745,8 @@
                 "value": "9ee63aec-9725-4a12-aecb-63fab8138fed"
               },
               "pos": {
-                "x": 1114,
-                "y": 374
+                "x": 862,
+                "y": 350
               },
               "type": "T_Entity"
             }
@@ -10986,6 +10905,693 @@
             }
           },
           "type": "Trigger_RegisterServerProto"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GameOverToPlayer",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "b48cca18-55f1-4f13-9603-e20738fe1434"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "593049f9-c4f8-4725-845d-4f880f785524"
+              },
+              "pos": {
+                "x": 518,
+                "y": 310
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "player"
+                }
+              ],
+              "id": {
+                "value": "b48cca18-55f1-4f13-9603-e20738fe1434"
+              },
+              "pos": {
+                "x": 839,
+                "y": 317
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "f95f1b78-22f0-48d1-8214-961143c3480c"
+            },
+            "type": "Trigger_RegisterServerProto"
+          },
+          "func_name": "GameOverKill",
+          "proto_uuid": "76f81965-e3be-420d-b772-d293c96c43f7",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "593049f9-c4f8-4725-845d-4f880f785524"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "77ef5b1f-6401-4eb6-9c41-62f3ae25cab0"
+            },
+            "pos": {
+              "x": 185,
+              "y": 199
+            }
+          },
+          "type": "Trigger_RegisterServerProto"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_PlayerOneMoreGame",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "4cd9e9f8-2765-4660-948f-79a807aa5cf7"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "02f9e103-9d92-40cd-8f3d-6f5b1886e2f9"
+              },
+              "pos": {
+                "x": 440,
+                "y": 297
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "player"
+                }
+              ],
+              "id": {
+                "value": "4cd9e9f8-2765-4660-948f-79a807aa5cf7"
+              },
+              "pos": {
+                "x": 761,
+                "y": 303
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_RecoverFullHp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "e216c354-1f19-4cf2-b12a-61289620c09f"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "cc8dc807-ddf0-4740-9949-9304b216b98f"
+              },
+              "pos": {
+                "x": 425,
+                "y": 134
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "player"
+                }
+              ],
+              "id": {
+                "value": "e216c354-1f19-4cf2-b12a-61289620c09f"
+              },
+              "pos": {
+                "x": 755,
+                "y": 115
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GameOver",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "656a47ea-f45e-478a-8c55-1d306abb5429"
+              },
+              "pos": {
+                "x": 456,
+                "y": 509
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "6cd31e78-10d6-4ae6-8e01-a4bf9f09fa20"
+            },
+            "type": "Trigger_RegisterServerProto"
+          },
+          "func_name": "GameOverWin",
+          "proto_uuid": "f2c75bd9-5bfc-4d96-9eb3-67db2cce6b0b",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "cc8dc807-ddf0-4740-9949-9304b216b98f"
+                  },
+                  {
+                    "action": "02f9e103-9d92-40cd-8f3d-6f5b1886e2f9"
+                  },
+                  {
+                    "action": "656a47ea-f45e-478a-8c55-1d306abb5429"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "677b5e40-d48e-46b1-8fd1-1ede43aa095b"
+            },
+            "pos": {
+              "x": 68,
+              "y": 146
+            }
+          },
+          "type": "Trigger_RegisterServerProto"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_MoveMapPlayerTo",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj",
+                        "action": "b0178b0e-9b5a-49c1-90b5-11c7268c6543"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "MapArena"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": -25.279,
+                            "y": 8.122,
+                            "z": 23.5116157531738
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "63614b74-f124-4e71-a964-537d61f816c8"
+              },
+              "pos": {
+                "x": 439,
+                "y": 27
+              }
+            },
+            {
+              "__OBJ_TYPE": "GetStaticMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "MapVillage"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "b0178b0e-9b5a-49c1-90b5-11c7268c6543"
+              },
+              "pos": {
+                "x": 935
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_AddItem",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "1e67e543-895e-427d-ab3a-89c93ff51e6a"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e055aacb-acfa-48cc-b23e-2319445120d4"
+              },
+              "pos": {
+                "x": 923,
+                "y": 252
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Foreach",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "ThePlayer"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Array",
+                        "action": "cdc17c38-c4d1-4a0e-ba0e-5add56079796"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "e055aacb-acfa-48cc-b23e-2319445120d4"
+                    },
+                    [],
+                    {
+                      "action": "c46f737f-1c5e-49ee-ac06-0f5e6f39bb7b"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "2f2a87cc-c23a-4ae2-a6a9-263ec31456b2"
+              },
+              "pos": {
+                "x": 427,
+                "y": 208
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetAllPlayers",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "cdc17c38-c4d1-4a0e-ba0e-5add56079796"
+              },
+              "pos": {
+                "x": 766.774554437891,
+                "y": 235.631247573906
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetUserContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "ThePlayer"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "1e67e543-895e-427d-ab3a-89c93ff51e6a"
+              },
+              "pos": {
+                "x": 1274,
+                "y": 228
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_SetEntityPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "e4fd2035-ac95-42db-9753-e739da7b05a8"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "MapArena"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": -27.2452201843262,
+                            "y": 8.12225250244141,
+                            "z": 23.0021896362305
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c6868bb9-b621-44e3-aa32-a73ed8c26608"
+              },
+              "pos": {
+                "x": 794,
+                "y": 406
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetUserContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "ThePlayer"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e4fd2035-ac95-42db-9753-e739da7b05a8"
+              },
+              "pos": {
+                "x": 1321,
+                "y": 366
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_EnterMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "MapArena"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "d3184152-2c27-45b6-81f3-8efcd624fc9f"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": -22.1615962982178,
+                            "y": 8.12225250244141,
+                            "z": 22.5275974273682
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c46f737f-1c5e-49ee-ac06-0f5e6f39bb7b"
+              },
+              "pos": {
+                "x": 726.908078344219,
+                "y": 657.467672486133
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetUserContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "ThePlayer"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d3184152-2c27-45b6-81f3-8efcd624fc9f"
+              },
+              "pos": {
+                "x": 1263.2244044396,
+                "y": 672.242226924026
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "01732cf8-2da1-4954-9625-a7093e8fde67"
+            },
+            "type": "Trigger_RegisterServerProto"
+          },
+          "func_name": "JoinBattle",
+          "proto_uuid": "296cfe30-7fd3-49c3-a716-78c1ca7d3eac",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "2f2a87cc-c23a-4ae2-a6a9-263ec31456b2"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "5a9841a9-1b32-4297-859d-87b566647f19"
+            },
+            "pos": {
+              "x": 102,
+              "y": 90
+            }
+          },
+          "type": "Trigger_RegisterServerProto"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "PlayerParticipate"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "8090a911-127d-47df-b66e-331b29406404"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "0142121b-79df-4c5c-b41e-b28c22a30fbc"
+              },
+              "pos": {
+                "x": 507,
+                "y": 113
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetAllPlayersCount",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "8090a911-127d-47df-b66e-331b29406404"
+              },
+              "pos": {
+                "x": 838,
+                "y": 138
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GameOverToPlayer",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "682d36b8-c53f-4f48-810f-26e85a6caefc"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "b4cd547e-185b-4433-a99d-7bc768d04452"
+              },
+              "pos": {
+                "x": 543,
+                "y": 304
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "player"
+                }
+              ],
+              "id": {
+                "value": "682d36b8-c53f-4f48-810f-26e85a6caefc"
+              },
+              "pos": {
+                "x": 891,
+                "y": 325
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "94ac9088-cf35-4f76-9551-6c43fa6fa9d0"
+            },
+            "type": "Trigger_RegisterServerProto"
+          },
+          "func_name": "End",
+          "proto_uuid": "98944707-4b78-4c20-80cf-00149708868d",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "b4cd547e-185b-4433-a99d-7bc768d04452"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "68a6c6cd-d4e1-4963-bd54-8e0a22ff19cf"
+            },
+            "pos": {
+              "x": 146,
+              "y": 115
+            }
+          },
+          "type": "Trigger_RegisterServerProto"
         }
       ]
     },
@@ -11003,8 +11609,8 @@
                       "value": {
                         "__OBJ_TYPE": "T_Res_Layout",
                         "rawval": {
-                          "asset": "asset/RankingWnd_1.layout",
-                          "selector": "editor/Blockman-Crusher-Simulator/asset/RankingWnd_1.layout"
+                          "asset": "asset/mainWnd_1.layout",
+                          "selector": "asset/mainWnd_1.layout"
                         }
                       }
                     },
@@ -11311,8 +11917,8 @@
                       "value": {
                         "__OBJ_TYPE": "T_Res_Layout",
                         "rawval": {
-                          "asset": "asset/LoadOutPremium.layout",
-                          "selector": "editor/Blockman-Crusher-Simulator/asset/LoadOutPremium.layout"
+                          "asset": "asset/LoadOut.layout",
+                          "selector": "asset/LoadOut.layout"
                         }
                       }
                     },
@@ -11516,8 +12122,8 @@
                       "value": {
                         "__OBJ_TYPE": "T_Res_Layout",
                         "rawval": {
-                          "asset": "asset/Winner.layout",
-                          "selector": "editor/Blockman-Crusher-Simulator/asset/Winner.layout"
+                          "asset": "asset/mainWnd.layout",
+                          "selector": "asset/mainWnd.layout"
                         }
                       }
                     },
@@ -11582,9 +12188,7 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "b27f6d64-9466-4154-b2aa-07542a7a6bfe"
-                  },
+                  [],
                   []
                 ]
               }
@@ -11611,8 +12215,8 @@
                       "value": {
                         "__OBJ_TYPE": "T_Res_Layout",
                         "rawval": {
-                          "asset": "asset/Winner_Standart.layout",
-                          "selector": "editor/Blockman-Crusher-Simulator/asset/Winner_Standart.layout"
+                          "asset": "asset/mainWnd.layout",
+                          "selector": "asset/mainWnd.layout"
                         }
                       }
                     },
@@ -11770,6 +12374,195 @@
             }
           },
           "type": "Trigger_RegisterClientProto"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_CreateLayout",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Res_Layout",
+                        "rawval": {
+                          "asset": "asset/mainWnd.layout",
+                          "selector": "asset/mainWnd.layout"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "3df92fc2-4086-4ca8-b64d-0d295693507b"
+              },
+              "pos": {
+                "x": 540,
+                "y": 247
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "4a626623-9933-494b-af3a-d360ca973807"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "RankButton",
+          "proto_uuid": "060f2d56-f293-4899-9249-36094cfa3a50",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "3df92fc2-4086-4ca8-b64d-0d295693507b"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "11463040-ea75-4423-8f71-cf0362e914fe"
+            },
+            "pos": {
+              "x": 221,
+              "y": 172
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_CreateLayout",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Res_Layout",
+                        "rawval": {
+                          "asset": "asset/UIKills.layout",
+                          "selector": "asset/UIKills.layout"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "3e2686b6-2a7f-42bb-af05-0adb205ef015"
+              },
+              "pos": {
+                "x": 453,
+                "y": 253
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "7abbeb97-18f2-409f-9354-33f5c329236a"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "Killer",
+          "proto_uuid": "806f8155-0fa7-449d-9c6f-47040e1f7405",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "3e2686b6-2a7f-42bb-af05-0adb205ef015"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "21f2c290-3831-4c0d-984d-e2e4aea3a309"
+            },
+            "pos": {
+              "x": 106,
+              "y": 144
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_CreateLayout",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Res_Layout",
+                        "rawval": {
+                          "asset": "asset/UIPrompItem.layout",
+                          "selector": "asset/UIPrompItem.layout"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "64738d71-89d3-4076-aadc-f25e3c8dfadc"
+              },
+              "pos": {
+                "x": 575,
+                "y": 307
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "2778ad2a-8100-45e6-b738-9e695a7203c5"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "Promp",
+          "proto_uuid": "fe4e7880-b40c-4be5-b09e-8f5485644233",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "64738d71-89d3-4076-aadc-f25e3c8dfadc"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "91b31d7b-5840-4ee1-a067-226d98e88312"
+            },
+            "pos": {
+              "x": 170,
+              "y": 253
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
         }
       ]
     },
@@ -11908,6 +12701,13 @@
           "value": {
             "__OBJ_TYPE": "T_Bool"
           }
+        },
+        {
+          "key": "Promp",
+          "type": "string",
+          "value": {
+            "__OBJ_TYPE": "T_String"
+          }
         }
       ],
       "global": [
@@ -12019,7 +12819,7 @@
       "value": 100
     },
     "waitPlayerTime": {
-      "value": 300
+      "value": 600
     },
     "waitStartTime": {
       "value": 300
@@ -12027,10 +12827,10 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "af10daf50bca33e599460fd0b2d6480a",
-      "shop.csv": "4dbbe3d39b1fcfd15531b2989fd7ee87",
-      "triggers.bts": "07428c75e3a16ca183d98c967df1ee36",
-      "triggers_client.bts": "5925d4588d45ff02b2ee632fff2815d0"
+      "setting.json": "33114881f37c6f8e8e074d8c1d6c33ec",
+      "shop.csv": "9ff5f9aec788b75bcfac21d778da6d78",
+      "triggers.bts": "b1c2433acc4048acf077ef9b8e488e9f",
+      "triggers_client.bts": "d74f49191d3597ccfdb2d7f5dc1b3321"
     },
     "VERSION": "0.24"
   }

@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "01f914757272e59b854c22c146d1ec8e",
+    "md5": "0830592d8c16787741f24642c08a4fb2",
     "path": "gui/layout_presets/shortcutBar.layout",
     "root": {
       "anchor": {
@@ -16,18 +16,27 @@
           },
           "ClippedByParent": true,
           "id": {
-            "value": "fd00fc0e-079b-463a-81a1-37087abb7d97"
+            "value": "75e35330-f758-4aad-a858-1e508c38ba5b"
           },
           "Image": {
             "asset": "asset/Texture/Gui/imagesets/bottom_bar.imageset",
             "imageset_key": "bar_bg",
             "selector": "asset/Texture/Gui/imagesets/bottom_bar.imageset"
           },
+          "lock": true,
           "name": "BG",
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.1
+            },
+            "UDim_Y": {
+              "Scale": -0.2
+            }
+          },
           "size": {
             "UDim_X": {
               "Offect": 0,
-              "Scale": 1
+              "Scale": 0.64
             },
             "UDim_Y": {
               "Offect": 0,
@@ -42,13 +51,14 @@
             "VerticalAlignment": "Bottom"
           },
           "id": {
-            "value": "515483c1-6a77-4051-8251-554719b61196"
+            "value": "924ed3bb-0387-49e1-b79e-a6c8997b78e4"
           },
           "Image": {
             "asset": "asset/Texture/Gui/imagesets/bottom_bar.imageset",
             "imageset_key": "bar_bag",
             "selector": "asset/Texture/Gui/imagesets/bottom_bar.imageset"
           },
+          "lock": true,
           "name": "OpenBagItem",
           "pos": {
             "UDim_X": {
@@ -65,7 +75,8 @@
             "UDim_Y": {
               "Offect": 77
             }
-          }
+          },
+          "Visible": false
         },
         {
           "__OBJ_TYPE": "DefaultWindow",
@@ -73,12 +84,13 @@
             "VerticalAlignment": "Bottom"
           },
           "id": {
-            "value": "0680ad34-c689-40e0-a929-3491c0094554"
+            "value": "7cb38f4d-4f00-4ccf-9806-7673bbf31a38"
           },
+          "lock": true,
           "name": "ItemCellBase",
           "pos": {
             "UDim_X": {
-              "Offect": 49
+              "Offect": 72
             },
             "UDim_Y": {
               "Offect": -12
@@ -87,7 +99,7 @@
           "size": {
             "UDim_X": {
               "Offect": 0,
-              "Scale": 0.78
+              "Scale": 0.58
             },
             "UDim_Y": {
               "Offect": 78
@@ -97,8 +109,9 @@
       ],
       "ClippedByParent": true,
       "id": {
-        "value": "4174a4d1-b527-4ce4-af04-b2fff30e8b2f"
+        "value": "b5fdb557-d254-466b-8c49-5c4141dd3f96"
       },
+      "lock": true,
       "size": {
         "UDim_X": {
           "Offect": 746
@@ -111,7 +124,8 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "01f914757272e59b854c22c146d1ec8e"
+      "layout": "0830592d8c16787741f24642c08a4fb2",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"
   }

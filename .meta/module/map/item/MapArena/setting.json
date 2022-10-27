@@ -74,7 +74,7 @@
         "mesh": "asset/Mesh/Gray-White Stone/g2038_rock_1.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Gray-White Stone/g2038_rock_1.mesh",
-          "selector": "asset/stone/g2030_zs_15.mesh"
+          "selector": "asset/Mesh/Gray-White Stone/g2038_rock_1.mesh"
         },
         "name": "Stone2",
         "position": {
@@ -94,9 +94,9 @@
           "z": 5.10474
         },
         "size": {
-          "x": 10.000001907349,
-          "y": 3.9790680408478,
-          "z": 9.4444780349731
+          "x": 10.0000019073486,
+          "y": 3.97906804084778,
+          "z": 9.44447803497314
         },
         "useAnchor": true
       },
@@ -124,7 +124,7 @@
         "mesh": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
-          "selector": "asset/stone/dashi_03/dashi_03.mesh"
+          "selector": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh"
         },
         "name": "Stone",
         "position": {
@@ -139,8 +139,8 @@
           "z": 6.03044
         },
         "size": {
-          "x": 11.387475013733,
-          "y": 11.369917869568,
+          "x": 11.3874750137329,
+          "y": 11.3699178695679,
           "z": 10.916675567627
         },
         "useAnchor": true
@@ -207,11 +207,6 @@
           "z": 8
         },
         "transform": {
-          "pos": {
-            "x": -15.3,
-            "y": 5.6,
-            "z": -9.8
-          },
           "scale": {
             "x": 13,
             "y": 5,
@@ -243,7 +238,7 @@
         "mesh": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
-          "selector": "asset/stone/dashi_03/dashi_03.mesh"
+          "selector": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh"
         },
         "name": "Stone",
         "position": {
@@ -261,9 +256,9 @@
           "z": 7.14309
         },
         "size": {
-          "x": 13.48851776123,
-          "y": 13.467730522156,
-          "z": 12.930863380432
+          "x": 13.4885177612305,
+          "y": 13.4677305221558,
+          "z": 12.9308633804321
         },
         "useAnchor": true
       },
@@ -291,19 +286,11 @@
           "z": 5
         },
         "size": {
-          "x": 7.3895926475525,
-          "y": 14.468474388123,
-          "z": 4.8056292533875
+          "x": 7.38959264755249,
+          "y": 14.4684743881226,
+          "z": 4.80562925338745
         },
         "transform": {
-          "pos": {
-            "x": -28,
-            "y": 8.2,
-            "z": -10
-          },
-          "rotate": {
-            "y": 80
-          },
           "scale": {
             "x": 7,
             "y": 5,
@@ -335,7 +322,7 @@
         "mesh": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
-          "selector": "asset/stone/dashi_03/dashi_03.mesh"
+          "selector": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh"
         },
         "name": "Stone",
         "position": {
@@ -350,8 +337,8 @@
           "z": 5.77042
         },
         "size": {
-          "x": 10.896454811096,
-          "y": 10.879652023315,
+          "x": 10.8964548110962,
+          "y": 10.8796520233154,
           "z": 10.445972442627
         },
         "useAnchor": true
@@ -380,7 +367,7 @@
         "mesh": "asset/Mesh/Gray Arch Bridge/g2021_huoshan_qiao.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Gray Arch Bridge/g2021_huoshan_qiao.mesh",
-          "selector": "asset/stone/g2030_zs_15.mesh"
+          "selector": "asset/Mesh/Gray Arch Bridge/g2021_huoshan_qiao.mesh"
         },
         "name": "Bridge",
         "position": {
@@ -395,9 +382,9 @@
           "z": 0.399685
         },
         "size": {
-          "x": 8.0000009536743,
-          "y": 4.041708946228,
-          "z": 2.6200404167175
+          "x": 8.00000095367432,
+          "y": 4.04170894622803,
+          "z": 2.62004041671753
         },
         "useAnchor": true
       },
@@ -426,7 +413,7 @@
         "mesh": "asset/Mesh/Octagonal Array Stone Island/g2030_island_rishi_3.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Octagonal Array Stone Island/g2030_island_rishi_3.mesh",
-          "selector": "asset/stone/g2030_zs_15.mesh"
+          "selector": "asset/Mesh/Octagonal Array Stone Island/g2030_island_rishi_3.mesh"
         },
         "name": "Castle",
         "position": {
@@ -444,9 +431,9 @@
           "z": 1.33261
         },
         "size": {
-          "x": 26.999973297119,
-          "y": 12.787440299988,
-          "z": 20.054552078247
+          "x": 26.9999732971191,
+          "y": 12.7874402999878,
+          "z": 20.0545520782471
         },
         "useAnchor": true
       },
@@ -474,7 +461,7 @@
         "mesh": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
-          "selector": "asset/stone/dashi_03/dashi_03.mesh"
+          "selector": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh"
         },
         "name": "Stone",
         "position": {
@@ -489,8 +476,8 @@
           "z": 6.03044
         },
         "size": {
-          "x": 11.387475013733,
-          "y": 11.369917869568,
+          "x": 11.3874750137329,
+          "y": 11.3699178695679,
           "z": 10.916675567627
         },
         "useAnchor": true
@@ -519,7 +506,7 @@
         "mesh": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh",
-          "selector": "asset/stone/dashi_03/dashi_03.mesh"
+          "selector": "asset/Mesh/Large Gray-White Square Stone/g2038_rock_2.mesh"
         },
         "name": "Stone",
         "position": {
@@ -534,8 +521,8 @@
           "z": 6.03044
         },
         "size": {
-          "x": 11.387475013733,
-          "y": 11.369917869568,
+          "x": 11.3874750137329,
+          "y": 11.3699178695679,
           "z": 10.916675567627
         },
         "useAnchor": true
@@ -563,19 +550,11 @@
           "y": 2
         },
         "size": {
-          "x": 7.3895926475525,
-          "y": 5.787389755249,
+          "x": 7.38959264755249,
+          "y": 5.78738975524902,
           "z": 0.96112585067749
         },
         "transform": {
-          "pos": {
-            "x": -1.9,
-            "y": 3,
-            "z": -8
-          },
-          "rotate": {
-            "y": 90
-          },
           "scale": {
             "x": 7,
             "y": 2
@@ -606,7 +585,7 @@
         "mesh": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh",
-          "selector": "asset/stone/g2030_zs_15.mesh"
+          "selector": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh"
         },
         "name": "Bridge2",
         "position": {
@@ -624,9 +603,9 @@
           "z": 0.26138
         },
         "size": {
-          "x": 4.9999899864197,
-          "y": 1.360568523407,
-          "z": 2.803121805191
+          "x": 4.99998998641968,
+          "y": 1.36056852340698,
+          "z": 2.80312180519104
         },
         "useAnchor": true
       },
@@ -669,9 +648,9 @@
           "z": 3.19919
         },
         "size": {
-          "x": 3.3062570095062,
+          "x": 3.30625700950623,
           "y": 0.18789167702198,
-          "z": 2.5528862476349
+          "z": 2.55288624763489
         },
         "useAnchor": true
       },
@@ -714,9 +693,9 @@
           "z": 3.19919
         },
         "size": {
-          "x": 3.3062570095062,
+          "x": 3.30625700950623,
           "y": 0.18789167702198,
-          "z": 2.5528862476349
+          "z": 2.55288624763489
         },
         "useAnchor": true
       },
@@ -759,8 +738,8 @@
           "z": 1.93523
         },
         "size": {
-          "x": 1.9999961853027,
-          "y": 0.11365803331137,
+          "x": 1.99999618530273,
+          "y": 0.113658033311367,
           "z": 1.5442727804184
         },
         "useAnchor": true
@@ -789,7 +768,7 @@
         "mesh": "asset/Mesh/Brown Spire Tower/g2044_5060_house08.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Brown Spire Tower/g2044_5060_house08.mesh",
-          "selector": "asset/plant/tree/g2038_tree_09.mesh"
+          "selector": "asset/Mesh/Brown Spire Tower/g2044_5060_house08.mesh"
         },
         "name": "Building1",
         "position": {
@@ -804,9 +783,9 @@
           "z": 1.15216
         },
         "size": {
-          "x": 7.0000128746033,
-          "y": 22.679382324219,
-          "z": 6.9999961853027
+          "x": 7.00001287460327,
+          "y": 22.6793823242188,
+          "z": 6.99999618530273
         },
         "useAnchor": true
       },
@@ -834,7 +813,7 @@
         "mesh": "asset/Mesh/Snow-Covered Trapezoidal Stone Pillars/g2021_xuejing_gaoqiang_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Snow-Covered Trapezoidal Stone Pillars/g2021_xuejing_gaoqiang_02.mesh",
-          "selector": "asset/plant/tree/g2038_tree_09.mesh"
+          "selector": "asset/Mesh/Snow-Covered Trapezoidal Stone Pillars/g2021_xuejing_gaoqiang_02.mesh"
         },
         "name": "BuildIce",
         "position": {
@@ -849,9 +828,9 @@
           "z": 2.34177
         },
         "size": {
-          "x": 4.9999923706055,
-          "y": 14.680330276489,
-          "z": 4.9589838981628
+          "x": 4.99999237060547,
+          "y": 14.6803302764893,
+          "z": 4.95898389816284
         },
         "useAnchor": true
       },
@@ -879,7 +858,7 @@
         "mesh": "asset/Mesh/Huge Blue Ice Cone Island/g2030_island_bingdao_2.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Huge Blue Ice Cone Island/g2030_island_bingdao_2.mesh",
-          "selector": "asset/stone/g2030_island_bingdao_3_1.mesh"
+          "selector": "asset/Mesh/Huge Blue Ice Cone Island/g2030_island_bingdao_2.mesh"
         },
         "name": "Stone_ice",
         "position": {
@@ -897,9 +876,9 @@
           "z": 2.36098
         },
         "size": {
-          "x": 25.000034332275,
-          "y": 16.483291625977,
-          "z": 15.366220474243
+          "x": 25.0000343322754,
+          "y": 16.4832916259766,
+          "z": 15.3662204742432
         },
         "useAnchor": true
       },
@@ -927,7 +906,7 @@
         "mesh": "asset/Mesh/Blue Arch/g2038_door_01.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Blue Arch/g2038_door_01.mesh",
-          "selector": "asset/stone/g2030_zs_15.mesh"
+          "selector": "asset/Mesh/Blue Arch/g2038_door_01.mesh"
         },
         "name": "GateIce",
         "position": {
@@ -942,9 +921,9 @@
           "z": 0.654044
         },
         "size": {
-          "x": 7.8485460281372,
-          "y": 5.437789440155,
-          "z": 1.3263107538223
+          "x": 7.84854602813721,
+          "y": 5.43778944015503,
+          "z": 1.32631075382233
         },
         "useAnchor": true
       },
@@ -972,7 +951,7 @@
         "mesh": "asset/Mesh/Brown Hexagon Altar/g2021_duchi_tanzi.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Brown Hexagon Altar/g2021_duchi_tanzi.mesh",
-          "selector": "asset/stone/g2030_zs_15.mesh"
+          "selector": "asset/Mesh/Brown Hexagon Altar/g2021_duchi_tanzi.mesh"
         },
         "name": "GateGrass",
         "position": {
@@ -987,18 +966,18 @@
           "z": 3.00687
         },
         "size": {
-          "x": 5.0000085830688,
-          "y": 0.92153656482697,
-          "z": 5.2400455474854
+          "x": 5.00000858306885,
+          "y": 0.921536564826965,
+          "z": 5.24004554748535
         },
         "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
         "anchorPoint": {
-          "x": 3.54242730140686,
-          "y": 7.75903797149658,
-          "z": 23.4406471252441
+          "x": 3.54350519180298,
+          "y": 7.8137993812561,
+          "z": 23.4414672851562
         },
         "batchType": "Dynamic",
         "btsKey": "89c668c8-a943-4bf2-ad10-73515192b84e",
@@ -1007,9 +986,9 @@
         "friction": 0.37,
         "id": "8779881144103534593",
         "massCenter": {
-          "x": 3.5424273014069,
-          "y": 7.7590379714966,
-          "z": 23.440647125244
+          "x": 3.54350519180298,
+          "y": 7.8137993812561,
+          "z": 23.4414672851562
         },
         "material": {
           "discardAlpha": 1
@@ -1017,28 +996,29 @@
         "mesh": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh",
-          "selector": "asset/stone/g2030_zs_15.mesh"
+          "selector": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh"
         },
         "name": "Bridge3",
         "position": {
-          "x": 3.5424273014069,
-          "y": 7.7590379714966,
-          "z": 23.440647125244
+          "x": 3.54350519180298,
+          "y": 7.8137993812561,
+          "z": 23.4414672851562
         },
         "restitution": 0.3,
         "rotation": {
-          "y": 142.99992370605,
-          "z": -20
+          "x": -4.06291428589611e-06,
+          "y": 142.999954223633,
+          "z": -21.9999141693115
         },
         "scale": {
-          "x": 0.365933,
-          "y": 0.365932,
-          "z": 0.365933
+          "x": 0.411331,
+          "y": 0.411328,
+          "z": 0.411332
         },
         "size": {
-          "x": 7.0000057220459,
-          "y": 1.9047960042953,
-          "z": 3.9243812561035
+          "x": 7.86843299865723,
+          "y": 2.14109539985657,
+          "z": 4.41125679016113
         },
         "useAnchor": true
       },
@@ -1067,7 +1047,7 @@
         "mesh": "asset/Mesh/Large Magma Volcanic Island/g2030_island_huoshan_3.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Large Magma Volcanic Island/g2030_island_huoshan_3.mesh",
-          "selector": "asset/stone/g2030_island_rongyan_2.mesh"
+          "selector": "asset/Mesh/Large Magma Volcanic Island/g2030_island_huoshan_3.mesh"
         },
         "name": "Stone_fire",
         "partNavMeshType": "nil",
@@ -1086,9 +1066,9 @@
           "z": 1.36931
         },
         "size": {
-          "x": 30.000030517578,
-          "y": 14.587811470032,
-          "z": 18.863822937012
+          "x": 30.0000305175781,
+          "y": 14.5878114700317,
+          "z": 18.8638229370117
         },
         "useAnchor": true
       },
@@ -1116,7 +1096,7 @@
         "mesh": "asset/Mesh/Octagonal Array Stone Island/g2030_men_3.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Octagonal Array Stone Island/g2030_men_3.mesh",
-          "selector": "asset/stone/g2030_zs_15.mesh"
+          "selector": "asset/Mesh/Octagonal Array Stone Island/g2030_men_3.mesh"
         },
         "name": "GateFire",
         "position": {
@@ -1134,9 +1114,9 @@
           "z": 2.11218
         },
         "size": {
-          "x": 8.558144569397,
-          "y": 6.6239261627197,
-          "z": 1.2163186073303
+          "x": 8.55814456939697,
+          "y": 6.62392616271973,
+          "z": 1.21631860733032
         },
         "useAnchor": true
       },
@@ -1164,7 +1144,7 @@
         "mesh": "asset/Mesh/Gray Arch Bridge/g2021_huoshan_qiao.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Gray Arch Bridge/g2021_huoshan_qiao.mesh",
-          "selector": "asset/stone/g2030_zs_15.mesh"
+          "selector": "asset/Mesh/Gray Arch Bridge/g2021_huoshan_qiao.mesh"
         },
         "name": "Bridge4",
         "position": {
@@ -1183,9 +1163,9 @@
           "z": 0.599527
         },
         "size": {
-          "x": 11.999991416931,
-          "y": 6.0625586509705,
-          "z": 3.9300575256348
+          "x": 11.9999914169312,
+          "y": 6.06255865097046,
+          "z": 3.93005752563477
         },
         "useAnchor": true
       },
@@ -1213,7 +1193,7 @@
         "mesh": "asset/Mesh/Gray Arch Bridge/g2021_huoshan_qiao.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Gray Arch Bridge/g2021_huoshan_qiao.mesh",
-          "selector": "asset/stone/g2030_zs_15.mesh"
+          "selector": "asset/Mesh/Gray Arch Bridge/g2021_huoshan_qiao.mesh"
         },
         "name": "Bridge5",
         "position": {
@@ -1232,8 +1212,8 @@
           "z": 0.349724
         },
         "size": {
-          "x": 6.9999928474426,
-          "y": 3.5364916324615,
+          "x": 6.99999284744263,
+          "y": 3.53649163246155,
           "z": 2.2925329208374
         },
         "useAnchor": true
@@ -1262,7 +1242,7 @@
         "mesh": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh",
-          "selector": "asset/stone/g2030_zs_15.mesh"
+          "selector": "asset/Mesh/Gray Arched Stone Bridge/g2044_7080_bridge01.mesh"
         },
         "name": "Bridge6",
         "position": {
@@ -1283,8 +1263,8 @@
         },
         "size": {
           "x": 7.0000057220459,
-          "y": 1.9047960042953,
-          "z": 3.9243812561035
+          "y": 1.90479600429535,
+          "z": 3.92438125610352
         },
         "useAnchor": true
       },
@@ -1330,9 +1310,9 @@
           "z": 5.72909
         },
         "size": {
-          "x": 20.809801101685,
-          "y": 14.269382476807,
-          "z": 22.333269119263
+          "x": 20.8098011016846,
+          "y": 14.2693824768066,
+          "z": 22.3332691192627
         },
         "useAnchor": true
       },
@@ -1378,9 +1358,9 @@
           "z": 1.31633
         },
         "size": {
-          "x": 9.9999732971191,
-          "y": 12.433828353882,
-          "z": 9.8189830780029
+          "x": 9.99997329711914,
+          "y": 12.4338283538818,
+          "z": 9.81898307800293
         },
         "useAnchor": true
       },
@@ -1415,9 +1395,6 @@
               "z": 74
             },
             "transform": {
-              "pos": {
-                "y": 0.6
-              },
               "scale": {
                 "x": 37,
                 "z": 37
@@ -1462,11 +1439,6 @@
           "x": 31.504716873169,
           "y": 12.752878189087,
           "z": -16.376010894775
-        },
-        "size": {
-          "x": 0.99999994039536,
-          "y": 0.99999994039536,
-          "z": 0.99999988079071
         }
       },
       {
@@ -1479,11 +1451,6 @@
           "x": 32.634708404541,
           "y": 13.690880775452,
           "z": 11.981990814209
-        },
-        "size": {
-          "x": 0.99999994039536,
-          "y": 0.99999994039536,
-          "z": 0.99999988079071
         }
       },
       {
@@ -1497,7 +1464,7 @@
               "asset": "asset/Actor/Soldier In White Goggles/UICrushObject.layout"
             },
             "position": {
-              "y": 3
+              "y": 2
             }
           }
         ],
@@ -1544,7 +1511,7 @@
         "mesh": "asset/Mesh/White And Gold Arch/g2038_race_gate.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/White And Gold Arch/g2038_race_gate.mesh",
-          "selector": "asset/stone/g2030_zs_15.mesh"
+          "selector": "asset/Mesh/White And Gold Arch/g2038_race_gate.mesh"
         },
         "name": "GateGrass",
         "position": {
@@ -1559,9 +1526,9 @@
           "z": 0.659221
         },
         "size": {
-          "x": 6.3769278526306,
-          "y": 5.9505591392517,
-          "z": 1.6778643131256
+          "x": 6.37692785263062,
+          "y": 5.95055913925171,
+          "z": 1.67786431312561
         },
         "useAnchor": true
       },
@@ -1581,9 +1548,9 @@
           "z": 6.19898
         },
         "size": {
-          "x": 8.2209615707397,
-          "y": 0.99999701976776,
-          "z": 6.1989822387695
+          "x": 8.22096,
+          "y": 0.999997,
+          "z": 6.19898
         }
       },
       {
@@ -1631,7 +1598,7 @@
               "asset": "asset/Actor/Soldier In White Goggles/UIDangerZone.layout"
             },
             "position": {
-              "y": 4.5
+              "y": 3.5
             }
           }
         ],
@@ -1640,18 +1607,11 @@
         "name": "Fire_Monster",
         "position": {
           "x": 16.1559753417969,
-          "y": 9.08962535858154,
+          "y": 10.1096277236938,
           "z": 27.4573612213135
         },
-        "scale": {
-          "x": 1.5,
-          "y": 1.5,
-          "z": 1.5
-        },
         "size": {
-          "x": 1.5,
-          "y": 1.5,
-          "z": 1.49999988079071
+          "z": 0.999999940395355
         }
       },
       {
@@ -1670,9 +1630,9 @@
           "z": 122.378
         },
         "size": {
-          "x": 121.852394104,
-          "y": 6.060821056366,
-          "z": 122.37799835205
+          "x": 121.852,
+          "y": 6.06082,
+          "z": 122.378
         }
       },
       {
@@ -1691,9 +1651,9 @@
           "z": 73.8792
         },
         "size": {
-          "x": 105.98873138428,
-          "y": 13.961847305298,
-          "z": 73.879173278809
+          "x": 105.989,
+          "y": 13.9618,
+          "z": 73.8792
         }
       },
       {
@@ -1712,9 +1672,9 @@
           "z": 10.8709
         },
         "size": {
-          "x": 9.571925163269,
-          "y": 3.7999882698059,
-          "z": 10.870881080627
+          "x": 9.57192,
+          "y": 3.79999,
+          "z": 10.8709
         }
       },
       {
@@ -1780,9 +1740,9 @@
           "z": 0.8
         },
         "size": {
-          "x": 0.800000011920929,
-          "y": 0.800000011920929,
-          "z": 0.800000011920929
+          "x": 0.8,
+          "y": 0.8,
+          "z": 0.8
         }
       },
       {
@@ -1806,34 +1766,6 @@
           "x": 14.3221635818481,
           "y": 7.86673498153687,
           "z": -26.18092918396
-        },
-        "size": {
-          "x": 0.999999940395355,
-          "y": 0.999999940395355,
-          "z": 0.99999988079071
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "children": [
-          {
-            "__OBJ_TYPE": "Instance_SceneUI",
-            "id": "8803195350483107841",
-            "layoutFile": {
-              "asset": "asset/Actor/Soldier In White Goggles/UICrushObject.layout"
-            },
-            "position": {
-              "y": 3
-            }
-          }
-        ],
-        "config": "myplugin/PohonVolcano1",
-        "id": "8803189388771131393",
-        "name": "entity_PohonVolcano1",
-        "position": {
-          "x": -7.14827442169189,
-          "y": 6.23872423171997,
-          "z": 28.5789909362793
         }
       },
       {
@@ -1857,11 +1789,6 @@
           "x": -28.2367649078369,
           "y": 8.35107135772705,
           "z": 13.3838777542114
-        },
-        "size": {
-          "x": 0.999999940395355,
-          "y": 0.999999940395355,
-          "z": 0.99999988079071
         }
       },
       {
@@ -1874,7 +1801,7 @@
               "asset": "asset/Actor/Soldier In White Goggles/UICrushObject.layout"
             },
             "position": {
-              "y": 3
+              "y": 3.52
             }
           }
         ],
@@ -1917,7 +1844,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "4de53b5eb7e9f79ce1cb5d6cc04910f4"
+      "setting.json": "c045155ca9290bb8d22a09ca019c7925"
     },
     "VERSION": "0.24"
   }

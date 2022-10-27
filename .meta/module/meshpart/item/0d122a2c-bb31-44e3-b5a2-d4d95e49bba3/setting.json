@@ -438,9 +438,7 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "5c2871df-7b9f-4818-a5c1-1f74bce43fa2"
-                  }
+                  []
                 ]
               }
             ],
@@ -455,7 +453,7 @@
   },
   "meta": {
     "EXPORT": {
-      "triggers.bts": "5399b1e1a637abf662f0d38a68609c37"
+      "triggers.bts": "18aaf80276bfcdcd569fc33a559ffc2f"
     },
     "VERSION": "0.24"
   }

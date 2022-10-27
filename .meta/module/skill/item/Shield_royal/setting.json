@@ -33,15 +33,251 @@
         "asset": "asset/auxiliary/icon_盾.png"
       },
       "iconPos": {
-        "area_number": 7
+        "area_number": 5
       },
       "isClickIcon": true
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Promp"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "Shield (Reduce Dmg 5 sec)"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "391ea6cd-e122-43f7-b425-7c0079d98e18"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "809adbb6-5cc2-4f31-b5b3-b1a4100aaf82"
+              },
+              "pos": {
+                "x": 494,
+                "y": 212.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "391ea6cd-e122-43f7-b425-7c0079d98e18"
+              },
+              "pos": {
+                "x": 862,
+                "y": 207.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "66c1583e-ef4c-4814-a8c7-9de84068da28"
+              },
+              "pos": {
+                "x": 854,
+                "y": 62.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "59a454d6-81aa-44c0-9a48-4b70e79c11f5"
+              },
+              "pos": {
+                "x": 1210,
+                "y": 463.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Promp"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "59a454d6-81aa-44c0-9a48-4b70e79c11f5"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "0f5f9d44-b3fe-42c0-b9c7-6329fc2670ab"
+              },
+              "pos": {
+                "x": 867,
+                "y": 458.5
+              },
+              "type": "T_String"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "a3c4f299-a8f6-4e9a-beac-9ad3e868508e"
+              },
+              "pos": {
+                "x": 879,
+                "y": 341.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "66c1583e-ef4c-4814-a8c7-9de84068da28"
+                      }
+                    }
+                  ],
+                  "proto_id": "fe4e7880-b40c-4be5-b09e-8f5485644233",
+                  "proto_name": "Promp",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "27ac11fc-0b93-4a8f-9955-9c1a0adeae65"
+              },
+              "pos": {
+                "x": 493,
+                "y": 62
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params": [
+                    {
+                      "data_type": "T_String",
+                      "key": "Promp",
+                      "must": true,
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "action": "0f5f9d44-b3fe-42c0-b9c7-6329fc2670ab"
+                      }
+                    }
+                  ],
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "a3c4f299-a8f6-4e9a-beac-9ad3e868508e"
+                      }
+                    }
+                  ],
+                  "proto_id": "5e6f8c55-f768-4903-81ec-60633b35c0fa",
+                  "proto_name": "PrompText",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "8bdb1718-7a37-409f-9092-39376ac2556d"
+              },
+              "pos": {
+                "x": 481,
+                "y": 430
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "37fb5d52-613e-44f1-a60c-9da86a9a87a6"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "27ac11fc-0b93-4a8f-9955-9c1a0adeae65"
+                  },
+                  {
+                    "action": "809adbb6-5cc2-4f31-b5b3-b1a4100aaf82"
+                  },
+                  {
+                    "action": "8bdb1718-7a37-409f-9092-39376ac2556d"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "d46d64a6-2401-4f18-8541-a457bdbb7d61"
+            },
+            "pos": {
+              "x": 225,
+              "y": 161
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b4b5ad55a092ed91d3f6c9c92d084c88",
-      "triggers.bts": ""
+      "setting.json": "3cea3ef93780607a92d62926a0d4ab48",
+      "triggers.bts": "27ce1e445f0a6bc7b392d2fb286577a4"
     },
     "VERSION": "0.24"
   }

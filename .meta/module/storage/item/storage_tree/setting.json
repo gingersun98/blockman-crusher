@@ -2520,12 +2520,59 @@
         },
         "staticBatchNo": "1",
         "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_MeshPart_Storage",
+        "anchorPoint": {
+          "x": 9.09469795227051,
+          "y": 4.2438645362854,
+          "z": 0.569008469581604
+        },
+        "batchType": "Dynamic",
+        "btsKey": "9efbc95e-6b50-432b-8d7e-ae99082bc817",
+        "collisionUniqueKey": "8862010682046660609",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8862010682046660609",
+        "massCenter": {
+          "x": 9.0946979522705,
+          "y": 4.2438645362854,
+          "z": 0.5690084695816
+        },
+        "material": {
+          "discardAlpha": 1
+        },
+        "mesh": "asset/Mesh/White And Red Shed Stall/g2021_xinshoucun_guotan_03.mesh",
+        "mesh_selector": {
+          "asset": "asset/Mesh/White And Red Shed Stall/g2021_xinshoucun_guotan_03.mesh",
+          "selector": "asset/Mesh/White And Red Shed Stall/g2021_xinshoucun_guotan_03.mesh"
+        },
+        "position": {
+          "x": 9.0946979522705,
+          "y": 4.2438645362854,
+          "z": 0.5690084695816
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 125.99999237061
+        },
+        "scale": {
+          "x": 1.01107,
+          "y": 1.01108,
+          "z": 1.01107
+        },
+        "size": {
+          "x": 4.99997663497925,
+          "y": 4.76016235351562,
+          "z": 4.0756688117981
+        },
+        "useAnchor": true
       }
     ]
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b73058d1f74344deaf12a9943b442823"
+      "setting.json": "af94bb0c7181c7f48bbd7db43892c1b6"
     },
     "VERSION": "0.24"
   }

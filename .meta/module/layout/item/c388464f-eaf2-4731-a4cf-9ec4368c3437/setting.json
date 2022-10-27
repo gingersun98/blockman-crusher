@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "a94d10506c34ef20ea33fc2c253b3185",
+    "md5": "118632da05f53df80b78386a10ef4d1c",
     "path": "asset/WinCondition.layout",
     "root": {
       "anchor": {
@@ -31,7 +31,7 @@
                   "Font_size": 30,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "fe41bea7-04e3-49fd-9dd7-10a407136760"
+                    "value": "2e3f28e8-a3b0-4d19-98ee-be9a08b62edf"
                   },
                   "name": "Victory",
                   "pos": {
@@ -50,7 +50,7 @@
                 }
               ],
               "id": {
-                "value": "0d7b55a1-5e78-4281-8364-45bc1f8a8fd5"
+                "value": "6fd9b07f-109a-4374-bfaa-5a2989f9ab7d"
               },
               "Image": {
                 "asset": "asset/Texture/GingersunUI/shop6.png.png"
@@ -87,7 +87,7 @@
                   "Font_size": 20,
                   "HorzFormatting": "RightAligned",
                   "id": {
-                    "value": "5497cc3d-3f3a-4dd9-9bb1-3028f69ca288"
+                    "value": "13015727-b1e4-4f19-981c-403b558cd478"
                   },
                   "size": {
                     "UDim_X": {
@@ -111,7 +111,7 @@
               "Font_size": 25,
               "HorzFormatting": "RightAligned",
               "id": {
-                "value": "f1def94f-60c4-4595-9638-f69fac58babf"
+                "value": "49e81271-f73e-4c5a-b5bb-4566cf409cc2"
               },
               "name": "Kills",
               "pos": {
@@ -140,7 +140,7 @@
               "Font_size": 25,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "6892e53e-86b8-4818-9ec3-c1a97495a670"
+                "value": "1d2fa6ed-a135-436c-beae-89c52049b8dd"
               },
               "name": "ScorePlayer1",
               "pos": {
@@ -161,7 +161,7 @@
             }
           ],
           "id": {
-            "value": "d8e787e2-b1aa-458d-a283-899e4d938825"
+            "value": "4acd6b35-2ad9-4593-8167-b30c12085078"
           },
           "Image": {
             "asset": "asset/Texture/GingersunUI/PanelWindow.png"
@@ -189,7 +189,7 @@
                 "VerticalAlignment": "Bottom"
               },
               "id": {
-                "value": "d3c03cdd-2b36-4a24-97f8-7464c666e3cf"
+                "value": "b155d62e-1261-4d9b-a23b-f09702552842"
               },
               "Image": {
                 "asset": "asset/Texture/ui/img_展示台.png"
@@ -218,7 +218,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "a7ae195e-5f89-4d10-a1cf-31e2faba1901"
+                "value": "3d337109-d59f-4663-97a3-ba98b2ae58cb"
               },
               "size": {
                 "UDim_X": {
@@ -231,7 +231,7 @@
             }
           ],
           "id": {
-            "value": "3a32e322-f730-4950-a888-2569c5bf447e"
+            "value": "dd5f827b-4301-4504-9133-8b178bbd82cf"
           },
           "Image": {
             "asset": "",
@@ -256,7 +256,7 @@
               "Font_size": 20,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "df3a4613-67bd-437d-8115-ee6c007b834a"
+                "value": "b65143a4-b43d-4754-8382-eaa091399fb4"
               },
               "pos": {
                 "UDim_X": {
@@ -296,7 +296,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "260fbc8f-762a-4ba6-8494-25585b30091e"
+                "value": "17e53302-7cda-48d5-9450-cbe3411b3e87"
               },
               "Image": {
                 "asset": "asset/Texture/ui/icon_go.png"
@@ -332,7 +332,7 @@
             "top_right": 15
           },
           "id": {
-            "value": "2699681e-268e-4414-9072-5d2c9bc1dcdc"
+            "value": "96cc3f07-4cbe-4d5d-ab5c-6a1f67cf7bd5"
           },
           "name": "determind",
           "NormalImage": {
@@ -390,7 +390,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "5a095d3f-d31d-4417-971d-b555ea244977"
+                "value": "6ec813ad-4d26-4229-83db-34048365205b"
               },
               "Image": {
                 "asset": "asset/Texture/GingersunUI/achievement.png"
@@ -409,7 +409,7 @@
             "asset": "asset/Texture/GingersunUI/CellBig_02.png"
           },
           "id": {
-            "value": "d9757697-e788-41f4-957e-7bc455a82bcf"
+            "value": "44d860ee-3da1-450c-b81d-42ec00711b6f"
           },
           "name": "LEADEROARD",
           "NormalImage": {
@@ -446,7 +446,7 @@
               "Font_size": 15,
               "HorzFormatting": "RightAligned",
               "id": {
-                "value": "c6aac1c0-3bf4-4131-855d-3a48ea6dc758"
+                "value": "436e579d-c155-47e9-bef8-aec7c9d0f75b"
               },
               "Text": "CRUSH SCORE",
               "text_key": {
@@ -465,7 +465,7 @@
               "Font_size": 35,
               "HorzFormatting": "RightAligned",
               "id": {
-                "value": "849a73b0-a4d8-4591-9e34-4fdb4f366d8f"
+                "value": "fcc80984-9a4c-4908-88b1-d23031dcc228"
               },
               "name": "NumberCrush",
               "Text": "120",
@@ -486,7 +486,7 @@
               "Font_size": 25,
               "HorzFormatting": "RightAligned",
               "id": {
-                "value": "fcd2fa3e-ad1f-4548-a77d-b137208650f8"
+                "value": "5b14565a-9be6-494f-80ab-59eb786c3976"
               },
               "name": "ScorePlayer",
               "pos": {
@@ -507,7 +507,7 @@
             }
           ],
           "id": {
-            "value": "d6dcb86b-b39d-47dd-9e94-6cfc60a76cb1"
+            "value": "e2177c08-cfad-4cd0-aa7d-3287b0a03b43"
           },
           "Image": {
             "asset": "asset/3D Asset/Icon34.png"
@@ -529,7 +529,7 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
-            "value": "6b7493b3-914e-4efd-a6d2-ad38fb8e9ea9"
+            "value": "0b347e96-5e32-4143-92d0-ebdea2efaf00"
           },
           "Image": {
             "asset": "asset/3D Asset/Icon33.png"
@@ -553,7 +553,7 @@
           "Font_size": 15,
           "HorzFormatting": "RightAligned",
           "id": {
-            "value": "4aa584d7-c2c4-47b5-aae1-b4d7b311de39"
+            "value": "1e021f56-1fb7-45f1-b1b5-c1cce0167cbd"
           },
           "Text": "CRUSH SCORE",
           "text_key": {
@@ -569,7 +569,7 @@
         }
       ],
       "id": {
-        "value": "30962a42-2766-4990-bbfb-3e5f10949335"
+        "value": "3a4527ae-e4d6-41b0-b227-793bfbdab35e"
       },
       "size": {
         "UDim_X": {
@@ -585,7 +585,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "a94d10506c34ef20ea33fc2c253b3185",
+      "layout": "118632da05f53df80b78386a10ef4d1c",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

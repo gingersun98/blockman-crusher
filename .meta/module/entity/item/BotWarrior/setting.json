@@ -42,12 +42,24 @@
       "homeSize": 6
     },
     "AI_walkRules": {
-      "ai_navigation": {
-        "enable": true
-      },
       "faceCliff": {
         "height": 1
       }
+    },
+    "boundingVolume": {
+      "height_c": 2,
+      "radius_c": 0.75,
+      "type": "Capsule"
+    },
+    "boundingVolumeEntityCfg": {
+      "height_c": 2,
+      "memory": {
+        "Cylinder": "1.000000-0.500000",
+        "Sector": "1.000000-0.500000",
+        "Sphere": "1.000000-0.500000"
+      },
+      "radius_c": 0.75,
+      "type": "Capsule"
     },
     "collision": true,
     "damage": 5,
@@ -1328,7 +1340,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a33f2dfafca36b7c57089f59ad10ee18",
+      "setting.json": "7a52c886d0b918d29556917c53f1d84c",
       "triggers.bts": "54629f2c8169f53e616a696bbc9e215d"
     },
     "VERSION": "0.24"

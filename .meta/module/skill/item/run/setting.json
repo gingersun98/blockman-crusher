@@ -5,9 +5,6 @@
       "value": "skill_run"
     },
     "skill": {
-      "base": {
-        "__OBJ_TYPE": "Skill_MeleeAttack"
-      },
       "type": ""
     },
     "skillReleaseWay": {
@@ -25,7 +22,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9641d2e2de6d53f9c171a88a5604f0e6",
+      "setting.json": "78d765f491d78c015a88015f8c3f4073",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

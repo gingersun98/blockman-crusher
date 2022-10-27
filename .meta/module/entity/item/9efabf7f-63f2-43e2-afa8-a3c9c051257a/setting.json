@@ -36,6 +36,19 @@
       "patrolDistance": 10,
       "patrolMode": "randomPath"
     },
+    "boundingVolume": {
+      "height_c": 5,
+      "radius_c": 0.75,
+      "type": "Capsule"
+    },
+    "boundingVolumeEntityCfg": {
+      "height_c": 5,
+      "memory": {
+        "Sphere": "1.000000-1.000000"
+      },
+      "radius_c": 0.75,
+      "type": "Capsule"
+    },
     "canMove": false,
     "canRevive": true,
     "collision": true,
@@ -4791,12 +4804,8 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "d753388f-8244-4f49-ad14-4c6a309afd36"
-                  },
-                  {
-                    "action": "90e21c92-7dce-4ffa-8903-6a07274014aa"
-                  },
+                  [],
+                  [],
                   {
                     "action": "b15db95b-4bf2-4603-acec-e8419bbe77f1"
                   },
@@ -4930,8 +4939,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "0968dbefb6b94e5a5b8c330fbaa19f90",
-      "triggers.bts": "7bb120d855ecff19b2b9b36ce65ea52e"
+      "setting.json": "78039b80f555bdaa7106b19bf4a2d801",
+      "triggers.bts": "046cd90863ddf75ab8c98d98a668e1cc"
     },
     "VERSION": "0.24"
   }

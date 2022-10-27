@@ -9,7 +9,7 @@
         "__OBJ_TYPE": "Skill_Buff",
         "buffCfg": "myplugin/03c3661f-5db9-47d1-aa4e-2ab7e9326d99",
         "buffTime": {
-          "value": 200
+          "value": 100
         },
         "target": "self"
       },
@@ -64,8 +64,8 @@
                 "value": "4e185f64-e45e-4ec5-b04a-d22180c5c9d9"
               },
               "pos": {
-                "x": 625,
-                "y": 307
+                "x": 649,
+                "y": 534
               }
             },
             {
@@ -80,10 +80,320 @@
                 "value": "5734b443-c796-46bb-a8b1-9fa3715096e4"
               },
               "pos": {
-                "x": 986,
-                "y": 308
+                "x": 1092,
+                "y": 556
               },
               "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityVp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "74b7f33d-57fb-47e7-858e-56dc6b7d19d2"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "32d37bdc-deab-4e8f-819a-4bb6050a9497"
+              },
+              "pos": {
+                "x": 1108.5,
+                "y": 424.25
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 20
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 5
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "RegenHunger"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "bf70b80c-b87e-4dc4-a3e0-3321fa13e4d1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "32d37bdc-deab-4e8f-819a-4bb6050a9497"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "6369f3ba-6eef-465a-a5da-8ecdcc75c986"
+              },
+              "pos": {
+                "x": 630.5,
+                "y": 217.25
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "bf70b80c-b87e-4dc4-a3e0-3321fa13e4d1"
+              },
+              "pos": {
+                "x": 1059.5,
+                "y": 304.75
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "74b7f33d-57fb-47e7-858e-56dc6b7d19d2"
+              },
+              "pos": {
+                "x": 1455.5,
+                "y": 476.75
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Promp"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "(Regen 10 Mp for 5 sec)"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "0395994d-95db-41bb-bf53-837bece23ddf"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "9857d5d7-e21b-41c3-af67-1dd9a6e83273"
+              },
+              "pos": {
+                "x": 655,
+                "y": 813.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "0395994d-95db-41bb-bf53-837bece23ddf"
+              },
+              "pos": {
+                "x": 1048,
+                "y": 842.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "88d61f92-d36d-4569-a729-7e9862542564"
+              },
+              "pos": {
+                "x": 1040,
+                "y": 697.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "353391df-86d2-489e-adc5-f212b0469dfe"
+              },
+              "pos": {
+                "x": 1396,
+                "y": 1098.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Promp"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "353391df-86d2-489e-adc5-f212b0469dfe"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "9db41661-1c4e-429e-97e8-defea099d864"
+              },
+              "pos": {
+                "x": 1053,
+                "y": 1093.5
+              },
+              "type": "T_String"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "be1f6e11-9837-4078-af30-23e0a19370d6"
+              },
+              "pos": {
+                "x": 1065,
+                "y": 976.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "88d61f92-d36d-4569-a729-7e9862542564"
+                      }
+                    }
+                  ],
+                  "proto_id": "fe4e7880-b40c-4be5-b09e-8f5485644233",
+                  "proto_name": "Promp",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "729c3c8a-1a12-45d1-87e8-d39b40dfee09"
+              },
+              "pos": {
+                "x": 663,
+                "y": 686
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params": [
+                    {
+                      "data_type": "T_String",
+                      "key": "Promp",
+                      "must": true,
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "action": "9db41661-1c4e-429e-97e8-defea099d864"
+                      }
+                    }
+                  ],
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "be1f6e11-9837-4078-af30-23e0a19370d6"
+                      }
+                    }
+                  ],
+                  "proto_id": "5e6f8c55-f768-4903-81ec-60633b35c0fa",
+                  "proto_name": "PrompText",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "66a8cee5-f348-4ac7-afd0-011fd769f624"
+              },
+              "pos": {
+                "x": 654,
+                "y": 1024
+              }
             }
           ],
           "custom_trigger_data": {
@@ -98,7 +408,19 @@
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
                   {
+                    "action": "6369f3ba-6eef-465a-a5da-8ecdcc75c986"
+                  },
+                  {
                     "action": "4e185f64-e45e-4ec5-b04a-d22180c5c9d9"
+                  },
+                  {
+                    "action": "729c3c8a-1a12-45d1-87e8-d39b40dfee09"
+                  },
+                  {
+                    "action": "9857d5d7-e21b-41c3-af67-1dd9a6e83273"
+                  },
+                  {
+                    "action": "66a8cee5-f348-4ac7-afd0-011fd769f624"
                   }
                 ]
               }
@@ -114,8 +436,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "0e78b27228c0baadbedaa0247c6b4897",
-      "triggers.bts": "f7c162fc4768188f48961fb52250990f"
+      "setting.json": "7100ad29258c29d7da03627a1b09e69d",
+      "triggers.bts": "596454dae6936951fbe85365494fcf9d"
     },
     "VERSION": "0.24"
   }

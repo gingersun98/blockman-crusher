@@ -14,7 +14,10 @@
             "bodyPitchOffset": -90,
             "missileCfg": "myplugin/b5d4d4ac-0039-4953-9f15-939d78995c60"
           }
-        ]
+        ],
+        "target": {
+          "type": "Camera"
+        }
       },
       "type": "Missile"
     },
@@ -33,7 +36,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "72ff2dc4bc3b144c07b5dbd05e8c4bbe",
+      "setting.json": "fd100c066d7f3e0f1f6452034dce7fc2",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

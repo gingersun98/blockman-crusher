@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "f05372b36d099034bff3ecc41a2e4359",
+    "md5": "572141631675276f04aa226f2ff2333f",
     "path": "asset/Winner_Standart.layout",
     "root": {
       "anchor": {
@@ -31,7 +31,7 @@
                   "Font_size": 50,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "9fc807ef-e6b8-45df-9773-62f71ce0c78c"
+                    "value": "69087e40-75bb-48de-b615-6336debca78d"
                   },
                   "name": "Victory",
                   "pos": {
@@ -56,26 +56,27 @@
                     "g": 255,
                     "r": 85
                   },
-                  "VertFormatting": "CentreAligned"
+                  "VertFormatting": "CentreAligned",
+                  "Visible": false
                 }
               ],
               "id": {
-                "value": "161c06c1-9010-409f-9210-b661f6139fce"
+                "value": "bc25bf60-4b4d-421c-b3dd-723cf37dd62d"
               },
               "Image": {
-                "asset": "asset/Texture/GingersunUI/shop6.png.png"
+                "asset": "asset/Texture/GingersunUI/win.png"
               },
               "pos": {
                 "UDim_Y": {
-                  "Scale": 0.1
+                  "Scale": 0.03
                 }
               },
               "size": {
                 "UDim_X": {
-                  "Offect": 1018
+                  "Offect": 258
                 },
                 "UDim_Y": {
-                  "Offect": 168
+                  "Offect": 176
                 }
               }
             },
@@ -90,7 +91,7 @@
               "Font_size": 25,
               "HorzFormatting": "RightAligned",
               "id": {
-                "value": "c3f7d7ab-87f5-4637-bb66-4700cd0c867d"
+                "value": "c2c877f3-d9d6-4dc2-864e-2ab5883c79dc"
               },
               "name": "KillsAsli",
               "pos": {
@@ -119,7 +120,7 @@
               "Font_size": 25,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "2e718c0c-8003-42b9-a1e4-bfe0948964ed"
+                "value": "56d5e28e-f935-482d-a4c8-6cc7912e888f"
               },
               "name": "ScorePlayer1",
               "pos": {
@@ -145,7 +146,7 @@
                 "VerticalAlignment": "Bottom"
               },
               "id": {
-                "value": "b128de80-12c8-4572-a00c-13efac20c6c9"
+                "value": "5355fc2d-9e82-4bdb-8f42-dd12c9c6a325"
               },
               "Image": {
                 "asset": "asset/Texture/GingersunUI/GINGERSUNGAMES.png"
@@ -171,10 +172,18 @@
             }
           ],
           "id": {
-            "value": "768aa3da-8d99-4489-8026-340b3c7e3335"
+            "value": "ba3d16c6-a906-416a-a341-2749348aaf1f"
           },
           "Image": {
             "asset": "asset/Texture/GingersunUI/PanelWindow.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 1.9723925590515
+            },
+            "UDim_Y": {
+              "Offect": 1.9726028442383
+            }
           },
           "size": {
             "UDim_X": {
@@ -199,7 +208,7 @@
                 "VerticalAlignment": "Bottom"
               },
               "id": {
-                "value": "b164dce0-b93b-4555-be94-33d0f0b55825"
+                "value": "2aa248d1-1cda-465c-88a8-6392ad1cbf4e"
               },
               "Image": {
                 "asset": "asset/Texture/ui/img_展示台.png"
@@ -228,7 +237,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "c9b9282c-2744-4d9f-a685-a253a3d171a3"
+                "value": "d6f02576-421c-471f-a3ca-0c10bfe0166f"
               },
               "size": {
                 "UDim_X": {
@@ -241,7 +250,7 @@
             }
           ],
           "id": {
-            "value": "b8de0363-b54a-49d1-9a52-34fa0e47d85b"
+            "value": "238fe9c7-1d4c-47e4-b025-ac3b0d0df565"
           },
           "Image": {
             "asset": "",
@@ -267,7 +276,7 @@
               "Font_size": 20,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "4f1a5531-210e-4a51-96f4-e019e42b0b9c"
+                "value": "8fd67b46-9583-4e76-9479-41e07ddeba6a"
               },
               "pos": {
                 "UDim_X": {
@@ -307,7 +316,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "60bddd5e-6846-4363-9182-73201043d703"
+                "value": "cdf16baf-0ef9-4992-b789-1fbad62c6d29"
               },
               "Image": {
                 "asset": "asset/Texture/ui/icon_go.png"
@@ -343,7 +352,7 @@
             "top_right": 15
           },
           "id": {
-            "value": "bf32a597-ced2-472f-a266-07d93ced494d"
+            "value": "b5e84722-719b-4c15-9eac-bea255ccf483"
           },
           "name": "determind",
           "NormalImage": {
@@ -497,9 +506,7 @@
                           {
                             "action": "f89094d1-46ef-460a-ac33-0f6e78547212"
                           },
-                          {
-                            "action": "9110414d-ed67-41e0-a81a-a1646ffd307f"
-                          },
+                          [],
                           {
                             "action": "41ac4215-0642-4f93-a20d-8d9dbf48b777"
                           }
@@ -560,18 +567,17 @@
                             "key": "cfgForExecXXX",
                             "must": true,
                             "value": {
-                              "__OBJ_TYPE": "T_Widget",
-                              "action": "aaad27f3-6ca8-4731-b82d-ca3c4c263cb7"
+                              "__OBJ_TYPE": "T_Widget"
                             }
                           }
                         ]
                       }
                     ],
-                    "custom_trigger_name": "ClientCustomTrigger_1",
                     "id": {
                       "value": "9110414d-ed67-41e0-a81a-a1646ffd307f"
                     },
                     "is_server": false,
+                    "is_valid": false,
                     "path": "layout/Winner_Standart.layout/Root/Image3/Image4/Image",
                     "pos": {
                       "x": 779,
@@ -760,8 +766,8 @@
                       "value": "d143ce15-b68b-46d7-bffa-9d194228a7f4"
                     },
                     "pos": {
-                      "x": 363,
-                      "y": 47
+                      "x": 358,
+                      "y": 8
                     }
                   },
                   {
@@ -778,8 +784,8 @@
                       "value": "4cd1f3bd-a82e-4724-9941-c37ae7180279"
                     },
                     "pos": {
-                      "x": 370,
-                      "y": 110
+                      "x": 337,
+                      "y": 77
                     }
                   },
                   {
@@ -801,8 +807,8 @@
                       "value": "861ad27e-e41d-44f6-bf7e-2da070f581f7"
                     },
                     "pos": {
-                      "x": 48,
-                      "y": 296
+                      "x": 128,
+                      "y": 282
                     }
                   },
                   {
@@ -817,8 +823,8 @@
                       "value": "929a6ae9-414a-4014-9a75-e01f395e5f07"
                     },
                     "pos": {
-                      "x": 375,
-                      "y": 222
+                      "x": 476,
+                      "y": 221
                     },
                     "type": "T_Layout"
                   }
@@ -857,10 +863,12 @@
                 "type": "Trigger_WidgetClicked"
               }
             ]
-          }
+          },
+          "Visible": false
         },
         {
           "__OBJ_TYPE": "Button",
+          "Alpha": 0.979,
           "anchor": {
             "HorizontalAlignment": "Right",
             "VerticalAlignment": "Centre"
@@ -873,7 +881,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "ebf1e06b-6832-4ca1-8a7a-5735415293bb"
+                "value": "bd051b84-429f-4040-86e3-e17147d5de8b"
               },
               "Image": {
                 "asset": "asset/Texture/GingersunUI/achievement.png"
@@ -886,18 +894,19 @@
                 "UDim_Y": {
                   "Offect": 64
                 }
-              }
+              },
+              "Visible": false
             }
           ],
           "HoverImage": {
-            "asset": "asset/Texture/GingersunUI/CellBig_02.png"
+            "asset": "asset/Texture/GingersunUI/2483841.png"
           },
           "id": {
-            "value": "da32ae5d-8db5-4df7-9190-b76a83c51781"
+            "value": "338644d5-f8c9-49a8-a79c-649b20d8c3f7"
           },
           "name": "LEADEROARD",
           "NormalImage": {
-            "asset": "asset/Texture/GingersunUI/CellBig_02.png"
+            "asset": "asset/Texture/GingersunUI/2483841.png"
           },
           "pos": {
             "UDim_X": {
@@ -905,7 +914,7 @@
             }
           },
           "PushedImage": {
-            "asset": "asset/Texture/GingersunUI/CellBig_03.png"
+            "asset": "asset/Texture/GingersunUI/2483841.png"
           },
           "size": {
             "UDim_Y": {
@@ -982,7 +991,7 @@
               "Font_size": 15,
               "HorzFormatting": "RightAligned",
               "id": {
-                "value": "857e849c-7647-432f-87ff-1af79190e390"
+                "value": "e10b3640-37df-48b5-873a-93a8323bbc7c"
               },
               "Text": "CRUSH SCORE",
               "text_key": {
@@ -1001,7 +1010,7 @@
               "Font_size": 35,
               "HorzFormatting": "RightAligned",
               "id": {
-                "value": "d090a452-1111-4874-a1a6-792b7d007fc0"
+                "value": "71f7f1a4-2909-4520-aaa6-1bcd370a71cf"
               },
               "name": "NumberCrush",
               "Text": "120",
@@ -1022,7 +1031,7 @@
               "Font_size": 25,
               "HorzFormatting": "RightAligned",
               "id": {
-                "value": "138543b6-ebac-4ce1-af4a-10b4503a4ee3"
+                "value": "dbeacf0c-5bd5-49af-a5b2-63df84e75f40"
               },
               "name": "ScorePlayer",
               "pos": {
@@ -1044,7 +1053,7 @@
             }
           ],
           "id": {
-            "value": "18166ba8-327f-4e1c-9e6d-c9aee0d4b429"
+            "value": "32cdb27b-4003-4eb6-9c16-4c35aa017f67"
           },
           "Image": {
             "asset": "asset/3D Asset/Icon34.png"
@@ -1069,7 +1078,7 @@
           "Font_size": 15,
           "HorzFormatting": "RightAligned",
           "id": {
-            "value": "10433ce7-8254-4db7-a704-2581ebbb6b24"
+            "value": "694b6c2a-629a-4336-a7f9-5691a7450187"
           },
           "Text": "CRUSH SCORE",
           "text_key": {
@@ -1097,7 +1106,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "de01eca1-e05e-418c-bec2-3d5072122157"
+                "value": "f7de28a9-3b35-47cd-86e0-4738b5402018"
               },
               "Image": {
                 "asset": "asset/3D Asset/CoinDepan.png"
@@ -1122,7 +1131,7 @@
                 {
                   "__OBJ_TYPE": "ActorWindow",
                   "id": {
-                    "value": "5ba31f80-4ee9-4293-8d70-7840f018efb9"
+                    "value": "5c57c805-16fb-4cac-86b8-f352e808ef0c"
                   },
                   "size": {
                     "UDim_X": {
@@ -1285,7 +1294,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "c3b52856-dcd0-4519-bcac-db667157650e"
+                    "value": "8366122b-3efc-4056-9b18-94796c0c9756"
                   },
                   "Image": {
                     "asset": "asset/3D Asset/CoinDepan.png"
@@ -1293,7 +1302,7 @@
                 }
               ],
               "id": {
-                "value": "87b047bd-d5b6-4310-bb80-fab1833aafd4"
+                "value": "23926893-6db4-4f83-bc3d-8321a896cf68"
               },
               "Image": {
                 "asset": "asset/Texture/GingersunUI/Card X3.png"
@@ -1335,7 +1344,7 @@
                 "r": 255
               },
               "id": {
-                "value": "8209ec46-cffd-4d4d-be73-79e92cbac508"
+                "value": "77aee22d-aeb6-4209-9a36-40975f3f2fe1"
               },
               "NormalImage": {
                 "asset": "asset/Texture/GingersunUI/Button Hover.png"
@@ -1358,7 +1367,7 @@
                   "Offect": 57
                 }
               },
-              "Text": "GACHA",
+              "Text": "GOBOG",
               "text_key": {
                 "value": "asset/Winner_Standart.layout.Button#09c0c4a4-f3bf-402b-8129-3ba240656e65"
               },
@@ -1584,7 +1593,7 @@
                   "Font_size": 16,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "3cb537d8-d7e9-4891-bd91-539cb59b2086"
+                    "value": "1c7b27fe-efda-436c-a17f-65626c38ee9a"
                   },
                   "name": "Text1",
                   "pos": {
@@ -1611,7 +1620,7 @@
                 }
               ],
               "id": {
-                "value": "f92bf55c-a006-4586-9e0a-04414e92c2fd"
+                "value": "6325e25e-877a-498e-bf56-3bf516a903e4"
               },
               "Image": {
                 "asset": "asset/Texture/GingersunUI/ButtonPanel.png"
@@ -1641,7 +1650,7 @@
               "Font_size": 18,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "cb244062-1cf9-4ed3-ba1f-7bd5a580752e"
+                "value": "387e3204-647c-43d8-bf90-e1e052636515"
               },
               "pos": {
                 "UDim_Y": {
@@ -1656,7 +1665,7 @@
                   "Offect": 256
                 }
               },
-              "Text": " \n \n\n \n\n\n\n\nG\nE\nT\n\nP\nR\nI\nZ\nE",
+              "Text": " \n \n\n \n\n\n\n\nG\nE\nT\n\nM\nE\nD\nA\nL",
               "text_key": {
                 "value": "asset/Winner_Standart.layout.StaticText#8516d442-5283-4640-8834-9cf28d9e38b8"
               },
@@ -1669,7 +1678,7 @@
             }
           ],
           "id": {
-            "value": "e47faf7b-7ff5-499a-a53f-f2d1e11b2b8a"
+            "value": "d8308418-e733-4a64-80c4-2dc43668f945"
           },
           "Image": {
             "asset": "asset/Texture/GingersunUI/Cell125x121px.png"
@@ -1691,7 +1700,7 @@
         }
       ],
       "id": {
-        "value": "31093d7b-a7a0-4919-872e-9a6dfa354d64"
+        "value": "b2f37df4-77f2-427c-b032-2d791abd7b67"
       },
       "size": {
         "UDim_X": {
@@ -1767,8 +1776,8 @@
                   "value": "49523c0a-a8d3-47a5-9b75-129138857bdb"
                 },
                 "pos": {
-                  "x": 400,
-                  "y": 47
+                  "x": 446,
+                  "y": 322
                 }
               },
               {
@@ -1828,11 +1837,11 @@
                     ]
                   }
                 ],
-                "custom_trigger_name": "ClientCustomTrigger_1",
                 "id": {
                   "value": "6aa07f3d-a174-405d-b9b3-adafdd8cd1b0"
                 },
                 "is_server": false,
+                "is_valid": false,
                 "path": "layout/Winner_Standart.layout/Root/Image3/Image4/Image",
                 "pos": {
                   "x": 413,
@@ -1856,6 +1865,57 @@
                   "y": 104
                 },
                 "type": "T_Layout"
+              },
+              {
+                "__OBJ_TYPE": "Action_TriggerCustom",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Params",
+                    "params": [
+                      {
+                        "key": "triggerNameForExecXXX",
+                        "value": {
+                          "__OBJ_TYPE": "T_String",
+                          "rawval": "ShowConfirm"
+                        }
+                      },
+                      {
+                        "key": "cfgForExecXXX",
+                        "must": true,
+                        "value": {
+                          "__OBJ_TYPE": "T_Widget",
+                          "action": "e7cfd753-fc56-443d-9dc3-90b803567d7e"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "custom_trigger_name": "ShowConfirm",
+                "id": {
+                  "value": "64380eb6-ca42-4f5e-93f8-acf5d2db06ea"
+                },
+                "is_server": false,
+                "path": "layout/mainWnd.layout/Root/Img_thisPowerBg/Btn_add",
+                "pos": {
+                  "x": 309
+                },
+                "register_id": "c3b55587-19ec-4665-bb5d-64abe006a11a"
+              },
+              {
+                "__OBJ_TYPE": "Action_GetContextVar",
+                "components": [
+                  {
+                    "__OBJ_TYPE": "Component_Context",
+                    "key": "rootInstance"
+                  }
+                ],
+                "id": {
+                  "value": "e7cfd753-fc56-443d-9dc3-90b803567d7e"
+                },
+                "pos": {
+                  "x": 715
+                },
+                "type": "T_Layout"
               }
             ],
             "custom_trigger_data": {
@@ -1869,7 +1929,9 @@
                 {
                   "__OBJ_TYPE": "Component_Sequence",
                   "children": [
-                    []
+                    {
+                      "action": "64380eb6-ca42-4f5e-93f8-acf5d2db06ea"
+                    }
                   ]
                 }
               ],
@@ -1877,8 +1939,8 @@
                 "value": "9d4e8fda-5a18-4476-a9ff-f90b616751d7"
               },
               "pos": {
-                "x": 134,
-                "y": 130
+                "x": 101,
+                "y": 124
               }
             },
             "type": "Trigger_WidgetCreate"
@@ -1890,8 +1952,8 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "f05372b36d099034bff3ecc41a2e4359",
-      "triggers.bts": "2c308ccb4dc81abb6eb4c5a6c2e62827"
+      "layout": "572141631675276f04aa226f2ff2333f",
+      "triggers.bts": "463bbea565f3e25b62aeccdf73d61637"
     },
     "VERSION": "0.24"
   }

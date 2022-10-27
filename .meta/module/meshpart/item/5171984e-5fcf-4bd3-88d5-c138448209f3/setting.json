@@ -59,9 +59,7 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "aeb37ec2-8fa2-4b99-b3b8-aa338da08cb5"
-                  }
+                  []
                 ]
               }
             ],
@@ -76,7 +74,7 @@
   },
   "meta": {
     "EXPORT": {
-      "triggers.bts": "db1de04e89f3e2c9eadf4297962288a2"
+      "triggers.bts": "8a4e9dfcf4ac5177d44dced5aee8ff33"
     },
     "VERSION": "0.24"
   }

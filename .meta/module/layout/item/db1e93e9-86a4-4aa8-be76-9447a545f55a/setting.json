@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "e53c43c75e6c67edd3546e206000314e",
+    "md5": "ed99932e8c9572c5cdf26ab48dba22d0",
     "path": "asset/CountdownTimer.layout",
     "root": {
       "anchor": {
@@ -13,7 +13,7 @@
             "HorizontalAlignment": "Centre"
           },
           "id": {
-            "value": "cf58850a-f8bc-45bd-932c-974d400018ff"
+            "value": "68a0572b-9473-4767-9118-2d22799823a1"
           },
           "Image": {
             "asset": "asset/Texture/GingersunUI/ButtonPanel.png"
@@ -40,7 +40,7 @@
           "Font": "HarmonyOS_Sans_SC_Bold",
           "Font_size": 35,
           "id": {
-            "value": "806f5883-9ad5-4836-89a2-a6532fd22044"
+            "value": "8de803b1-39ca-4f22-937d-37246493f392"
           },
           "pos": {
             "UDim_Y": {
@@ -58,7 +58,7 @@
         }
       ],
       "id": {
-        "value": "5f572224-a08c-44b3-97a2-42a5b62b3d73"
+        "value": "5b4cccc2-5931-43a2-8961-7ef7ddfe08aa"
       },
       "size": {
         "UDim_X": {
@@ -74,7 +74,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "e53c43c75e6c67edd3546e206000314e",
+      "layout": "ed99932e8c9572c5cdf26ab48dba22d0",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

@@ -6,8 +6,6 @@ ENTITY_DIE {
 }
 
 ENTITY_DAMAGE {
-	SendToClient(msg = "client_e7b1b919_d092_43b1_a9e4_e766620c82ed", player = $obj2)
-	$obj2.CrushingScore = $obj2.CrushingScore + $damage
 	AddEntityVp(entity = $obj2, step = -5)
 	ExecScript(Clicker = $obj2, Damage = $damage, script_name = "ScriptableNode_9")
 	SendToClient(msg = "client_32210dcd_0836_451a_bb99_bfe7ed88c6f9", p_CrushingScore = $obj2.CrushingScore, player = $obj2)

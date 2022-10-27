@@ -9,16 +9,16 @@
         "y": -0.5
       }
     },
-    "moveAcc": 1.5,
-    "moveFactor": 1.5,
-    "moveSpeed": 1.5,
+    "moveAcc": 1,
+    "moveFactor": 1,
+    "moveSpeed": 1,
     "name": {
       "value": "buff_Invicible"
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e1c8eea3b84062a7e79f8ff96a708220"
+      "setting.json": "21516fd582341ecf85f3231a108794ec"
     },
     "VERSION": "0.24"
   }

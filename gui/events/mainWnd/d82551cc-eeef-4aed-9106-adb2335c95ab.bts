@@ -1,0 +1,8 @@
+WIDGET_CLICKED {
+	SendToServer(msg = "server_98944707_4b78_4c20_80cf_00149708868d")
+	DestroyWidget(instance = $rootInstance)
+}
+
+ShowConfirm {
+	SetWindowIsShow(instance = GetCustomTriggerInstance(key = "GetCustomTriggerInstance"), visible = true)
+}

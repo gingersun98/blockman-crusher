@@ -26,7 +26,10 @@
           {
             "missileCfg": "myplugin/4e464607-98b6-48ca-8a70-b886d81c2bdc"
           }
-        ]
+        ],
+        "target": {
+          "type": "Camera"
+        }
       },
       "type": "Missile"
     },
@@ -62,7 +65,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "69483afd3823fbce601611c66222ee22",
+      "setting.json": "948211edd9d4b8d26ed78bebb8d5196e",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

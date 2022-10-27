@@ -1,5 +1,5 @@
 print('script_server:hello world')
-
+require "script_server.rankMgr"
 
 local heroWeapon = { [1] = 'myplugin/epee', [2] = 'myplugin/The magic book', [3] = 'myplugin/The_wizard_rod' }
 local skin = {[1] = 'warrior',[2] = 'master', [3] = 'warlock' }
@@ -7,6 +7,7 @@ local actor = { [1] = 'g2038_pet_02_3.actor', [2] = 'g2038_pet_01_3.actor', [3] 
 local jurus1 = { [1] = 'myplugin/Shield_royal', [2] = 'myplugin/ray', [3] = 'myplugin/ice' }
 local jurus2 = { [1] = 'myplugin/Blasting_gas', [2] = 'myplugin/Invicible', [3] = 'myplugin/blow' }
 local shop = { [1] = 'myplugin/2615e7dd-633f-4acd-a274-6db85e524cab', [2] = 'myplugin/987b24fd-dab2-49d7-8f81-fb7169ebb5aa', [3] = 'myplugin/7581b61b-7f5c-462a-becd-73b1ce1602bf' }
+local crosshair = { [1] = 'myplugin/2615e7dd-633f-4acd-a274-6db85e524cab' }
 
 
 

@@ -19,27 +19,39 @@
       "asset": "asset/Actor/Red Blue Element Giant/Elemental Giant.actor"
     },
     "AI_attack": {
+      "attackMode": "autoAttack",
       "chaseDistance": 15,
       "enable": true,
       "skillList": [
         {
+          "attackDis": 3,
           "fullName": "myplugin/attack",
-          "priority": 4
-        },
-        {
-          "attackDis": 5,
-          "fullName": "myplugin/blame2",
-          "priority": 3
-        },
-        {
-          "attackDis": 5,
-          "fullName": "myplugin/blame",
-          "priority": 2
+          "priority": 6
         },
         {
           "attackDis": 10,
-          "fullName": "myplugin/blow",
+          "fullName": "myplugin/blame2",
+          "priority": 5
+        },
+        {
+          "attackDis": 10,
+          "fullName": "myplugin/blame",
+          "priority": 4
+        },
+        {
+          "attackDis": 10,
+          "fullName": "myplugin/ray",
+          "priority": 3
+        },
+        {
+          "attackDis": 10,
+          "fullName": "myplugin/ice",
           "priority": 1
+        },
+        {
+          "attackDis": 3,
+          "fullName": "myplugin/Shield_royal",
+          "priority": 2
         }
       ]
     },
@@ -47,20 +59,21 @@
       "homeSize": 15
     },
     "AI_walkRules": {
-      "ai_navigation": {
-        "enable": true
-      },
       "faceCliff": {
         "height": 1
       }
     },
     "boundingVolume": {
+      "height": 2,
       "height_c": 2,
+      "radius": 0.75,
       "radius_c": 0.75,
       "type": "Capsule"
     },
     "boundingVolumeEntityCfg": {
+      "height": 2,
       "height_c": 2,
+      "radius": 0.75,
       "radius_c": 0.75,
       "type": "Capsule"
     },
@@ -1178,8 +1191,8 @@
                 "value": "576752cd-ac9f-4b21-9ce4-9fd1db87c94c"
               },
               "pos": {
-                "x": 479.40291773728,
-                "y": 466.79205665805
+                "x": 502.40291773728,
+                "y": 449.79205665805
               }
             },
             {
@@ -1321,12 +1334,8 @@
                   {
                     "action": "9c2b01d6-fd54-4971-8083-b573faa7ad49"
                   },
-                  {
-                    "action": "77a7dff2-0b80-401f-9308-df754d655f8d"
-                  },
-                  {
-                    "action": "576752cd-ac9f-4b21-9ce4-9fd1db87c94c"
-                  },
+                  [],
+                  [],
                   {
                     "action": "c450311a-c35a-460c-9fcc-5d126c6d94ef"
                   }
@@ -1348,8 +1357,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "acf4373c90b33d0ed06d746704f33ae1",
-      "triggers.bts": "3ab91a188ce4c94aedac3181aa0b7dc5"
+      "setting.json": "ad083826ce943b010463a36620d3f8dc",
+      "triggers.bts": "19fae2c17814de76480196d35ca861e3"
     },
     "VERSION": "0.24"
   }

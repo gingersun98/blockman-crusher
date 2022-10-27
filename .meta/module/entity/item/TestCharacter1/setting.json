@@ -34,7 +34,7 @@
       }
     },
     "girlactor": {
-      "asset": ""
+      "asset": "empty.actor"
     },
     "headPic": {
       "asset": "asset/3D Asset/merchant2.png"
@@ -230,8 +230,8 @@
                 "value": "19fb3d73-66f1-4368-b1da-d722ac6ae59c"
               },
               "pos": {
-                "x": 197,
-                "y": 265
+                "x": 204.387277218945,
+                "y": 40.4267725440624
               }
             },
             {
@@ -246,8 +246,7 @@
                 "value": "427b1139-0249-4bf0-881a-d2d9273fd23e"
               },
               "pos": {
-                "x": 540.552563125,
-                "y": 216.2762815625
+                "x": 590.786048213828
               },
               "type": "T_Entity"
             },
@@ -263,8 +262,8 @@
                 "value": "6278eb60-e327-42b5-9661-eb0646f9be97"
               },
               "pos": {
-                "x": 535.7506503125,
-                "y": 349.15899
+                "x": 534.273194868711,
+                "y": 127.540673431641
               },
               "type": "T_Entity"
             },
@@ -453,6 +452,49 @@
                 "x": 17.867941875,
                 "y": 897.2259384375
               }
+            },
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "0551bb9d-5297-4366-bf7e-2b51cc2b4e5c"
+                      }
+                    }
+                  ],
+                  "proto_id": "71398682-0a6a-4d63-bde2-adb0920ef41c",
+                  "proto_name": "OpenLoadOutShop",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "356d8b78-b724-45b9-9086-93b247006cd6"
+              },
+              "pos": {
+                "x": 267.41943532582,
+                "y": 348.67948473422
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "0551bb9d-5297-4366-bf7e-2b51cc2b4e5c"
+              },
+              "pos": {
+                "x": 310.265643195699,
+                "y": 181.72701958605
+              },
+              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -466,10 +508,10 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  [],
                   {
-                    "action": "84d91809-03c7-4e31-9e29-ad9907b66f36"
+                    "action": "356d8b78-b724-45b9-9086-93b247006cd6"
                   },
+                  [],
                   []
                 ]
               }
@@ -492,7 +534,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "f7b40def29a077694e9ab310ee2217fe",
-      "triggers.bts": "e11b1721251bdb7dd512ffad412baa21"
+      "triggers.bts": "b222f596506809094d6ec24d35414783"
     },
     "VERSION": "0.24"
   }

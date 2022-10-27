@@ -21,12 +21,6 @@
       }
     },
     "skillReleaseWay": {
-      "icon": {
-        "asset": "asset/Texture/Skill/common/icon_近战攻击_act.png"
-      },
-      "icon_pushed": {
-        "asset": "asset/Texture/Skill/common/icon_近战攻击_nor.png"
-      },
       "iconPos": {
         "area_number": 8
       },
@@ -133,7 +127,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a1db85920ba944c862535b61e50c9f95",
+      "setting.json": "fd4550df76a1ee2a04ca6122a92cb39e",
       "triggers.bts": "5a566fc7c963bf1119b53b2fee3dc77b"
     },
     "VERSION": "0.24"

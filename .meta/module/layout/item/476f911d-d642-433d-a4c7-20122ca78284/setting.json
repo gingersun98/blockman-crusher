@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "3645b15e3cf5682b8ebfac8ab63a8082",
+    "md5": "0e55bcf77aadf88c0dd34aeeeb6c4141",
     "path": "asset/DefeatEntity.layout",
     "root": {
       "Alpha": 0.997,
@@ -16,44 +16,200 @@
           "children": [
             {
               "__OBJ_TYPE": "StaticText",
+              "Alpha": 0.994,
               "anchor": {
                 "HorizontalAlignment": "Centre"
               },
               "Font": "HarmonyOS_Sans_SC_Bold",
-              "Font_size": 18,
+              "Font_size": 13,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "57cf01af-7b32-4a34-8485-e9a559689192"
+                "value": "2bba6c71-9f05-4088-8abf-da93770836f3"
               },
               "pos": {
                 "UDim_Y": {
-                  "Scale": 0.15
+                  "Scale": 0.18
                 }
               },
               "Text": "Crush Score is: 0",
               "text_key": {
                 "value": "asset/DefeatEntity.layout.StaticText#c82c1489-2e62-4676-8d5c-956675fe966f"
+              },
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_SetTextContext",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "ba434053-2b01-4eef-975e-2f49433d2c23"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Text",
+                                  "action": "f63834d1-5133-4a52-85be-1cec16a86a9d",
+                                  "rawval": {
+                                    "value": "da35a512-c1a5-41a6-9998-de68d7820437"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "1c30cb16-f57c-4586-b68b-f48177142d03"
+                        },
+                        "pos": {
+                          "x": 438,
+                          "y": 269
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "instance"
+                          }
+                        ],
+                        "id": {
+                          "value": "ba434053-2b01-4eef-975e-2f49433d2c23"
+                        },
+                        "pos": {
+                          "x": 762,
+                          "y": 189
+                        },
+                        "type": "T_Var"
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_Concat",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_String",
+                                  "rawval": "Crush Score:"
+                                }
+                              },
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_String",
+                                  "action": "0a9a103b-592d-4ab0-a795-8ddb83b7cc51"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "f63834d1-5133-4a52-85be-1cec16a86a9d"
+                        },
+                        "pos": {
+                          "x": 825,
+                          "y": 367
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_ToString",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Double",
+                                  "action": "bed73b7c-0f0d-4bdc-a511-7861ee82775f"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "0a9a103b-592d-4ab0-a795-8ddb83b7cc51"
+                        },
+                        "pos": {
+                          "x": 1138,
+                          "y": 477
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetProtocolParam",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Proto_Param",
+                            "key": "CrushPoint"
+                          }
+                        ],
+                        "id": {
+                          "value": "bed73b7c-0f0d-4bdc-a511-7861ee82775f"
+                        },
+                        "pos": {
+                          "x": 1431,
+                          "y": 537
+                        },
+                        "proto_id": "1d7079a5-f1da-4b0c-b482-a769a235ba8a",
+                        "type": "T_Int"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "fe9b4550-1486-4d6e-afbf-5f9b030bc6a3"
+                      },
+                      "type": "Trigger_RegisterClientProto"
+                    },
+                    "func_name": "CrushPoint",
+                    "proto_uuid": "1d7079a5-f1da-4b0c-b482-a769a235ba8a",
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "1c30cb16-f57c-4586-b68b-f48177142d03"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "c70006f6-265c-4cce-8109-f295f3110e29"
+                      },
+                      "pos": {
+                        "x": 55,
+                        "y": 192
+                      }
+                    },
+                    "type": "Trigger_RegisterClientProto"
+                  }
+                ]
               }
             }
           ],
           "horzFormatting": "CentreAligned",
           "id": {
-            "value": "26f8f516-dab6-4898-82ac-064714c7ca83"
+            "value": "8917396e-750c-47fb-8f1a-c3383143a890"
           },
           "Image": {
             "asset": "asset/Texture/GingersunUI/shop6.png.png"
           },
           "pos": {
             "UDim_Y": {
-              "Scale": 0.15
+              "Scale": 0.12
             }
           },
           "size": {
             "UDim_X": {
-              "Offect": 509
+              "Offect": 381
             },
             "UDim_Y": {
-              "Offect": 84
+              "Offect": 64
             }
           },
           "vertFormatting": "CentreAligned",
@@ -61,7 +217,7 @@
         }
       ],
       "id": {
-        "value": "1f843044-cbf2-4c34-a46d-6b7e20ce341f"
+        "value": "00007b72-fb6e-431f-a815-a533058a113f"
       },
       "size": {
         "UDim_X": {
@@ -220,8 +376,8 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "3645b15e3cf5682b8ebfac8ab63a8082",
-      "triggers.bts": "8b7e2dd79712f86578ab59a467550466"
+      "layout": "0e55bcf77aadf88c0dd34aeeeb6c4141",
+      "triggers.bts": "4f924d90211673e775c788a8aa5166fa"
     },
     "VERSION": "0.24"
   }

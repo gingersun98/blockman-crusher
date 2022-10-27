@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "0659f63814aa65eb9f737daf0cdcc3f4",
+    "md5": "4b97622c667820a1335f2438e94f660b",
     "path": "asset/gameInfoWnd.layout",
     "root": {
       "anchor": {
@@ -30,7 +30,7 @@
                   "Font_size": 19,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "063c47bc-a504-404f-86a8-18cbc6ce5952"
+                    "value": "c4efbd14-2043-4b6c-952b-713d7bbe84e3"
                   },
                   "name": "infoText1",
                   "pos": {
@@ -63,7 +63,7 @@
                   "Font_size": 21,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "318836d1-691c-43ce-b8dc-9ebae96a3259"
+                    "value": "f7bc7317-b6ab-40b6-a22f-5653c775e65a"
                   },
                   "name": "infoText2",
                   "pos": {
@@ -93,7 +93,7 @@
                 }
               ],
               "id": {
-                "value": "8970d0ca-9374-4681-8d4d-4f5b9d705f63"
+                "value": "c0ec018e-f442-4fc1-b3ab-1f68d1f9ab91"
               },
               "name": "nullWnd",
               "pos": {
@@ -125,7 +125,7 @@
               "Font_size": 19,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "ffeef1ac-aa25-4501-84d1-281f6ec10a2c"
+                "value": "03cf40c6-80fd-4a73-a3ed-649e1cf69f37"
               },
               "name": "infoText3",
               "size": {
@@ -151,7 +151,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "12d591ab-e85d-4555-8e42-4ef21e9c2e10"
+                "value": "a3f875a7-37ec-4e43-806a-bb6b11ff1feb"
               },
               "Image": {
                 "asset": "asset/Texture/ui/img_提示吐司.png"
@@ -174,7 +174,7 @@
             }
           ],
           "id": {
-            "value": "db559862-e627-4081-a634-8cc8a8f69b47"
+            "value": "7873ae9e-3b20-4c9d-8116-b0d7d2226acd"
           },
           "Image": {
             "asset": "asset/Texture/ui/提示语文字_9宫格四周各8.png"
@@ -209,7 +209,7 @@
         }
       ],
       "id": {
-        "value": "e96c7a73-2cf9-463f-90b4-654d2c920087"
+        "value": "51183dbe-c3fd-4782-a93f-cdd884421a68"
       },
       "size": {
         "UDim_X": {
@@ -226,7 +226,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "0659f63814aa65eb9f737daf0cdcc3f4",
+      "layout": "4b97622c667820a1335f2438e94f660b",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

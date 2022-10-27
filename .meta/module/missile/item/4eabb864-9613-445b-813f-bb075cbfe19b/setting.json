@@ -1,6 +1,7 @@
 {
   "data": {
     "boundingVolume": {
+      "height": 1.5,
       "type": "Capsule"
     },
     "boundingVolumeMissileCfg": {
@@ -39,16 +40,13 @@
       "once": true,
       "pos": {
         "x": 1
-      },
-      "time": {
-        "value": 20
       }
     },
     "target_type": "hitNpc"
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e3d377f0d443b4275bee1da93adce082",
+      "setting.json": "bead3fb2133154b3252226134f076276",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

@@ -37,29 +37,23 @@
       "patrolMode": "randomPath"
     },
     "boundingVolume": {
-      "height_c": 10,
+      "height": 10,
+      "height_c": 7,
       "position": {
         "x": 1
       },
-      "radius_c": 1.5,
-      "size": {
-        "x": 3,
-        "y": 5,
-        "z": 3
-      },
+      "radius": 1.5,
+      "radius_c": 0.75,
       "type": "Capsule"
     },
     "boundingVolumeEntityCfg": {
-      "height_c": 10,
+      "height": 10,
+      "height_c": 7,
       "position": {
         "x": 1
       },
-      "radius_c": 1.5,
-      "size": {
-        "x": 3,
-        "y": 5,
-        "z": 3
-      },
+      "radius": 1.5,
+      "radius_c": 1,
       "type": "Capsule"
     },
     "canMove": false,
@@ -4756,12 +4750,8 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "d753388f-8244-4f49-ad14-4c6a309afd36"
-                  },
-                  {
-                    "action": "90e21c92-7dce-4ffa-8903-6a07274014aa"
-                  },
+                  [],
+                  [],
                   {
                     "action": "2e017f72-9f31-43e0-97a6-11205d49311d"
                   },
@@ -4892,8 +4882,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "482655915bf22be6dd0f6fcb042d9c73",
-      "triggers.bts": "fe2f82431f50443b4f25801e8e177f17"
+      "setting.json": "fdb6f0ca51a482825190c54b3284eb04",
+      "triggers.bts": "2c80a81c3b17abad8fe355473ac0a385"
     },
     "VERSION": "0.24"
   }

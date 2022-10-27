@@ -7,7 +7,7 @@
   "actorName": "asset/Actor/Yellow Fire Elemental Monster/Flame Elf.actor",
   "aiFixSpeedRate": 2,
   "attackNpc": false,
-  "autoAttack": false,
+  "autoAttack": true,
   "autoMove": false,
   "autoRotateColliderBox": true,
   "avoidCliff": true,
@@ -25,7 +25,7 @@
   "checkPartTouchEvent": true,
   "clickDistance": 4,
   "collider": {
-    "height": 2.2,
+    "height": 2,
     "offset": {
       "x": 0,
       "y": 0,
@@ -48,7 +48,6 @@
   "dropDamageRatio": 0,
   "dropDamageStart": 1.5,
   "enableAI": true,
-  "enableMeshNavigate": true,
   "equipTrays": [],
   "eyeHeight": 1.62,
   "followEntityDistanceWhenHasTarget": 10,
@@ -91,19 +90,13 @@
     },
     {
       "__OBJ_TYPE": "AI_Skill",
-      "attackDis": 6,
+      "attackDis": 10,
       "fullName": "myplugin/blame",
       "priority": 2
     },
     {
       "__OBJ_TYPE": "AI_Skill",
-      "attackDis": 10,
-      "fullName": "myplugin/Blasting_gas",
-      "priority": 1
-    },
-    {
-      "__OBJ_TYPE": "AI_Skill",
-      "attackDis": 10,
+      "attackDis": 3,
       "fullName": "myplugin/Shield_royal",
       "priority": 1
     }

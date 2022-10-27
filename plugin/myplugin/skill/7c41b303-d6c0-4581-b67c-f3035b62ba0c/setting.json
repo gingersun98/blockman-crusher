@@ -112,7 +112,7 @@
     0
   ],
   "sustainAction": "",
-  "targetType": "Any",
+  "targetType": "Camera",
   "touchTime": 20,
   "type": "Missile",
   "verticalAlignment": 2

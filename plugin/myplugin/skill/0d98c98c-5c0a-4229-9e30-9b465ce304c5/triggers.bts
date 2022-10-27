@@ -1,3 +1,9 @@
 SKILL_CAST {
+	StartTimer2(interval = 20, object = $obj1, time = 5, timer = "RegenHunger") {
+		AddEntityVp(entity = $obj1, step = 10)
+	}
 	ConsumeItem2(entity = $obj1, item = "myplugin/547b7be6-2cb9-4e37-9bc4-bd58f37fb3a1", num = 1, reason = "")
+	SendToClient(msg = "client_fe4e7880_b40c_4be5_b09e_8f5485644233", player = $obj1)
+	$obj1.Promp = "(Regen 10 Mp for 5 sec)"
+	SendToClient(msg = "client_5e6f8c55_f768_4903_81ec_60633b35c0fa", p_Promp = $obj1.Promp, player = $obj1)
 }

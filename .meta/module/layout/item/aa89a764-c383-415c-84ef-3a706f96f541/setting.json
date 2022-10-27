@@ -1,0 +1,424 @@
+{
+  "data": {
+    "md5": "1f5522a97cb6379eddf66b72681f21fc",
+    "path": "asset/rankWnd.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "id": {
+                "value": "5d6bce56-7658-4367-9a95-a2959611aadb"
+              },
+              "Image": {
+                "asset": "asset/Texture/ui/bg_ranking_big_title.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 699
+                },
+                "UDim_Y": {
+                  "Offect": 110
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "Font_size": 23,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "a58fd9fb-a278-4720-a746-42d16fa59470"
+              },
+              "name": "Txt_rankTitle",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.16
+                }
+              },
+              "text_key": {
+                "value": "asset/rankWnd.layout.StaticText#9fa4a43f-30d5-4534-9104-9743a3923353"
+              },
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "ScrollableView",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "BackGroundImage": {
+                "asset": "asset/Texture/GingersunUI/Window04.png"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "VerticalLayoutContainer",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "DefaultWindow",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "ClippedByParent": true,
+                          "id": {
+                            "value": "a3765c15-c26f-4279-818f-e343669be19f"
+                          },
+                          "Image": {
+                            "asset": "asset/Texture/ui/bg_ranking_me.png"
+                          },
+                          "name": "Img_lineBg",
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 1
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          }
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "Font_size": 20,
+                          "HorzFormatting": "CentreAligned",
+                          "id": {
+                            "value": "ded602ca-84be-4a02-88c7-214b8791be78"
+                          },
+                          "name": "Txt_name",
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 0.35
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "text_key": {
+                            "value": "asset/rankWnd.layout.StaticText#3ba51d67-4964-436b-9a93-8dc2a70e6743"
+                          },
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "VertFormatting": "CentreAligned"
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "anchor": {
+                            "HorizontalAlignment": "Right",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "ClippedByParent": true,
+                          "Font_size": 20,
+                          "HorzFormatting": "CentreAligned",
+                          "id": {
+                            "value": "7f2272d6-52d7-45b1-a070-865d0d8e768e"
+                          },
+                          "name": "Txt_power",
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 0.35
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "text_key": {
+                            "value": "asset/rankWnd.layout.StaticText#a91692a1-1ef2-4a09-9a10-5bd34c24dc7e"
+                          },
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "VertFormatting": "CentreAligned"
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "anchor": {
+                            "HorizontalAlignment": "Centre",
+                            "VerticalAlignment": "Centre"
+                          },
+                          "id": {
+                            "value": "b6954d54-63f0-4a6a-b299-1f5ea62faa86"
+                          },
+                          "Image": {
+                            "asset": "asset/3D Asset/CoinDepan.png"
+                          },
+                          "name": "Image1",
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 64
+                            },
+                            "UDim_Y": {
+                              "Offect": 64
+                            }
+                          }
+                        }
+                      ],
+                      "ClippedByParent": true,
+                      "id": {
+                        "value": "7c57eeb6-076d-4243-bbad-0ef4207deee0"
+                      },
+                      "name": "DW_grid",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 0.2
+                        }
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "e41c145f-5227-4087-a626-1fcbbc9c5a0f"
+                  },
+                  "name": "VL_grid",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 737
+                    },
+                    "UDim_Y": {
+                      "Offect": 112
+                    }
+                  }
+                }
+              ],
+              "ClippedByParent": true,
+              "ForceHorzScrollbar": false,
+              "HorizontalMovable": false,
+              "id": {
+                "value": "7c10c22e-ad07-47e3-bd69-eb91f12e1174"
+              },
+              "name": "SV_grid",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.96
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.73
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font_size": 20,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "0e99250a-d943-47a2-8088-fe20275c95e3"
+                  },
+                  "name": "Txt_nameTip",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.35
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "text_key": {
+                    "value": "asset/rankWnd.layout.StaticText#2dcaedfa-04b8-44c6-bfc4-282477054e29"
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Right",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font_size": 20,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "f6f589e0-b5ad-4f74-9d55-508be8bea449"
+                  },
+                  "name": "Txt_powerTip",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.35
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  },
+                  "text_key": {
+                    "value": "asset/rankWnd.layout.StaticText#6e5ed95f-d948-4ed1-a5c2-bdb366013ada"
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned",
+                  "WindowTouchThroughMode": "MousePassThroughOpen"
+                }
+              ],
+              "id": {
+                "value": "0ce63a52-49c7-410e-990c-20892a54f790"
+              },
+              "name": "DW_titleTip",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.13
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.1
+                }
+              },
+              "Visible": false,
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "Font_size": 32,
+              "HoverImage": {
+                "asset": "asset/Texture/GingersunUI/Checked_02.png"
+              },
+              "id": {
+                "value": "a1a4c7bd-808d-4101-a1e4-8a9a5b505243"
+              },
+              "name": "Btn_close",
+              "NormalImage": {
+                "asset": "asset/Texture/GingersunUI/Checked_02.png"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.07
+                }
+              },
+              "PushedImage": {
+                "asset": "asset/Texture/GingersunUI/Checked_02.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.07
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.09
+                }
+              },
+              "Text": "",
+              "text_key": {
+                "value": "asset/rankWnd.layout.Button#8d21000d-42a1-42e2-b4ea-270aee34d108"
+              }
+            }
+          ],
+          "id": {
+            "value": "1240487d-e756-4437-8a66-eb50aec55c20"
+          },
+          "Image": {
+            "asset": "asset/Texture/GingersunUI/Window03.png"
+          },
+          "name": "Img_Bg",
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.6
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.8
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "2f3fa739-9f87-408c-8180-06bc2b3ce5ab"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "1f5522a97cb6379eddf66b72681f21fc",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -4616,12 +4616,8 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "d753388f-8244-4f49-ad14-4c6a309afd36"
-                  },
-                  {
-                    "action": "90e21c92-7dce-4ffa-8903-6a07274014aa"
-                  },
+                  [],
+                  [],
                   {
                     "action": "1478860e-637e-4a05-b9e0-4724c2460a57"
                   },
@@ -4751,7 +4747,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "7bc7ff14fb7b0acd1d9da73c5e89eadb",
-      "triggers.bts": "a34f3717994ae5862fa41f7d080a3979"
+      "triggers.bts": "28f80035dd5b8312e042cced1b183fd6"
     },
     "VERSION": "0.24"
   }

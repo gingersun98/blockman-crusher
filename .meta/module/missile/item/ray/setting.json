@@ -18,7 +18,7 @@
         "asset": "asset/master/boom.effect"
       }
     },
-    "hitEntitySkill": "myplugin/hurt",
+    "hitEntitySkill": "myplugin/Knockback2",
     "hitEntitySound": {
       "volume": {
         "value": 0
@@ -266,7 +266,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "81bbe564a91161c71cbb73c8f5ec62a8",
+      "setting.json": "d9feb2444d5cf5c7470fcc2a59beff80",
       "triggers.bts": "72cc3f900de3a515fff800d5ea063d11"
     },
     "VERSION": "0.24"

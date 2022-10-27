@@ -1,3 +1,6 @@
 SKILL_CAST {
 	ConsumeItem2(entity = $obj1, item = "myplugin/15a5078e-f6aa-45f1-aba7-6f7b4ecefce0", num = 1, reason = "")
+	SendToClient(msg = "client_fe4e7880_b40c_4be5_b09e_8f5485644233", player = $obj1)
+	$obj1.Promp = "Buff (+ Dmg for 5 sec)"
+	SendToClient(msg = "client_5e6f8c55_f768_4903_81ec_60633b35c0fa", p_Promp = $obj1.Promp, player = $obj1)
 }

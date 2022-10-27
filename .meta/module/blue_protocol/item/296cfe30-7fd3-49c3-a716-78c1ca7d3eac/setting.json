@@ -1,0 +1,14 @@
+{
+  "data": {
+    "id": {
+      "value": "296cfe30-7fd3-49c3-a716-78c1ca7d3eac"
+    },
+    "name": "JoinBattle",
+    "register_object": "game/0/triggers/list/24",
+    "save": true
+  },
+  "meta": {
+    "EXPORT": [],
+    "VERSION": "0.24"
+  }
+}

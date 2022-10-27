@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "8a38244c3ab2ee0281240053af15fb29",
+    "md5": "55831b7b5195e680b5e37b186a9ca523",
     "path": "asset/PVPBattle.layout",
     "root": {
       "anchor": {
@@ -24,7 +24,7 @@
               "Font_size": 35,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "9907fcf5-976e-4bde-8ec5-1c2785e45365"
+                "value": "c40112fc-12ac-4026-bc68-f274f480eaf3"
               },
               "pos": {
                 "UDim_Y": {
@@ -63,7 +63,7 @@
                 "r": 255
               },
               "id": {
-                "value": "d2121266-9be4-4c19-9c2b-16445b9fc1b2"
+                "value": "e0524085-95a1-465b-a824-8c126ff5bf06"
               },
               "name": "YES",
               "NormalImage": {
@@ -96,6 +96,76 @@
               "Text": "YES",
               "text_key": {
                 "value": "asset/PVPBattle.layout.Button#1bec8cdc-0182-48b4-bc01-a8656d1d8149"
+              },
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Proto_Params",
+                            "proto_id": "9bc0c50f-859d-4770-9fbb-68ae650cd3c2",
+                            "proto_name": "MatchStart",
+                            "proto_type": "server"
+                          }
+                        ],
+                        "id": {
+                          "value": "ed490306-bdc9-4e19-aa41-1a0b3604853f"
+                        },
+                        "pos": {
+                          "x": 433,
+                          "y": 220
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_Protocol_SendToServer",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Proto_Params",
+                            "proto_id": "296cfe30-7fd3-49c3-a716-78c1ca7d3eac",
+                            "proto_name": "JoinBattle",
+                            "proto_type": "server"
+                          }
+                        ],
+                        "id": {
+                          "value": "d42fb946-675a-47b1-b15a-b81a341292d4"
+                        },
+                        "pos": {
+                          "x": 415,
+                          "y": 133
+                        }
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "5f34f0d6-cfee-4894-9bae-b302d5316bc6"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "d42fb946-675a-47b1-b15a-b81a341292d4"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "a4afdbc7-1c80-4f6f-ac43-8ddce203261b"
+                      },
+                      "pos": {
+                        "x": 137,
+                        "y": 109
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  }
+                ]
               }
             },
             {
@@ -115,7 +185,7 @@
                 "r": 255
               },
               "id": {
-                "value": "d4251ffe-870d-4097-b809-eb9d097a6260"
+                "value": "785e1c01-a34d-4f4d-85aa-1c1a8d01c92c"
               },
               "name": "NO",
               "NormalImage": {
@@ -148,6 +218,80 @@
               "Text": "NO",
               "text_key": {
                 "value": "asset/PVPBattle.layout.Button#8f3e8473-2d6d-4e05-a444-078411c6b74d"
+              },
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_DestoryWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "7e98e570-34a1-4491-8725-9e202dbf7e8f"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "e0a7badc-857f-4d7c-b7e5-a5c7fecf057e"
+                        },
+                        "pos": {
+                          "x": 363,
+                          "y": 183
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "7e98e570-34a1-4491-8725-9e202dbf7e8f"
+                        },
+                        "pos": {
+                          "x": 718,
+                          "y": 251
+                        },
+                        "type": "T_Layout"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "00b0eac3-3907-4c51-8cc6-f8aaa9629551"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "e0a7badc-857f-4d7c-b7e5-a5c7fecf057e"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "72c127f9-4ac2-49a5-9ce8-2e1edf08a0d2"
+                      },
+                      "pos": {
+                        "x": 104,
+                        "y": 126
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  }
+                ]
               }
             },
             {
@@ -160,7 +304,7 @@
               "Font_size": 35,
               "HorzFormatting": "CentreAligned",
               "id": {
-                "value": "bb86934f-5ce2-4abc-bebe-6d34d08930a7"
+                "value": "c77c1787-ca06-4557-872c-377d282868b5"
               },
               "name": "Text1",
               "size": {
@@ -180,7 +324,7 @@
             }
           ],
           "id": {
-            "value": "feeb5a00-7cf1-4cbe-ad1a-82c74f6c16b0"
+            "value": "07df804d-7a56-4e27-be22-bd9b3b111757"
           },
           "Image": {
             "asset": "asset/Texture/GingersunUI/Window01.png"
@@ -196,7 +340,7 @@
         }
       ],
       "id": {
-        "value": "dc41f1cb-7c2a-4672-90cf-97692db177a4"
+        "value": "e72a6b4e-9231-46cf-b5e4-754f8a622cc4"
       },
       "size": {
         "UDim_X": {
@@ -242,8 +386,8 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "8a38244c3ab2ee0281240053af15fb29",
-      "triggers.bts": "008441303d83e68cdb81d833e65ecfb7"
+      "layout": "55831b7b5195e680b5e37b186a9ca523",
+      "triggers.bts": "4a6ee693a7acc593c46c51fc4cf43f9e"
     },
     "VERSION": "0.24"
   }

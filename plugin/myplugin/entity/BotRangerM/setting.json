@@ -7,7 +7,7 @@
   "actorName": "asset/Actor/Blue Ice Elemental Monster/Frost Elf.actor",
   "aiFixSpeedRate": 2,
   "attackNpc": false,
-  "autoAttack": false,
+  "autoAttack": true,
   "autoMove": false,
   "autoRotateColliderBox": true,
   "avoidCliff": true,
@@ -48,7 +48,6 @@
   "dropDamageRatio": 0,
   "dropDamageStart": 1.5,
   "enableAI": true,
-  "enableMeshNavigate": true,
   "equipTrays": [],
   "eyeHeight": 1.62,
   "followEntityDistanceWhenHasTarget": 10,
@@ -85,26 +84,20 @@
   "skillInfoList": [
     {
       "__OBJ_TYPE": "AI_Skill",
-      "attackDis": 4,
+      "attackDis": 3,
       "fullName": "myplugin/attack",
       "priority": 4
     },
     {
       "__OBJ_TYPE": "AI_Skill",
-      "attackDis": 5,
+      "attackDis": 10,
       "fullName": "myplugin/blame2",
       "priority": 3
     },
     {
       "__OBJ_TYPE": "AI_Skill",
-      "attackDis": 5,
-      "fullName": "myplugin/blame",
-      "priority": 2
-    },
-    {
-      "__OBJ_TYPE": "AI_Skill",
       "attackDis": 10,
-      "fullName": "myplugin/blow",
+      "fullName": "myplugin/ice",
       "priority": 1
     }
   ],

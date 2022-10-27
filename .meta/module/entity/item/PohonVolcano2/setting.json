@@ -37,18 +37,22 @@
       "patrolMode": "randomPath"
     },
     "boundingVolume": {
-      "height_c": 8,
+      "height": 8,
+      "height_c": 6.4685587882996,
       "position": {
-        "x": 0.2,
-        "y": -0.2
+        "x": 0.14762599766254,
+        "y": -0.58602499961853,
+        "z": 0.15549299120903
       },
       "type": "Capsule"
     },
     "boundingVolumeEntityCfg": {
-      "height_c": 8,
+      "height": 8,
+      "height_c": 6.46855878829956,
       "position": {
-        "x": 0.2,
-        "y": -0.2
+        "x": 0.147625997662544,
+        "y": -0.58602499961853,
+        "z": 0.15549299120903
       },
       "type": "Capsule"
     },
@@ -4745,12 +4749,8 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "d753388f-8244-4f49-ad14-4c6a309afd36"
-                  },
-                  {
-                    "action": "90e21c92-7dce-4ffa-8903-6a07274014aa"
-                  },
+                  [],
+                  [],
                   {
                     "action": "e109f2de-367b-4178-b337-053179e2667c"
                   },
@@ -4881,8 +4881,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2be69d292ce72a6887f77a2ba32bfd61",
-      "triggers.bts": "fe2f82431f50443b4f25801e8e177f17"
+      "setting.json": "b3b438a8447ae85f4af0cdb5271ffa77",
+      "triggers.bts": "2c80a81c3b17abad8fe355473ac0a385"
     },
     "VERSION": "0.24"
   }

@@ -15,6 +15,9 @@
         "hurtDistance": 0
       }
     },
+    "skillReleaseWay": {
+      "isClick": true
+    },
     "triggers": {
       "list": [
         {
@@ -193,7 +196,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "458f889b39f1a92974321596766607c7",
+      "setting.json": "15f55cc2e03f6924350086bb5262f743",
       "triggers.bts": "204fef465f82563ce699c56705da60a4"
     },
     "VERSION": "0.24"

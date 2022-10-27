@@ -1,202 +1,202 @@
 <ActorTemplates>
-	<ActorTemplate Alpha="1" Skeleton="g2038_pet_01_3.skel" name="111.actor" IntervalTime="2" AttackScale="1" WoundAngle="25" IsShowShadow="true" SoundName5="" SoundName2="" SoundFileNum="0" SoundName3="" Volume="0.8" MaxDistance="16" SoundName4="" TextHeight="0" SelectedRingSize="1" MinDistance="1" Originalscale="1 1 1" WoundBone="" SoundName1="">
-		<BodyParts>
-			<BodyPart MasterName="body" SlaveName="1" DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1">
-				<Skin UseOverlayColorReplaceMode="false" LocalBrightnessScale="1" UseTransparentNearestSlice="false" EdgeColor="1.0 0 0 1.0" DiscardAlpha="0" SpecularColor="1.0 1.0 1.0 1.0" UseOriginalcolor="false" type_name="g2038_pet_01_3" SpecularCoef="0.15" UseBloom="false" MeshName="g2038_pet_01_3.skin" UseEdge="false" LocalAlpha="1" SpecularStrength="1" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UseReflect="false" OverlayColor="1 1 1 1" UVSpeed="0 0"/>
-			</BodyPart>
-			<BodyPart MasterName="custom_hand" SlaveName="custom_hand_x" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1">
-				<StaticMesh type_name="hunter_dao02" LocalAlpha="1" DiscardAlpha="0">
-					<SocketName value="Bip001_R_Finger01"/>
-					<UseOverlayColorReplaceMode value="false"/>
-					<LocalBrightnessScale value="1.0"/>
-					<UseTransparentNearestSlice value="false"/>
-					<EdgeColor value="1.0 0 0 1.0"/>
-					<roll value="0"/>
-					<SpecularColor value="1.0 1.0 1.0 1.0"/>
-					<UseOriginalcolor value="false"/>
-					<Position_Y value="0"/>
-					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<UseBloom value="false"/>
-					<pitch value="0"/>
-					<scale value="1"/>
-					<UseEdge value="false"/>
-					<FileName value="asset/Mesh/Purple-Yellow Catapult Pistol/g2047_gun_01_02.mesh"/>
-					<SpecularStrength value="1.0"/>
-					<UseReflect value="false"/>
-					<SpecularCoef value="0.15"/>
-					<OverlayColor value="1.0 1.0 1.0 1.0"/>
-					<Position_X value="0"/>
-				</StaticMesh>
-			</BodyPart>
-			<BodyPart MasterName="mutex_name_2" SlaveName="group2" DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1">
-				<StaticMesh type_name="Cylinder" LocalAlpha="1" DiscardAlpha="0">
-					<SocketName value="Origin197011"/>
-					<UseOverlayColorReplaceMode value="false"/>
-					<LocalBrightnessScale value="1.0"/>
-					<UseTransparentNearestSlice value="false"/>
-					<EdgeColor value="1.0 0 0 1.0"/>
-					<roll value="0"/>
-					<SpecularColor value="1.0 1.0 1.0 1.0"/>
-					<UseOriginalcolor value="false"/>
-					<Position_Y value="0"/>
-					<Position_Z value="0"/>
-					<yaw value="0"/>
-					<UseBloom value="false"/>
-					<pitch value="0"/>
-					<scale value="1"/>
-					<UseEdge value="false"/>
-					<FileName value="asset/3D Asset/pickaxe/Cylinder.mesh"/>
-					<SpecularStrength value="1.0"/>
-					<UseReflect value="false"/>
-					<SpecularCoef value="0.15"/>
-					<OverlayColor value="1.0 1.0 1.0 1.0"/>
-					<Position_X value="0"/>
-				</StaticMesh>
-			</BodyPart>
-		</BodyParts>
+	<ActorTemplate SoundFileNum="0" MaxDistance="16" MinDistance="1" Alpha="1" AttackScale="1" TextHeight="0" Volume="0.8" SoundName3="" SoundName4="" name="111.actor" SoundName5="" Originalscale="1 1 1" Skeleton="g2038_pet_01_3.skel" IsShowShadow="true" WoundAngle="25" SoundName2="" IntervalTime="2" WoundBone="" SelectedRingSize="1" SoundName1="">
+		<SubActors/>
 		<Skills>
-			<Skill UserDefineTime="-2" Name="attack" TextMode="0" EnableWound="false">
-				<Animation Times="1" TimeScale="0.73" BeginTime="0" Channel="" Name="g2038_pet_01_3_meleeAttack.anim" Length="1.533" FadeTime="0.25"/>
+			<Skill TextMode="0" UserDefineTime="-2" Name="attack" EnableWound="false">
+				<Animation BeginTime="0" FadeTime="0.25" Times="1" Channel="" Length="1.533" Name="g2038_pet_01_3_meleeAttack.anim" TimeScale="0.73"/>
 				<ActorScaleChange endScale="1.22" beginScale="1.22"/>
 			</Skill>
-			<Skill UserDefineTime="-2" Name="attack2" TextMode="0" EnableWound="false">
-				<Animation Times="1" TimeScale="1.3" BeginTime="0" Channel="" Name="g2038_pet_01_3_rangedAttack.anim" Length="2.333" FadeTime="0.25"/>
+			<Skill TextMode="0" UserDefineTime="-2" Name="attack2" EnableWound="false">
+				<Animation BeginTime="0" FadeTime="0.25" Times="1" Channel="" Length="2.333" Name="g2038_pet_01_3_rangedAttack.anim" TimeScale="1.3"/>
 				<ActorScaleChange endScale="1.22" beginScale="1.22"/>
 			</Skill>
-			<Skill UserDefineTime="-2" Name="die" TextMode="0" EnableWound="false">
-				<Animation Times="1" TimeScale="0.5" BeginTime="0" Channel="" Name="g2038_pet_01_3_hit.anim" Length="0.733" FadeTime="0.25"/>
+			<Skill TextMode="0" UserDefineTime="-2" Name="die" EnableWound="false">
+				<Animation BeginTime="0" FadeTime="0.25" Times="1" Channel="" Length="0.733" Name="g2038_pet_01_3_hit.anim" TimeScale="0.5"/>
 				<ActorScaleChange endScale="1.22" beginScale="1.22"/>
 			</Skill>
-			<Skill UserDefineTime="-2" Name="hurt" TextMode="0" EnableWound="false">
-				<Animation Times="1" TimeScale="1" BeginTime="0" Channel="" Name="g2038_pet_01_3_hit.anim" Length="0.733" FadeTime="0.25"/>
+			<Skill TextMode="0" UserDefineTime="-2" Name="hurt" EnableWound="false">
+				<Animation BeginTime="0" FadeTime="0.25" Times="1" Channel="" Length="0.733" Name="g2038_pet_01_3_hit.anim" TimeScale="1"/>
 				<ActorScaleChange endScale="1.22" beginScale="1.22"/>
 			</Skill>
-			<Skill UserDefineTime="-2" Name="idle" TextMode="0" EnableWound="false">
-				<Animation Times="-1" TimeScale="1" BeginTime="0" Channel="" Name="g2038_pet_01_3_idle.anim" Length="2.033" FadeTime="0.25"/>
+			<Skill TextMode="0" UserDefineTime="-2" Name="idle" EnableWound="false">
+				<Animation BeginTime="0" FadeTime="0.25" Times="-1" Channel="" Length="2.033" Name="g2038_pet_01_3_idle.anim" TimeScale="1"/>
 				<ActorScaleChange endScale="1.22" beginScale="1.22"/>
 			</Skill>
-			<Skill UserDefineTime="-2" Name="run" TextMode="0" EnableWound="false">
-				<Animation Times="-1" TimeScale="2.5" BeginTime="0" Channel="" Name="g2038_pet_01_3_walk.anim" Length="1.366" FadeTime="0.25"/>
+			<Skill TextMode="0" UserDefineTime="-2" Name="run" EnableWound="false">
+				<Animation BeginTime="0" FadeTime="0.25" Times="-1" Channel="" Length="1.366" Name="g2038_pet_01_3_walk.anim" TimeScale="2.5"/>
 				<ActorScaleChange endScale="1.22" beginScale="1.22"/>
 			</Skill>
-			<Skill UserDefineTime="-2" Name="rush" TextMode="0" EnableWound="false">
-				<Animation Times="-1" TimeScale="3.1" BeginTime="0" Channel="" Name="g2038_pet_01_3_walk.anim" Length="1.366" FadeTime="0.25"/>
+			<Skill TextMode="0" UserDefineTime="-2" Name="rush" EnableWound="false">
+				<Animation BeginTime="0" FadeTime="0.25" Times="-1" Channel="" Length="1.366" Name="g2038_pet_01_3_walk.anim" TimeScale="3.1"/>
 				<ActorScaleChange endScale="1.22" beginScale="1.22"/>
 			</Skill>
-			<Skill UserDefineTime="-2" Name="greatsword" TextMode="0" EnableWound="false">
-				<Animation Times="1" TimeScale="0.73" BeginTime="0" Channel="" Name="g2038_pet_01_3_meleeAttack.anim" Length="1.533" FadeTime="0.25"/>
+			<Skill TextMode="0" UserDefineTime="-2" Name="greatsword" EnableWound="false">
+				<Animation BeginTime="0" FadeTime="0.25" Times="1" Channel="" Length="1.533" Name="g2038_pet_01_3_meleeAttack.anim" TimeScale="0.73"/>
 				<Effect>
-					<SocketName value="Bip001_L_Finger01"/>
-					<Alpha value="1"/>
-					<yaw value="90"/>
-					<CycleTime value="-1"/>
+					<roll value="0"/>
+					<FileName value="asset/effect/Electric Arc Blade Light Effect/gfxy207_arc knife light_yellow_3d.effect"/>
 					<Times value="1"/>
+					<type_name value="gfxy207_arc knife light_yellow_3d"/>
+					<SocketName value="Bip001_L_Finger01"/>
+					<Position_Z value="0.5"/>
+					<yaw value="90"/>
+					<Alpha value="1"/>
+					<Position_Y value="0"/>
+					<BeginTime value="1.4782608695652"/>
 					<TimeScale value="1"/>
 					<pitch value="0"/>
 					<scale value="1"/>
 					<Position_X value="0.5"/>
-					<roll value="0"/>
-					<FileName value="asset/effect/Electric Arc Blade Light Effect/gfxy207_arc knife light_yellow_3d.effect"/>
-					<Position_Z value="0.5"/>
-					<type_name value="gfxy207_arc knife light_yellow_3d"/>
-					<BeginTime value="1.4782608695652"/>
-					<Position_Y value="0"/>
 					<FollowActor value="true"/>
+					<CycleTime value="-1"/>
 				</Effect>
 			</Skill>
-			<Skill UserDefineTime="-2" Name="sword" TextMode="0" EnableWound="false">
-				<Animation Times="1" TimeScale="0.73" BeginTime="0" Channel="" Name="g2038_pet_01_3_meleeAttack.anim" Length="1.533" FadeTime="0.25"/>
+			<Skill TextMode="0" UserDefineTime="-2" Name="sword" EnableWound="false">
+				<Animation BeginTime="0" FadeTime="0.25" Times="1" Channel="" Length="1.533" Name="g2038_pet_01_3_meleeAttack.anim" TimeScale="0.73"/>
 				<Effect>
-					<SocketName value="Bip001_L_Finger01"/>
-					<Alpha value="1"/>
-					<yaw value="0"/>
-					<CycleTime value="-1"/>
+					<roll value="0"/>
+					<FileName value="asset/auxiliary/attack_bubing01.effect"/>
 					<Times value="1"/>
+					<type_name value="attack_bubing01"/>
+					<SocketName value="Bip001_L_Finger01"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_Y value="0"/>
+					<BeginTime value="1.5434782608696"/>
 					<TimeScale value="1"/>
 					<pitch value="0"/>
 					<scale value="2"/>
 					<Position_X value="0.5"/>
-					<roll value="0"/>
-					<FileName value="asset/auxiliary/attack_bubing01.effect"/>
-					<Position_Z value="0"/>
-					<type_name value="attack_bubing01"/>
-					<BeginTime value="1.5434782608696"/>
-					<Position_Y value="0"/>
 					<FollowActor value="true"/>
+					<CycleTime value="-1"/>
 				</Effect>
 			</Skill>
-			<Skill UserDefineTime="-2" Name="tesseract" TextMode="0" EnableWound="false">
-				<Animation Times="1" TimeScale="1.3" BeginTime="0" Channel="" Name="g2038_pet_01_3_rangedAttack.anim" Length="2.333" FadeTime="0.25"/>
+			<Skill TextMode="0" UserDefineTime="-2" Name="tesseract" EnableWound="false">
+				<Animation BeginTime="0" FadeTime="0.25" Times="1" Channel="" Length="2.333" Name="g2038_pet_01_3_rangedAttack.anim" TimeScale="1.3"/>
 				<Effect>
-					<SocketName value="Bip001_L_Finger11"/>
-					<Alpha value="1"/>
-					<yaw value="0"/>
-					<CycleTime value="-1"/>
-					<Times value="1"/>
-					<TimeScale value="1"/>
-					<pitch value="0"/>
-					<scale value="0.2"/>
-					<Position_X value="0"/>
 					<roll value="0"/>
 					<FileName value="asset/effect/Pink and Purple Light Spot Gathering Effect/gfxy_meditate_purple.effect"/>
-					<Position_Z value="0"/>
-					<type_name value="gfxy_meditate_purple"/>
-					<BeginTime value="0"/>
-					<Position_Y value="0"/>
-					<FollowActor value="true"/>
-				</Effect>
-			</Skill>
-			<Skill UserDefineTime="-2" Name="tesseract_2" TextMode="0" EnableWound="false">
-				<Animation Times="1" TimeScale="1.3" BeginTime="0" Channel="" Name="g2038_pet_01_3_rangedAttack.anim" Length="2.333" FadeTime="0.25"/>
-				<Effect>
-					<SocketName value="Bip001_L_Finger11"/>
-					<Alpha value="1"/>
-					<yaw value="0"/>
-					<CycleTime value="-1"/>
 					<Times value="1"/>
+					<type_name value="gfxy_meditate_purple"/>
+					<SocketName value="Bip001_L_Finger11"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_Y value="0"/>
+					<BeginTime value="0"/>
 					<TimeScale value="1"/>
 					<pitch value="0"/>
 					<scale value="0.2"/>
 					<Position_X value="0"/>
+					<FollowActor value="true"/>
+					<CycleTime value="-1"/>
+				</Effect>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" Name="tesseract_2" EnableWound="false">
+				<Animation BeginTime="0" FadeTime="0.25" Times="1" Channel="" Length="2.333" Name="g2038_pet_01_3_rangedAttack.anim" TimeScale="1.3"/>
+				<Effect>
 					<roll value="0"/>
 					<FileName value="asset/effect/Blue Light Spot Gathering Effect/gfxy_meditate_blue.effect"/>
-					<Position_Z value="0"/>
-					<type_name value="gfxy_meditate_purple"/>
-					<BeginTime value="0"/>
-					<Position_Y value="0"/>
-					<FollowActor value="true"/>
-				</Effect>
-			</Skill>
-			<Skill UserDefineTime="-2" Name="tesseract_3" TextMode="0" EnableWound="false">
-				<Animation Times="1" TimeScale="1.3" BeginTime="0" Channel="" Name="g2038_pet_01_3_rangedAttack.anim" Length="2.333" FadeTime="0.25"/>
-				<Effect>
-					<SocketName value="Bip001_L_Finger11"/>
-					<Alpha value="1"/>
-					<yaw value="0"/>
-					<CycleTime value="-1"/>
 					<Times value="1"/>
+					<type_name value="gfxy_meditate_purple"/>
+					<SocketName value="Bip001_L_Finger11"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
+					<Position_Y value="0"/>
+					<BeginTime value="0"/>
 					<TimeScale value="1"/>
 					<pitch value="0"/>
 					<scale value="0.2"/>
 					<Position_X value="0"/>
+					<FollowActor value="true"/>
+					<CycleTime value="-1"/>
+				</Effect>
+			</Skill>
+			<Skill TextMode="0" UserDefineTime="-2" Name="tesseract_3" EnableWound="false">
+				<Animation BeginTime="0" FadeTime="0.25" Times="1" Channel="" Length="2.333" Name="g2038_pet_01_3_rangedAttack.anim" TimeScale="1.3"/>
+				<Effect>
 					<roll value="0"/>
 					<FileName value="asset/effect/Yellow Light Spot Gathering Effect/gfxy_meditate_yellow.effect"/>
-					<Position_Z value="0"/>
+					<Times value="1"/>
 					<type_name value="gfxy_meditate_purple"/>
-					<BeginTime value="0"/>
+					<SocketName value="Bip001_L_Finger11"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<Alpha value="1"/>
 					<Position_Y value="0"/>
+					<BeginTime value="0"/>
+					<TimeScale value="1"/>
+					<pitch value="0"/>
+					<scale value="0.2"/>
+					<Position_X value="0"/>
 					<FollowActor value="true"/>
+					<CycleTime value="-1"/>
 				</Effect>
 			</Skill>
 		</Skills>
-		<SubActors/>
+		<BodyParts>
+			<BodyPart SlaveName="1" ColorParams="1 1 1 1" MasterName="body" DefaultUse="true" EdgeColor="1 1 1 1">
+				<Skin UseOverlayColorReplaceMode="false" DiscardAlpha="0" SpecularColor="1.0 1.0 1.0 1.0" UseReflect="false" LocalBrightnessScale="1" EdgeColor="1.0 0 0 1.0" UseOriginalcolor="false" UseTransparentNearestSlice="false" LocalAlpha="1" UseBloom="false" UseEdge="false" SpecularCoef="0.15" OverlayColor="1 1 1 1" SpecularStrength="1" UVSpeed="0 0" type_name="g2038_pet_01_3" MeshName="g2038_pet_01_3.skin" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287"/>
+			</BodyPart>
+			<BodyPart SlaveName="custom_hand_x" ColorParams="1 1 1 1" MasterName="custom_hand" DefaultUse="false" EdgeColor="1 1 1 1">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="hunter_dao02">
+					<UseOverlayColorReplaceMode value="false"/>
+					<yaw value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<roll value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseEdge value="false"/>
+					<FileName value="asset/Mesh/Purple-Yellow Catapult Pistol/g2047_gun_01_02.mesh"/>
+					<SocketName value="Bip001_R_Finger01"/>
+					<Position_Z value="0"/>
+					<SpecularCoef value="0.15"/>
+					<UseBloom value="false"/>
+					<Position_Y value="0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SpecularStrength value="1.0"/>
+					<scale value="1"/>
+					<UseOriginalcolor value="false"/>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="group2" ColorParams="1 1 1 1" MasterName="mutex_name_2" DefaultUse="false" EdgeColor="1 1 1 1">
+				<StaticMesh DiscardAlpha="0" LocalAlpha="1" type_name="Cylinder">
+					<UseOverlayColorReplaceMode value="false"/>
+					<yaw value="0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<UseReflect value="false"/>
+					<LocalBrightnessScale value="1.0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<roll value="0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseEdge value="false"/>
+					<FileName value="asset/3D Asset/pickaxe/Cylinder.mesh"/>
+					<SocketName value="Origin197011"/>
+					<Position_Z value="0"/>
+					<SpecularCoef value="0.15"/>
+					<UseBloom value="false"/>
+					<Position_Y value="0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<SpecularStrength value="1.0"/>
+					<scale value="1"/>
+					<UseOriginalcolor value="false"/>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
 		<Anims>
 			<Anim Name="g2038_pet_01_3_meleeAttack.anim"/>
-			<Anim Name="g2038_pet_01_3_hit.anim"/>
-			<Anim Name="g2038_pet_01_3_idle.anim"/>
 			<Anim Name="g2038_pet_01_3_walk.anim"/>
 			<Anim Name="g2038_pet_01_3_rangedAttack.anim"/>
+			<Anim Name="g2038_pet_01_3_idle.anim"/>
+			<Anim Name="g2038_pet_01_3_hit.anim"/>
 		</Anims>
 	</ActorTemplate>
 </ActorTemplates>

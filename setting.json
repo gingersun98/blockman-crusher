@@ -73,7 +73,7 @@
     "1"
   ],
   "defaultMap": "MapVillage",
-  "defaultQualityLevel": 2,
+  "defaultQualityLevel": 1,
   "dragControlConfig": {
     "useDragControl": true
   },
@@ -135,7 +135,7 @@
   "needSave": true,
   "noLoadHp": true,
   "notReadUserSettingCfgAtEditor": true,
-  "nowTime": 666.388888888889,
+  "nowTime": 18388.8888888889,
   "oneDayTime": 300,
   "partGameStaticBatch": true,
   "personalSettingUI": {
@@ -234,9 +234,9 @@
   "startPos": [
     {
       "map": "MapArena",
-      "x": -17.781631469727,
-      "y": 8.515,
-      "z": 15.210754394531
+      "x": -24.5824356079102,
+      "y": 8.12225250244141,
+      "z": 21.9889430999756
     }
   ],
   "team": [],
@@ -441,6 +441,12 @@
         "key": "Dead",
         "run_type": "server",
         "save": false
+      },
+      {
+        "key": "Promp",
+        "run_type": "server",
+        "save": false,
+        "value": ""
       }
     ],
     "global": [
@@ -555,6 +561,6 @@
   },
   "waitAtInitPos": true,
   "waitGoTime": 100,
-  "waitPlayerTime": 300,
+  "waitPlayerTime": 600,
   "waitStartTime": 300
 }

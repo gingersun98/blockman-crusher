@@ -25,22 +25,19 @@
   "checkPartTouchEvent": true,
   "clickDistance": 4,
   "collider": {
-    "extent": {
-      "x": 0.6,
-      "y": 1.8,
-      "z": 0.6
-    },
+    "height": 2,
     "offset": {
       "x": 0,
       "y": 0,
       "z": 0
     },
+    "radius": 0.75,
     "rotation": {
       "x": 0,
       "y": 0,
       "z": 0
     },
-    "type": "Box"
+    "type": "Capsule"
   },
   "collision": true,
   "damage": 5,
@@ -51,7 +48,6 @@
   "dropDamageRatio": 0,
   "dropDamageStart": 1.5,
   "enableAI": true,
-  "enableMeshNavigate": true,
   "equipTrays": [],
   "eyeHeight": 1.62,
   "followEntityDistanceWhenHasTarget": 10,

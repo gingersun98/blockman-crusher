@@ -2,12 +2,4 @@ PART_CLICKED {
 }
 
 PART_TOUCH_ENTITY_BEGIN {
-	If ($obj2.WinGame) {
-		If ($obj2.Dead) {
-			SendToClient(msg = "client_0b405762_4991_462b_9c15_97631f5d59d9", player = $obj2)
-			StartTimer2(interval = 100, object = $obj2, time = 1, timer = "") {
-				$obj2.WinGame = false
-			}
-		}
-	}
 }

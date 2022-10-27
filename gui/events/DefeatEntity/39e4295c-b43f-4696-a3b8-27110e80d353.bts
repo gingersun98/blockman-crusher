@@ -1,0 +1,3 @@
+client_1d7079a5_f1da_4b0c_b482_a769a235ba8a {
+	SetTextContext(instance = $instance, text = Concat(p1 = "Crush Score:", p2 = ToString($p_CrushPoint)))
+}

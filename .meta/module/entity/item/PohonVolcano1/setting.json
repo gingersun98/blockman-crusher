@@ -37,24 +37,28 @@
       "patrolMode": "randomPath"
     },
     "boundingVolume": {
-      "height_c": 4,
+      "height": 4,
+      "height_c": 5,
       "position": {
-        "x": -0.75,
-        "z": 0.75
+        "x": -0.68009501695633,
+        "y": -0.48947900533676,
+        "z": 0.75640699267387
       },
-      "radius_c": 0.75,
+      "radius": 0.75,
       "type": "Capsule"
     },
     "boundingVolumeEntityCfg": {
-      "height_c": 4,
+      "height": 4,
+      "height_c": 5,
       "memory": {
         "Sector": "1.000000-0.500000"
       },
       "position": {
-        "x": -0.75,
-        "z": 0.75
+        "x": -0.680095016956329,
+        "y": -0.489479005336761,
+        "z": 0.756406992673874
       },
-      "radius_c": 0.75,
+      "radius": 0.75,
       "type": "Capsule"
     },
     "canMove": false,
@@ -4750,12 +4754,8 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "d753388f-8244-4f49-ad14-4c6a309afd36"
-                  },
-                  {
-                    "action": "90e21c92-7dce-4ffa-8903-6a07274014aa"
-                  },
+                  [],
+                  [],
                   {
                     "action": "b9a378ad-0307-406c-83d0-71c85a112dec"
                   },
@@ -4886,8 +4886,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "7eb490da79394497fae41550f08d7d56",
-      "triggers.bts": "fe2f82431f50443b4f25801e8e177f17"
+      "setting.json": "16fdf84991625cf628639e46ae9eeb29",
+      "triggers.bts": "2c80a81c3b17abad8fe355473ac0a385"
     },
     "VERSION": "0.24"
   }
