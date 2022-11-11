@@ -35,6 +35,18 @@
   "needSave": false,
   "reachDistance": 0,
   "skin": [],
+  "sound": {
+    "attenuationType": "0",
+    "is3dSound": true,
+    "loop": true,
+    "losslessDistance": 5,
+    "maxDistance": 20,
+    "multiPly": 1,
+    "path": "asset/Sound Assets/aura_01.mp3",
+    "selfOnly": false,
+    "sound": "@Sound Assets/aura_01.mp3",
+    "volume": 0.53
+  },
   "sync": "self",
   "unassailable": 0,
   "undamageable": 0

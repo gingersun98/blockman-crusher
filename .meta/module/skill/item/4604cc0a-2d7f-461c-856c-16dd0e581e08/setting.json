@@ -1,6 +1,12 @@
 {
   "data": {
     "castAction": "tesseract",
+    "castSound": {
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Skill3.mp3"
+      }
+    },
     "name": {
       "value": "skill_4604cc0a-2d7f-461c-856c-16dd0e581e08"
     },
@@ -319,7 +325,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "85f4e57a9f0685e78a32f1b66ae46b1d",
+      "setting.json": "73b9429a3d070aa8c45ffd0d1f73cb63",
       "triggers.bts": "0087419e456bd599ce9d30b562fe7980"
     },
     "VERSION": "0.24"

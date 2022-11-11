@@ -25,8 +25,20 @@
   "bodyYawOffset": [
     0
   ],
-  "castAction": "attack2",
+  "castAction": "attackS",
   "castActionTime": -1,
+  "castSound": {
+    "attenuationType": "0",
+    "is3dSound": true,
+    "loop": false,
+    "losslessDistance": 5,
+    "maxDistance": 20,
+    "multiPly": 1,
+    "path": "asset/Sound Assets/Magic3.mp3",
+    "selfOnly": false,
+    "sound": "@Sound Assets/Magic3.mp3",
+    "volume": 1
+  },
   "cdMaskConfig": {
     "AntiClockwise": false,
     "FillPosition": "Top_With360Degree",
@@ -97,7 +109,7 @@
     0
   ],
   "sustainAction": "",
-  "targetType": "BodyYaw",
+  "targetType": "FrontSight",
   "type": "Missile",
   "verticalAlignment": 2
 }

@@ -2,8 +2,9 @@
   "data": {
     "castAction": "hurt",
     "castSound": {
-      "volume": {
-        "value": 0
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Damage5.mp3"
       }
     },
     "name": {
@@ -196,7 +197,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "458f889b39f1a92974321596766607c7",
+      "setting.json": "f0dddef719f0f938a4bf653e657a146b",
       "triggers.bts": "204fef465f82563ce699c56705da60a4"
     },
     "VERSION": "0.24"

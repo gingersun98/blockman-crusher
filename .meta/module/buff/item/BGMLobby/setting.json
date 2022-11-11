@@ -1,0 +1,25 @@
+{
+  "data": {
+    "name": {
+      "value": "buff_BGMLobby"
+    },
+    "sound": {
+      "is3dSound": true,
+      "loop": true,
+      "selfOnly": true,
+      "sound": {
+        "asset": "asset/Sound Assets/action-protection-118722.mp3"
+      },
+      "volume": {
+        "value": 0.8
+      }
+    },
+    "sync": "self"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2ede172b7c114b32b90e99b7fe727849"
+    },
+    "VERSION": "0.24"
+  }
+}

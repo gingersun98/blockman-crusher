@@ -1,6 +1,12 @@
 {
   "data": {
     "castAction": "attack",
+    "castSound": {
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Explosion8.mp3"
+      }
+    },
     "consumeVp": 10,
     "name": {
       "value": "278138d8-18b2-4bde-b55f-40e28008ae67"
@@ -249,7 +255,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "8d3104ba32ec70876cd7fea135bdcd5f",
+      "setting.json": "8407981b1871c9aa86f1f0f901ed3ae2",
       "triggers.bts": "952801932ac16d76ef82db330e0a6f3c"
     },
     "VERSION": "0.24"

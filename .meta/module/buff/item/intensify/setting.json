@@ -13,15 +13,20 @@
       "value": "buff_intensify"
     },
     "sound": {
+      "is3dSound": true,
+      "loop": true,
+      "sound": {
+        "asset": "asset/Sound Assets/aura_01.mp3"
+      },
       "volume": {
-        "value": 0
+        "value": 0.53
       }
     },
     "sync": "self"
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "12cb6616f2df9a26f2291adc38f8e9e0"
+      "setting.json": "3ee8270a8a0316c6a2db6a20ac4e3cfc"
     },
     "VERSION": "0.24"
   }

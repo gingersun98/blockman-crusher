@@ -23,6 +23,18 @@
   "buffTime": 100,
   "castAction": "tesseract_2",
   "castActionTime": -1,
+  "castSound": {
+    "attenuationType": "0",
+    "is3dSound": true,
+    "loop": false,
+    "losslessDistance": 5,
+    "maxDistance": 20,
+    "multiPly": 1,
+    "path": "asset/Sound Assets/Skill3.mp3",
+    "selfOnly": false,
+    "sound": "@Sound Assets/Skill3.mp3",
+    "volume": 1
+  },
   "cdMaskConfig": {
     "AntiClockwise": false,
     "FillPosition": "",

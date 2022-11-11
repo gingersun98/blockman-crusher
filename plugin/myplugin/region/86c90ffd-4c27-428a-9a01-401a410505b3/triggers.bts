@@ -1,4 +1,6 @@
 REGION_ENTER {
 	Damage(damage = 50, entity = $obj1)
-	SetEntityPosition(entity = $obj1, map = "MapArena", pos = $obj1.LokasiSpawn, rp = 0, ry = 0)
+	If (@PlayerParticipate > 1) {
+		SetEntityPosition(entity = $obj1, map = "MapArena", pos = $obj1.LokasiSpawn, rp = 0, ry = 0)
+	}
 }

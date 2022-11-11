@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "c1c17a87af57d213d1e032dcc5c67574",
+    "md5": "0e25f840c9f8e1528866e6636b7f3a28",
     "path": "asset/UIPrompItem.layout",
     "root": {
       "anchor": {
@@ -217,7 +217,7 @@
                         "value": {
                           "__OBJ_TYPE": "T_Time",
                           "rawval": {
-                            "value": 60
+                            "value": 20
                           }
                         }
                       },
@@ -252,8 +252,8 @@
                   "value": "c9f8c61f-56f6-4bbc-9f4d-18758bf581b3"
                 },
                 "pos": {
-                  "x": 324,
-                  "y": 108
+                  "x": 284,
+                  "y": 103
                 }
               },
               {
@@ -331,8 +331,8 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "c1c17a87af57d213d1e032dcc5c67574",
-      "triggers.bts": "f5ce6cdf2e9bb7603ded99058b76420b"
+      "layout": "0e25f840c9f8e1528866e6636b7f3a28",
+      "triggers.bts": "3731a2d21e93559ec70c282d726f73e5"
     },
     "VERSION": "0.24"
   }

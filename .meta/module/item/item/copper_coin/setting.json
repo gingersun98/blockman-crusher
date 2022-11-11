@@ -6,7 +6,8 @@
     "item": {
       "base": {
         "__OBJ_TYPE": "ItemInHand",
-        "handItemBoneName": "Bip001_L_Finger01"
+        "handItemBoneName": "Bip001_L_Finger01",
+        "isCoin": true
       },
       "type": "InHand"
     },
@@ -21,7 +22,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "033f924975caf38c96d386c351d3ff39",
+      "setting.json": "723f208119fad56b23d5151eae99181d",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

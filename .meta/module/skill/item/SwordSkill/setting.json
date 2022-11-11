@@ -1,6 +1,9 @@
 {
   "data": {
     "castAction": "sword",
+    "castSound": {
+      "is3dSound": true
+    },
     "cdAnimation": "Clockwise",
     "cdTime": {
       "value": 40
@@ -149,7 +152,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e7c071850709aea8e93f62b393595fd0",
+      "setting.json": "a967bff4ee1e3940e9ec047cb05c1163",
       "triggers.bts": "5a566fc7c963bf1119b53b2fee3dc77b"
     },
     "VERSION": "0.24"

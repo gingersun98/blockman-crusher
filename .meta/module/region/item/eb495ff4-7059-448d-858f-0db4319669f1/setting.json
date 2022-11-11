@@ -83,6 +83,86 @@
                 "y": 341
               },
               "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "77655e25-d4d1-4ba6-8ef4-13868888e72f"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/BGMLobby"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "29797b93-c67f-482d-8000-6cc9ceb716f9"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "rawval": false
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "a6194158-0269-45fa-845f-60c1029f8089"
+              },
+              "pos": {
+                "x": 677,
+                "y": 442
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "77655e25-d4d1-4ba6-8ef4-13868888e72f"
+              },
+              "pos": {
+                "x": 1099,
+                "y": 470
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "29797b93-c67f-482d-8000-6cc9ceb716f9"
+              },
+              "pos": {
+                "x": 1144,
+                "y": 602
+              },
+              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -98,6 +178,9 @@
                 "children": [
                   {
                     "action": "2767ba62-7631-4f1a-9e3b-1b2150e676af"
+                  },
+                  {
+                    "action": "a6194158-0269-45fa-845f-60c1029f8089"
                   }
                 ]
               }
@@ -160,6 +243,57 @@
                 "y": 276
               },
               "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_RemoveBuffByFullName",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "ee519635-eafc-401f-97a1-5aeb230d5cfe"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/BGMLobby"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "2320f4ca-efe8-45f1-8021-a5c1e2c333a9"
+              },
+              "pos": {
+                "x": 694,
+                "y": 475
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "ee519635-eafc-401f-97a1-5aeb230d5cfe"
+              },
+              "pos": {
+                "x": 1085,
+                "y": 471
+              },
+              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -175,6 +309,9 @@
                 "children": [
                   {
                     "action": "74462139-6665-4519-86ab-472b068a8e2e"
+                  },
+                  {
+                    "action": "2320f4ca-efe8-45f1-8021-a5c1e2c333a9"
                   }
                 ]
               }
@@ -190,8 +327,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "ca786449e6a47060c8038f6e643bece9",
-      "triggers.bts": "8e9c91ea2fc67cfcfdda8f9092c08af9"
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "296b784c728c583eee93577680b7651c"
     },
     "VERSION": "0.24"
   }

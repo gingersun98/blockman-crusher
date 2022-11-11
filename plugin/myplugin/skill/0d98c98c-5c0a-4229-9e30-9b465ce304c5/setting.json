@@ -21,8 +21,20 @@
   "backSwingTime": 0,
   "buffCfg": "myplugin/03c3661f-5db9-47d1-aa4e-2ab7e9326d99",
   "buffTime": 100,
-  "castAction": "attack2",
+  "castAction": "attackS",
   "castActionTime": -1,
+  "castSound": {
+    "attenuationType": "0",
+    "is3dSound": true,
+    "loop": false,
+    "losslessDistance": 5,
+    "maxDistance": 20,
+    "multiPly": 1,
+    "path": "asset/Sound Assets/item-02.mp3",
+    "selfOnly": false,
+    "sound": "@Sound Assets/item-02.mp3",
+    "volume": 1
+  },
   "cdMaskConfig": {
     "AntiClockwise": false,
     "FillPosition": "",

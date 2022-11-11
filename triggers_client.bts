@@ -6,9 +6,6 @@ client_abf59f08_7e45_4edc_8b5d_95ae1ad9584d {
 	CreateWindow(name = "", res = "DefeatEntity")
 }
 
-Client_Init_Finished {
-}
-
 client_3f80034b_bc5d_4f25_89b9_57bc182df23e {
 	CreateWindow(name = "", res = "seleceHeroWnd_GingerSun")
 }
@@ -48,7 +45,6 @@ client_9b45935c_a4d0_4445_9d8f_7a16cb9d193a {
 }
 
 client_060f2d56_f293_4899_9249_36094cfa3a50 {
-	CreateWindow(name = "", res = "mainWnd")
 }
 
 client_806f8155_0fa7_449d_9c6f_47040e1f7405 {

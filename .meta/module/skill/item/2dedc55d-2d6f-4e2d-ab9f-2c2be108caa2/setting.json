@@ -1,6 +1,12 @@
 {
   "data": {
     "castAction": "attack",
+    "castSound": {
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Gun1.mp3"
+      }
+    },
     "consumeVp": 5,
     "frontSight": "myplugin/frontsight1",
     "name": {
@@ -16,7 +22,7 @@
           }
         ],
         "target": {
-          "type": "Camera"
+          "type": "FrontSight"
         }
       },
       "type": "Missile"
@@ -36,7 +42,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "fd100c066d7f3e0f1f6452034dce7fc2",
+      "setting.json": "95e4ecbc98039edc1390ed2f96649cec",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

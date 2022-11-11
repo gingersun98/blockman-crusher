@@ -5,7 +5,9 @@ end)
 
 World.Timer(10, function()
     --local guiMgr = GUIManager:Instance()
+    UI:openWindow("UICrossHair")
     UI:openWindow("seleceHeroWnd")
+
 end)
 require "script_client.rankMgr"
 

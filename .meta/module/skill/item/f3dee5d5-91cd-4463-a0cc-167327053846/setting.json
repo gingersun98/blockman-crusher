@@ -1,5 +1,11 @@
 {
   "data": {
+    "castSound": {
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Damage4.mp3"
+      }
+    },
     "consumeVp": 20,
     "name": {
       "value": "skill_f3dee5d5-91cd-4463-a0cc-167327053846"
@@ -17,7 +23,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "95b000ed5b26b8d66913e2c050e823f6",
+      "setting.json": "a0dfdec768ead0ebfba9c23ff56a2f36",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

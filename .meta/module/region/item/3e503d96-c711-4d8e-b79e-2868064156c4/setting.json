@@ -63,8 +63,8 @@
                 "value": "940a92a4-809e-41af-ab98-8d70d4190a91"
               },
               "pos": {
-                "x": 595,
-                "y": 39
+                "x": 769,
+                "y": 434
               }
             },
             {
@@ -209,8 +209,8 @@
                 "value": "20098685-9f45-4459-8a48-312ce3be5e44"
               },
               "pos": {
-                "x": 797,
-                "y": 143
+                "x": 840,
+                "y": 175
               },
               "type": "T_Entity"
             },
@@ -853,6 +853,84 @@
                 "y": 659
               },
               "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "bdd78536-c07d-4f6f-b8c4-a3058999e8d2"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/BGMBattle"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "17becec4-4200-4686-852d-b5dba70776b3"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "rawval": false
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "8660f47f-ece6-47cd-aaac-404ea857d2fc"
+              },
+              "pos": {
+                "x": 324
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "bdd78536-c07d-4f6f-b8c4-a3058999e8d2"
+              },
+              "pos": {
+                "x": 706
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "17becec4-4200-4686-852d-b5dba70776b3"
+              },
+              "pos": {
+                "x": 696,
+                "y": 69
+              },
+              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -866,7 +944,9 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  [],
+                  {
+                    "action": "8660f47f-ece6-47cd-aaac-404ea857d2fc"
+                  },
                   [],
                   []
                 ]
@@ -876,19 +956,96 @@
               "value": "c22dd100-29f8-42db-9abc-0b811f263300"
             },
             "pos": {
-              "x": 80,
-              "y": 219
+              "x": 35,
+              "y": 33
             }
           },
           "type": "Trigger_RegionEnter"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_RemoveBuffByFullName",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "b1378e04-2ace-4925-9992-17011962dc51"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/BGMBattle"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "cbb3a8d0-04a4-4cf9-88a8-4fd29c3bd7b4"
+              },
+              "pos": {
+                "x": 714,
+                "y": 303
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "b1378e04-2ace-4925-9992-17011962dc51"
+              },
+              "pos": {
+                "x": 1038,
+                "y": 345
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "09a8d2cd-5006-4f28-b43c-f8ba462cfda6"
+            },
+            "type": "Trigger_RegionLeave"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "cbb3a8d0-04a4-4cf9-88a8-4fd29c3bd7b4"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "2d88060c-da5f-4c61-88ee-b39cc03359b4"
+            }
+          },
+          "type": "Trigger_RegionLeave"
         }
       ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "ca786449e6a47060c8038f6e643bece9",
-      "triggers.bts": "ca1941bbfb329528cfc16f763c64d57d"
+      "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
+      "triggers.bts": "b6f70071c0a1981e21b6a6840b8f64b4"
     },
     "VERSION": "0.24"
   }

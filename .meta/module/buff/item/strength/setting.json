@@ -1,7 +1,6 @@
 {
   "data": {
     "damage": 5,
-    "maxHp": 10,
     "moveSpeed": 3,
     "name": {
       "value": "buff_strength"
@@ -15,7 +14,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f6cda5767c457937e43bb27cc0d9698b"
+      "setting.json": "f9e37c8bdaa430cff392713d390f0187"
     },
     "VERSION": "0.24"
   }

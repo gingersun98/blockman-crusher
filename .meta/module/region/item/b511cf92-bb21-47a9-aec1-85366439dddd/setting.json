@@ -91,46 +91,6 @@
               }
             },
             {
-              "__OBJ_TYPE": "Action_RecoverFullHp",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "7be9ed3e-6971-43dd-a28a-17edf3e93637"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "794bd2cf-7895-45f1-b436-dc220c3ab1a5"
-              },
-              "pos": {
-                "x": 712.954961430783,
-                "y": 382.517397442715
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_GetContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "obj1"
-                }
-              ],
-              "id": {
-                "value": "7be9ed3e-6971-43dd-a28a-17edf3e93637"
-              },
-              "pos": {
-                "x": 1099.06407152555,
-                "y": 459.739219461664
-              },
-              "type": "T_Entity"
-            },
-            {
               "__OBJ_TYPE": "Action_ConsumeItem2",
               "components": [
                 {
@@ -759,9 +719,7 @@
                   {
                     "action": "baaaab7b-56af-4591-9b79-5fc988b53547"
                   },
-                  {
-                    "action": "794bd2cf-7895-45f1-b436-dc220c3ab1a5"
-                  },
+                  [],
                   [],
                   [],
                   [],
@@ -792,7 +750,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
-      "triggers.bts": "1ca6c4ed439197354c5baa0f1a7d196f"
+      "triggers.bts": "1092d7678c598a24635acf21c67d99ea"
     },
     "VERSION": "0.24"
   }

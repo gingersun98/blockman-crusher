@@ -1,9 +1,10 @@
 {
   "data": {
-    "castAction": "attack2",
+    "castAction": "attackS",
     "castSound": {
-      "volume": {
-        "value": 0
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Water2.mp3"
       }
     },
     "cdAnimation": "Clockwise",
@@ -29,7 +30,7 @@
           }
         ],
         "target": {
-          "type": "Camera"
+          "type": "FrontSight"
         }
       },
       "type": "Missile"
@@ -282,7 +283,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "21545cd7ce4084feac1097e9cc2f4c5e",
+      "setting.json": "bbfbfa710eaac646569bf63c1013e48b",
       "triggers.bts": "b31edaa1fe020846cc1027629f8737b2"
     },
     "VERSION": "0.24"

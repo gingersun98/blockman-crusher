@@ -2,8 +2,9 @@
   "data": {
     "castAction": "skills",
     "castSound": {
-      "volume": {
-        "value": 0
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Fire9.mp3"
       }
     },
     "cdTime": {
@@ -34,7 +35,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a6aa3df2962a58223e325913b425d815",
+      "setting.json": "30bc1b24a91ea5230641bed96cce3378",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

@@ -2,8 +2,9 @@
   "data": {
     "castAction": "skills",
     "castSound": {
-      "volume": {
-        "value": 0
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/IcePillarExplosion.mp3"
       }
     },
     "cdTime": {
@@ -35,7 +36,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "02a17f6791af8192e3284a546d5e24ef",
+      "setting.json": "b7b616248bb91f2366117369d6474547",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

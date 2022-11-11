@@ -1,9 +1,10 @@
 {
   "data": {
-    "castAction": "attack2",
+    "castAction": "attackS",
     "castSound": {
-      "volume": {
-        "value": 0
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Magic3.mp3"
       }
     },
     "cdAnimation": "Clockwise",
@@ -32,7 +33,7 @@
           }
         ],
         "target": {
-          "type": "BodyYaw"
+          "type": "FrontSight"
         }
       },
       "type": "Missile"
@@ -348,7 +349,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "5a9bf2cf959825cf16c5944ae59fef03",
+      "setting.json": "6de6fbacb3e062935da3b74c18c548f2",
       "triggers.bts": "bba8c3d843d7e63648c6247ee218f981"
     },
     "VERSION": "0.24"

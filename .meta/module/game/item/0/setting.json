@@ -1,5 +1,9 @@
 {
   "data": {
+    "back_distance": 3,
+    "back_view_offset": {
+      "x": -1
+    },
     "bagCap": 18,
     "defaultView": "Back",
     "firstPerson_enable": {
@@ -10,8 +14,8 @@
         "__OBJ_TYPE": "Vector3i"
       }
     },
-    "follow_enable": {
-      "enable": true
+    "follow_view_offset": {
+      "x": -1
     },
     "initPos": {
       "map": "MapVillage",
@@ -25,7 +29,7 @@
     "needSave": true,
     "nowTime": {
       "h": 0,
-      "m": 23,
+      "m": 21,
       "s": 20
     },
     "oneDayTime": {
@@ -35,108 +39,12 @@
       "max": 6,
       "min": 2
     },
-    "qualityLevel": "1",
+    "qualityLevel": "0",
     "shops": [
       {
         "items": [
           {
-            "coinId": "gDiamonds",
-            "detail": {
-              "value": "c27c88b5-99f1-4103-bb52-52b665ab0422"
-            },
-            "item": {
-              "item": "04a84085-ad2d-4a65-a785-0feeaeb07d12"
-            },
-            "name": {
-              "value": "a9c3a635-f7b7-4cb7-984b-5464e96ba435"
-            }
-          },
-          {
-            "coinId": "gDiamonds",
-            "detail": {
-              "value": "a969fd05-664b-4978-a6bd-8bf3dc13e537"
-            },
-            "item": {
-              "item": "057d4d1d-889a-4777-837d-f94a974babac"
-            },
-            "name": {
-              "value": "f18af812-d299-4f3e-9847-36cb3586ac92"
-            }
-          },
-          {
-            "coinId": "gDiamonds",
-            "detail": {
-              "value": "13122eef-8e42-49d4-8e5c-d9eb6485d05f"
-            },
-            "item": {
-              "item": "15a5078e-f6aa-45f1-aba7-6f7b4ecefce0"
-            },
-            "name": {
-              "value": "de19198f-6e80-4305-b633-fb369ab6c2a9"
-            }
-          },
-          {
-            "coinId": "gDiamonds",
-            "detail": {
-              "value": "7c13752f-a3c7-47b8-8576-d8f0f91d989d"
-            },
-            "item": {
-              "item": "33f3159c-becb-45a8-8b7b-f7db3000af7d"
-            },
-            "name": {
-              "value": "0b0b2ead-57b8-44b7-8f55-40c34a4de5b5"
-            }
-          },
-          {
-            "coinId": "gDiamonds",
-            "detail": {
-              "value": "daa2925c-57af-4756-9a32-67189ed3fb31"
-            },
-            "item": {
-              "item": "547b7be6-2cb9-4e37-9bc4-bd58f37fb3a1"
-            },
-            "name": {
-              "value": "ecb452c6-014e-4667-a453-43f5e76d2830"
-            }
-          },
-          {
-            "coinId": "gDiamonds",
-            "detail": {
-              "value": "e7800b76-c727-43b6-bba8-2ae02fa34698"
-            },
-            "item": {
-              "item": "951529d8-99cc-4dbe-9dc3-cbb0a4eef98f"
-            },
-            "name": {
-              "value": "ce59fc4d-c52c-4d18-9034-9afb868cbb1a"
-            }
-          },
-          {
-            "coinId": "gDiamonds",
-            "detail": {
-              "value": "7dd7264a-5155-40e2-9e61-fc8f757a53aa"
-            },
-            "item": {
-              "item": "b771344e-32e8-4488-a0f3-7d87111c3590"
-            },
-            "name": {
-              "value": "d6fcb7d0-a5ab-418d-a3aa-2187be7d43f6"
-            }
-          },
-          {
-            "coinId": "gDiamonds",
-            "detail": {
-              "value": "fd2ebc09-f3ce-493b-a9f5-84c056b955a1"
-            },
-            "item": {
-              "item": "ce6802e2-dfff-47b3-a5cd-b0479715f636"
-            },
-            "name": {
-              "value": "a6f3712e-e343-4eb4-8ea2-edd309b77651"
-            }
-          },
-          {
-            "coinId": "gDiamonds",
+            "coinId": "copper_coin",
             "detail": {
               "value": "ccba5dce-dbdb-455c-bf92-2e69915afbb9"
             },
@@ -145,10 +53,37 @@
             },
             "name": {
               "value": "7a927354-f096-4b2d-a835-90b9218947ec"
-            }
+            },
+            "price": 500
           },
           {
-            "coinId": "gDiamonds",
+            "coinId": "copper_coin",
+            "detail": {
+              "value": "13122eef-8e42-49d4-8e5c-d9eb6485d05f"
+            },
+            "item": {
+              "item": "15a5078e-f6aa-45f1-aba7-6f7b4ecefce0"
+            },
+            "name": {
+              "value": "de19198f-6e80-4305-b633-fb369ab6c2a9"
+            },
+            "price": 500
+          },
+          {
+            "coinId": "copper_coin",
+            "detail": {
+              "value": "daa2925c-57af-4756-9a32-67189ed3fb31"
+            },
+            "item": {
+              "item": "547b7be6-2cb9-4e37-9bc4-bd58f37fb3a1"
+            },
+            "name": {
+              "value": "ecb452c6-014e-4667-a453-43f5e76d2830"
+            },
+            "price": 500
+          },
+          {
+            "coinId": "copper_coin",
             "detail": {
               "value": "7d8daa1f-613c-4e5b-bf61-92aa12cf0c38"
             },
@@ -157,16 +92,73 @@
             },
             "name": {
               "value": "7b3eff66-a66c-4562-ac58-454591ed2aac"
-            }
+            },
+            "price": 1000
           },
           {
-            "coinId": "gDiamonds",
+            "coinId": "copper_coin",
             "detail": {
-              "value": "345ada82-b5df-4d21-8192-9bf7952b1f01"
+              "value": "7c13752f-a3c7-47b8-8576-d8f0f91d989d"
+            },
+            "item": {
+              "item": "33f3159c-becb-45a8-8b7b-f7db3000af7d"
             },
             "name": {
-              "value": "5bc3ef1f-cf16-4ef6-baa9-9c5c1c34b969"
-            }
+              "value": "0b0b2ead-57b8-44b7-8f55-40c34a4de5b5"
+            },
+            "price": 2000
+          },
+          {
+            "coinId": "copper_coin",
+            "detail": {
+              "value": "a969fd05-664b-4978-a6bd-8bf3dc13e537"
+            },
+            "item": {
+              "item": "057d4d1d-889a-4777-837d-f94a974babac"
+            },
+            "name": {
+              "value": "f18af812-d299-4f3e-9847-36cb3586ac92"
+            },
+            "price": 3000
+          },
+          {
+            "coinId": "copper_coin",
+            "detail": {
+              "value": "e7800b76-c727-43b6-bba8-2ae02fa34698"
+            },
+            "item": {
+              "item": "951529d8-99cc-4dbe-9dc3-cbb0a4eef98f"
+            },
+            "name": {
+              "value": "ce59fc4d-c52c-4d18-9034-9afb868cbb1a"
+            },
+            "price": 4000
+          },
+          {
+            "coinId": "copper_coin",
+            "detail": {
+              "value": "fd2ebc09-f3ce-493b-a9f5-84c056b955a1"
+            },
+            "item": {
+              "item": "ce6802e2-dfff-47b3-a5cd-b0479715f636"
+            },
+            "name": {
+              "value": "a6f3712e-e343-4eb4-8ea2-edd309b77651"
+            },
+            "price": 5000
+          },
+          {
+            "coinId": "copper_coin",
+            "detail": {
+              "value": "7dd7264a-5155-40e2-9e61-fc8f757a53aa"
+            },
+            "item": {
+              "item": "b771344e-32e8-4488-a0f3-7d87111c3590"
+            },
+            "name": {
+              "value": "d6fcb7d0-a5ab-418d-a3aa-2187be7d43f6"
+            },
+            "price": 7000
           }
         ],
         "name": {
@@ -174,6 +166,7 @@
         }
       }
     ],
+    "showShop": true,
     "startPos": {
       "map": "MapArena",
       "pos": {
@@ -2981,8 +2974,8 @@
                 "value": "85742ddb-0187-4f52-a9a8-64a44bd0fe18"
               },
               "pos": {
-                "x": 339.12624375,
-                "y": 660.01989375
+                "x": 328.12624375,
+                "y": 935.01989375
               }
             },
             {
@@ -3009,8 +3002,8 @@
                 "value": "2b11607c-0a94-463e-becd-6ba3bb2a23c8"
               },
               "pos": {
-                "x": 785.2170375,
-                "y": 754.82938125
+                "x": 789.2170375,
+                "y": 819.82938125
               },
               "type": "T_Entity"
             },
@@ -3049,8 +3042,8 @@
                 "value": "0a2f9960-dfa1-4aa8-a20c-e9fbc5a46fed"
               },
               "pos": {
-                "x": 329.40219375,
-                "y": 798.58760625
+                "x": 351.40219375,
+                "y": 987.58760625
               }
             },
             {
@@ -3379,8 +3372,8 @@
                 "value": "11d2d248-fe54-449a-9421-196c3493ae4e"
               },
               "pos": {
-                "x": 268,
-                "y": 519
+                "x": 312.896408150553,
+                "y": 720.135908514479
               }
             },
             {
@@ -3402,8 +3395,8 @@
                 "value": "fa0d0541-6d79-4cda-ac8b-450839a15b3d"
               },
               "pos": {
-                "x": 468.04761904762,
-                "y": 367.33333333334
+                "x": 430.04761904762,
+                "y": 566.33333333334
               }
             },
             {
@@ -3429,40 +3422,6 @@
                 "y": 78.25747104421
               },
               "type": "T_Int"
-            },
-            {
-              "__OBJ_TYPE": "Action_LoopTimes",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "rawval": 999
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_String"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "__OBJ_TYPE": "Component_Sequence",
-                  "children": [
-                    []
-                  ]
-                }
-              ],
-              "id": {
-                "value": "0f29cdc4-9b3a-486a-a4db-9bcb471f8671"
-              },
-              "pos": {
-                "x": 2919.3579282463,
-                "y": 420.62423496611
-              }
             },
             {
               "__OBJ_TYPE": "Action_StartTimer2",
@@ -3499,9 +3458,7 @@
                 {
                   "__OBJ_TYPE": "Component_Sequence",
                   "children": [
-                    {
-                      "action": "407c1a6a-26b8-44ff-899b-94137f7e26c6"
-                    },
+                    [],
                     {
                       "action": "8a240b5a-5e7b-4be8-8c88-d8ed9e9a7288"
                     }
@@ -3592,12 +3549,8 @@
                     {
                       "action": "5ee2f06e-db0b-4bbe-9127-be172a1cc543"
                     },
-                    {
-                      "action": "8b024916-7a89-48ea-967e-baa1ba572c22"
-                    },
-                    {
-                      "action": "c8aa4cfc-9d09-407f-8ef6-0d0280b3f823"
-                    },
+                    [],
+                    [],
                     []
                   ]
                 }
@@ -3660,8 +3613,8 @@
                 "value": "8b024916-7a89-48ea-967e-baa1ba572c22"
               },
               "pos": {
-                "x": 3801.7989168868,
-                "y": 343.79069849881
+                "x": 3810.7328878243,
+                "y": 380.80286381131
               }
             },
             {
@@ -3760,140 +3713,6 @@
                 "x": 4334.8542720771,
                 "y": 234.91541556246
               }
-            },
-            {
-              "__OBJ_TYPE": "Action_ShowTip",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "1e5c12d5-3b88-4822-82dd-8ab49cc078d7"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_TipType"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Text",
-                        "rawval": {
-                          "value": "f0ec6888-ba98-4efb-8558-fd19e802ff04"
-                        }
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Time",
-                        "rawval": {
-                          "value": 60
-                        }
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "407c1a6a-26b8-44ff-899b-94137f7e26c6"
-              },
-              "pos": {
-                "x": 3243.014699117,
-                "y": 590.98217751562
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_GetUserContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_String",
-                        "rawval": "obj1"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "1e5c12d5-3b88-4822-82dd-8ab49cc078d7"
-              },
-              "pos": {
-                "x": 3618.2883818394,
-                "y": 760.88955355137
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_GetUserContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_String",
-                        "rawval": "obj1"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "40a5b006-8360-4dd6-880b-e3ef6fe9c020"
-              },
-              "pos": {
-                "x": 4207.7931039112,
-                "y": 831.06868713135
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_ShowTip",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "40a5b006-8360-4dd6-880b-e3ef6fe9c020"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_TipType"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Text",
-                        "rawval": {
-                          "value": "83c3e827-57f9-472e-8da1-01e4295e144d"
-                        }
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Time",
-                        "rawval": {
-                          "value": 60
-                        }
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "c8aa4cfc-9d09-407f-8ef6-0d0280b3f823"
-              },
-              "pos": {
-                "x": 3832.5194211888,
-                "y": 661.1613110956
-              }
             }
           ],
           "custom_trigger_data": {
@@ -3907,14 +3726,14 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  [],
-                  [],
                   {
-                    "action": "11d2d248-fe54-449a-9421-196c3493ae4e"
+                    "action": "01d95492-2039-4031-9bef-b98956c6e0fb"
                   },
                   {
-                    "action": "18b496c2-34a4-4b67-9d3a-fec776647122"
+                    "action": "4d525da9-4055-4532-b9b3-04b4790e9fb8"
                   },
+                  [],
+                  [],
                   [],
                   []
                 ]
@@ -7304,29 +7123,6 @@
             }
           },
           "type": "Trigger_RegisterServerProto"
-        },
-        {
-          "custom_trigger_data": {
-            "name": {
-              "value": "68838f42-b3b0-462c-ab4e-c9828643b320"
-            },
-            "type": "Trigger_GameStart"
-          },
-          "root": {
-            "components": [
-              {
-                "__OBJ_TYPE": "Component_Sequence",
-                "children": [
-                  [],
-                  []
-                ]
-              }
-            ],
-            "id": {
-              "value": "50e8bf9a-c095-4701-ab72-6fbcde0b7869"
-            }
-          },
-          "type": "Trigger_GameStart"
         },
         {
           "actions": [
@@ -11576,9 +11372,7 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "b4cd547e-185b-4433-a99d-7bc768d04452"
-                  }
+                  []
                 ]
               }
             ],
@@ -11721,62 +11515,6 @@
             }
           },
           "type": "Trigger_RegisterClientProto"
-        },
-        {
-          "actions": [
-            {
-              "__OBJ_TYPE": "Action_CreateLayout",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Res_Layout",
-                        "rawval": {
-                          "asset": "asset/RandW.layout",
-                          "selector": "editor/Blockman-Crusher-Simulator/asset/RandW.layout"
-                        }
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_String"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "a09a9135-a829-4a7c-8232-d9b5b5127116"
-              },
-              "pos": {
-                "x": 771,
-                "y": 262
-              }
-            }
-          ],
-          "custom_trigger_data": {
-            "name": {
-              "value": "338e3fc4-5f83-4548-bf2d-68861328c4a3"
-            },
-            "type": "Trigger_ClientInitFinished"
-          },
-          "root": {
-            "components": [
-              {
-                "__OBJ_TYPE": "Component_Sequence",
-                "children": [
-                  [],
-                  []
-                ]
-              }
-            ],
-            "id": {
-              "value": "a81c66d4-8bf8-4197-8ca7-670f34069146"
-            }
-          },
-          "type": "Trigger_ClientInitFinished"
         },
         {
           "actions": [
@@ -12403,8 +12141,8 @@
                 "value": "3df92fc2-4086-4ca8-b64d-0d295693507b"
               },
               "pos": {
-                "x": 540,
-                "y": 247
+                "x": 569,
+                "y": 191
               }
             }
           ],
@@ -12421,9 +12159,7 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "3df92fc2-4086-4ca8-b64d-0d295693507b"
-                  }
+                  []
                 ]
               }
             ],
@@ -12707,6 +12443,16 @@
           "value": {
             "__OBJ_TYPE": "T_String"
           }
+        },
+        {
+          "key": "WinGobog"
+        },
+        {
+          "key": "VICTORYGOBOG",
+          "type": "bool",
+          "value": {
+            "__OBJ_TYPE": "T_Bool"
+          }
         }
       ],
       "global": [
@@ -12826,10 +12572,10 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a13316bd066c10ceacb0fa58402b0722",
-      "shop.csv": "9ff5f9aec788b75bcfac21d778da6d78",
-      "triggers.bts": "b1c2433acc4048acf077ef9b8e488e9f",
-      "triggers_client.bts": "d74f49191d3597ccfdb2d7f5dc1b3321"
+      "setting.json": "5a03ff20046232f4e8b98e7dd5728a8a",
+      "shop.csv": "cceca7f078685acc6d3fd0c817648cdc",
+      "triggers.bts": "18f78bb5e82a3bfc422818d06fbe1f75",
+      "triggers_client.bts": "bebde8fb909b94ea926f9d8db9b0c399"
     },
     "VERSION": "0.24"
   }

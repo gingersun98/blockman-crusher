@@ -1,5 +1,11 @@
 {
   "data": {
+    "castSound": {
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Attack3.mp3"
+      }
+    },
     "consumeVp": 10,
     "FillPosition": "Top_With360Degree",
     "FillType": "With360Degree",
@@ -20,7 +26,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "8651cf2b863a52f49afbb61d1728b39f",
+      "setting.json": "dfecad419fe0d35af7cae5ecc86b6961",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

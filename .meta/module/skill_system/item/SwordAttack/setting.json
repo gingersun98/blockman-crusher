@@ -21,6 +21,12 @@
     "castAction": {
       "castAction": "sword"
     },
+    "castSound": {
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Slash1.mp3"
+      }
+    },
     "cdAnimation": "Clockwise",
     "cdTime": {
       "value": 40
@@ -47,7 +53,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6c23ae3eee6f518d4fb015b6997f0380",
+      "setting.json": "8666c75d8e6c6a2b3ce77aa07605fc56",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

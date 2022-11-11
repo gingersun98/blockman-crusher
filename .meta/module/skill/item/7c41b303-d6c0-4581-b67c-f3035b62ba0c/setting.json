@@ -1,9 +1,15 @@
 {
   "data": {
-    "castAction": "attack2",
+    "castAction": "attackS",
     "castEffect": {
       "effect": {
         "asset": "asset/effect/Blue Circular Ripple Effect/gp202_bowen_01_blue_3d.effect"
+      }
+    },
+    "castSound": {
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Darkness1.mp3"
       }
     },
     "cdAnimation": "Clockwise",
@@ -28,7 +34,7 @@
           }
         ],
         "target": {
-          "type": "Camera"
+          "type": "FrontSight"
         }
       },
       "type": "Missile"
@@ -61,7 +67,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "ff0c0bbb05ec50c46bde0205528046f5",
+      "setting.json": "3d35f02b03dfaddae3ce312a371e5bc8",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

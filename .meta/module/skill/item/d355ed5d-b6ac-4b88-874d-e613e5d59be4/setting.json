@@ -1,6 +1,12 @@
 {
   "data": {
     "castAction": "attack",
+    "castSound": {
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/BlockWoodWood03.mp3"
+      }
+    },
     "cdAnimation": "Clockwise",
     "cdTime": {
       "value": 600
@@ -27,7 +33,7 @@
           }
         ],
         "target": {
-          "type": "Self"
+          "type": "FrontSight"
         }
       },
       "type": "Missile"
@@ -47,7 +53,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "659b07b1f2da13f3ef2f8489148e7d66",
+      "setting.json": "5aeb4092fd7f103e33a0a39336487c9a",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

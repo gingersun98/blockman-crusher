@@ -41,8 +41,8 @@
                 "value": "c5911805-fe88-4fd9-a4f6-6a947e31ce12"
               },
               "pos": {
-                "x": 1123,
-                "y": 291
+                "x": 1467,
+                "y": 232
               },
               "type": "T_Entity"
             },
@@ -208,6 +208,383 @@
                 "x": 494,
                 "y": 655
               }
+            },
+            {
+              "__OBJ_TYPE": "Action_SetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "VICTORYGOBOG"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "rawval": true
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "1e1f8f43-144f-4d7a-8020-950239f89441"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "1950d38a-b865-408e-9ee7-f68ec9ed5324"
+              },
+              "pos": {
+                "x": 826,
+                "y": 13
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "1e1f8f43-144f-4d7a-8020-950239f89441"
+              },
+              "pos": {
+                "x": 1224,
+                "y": 107
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddItem",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "ced4981b-3e47-4a8d-a950-eb77af9b1d95"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ItemEntry",
+                        "rawval": "myplugin/copper_coin"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 200
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "696cd40e-6e71-45bd-94c9-ed6ba216b195"
+              },
+              "pos": {
+                "x": 713,
+                "y": 966
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "ced4981b-3e47-4a8d-a950-eb77af9b1d95"
+              },
+              "pos": {
+                "x": 1149,
+                "y": 987
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "7965678b-507c-432d-b4a7-26221fdd27b4"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/SEVictory"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "ad216538-5d9b-4bef-965a-84e189e9cb34"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 100
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "81301d95-8f48-4a21-9b53-0d5c9322ad41"
+              },
+              "pos": {
+                "x": 143,
+                "y": 45
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "7965678b-507c-432d-b4a7-26221fdd27b4"
+              },
+              "pos": {
+                "x": 569
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "ad216538-5d9b-4bef-965a-84e189e9cb34"
+              },
+              "pos": {
+                "x": 541,
+                "y": 135
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetUserContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "obj1"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "bc521d82-1850-43ba-9bb6-7bf032a15caa"
+              },
+              "pos": {
+                "x": 1149,
+                "y": 244
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_If",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Condition",
+                  "children": [
+                    {
+                      "action": "7b31d076-6e65-4fd1-9c33-4ee21500efd2"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "7b66e942-0ddb-4482-a5ce-00ad2d8af785"
+              },
+              "pos": {
+                "x": 1309,
+                "y": 510
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_IfBranch",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "action": "3fc0f582-d21a-4dda-9493-847cacae49e9",
+                        "rawval": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "adb60ab2-2b32-4954-85dc-e2dee07c156b"
+                    },
+                    {
+                      "action": "5cc55017-c10b-4838-917b-2fdb662975c0"
+                    },
+                    {
+                      "action": "696cd40e-6e71-45bd-94c9-ed6ba216b195"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "7b31d076-6e65-4fd1-9c33-4ee21500efd2"
+              },
+              "pos": {
+                "x": 1486,
+                "y": 525
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "VICTORYGOBOG"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "8fe25131-76a3-48f9-8842-fd8215cf7528"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "0d1e0635-9fe3-4086-a91a-e87d9470b431"
+              },
+              "pos": {
+                "x": 1714,
+                "y": 372
+              },
+              "type": "T_Bool"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "8fe25131-76a3-48f9-8842-fd8215cf7528"
+              },
+              "pos": {
+                "x": 2179,
+                "y": 337
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetGlobalVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_GlobalVar",
+                        "rawval": "PlayerParticipate"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "2f2af970-7988-4bdc-9094-2be02733ecae"
+              },
+              "pos": {
+                "x": 2031,
+                "y": 510
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_ComputeBool",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "action": "2f2af970-7988-4bdc-9094-2be02733ecae"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BinaryOperBool",
+                        "rawval": "<="
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "rawval": 1
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "3fc0f582-d21a-4dda-9493-847cacae49e9"
+              },
+              "pos": {
+                "x": 1683,
+                "y": 509
+              }
             }
           ],
           "custom_trigger_data": {
@@ -222,11 +599,14 @@
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
                   {
-                    "action": "5cc55017-c10b-4838-917b-2fdb662975c0"
+                    "action": "81301d95-8f48-4a21-9b53-0d5c9322ad41"
                   },
                   {
-                    "action": "adb60ab2-2b32-4954-85dc-e2dee07c156b"
+                    "action": "7b66e942-0ddb-4482-a5ce-00ad2d8af785"
                   },
+                  [],
+                  [],
+                  [],
                   {
                     "action": "086e053d-b43a-411f-b637-2493f0d5df8e"
                   }
@@ -245,7 +625,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "b99d540dc9f2e8c2c9119592fc7574e8",
-      "triggers.bts": "5472c01f64f6a29c64e19248f6650e4b"
+      "triggers.bts": "65f6433a5aa5c89f1f3c32cb804ba3cd"
     },
     "VERSION": "0.24"
   }

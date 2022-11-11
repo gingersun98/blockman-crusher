@@ -129,7 +129,7 @@
   "castSound": {
     "__OBJ_TYPE": "CastSound",
     "attenuationType": "0",
-    "is3dSound": false,
+    "is3dSound": true,
     "loop": false,
     "losslessDistance": 5,
     "maxDistance": 20,
@@ -137,7 +137,7 @@
     "selfOnly": false,
     "sound": {
       "__OBJ_TYPE": "Resource_Sound",
-      "asset": "",
+      "asset": "asset/Sound Assets/Slash12.mp3",
       "selector": ""
     },
     "volume": {

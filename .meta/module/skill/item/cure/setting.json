@@ -1,6 +1,6 @@
 {
   "data": {
-    "castAction": "attack2",
+    "castAction": "attackS",
     "castSound": {
       "volume": {
         "value": 0
@@ -97,7 +97,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "5dc24846f015121f94b78c939721f9c2",
+      "setting.json": "9b56c4585074b40765ba858d2809b91f",
       "triggers.bts": "5b5155e137ad4d4e7075c7989acb724a"
     },
     "VERSION": "0.24"

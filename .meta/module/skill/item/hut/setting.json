@@ -1,8 +1,9 @@
 {
   "data": {
     "castSound": {
-      "volume": {
-        "value": 0
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/miss.mp3"
       }
     },
     "name": {
@@ -91,7 +92,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3428246a225a50a975f061e5230d78b2",
+      "setting.json": "6a20f2047bda512c671442e91bb8a02c",
       "triggers.bts": "71d4e1546e72cbe5f0b3f5fa3a153df9"
     },
     "VERSION": "0.24"

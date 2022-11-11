@@ -1,7 +1,9 @@
 REGION_ENTER {
 	AddEntityBuff(cfg = "myplugin/SafeArea", entity = $obj1, from = $obj1)
+	AddEntityBuff(cfg = "myplugin/BGMLobby", entity = $obj1, from = $obj1)
 }
 
 REGION_LEAVE {
 	RemoveBuffByFullName(buff = "myplugin/SafeArea", entity = $obj1, toTeam = false)
+	RemoveBuffByFullName(buff = "myplugin/BGMLobby", entity = $obj1, toTeam = false)
 }

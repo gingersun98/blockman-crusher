@@ -34,7 +34,7 @@ warrior.onSelectStateChanged = function()
     actorWindow:useBodyPart("def",'warrior')
     actorWindow:setActorName("g2038_pet_02_3.actor")
     actorWindow:setPosition(Lib.v3(0,0,1))
-    UI:closeWindow("UICrossHair")
+
   end
 end
 
@@ -48,7 +48,8 @@ master.onSelectStateChanged = function()
     actorWindow:setActorName("g2038_pet_01_3.actor")
     actorWindow:setPosition(Lib.v3(0,0,1))
     actorWindow2.Image = "asset/Texture/GingersunUI/RangerA.png"
-    UI:openWindow("UICrossHair")
+
+    
   end
 end
 
@@ -62,13 +63,17 @@ warlock.onSelectStateChanged = function()
     actorWindow:setActorName("Big Dog.actor")
     actorWindow:setPosition(Lib.v3(0,-60,1))
     actorWindow2.Image = "asset/Texture/GingersunUI/mage.png"
-    UI:openWindow("UICrossHair")
+
+
   end
 end
 
 determind.onMouseClick = function()
   PackageHandlers.sendClientHandler("seleWeapon", {index =index}, function(...)
       UI:closeWindow('seleceHeroWnd')
+
+      UI:openWindow("UICrossHair")
+
     end)
 end
 

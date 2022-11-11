@@ -20,11 +20,11 @@ eaa250782c99f1e005c784a289e1af03 *asset/Actor/Grenade Soldier In White/g2047_npc
 0d56a870ed5fa656e37bf52b37d82841 *asset/Actor/Purple And Black Mechanical Cannon Monster/g2047_monster_normal_3108.actor
 1424e5c8e996aaec413ffc497f2933c2 *asset/Actor/Rabbit Ear Elf Girl/g2038_pet_01_2.actor
 449dcb28672d85c0ce1600c536050cf4 *asset/Actor/Rabbit Ear Fairy Girl/Objectives.layout
-e14b318c5521bbfcb66d6a48e978a0fc *asset/Actor/Rabbit Ear Fairy Girl/g2038_pet_01_3.actor
+4c45ab288e759e3c5ee507adf5663e65 *asset/Actor/Rabbit Ear Fairy Girl/g2038_pet_01_3.actor
 6cbbec75786a630c954148d0e3cf6c95 *asset/Actor/Rabbit Ear Fairy Girl/test.actor
 595843150c8d9fb5c7fbdfe0a0945531 *asset/Actor/Red Blue Element Giant/Elemental Giant.actor
-12e8c8d28cac12114b946d5a42eb9b04 *asset/Actor/Red Eagle Monster/Big Dog.actor
-794827ed54ea4c54678da201b0b6990b *asset/Actor/Redhead Man With Antlers/g2038_pet_02_3.actor
+6b86776c569a94e8036e9c8517a30ed1 *asset/Actor/Red Eagle Monster/Big Dog.actor
+e4cca0a6c0c8252f72c979f1541796bc *asset/Actor/Redhead Man With Antlers/g2038_pet_02_3.actor
 d543a13bf9ae88ab4bc8c83970fcb175 *asset/Actor/Round Bonfire/Burning Fire.actor
 6280b76570558e04dd97cc425addcb71 *asset/Actor/Six-Armed Brown Asura/Asura1.actor
 58c50b8da698f1f64c0e722de9565fc2 *asset/Actor/Soldier In White Goggles/UICrushObject.layout
@@ -57,13 +57,13 @@ aecc0d5b8c59831b946dd9da5aeeab62 *asset/Actor/ice.actor
 4a6dc49929e9f7f6b8f06352b4ba6c72 *asset/Actor/thunder_devil/g2043_pet_10501.actor
 ed99932e8c9572c5cdf26ab48dba22d0 *asset/CountdownTimer.layout
 88481083378e6f3ce3b16c1f715514b7 *asset/CountdownTimer.lua
-0e55bcf77aadf88c0dd34aeeeb6c4141 *asset/DefeatEntity.layout
+908ce3f8c30f4dc67a391e0abc125e49 *asset/DefeatEntity.layout
 88481083378e6f3ce3b16c1f715514b7 *asset/DefeatEntity.lua
 6a7240b20eb0650fea78470d21c1e896 *asset/HUD.layout
 88481083378e6f3ce3b16c1f715514b7 *asset/HUD.lua
 520466571ff83ccd913728c822bdbbb4 *asset/LoadOut.layout
 047e0789c86d3b0dbb8e6fed7da5fcc5 *asset/LoadOut.lua
-4f478495a54658b09b6963149641c71b *asset/Lose_Standart.layout
+8871a122a3b871c708bdbaa18d130963 *asset/Lose_Standart.layout
 05fdd96ee22dd759fd1261ccb2bc4ca0 *asset/Lose_Standart.lua
 cc28a39a9761a1ea72524450a852ba22 *asset/Mesh/A Bunch Of Jars Of Varies Types/All kinds of jars.actor
 51bfcc34a2ec7277ece5b592dcac63c9 *asset/Mesh/Bare Brown Tree Trunk/Bare Tree Trunk.actor
@@ -191,7 +191,7 @@ fa63d14631252a7c362e987e15a62c81 *asset/Texture/Gui/imagesets/role_Panel.imagese
 4e6f7b1fbff6003a6c0f902e62858f07 *asset/UIKills.layout
 6ce56d96c10da2ac7f68be6a87a61cb2 *asset/UIObjectives.layout
 88481083378e6f3ce3b16c1f715514b7 *asset/UIObjectives.lua
-c1c17a87af57d213d1e032dcc5c67574 *asset/UIPrompItem.layout
+0e25f840c9f8e1528866e6636b7f3a28 *asset/UIPrompItem.layout
 118632da05f53df80b78386a10ef4d1c *asset/WinCondition.layout
 1d580871640569f5351e439a407ff45d *asset/WinCondition.lua
 93478259793b39c2f234fd528b657f59 *asset/Winner.layout
@@ -208,7 +208,7 @@ bbf213ae7fcabed1f9908f5aab87fcd3 *asset/mainWnd_1.lua
 50475eb90bb868da411a5cd24450a194 *asset/rankWnd.lua
 f2dca776b20a0de9ad02f3656a9751f4 *asset/seleceHeroWnd.layout
 6031838c82b5910aa4b8b693670ecee3 *asset/seleceHeroWnd.layout.crdownload
-5831eefeb0521adbcbae59298c7d9276 *asset/seleceHeroWnd.lua
+ddd76be4677d093927ba92c266987f0f *asset/seleceHeroWnd.lua
 af0bf045f64f5be9e0048d2ac21ec37f *asset/seleceHeroWnd.lua.crdownload
 349f258c369ff18bbb123a6990e2bfc8 *asset/seleceHeroWnd_GingerSun.layout
 0be5038ec443adc14a607eca2e202121 *asset/stone/fire.actor
@@ -224,16 +224,12 @@ c024d172ded53201493785bc2f6a0a8d *asset/stone/zhibei/daoju_092/daoju_092_daoju_0
 aa66649534f6c3cecb91bfc63279b66b *asset/transfer/g2038_yushanjia_blue.actor
 2690c425a5bcf802ac2118c7fa41280f *asset/transfer/transfer.actor
 99cd7c8c11d2f8cae86735cf8ccb4679 *asset/transfer/transfer2.actor
-d751713988987e9331980363e24189ce *coin.json
+6bffb7c4d6a80f20afe988d90eac3f02 *coin.json
 8b4680f579056d53a7459bda38f8d752 *commodity.csv
-18aaf80276bfcdcd569fc33a559ffc2f *events/0d122a2c-bb31-44e3-b5a2-d4d95e49bba3.bts
-8a4e9dfcf4ac5177d44dced5aee8ff33 *events/5171984e-5fcf-4bd3-88d5-c138448209f3.bts
-1f3eeebd60d6d07fca112e68e8776fa6 *events/7852949f-6bec-4ebf-afc8-55944c9f27bd.bts
 c53848d17438b0cc0ae167e471d08ea0 *events/89c668c8-a943-4bf2-ad10-73515192b84e.bts
-01553e2196e736a588a9715b50053846 *events/ab9face8-f55a-4c56-a271-58c237b08f3b.bts
+4523ca4868215d218b7aaf366f0365b7 *events/ab9face8-f55a-4c56-a271-58c237b08f3b.bts
 f3ab1741a2777ea11847563006a29f94 *events/ad5f9e3c-04d4-4b65-8521-d31cd63b873e.bts
-1b86d4f9578d399bd26f86b58fc87c84 *events/e0b8e602-5a3f-4f36-b201-735294c4e5a7.bts
-e29b72f5add36310b6a54b72cefed91c *game_res_config.txt
+dfb80a540c3b13dcbcea078414cd0ce5 *game_res_config.txt
 7de6fe70def3b44d46e11e236ad728d8 *gui/CMakeLists.txt
 731d9c09fdf1d3f1235b97c7d630daad *gui/events/Actor/Rabbit Ear Fairy Girl/Objectives/9a013385-1426-4c42-add3-5b4f34f760f8.bts
 a42665e18911484b9e86b93be5570dd5 *gui/events/Actor/Rabbit Ear Fairy Girl/Objectives/setting.json
@@ -247,8 +243,8 @@ d1fd7037f4941cd1b8cbfb94bb926990 *gui/events/Actor/Soldier In White Goggles/UISh
 ebaffcaa970627bf1b032ebc7904e31a *gui/events/CashShop/setting.json
 ebaffcaa970627bf1b032ebc7904e31a *gui/events/CountdownTimer/setting.json
 31e1bf6d2489cdd6f41bdb9a9d5648f0 *gui/events/DefeatEntity/39e4295c-b43f-4696-a3b8-27110e80d353.bts
-69406f89905e2a8e5a47c351dfcb3b6d *gui/events/DefeatEntity/4118981f-cbd8-456e-a93b-e9ee4a411303.bts
-4f924d90211673e775c788a8aa5166fa *gui/events/DefeatEntity/setting.json
+239a61e75f0915f5cd1afdb4322afa1a *gui/events/DefeatEntity/4118981f-cbd8-456e-a93b-e9ee4a411303.bts
+ec36347e6c28c0334bfeda7f7c40c277 *gui/events/DefeatEntity/setting.json
 c85e0febcae779e1754bc031dfa70363 *gui/events/HUD/ebabc051-9314-4e15-83d3-42c2914a3448.bts
 0cf3995991211fc1791b566a0d92bc98 *gui/events/HUD/setting.json
 dea9ffb30fd77b22640d7bff198986ca *gui/events/LoadOut/25ce17e2-5bf5-464a-8643-3b583f7b9cf5.bts
@@ -257,8 +253,8 @@ d1fd7037f4941cd1b8cbfb94bb926990 *gui/events/LoadOutPremium/setting.json
 c636ae0f50832175f63986b1eb8aedb7 *gui/events/LoadOutStore/b89b64a7-b458-4d2d-be3a-3e4707ed3627.bts
 7633e072261d1791eba53dce1d0dd07b *gui/events/LoadOutStore/setting.json
 df3dcf3d56a4167c010c79160b8ee5b7 *gui/events/Lose_Standart/3da7a8c7-de9f-484c-a49c-82f9059a7610.bts
-8a2049e047df6098c556871ab8d732bd *gui/events/Lose_Standart/74d8d3d3-bdea-4f9d-acfe-3fcc324278b1.bts
-499673a4d304473bcf147fc6a9d6c435 *gui/events/Lose_Standart/setting.json
+dea9ffb30fd77b22640d7bff198986ca *gui/events/Lose_Standart/74d8d3d3-bdea-4f9d-acfe-3fcc324278b1.bts
+e11283c5e17915b227ee32052ef1bed4 *gui/events/Lose_Standart/setting.json
 f8a7d8f413b56650953b97383e151711 *gui/events/OBJECTIVEPLAYER/83f05784-e8a0-40ed-8b91-81861c787c19.bts
 1f279c63e176193c82262647900e9fa2 *gui/events/OBJECTIVEPLAYER/setting.json
 dea9ffb30fd77b22640d7bff198986ca *gui/events/PVPBattle/1cfb38ed-b3ea-4f99-b012-279f1b8b9be9.bts
@@ -283,9 +279,9 @@ d1fd7037f4941cd1b8cbfb94bb926990 *gui/events/UICrossHair/setting.json
 239a61e75f0915f5cd1afdb4322afa1a *gui/events/UIKills/01f2ddf2-43d9-4f83-9422-eb03c9f450dc.bts
 247778e92570239f81355f9b15117149 *gui/events/UIKills/setting.json
 ebaffcaa970627bf1b032ebc7904e31a *gui/events/UIObjectives/setting.json
-9435bda97bda0ecbc059b3df3be759c4 *gui/events/UIPrompItem/35ab9bb3-ac5d-472e-b648-48a7383eabd2.bts
+d8c7b3b096822e4128e3c597fda0278c *gui/events/UIPrompItem/35ab9bb3-ac5d-472e-b648-48a7383eabd2.bts
 7311dd1edf98b9f73c66268ad2259623 *gui/events/UIPrompItem/af9e8e6f-8bf5-49c9-8459-4d87a02494c6.bts
-f5ce6cdf2e9bb7603ded99058b76420b *gui/events/UIPrompItem/setting.json
+3731a2d21e93559ec70c282d726f73e5 *gui/events/UIPrompItem/setting.json
 ebaffcaa970627bf1b032ebc7904e31a *gui/events/WinCondition/setting.json
 e30a3687d14c9c9da1740eb904122457 *gui/events/Winner/378d9c5e-b36f-4606-9411-3f5efeef682e.bts
 322aba130410eb1128d4f99a401d751e *gui/events/Winner/4f1ecb1d-4564-428e-baf0-0ce66fb8d267.bts
@@ -462,9 +458,9 @@ e0fd31b171e3e145f0a034f8cfacb274 *gui/layout_presets/chat.layout
 d6d1224a141e97544f8bc9638e0f9148 *gui/layout_presets/toolbar.layout
 d0494bf2776af58bd2c1881290404fce *gui/schemes/user_font.json
 1fce38776494c2922bc6b81253774249 *id_mappings.json
-07175e41ed352902a8f8f1cd3689b90d *lang/lang.csv
+042b676651c4e05029ed429900d762f5 *lang/lang.csv
 0b8919df931aea159a155278c7c8fe41 *lua/main.lua
-535ac8c07797e26aad1bed2a938556a2 *lua/script_client/main.lua
+57d7e573ed3b4a1b9e25f2d500e138f4 *lua/script_client/main.lua
 876822a21ab9ad4b6f31f555250fbc79 *lua/script_client/rankMgr.lua
 73868072919a80dc6d31876e1c7c4e6a *lua/script_common/main.lua
 07c1c79c508298f40be2d4d24d68685b *lua/script_server/leaderboard.lua
@@ -480,7 +476,7 @@ a0fa7ca69bf224dd32d3f245c38cfbcc *map/MainLobby/setting.json
 6a64800523eb27c83d1e580b106a2132 *map/MapArena/meshPart.batch
 c045155ca9290bb8d22a09ca019c7925 *map/MapArena/setting.json
 6a64800523eb27c83d1e580b106a2132 *map/MapVillage/meshPart.batch
-ea7d516a5e88f3d450934f6df9c77648 *map/MapVillage/setting.json
+a0dc1f6a584ed1db783affcb7c26ed1b *map/MapVillage/setting.json
 17206c86701f2d2c0147ee0a28775a08 *map/copy/meshPart.batch
 ca9c491ac66b2c62500882e93f3719a8 *map/copy/part.batch
 07c42a9a69e98685de7119bbbe184e5c *map/copy/setting.json
@@ -587,12 +583,16 @@ b17defe6d6e2ccffb7b98574085673a9 *plugin/myplugin/buff/1a655cef-79ac-4801-be8b-3
 008e4c8756d688bc6d2de05f54c5adb1 *plugin/myplugin/buff/233a3dbe-7588-4e2b-917b-0e3fbf99a068/setting.json
 6819ee5b087c4aa69468a2fb76339290 *plugin/myplugin/buff/6e7e92f7-531a-434c-991c-7ed0ab3115a2/setting.json
 48ce11054f4688c9c2ee477cf557b548 *plugin/myplugin/buff/803ad0fb-a97c-4026-a78b-34f1952c9c06/setting.json
+49f90cb845ffd7271b1694f8ca113603 *plugin/myplugin/buff/BGMBattle/setting.json
+2ede172b7c114b32b90e99b7fe727849 *plugin/myplugin/buff/BGMLobby/setting.json
 679c96c22ede86b739cfaeecfd664f10 *plugin/myplugin/buff/BotMage/setting.json
 2400ee162a65bbab5f9ac2407fadaa6f *plugin/myplugin/buff/BotRanger/setting.json
 9dc784a03606e15a4dd28de31c9063c1 *plugin/myplugin/buff/BotWarrior/setting.json
 61c80840fbc8747895cd908b1398c434 *plugin/myplugin/buff/Force/setting.json
 21516fd582341ecf85f3231a108794ec *plugin/myplugin/buff/Invicible/setting.json
 77920f1a14cc9f0136abe753c8bddfdd *plugin/myplugin/buff/Run/setting.json
+7c35557ad832df4edbd933eb49741926 *plugin/myplugin/buff/SELose/setting.json
+6013c05f9ef093a9152488532cdebf53 *plugin/myplugin/buff/SEVictory/setting.json
 0ad3378f331d9ef61ef8fc3a37933d00 *plugin/myplugin/buff/SafeArea/setting.json
 06df207cc4b3cb70c695201fd2b5d576 *plugin/myplugin/buff/Shield royal/setting.json
 763f54e1c68038cff8c1b328e9b4fbad *plugin/myplugin/buff/Shock/setting.json
@@ -601,12 +601,12 @@ b17defe6d6e2ccffb7b98574085673a9 *plugin/myplugin/buff/1a655cef-79ac-4801-be8b-3
 2a63a276d421270e3bc9dab0b90677df *plugin/myplugin/buff/bea51d78-ffb2-44ee-883e-5420681cb31d/setting.json
 5e5d7637a4ef5c18b623bc46888c81c1 *plugin/myplugin/buff/burning/setting.json
 6962a63764b3a5a0a1ec47ef9b53b8c7 *plugin/myplugin/buff/cure/setting.json
-d4b43275ed95a7dd08d827726ec90221 *plugin/myplugin/buff/ice/setting.json
-12cb6616f2df9a26f2291adc38f8e9e0 *plugin/myplugin/buff/intensify/setting.json
-f6cda5767c457937e43bb27cc0d9698b *plugin/myplugin/buff/strength/setting.json
+ada9befe3e929c201f2c65f9e7ef8159 *plugin/myplugin/buff/ice/setting.json
+3ee8270a8a0316c6a2db6a20ac4e3cfc *plugin/myplugin/buff/intensify/setting.json
+f9e37c8bdaa430cff392713d390f0187 *plugin/myplugin/buff/strength/setting.json
 f09fb10dd090ca4d3bf4be3dec26f2b6 *plugin/myplugin/entity/9efabf7f-63f2-43e2-afa8-a3c9c051257a/server/server_script.lua
 78039b80f555bdaa7106b19bf4a2d801 *plugin/myplugin/entity/9efabf7f-63f2-43e2-afa8-a3c9c051257a/setting.json
-046cd90863ddf75ab8c98d98a668e1cc *plugin/myplugin/entity/9efabf7f-63f2-43e2-afa8-a3c9c051257a/triggers.bts
+b5eaf9ef27c3b74edf641ce6e8ab4051 *plugin/myplugin/entity/9efabf7f-63f2-43e2-afa8-a3c9c051257a/triggers.bts
 e39d78dd9cb5e7fc49e4f7e670f71c3d *plugin/myplugin/entity/BotMage/server/server_script.lua
 ad083826ce943b010463a36620d3f8dc *plugin/myplugin/entity/BotMage/setting.json
 19fae2c17814de76480196d35ca861e3 *plugin/myplugin/entity/BotMage/triggers.bts
@@ -679,7 +679,7 @@ a6b938e65ed94a2e5a6feb802f6d9b25 *plugin/myplugin/entity/ice _blame/setting.json
 7cec8da2a6139533e8459a26aaab8397 *plugin/myplugin/entity/ice_devil/setting.json
 2cda24c95a12e0662117d962d24ae1c2 *plugin/myplugin/entity/ice_devil/triggers.bts
 7ac6beb8f7e98374d2a213fe93f33a6f *plugin/myplugin/entity/player1/setting.json
-07d3cebfc5570e2e4712bba7174f36ab *plugin/myplugin/entity/player1/triggers.bts
+6934162702ed19fea319b60b1f77b418 *plugin/myplugin/entity/player1/triggers.bts
 d221f5dd414b147a472efcb6c9c8621e *plugin/myplugin/entity/thunder_devil/setting.json
 2cda24c95a12e0662117d962d24ae1c2 *plugin/myplugin/entity/thunder_devil/triggers.bts
 a9b3753cf799843615f72cb9343ca3f9 *plugin/myplugin/entity/transfer/setting.json
@@ -717,7 +717,7 @@ c4e5879141da0093bda32d07c83d0f0d *plugin/myplugin/item/The magic book/setting.js
 5315f8ec53a3581f97dc725e7e51e05d *plugin/myplugin/item/b771344e-32e8-4488-a0f3-7d87111c3590/triggers.bts
 d9c0b35b27cf0e3b954a09a92f19b0ea *plugin/myplugin/item/cc434c46-ed54-4f8c-aff4-7e1a8ae620ac/setting.json
 851cae08de401143cf50fba6e7f275e6 *plugin/myplugin/item/ce6802e2-dfff-47b3-a5cd-b0479715f636/setting.json
-033f924975caf38c96d386c351d3ff39 *plugin/myplugin/item/copper_coin/setting.json
+723f208119fad56b23d5151eae99181d *plugin/myplugin/item/copper_coin/setting.json
 dce37ac9b3cfd0ca9ee4e68ace724def *plugin/myplugin/item/d58dc839-3678-40b4-8716-3492b87030b8/setting.json
 df637712d75365aaf2abf9ad0944910b *plugin/myplugin/item/d9575c4c-95cd-44fe-ad35-b44d9b19d730/setting.json
 a248f2e8de9f3d22aa075cde0ccea9a9 *plugin/myplugin/item/d9575c4c-95cd-44fe-ad35-b44d9b19d730/triggers.bts
@@ -747,101 +747,101 @@ ca786449e6a47060c8038f6e643bece9 *plugin/myplugin/region/128b4530-672e-40e6-9985
 ca786449e6a47060c8038f6e643bece9 *plugin/myplugin/region/1471530f-a489-4529-b3b8-bc24a217e12a/setting.json
 ac886fdd9b2e0bfd70ab695dac3ecafb *plugin/myplugin/region/1471530f-a489-4529-b3b8-bc24a217e12a/triggers.bts
 ca786449e6a47060c8038f6e643bece9 *plugin/myplugin/region/18e2f924-eceb-402c-a8b0-81f05a887745/setting.json
-ca786449e6a47060c8038f6e643bece9 *plugin/myplugin/region/3e503d96-c711-4d8e-b79e-2868064156c4/setting.json
-2b21dc26f218ac46f0f1c08a889df822 *plugin/myplugin/region/3e503d96-c711-4d8e-b79e-2868064156c4/triggers.bts
+b99d540dc9f2e8c2c9119592fc7574e8 *plugin/myplugin/region/3e503d96-c711-4d8e-b79e-2868064156c4/setting.json
+b6f70071c0a1981e21b6a6840b8f64b4 *plugin/myplugin/region/3e503d96-c711-4d8e-b79e-2868064156c4/triggers.bts
 ca786449e6a47060c8038f6e643bece9 *plugin/myplugin/region/61e314bf-a961-4647-945a-79583b7864b1/setting.json
 ca786449e6a47060c8038f6e643bece9 *plugin/myplugin/region/7248a80a-5a9c-4b3a-aa83-1cd8a9692ef6/setting.json
 2b21dc26f218ac46f0f1c08a889df822 *plugin/myplugin/region/7248a80a-5a9c-4b3a-aa83-1cd8a9692ef6/triggers.bts
-ca786449e6a47060c8038f6e643bece9 *plugin/myplugin/region/86c90ffd-4c27-428a-9a01-401a410505b3/setting.json
-79a77d776343dc55d679a81e34b83f8f *plugin/myplugin/region/86c90ffd-4c27-428a-9a01-401a410505b3/triggers.bts
+b99d540dc9f2e8c2c9119592fc7574e8 *plugin/myplugin/region/86c90ffd-4c27-428a-9a01-401a410505b3/setting.json
+718d83ca670e9357177532ba95c319bb *plugin/myplugin/region/86c90ffd-4c27-428a-9a01-401a410505b3/triggers.bts
 ca786449e6a47060c8038f6e643bece9 *plugin/myplugin/region/8f22bbf9-9d65-478d-b64e-309decfa369c/setting.json
 ca786449e6a47060c8038f6e643bece9 *plugin/myplugin/region/a8395e4c-0ef3-4abb-bdc8-19aca1931262/setting.json
 b99d540dc9f2e8c2c9119592fc7574e8 *plugin/myplugin/region/ae0f2abb-359e-48d0-b6bf-cbd201793e0f/setting.json
-5472c01f64f6a29c64e19248f6650e4b *plugin/myplugin/region/ae0f2abb-359e-48d0-b6bf-cbd201793e0f/triggers.bts
+65f6433a5aa5c89f1f3c32cb804ba3cd *plugin/myplugin/region/ae0f2abb-359e-48d0-b6bf-cbd201793e0f/triggers.bts
 b99d540dc9f2e8c2c9119592fc7574e8 *plugin/myplugin/region/b511cf92-bb21-47a9-aec1-85366439dddd/setting.json
-1ca6c4ed439197354c5baa0f1a7d196f *plugin/myplugin/region/b511cf92-bb21-47a9-aec1-85366439dddd/triggers.bts
+1092d7678c598a24635acf21c67d99ea *plugin/myplugin/region/b511cf92-bb21-47a9-aec1-85366439dddd/triggers.bts
 ca786449e6a47060c8038f6e643bece9 *plugin/myplugin/region/bed9178e-9f3c-4ee2-9ac4-dca1c9086923/setting.json
 2b21dc26f218ac46f0f1c08a889df822 *plugin/myplugin/region/bed9178e-9f3c-4ee2-9ac4-dca1c9086923/triggers.bts
-ca786449e6a47060c8038f6e643bece9 *plugin/myplugin/region/eb495ff4-7059-448d-858f-0db4319669f1/setting.json
-04bb1edb54e99a8e75cb59abbca01c02 *plugin/myplugin/region/eb495ff4-7059-448d-858f-0db4319669f1/triggers.bts
+b99d540dc9f2e8c2c9119592fc7574e8 *plugin/myplugin/region/eb495ff4-7059-448d-858f-0db4319669f1/setting.json
+296b784c728c583eee93577680b7651c *plugin/myplugin/region/eb495ff4-7059-448d-858f-0db4319669f1/triggers.bts
 1d30932e78f6c4d42518b44101799ce4 *plugin/myplugin/reward/reward/setting.json
-7100ad29258c29d7da03627a1b09e69d *plugin/myplugin/skill/0d98c98c-5c0a-4229-9e30-9b465ce304c5/setting.json
+65830a18c89d6d995c8daec4b856bb63 *plugin/myplugin/skill/0d98c98c-5c0a-4229-9e30-9b465ce304c5/setting.json
 596454dae6936951fbe85365494fcf9d *plugin/myplugin/skill/0d98c98c-5c0a-4229-9e30-9b465ce304c5/triggers.bts
 62017509098c6c12798c00f30e2a43bf *plugin/myplugin/skill/13f60fd4-bb07-4c04-a7fa-0725d6971c00/setting.json
-3660fe683520faee51c597397b688ffb *plugin/myplugin/skill/297c3114-87de-4985-9aae-580a2ed1f671/setting.json
-6ac7058b40f6413348651d5c0537cebb *plugin/myplugin/skill/2b1fa4c1-8bd1-456b-9cb5-cbb88c35d999/setting.json
+e29c9a467a786f9fe243301b547013b6 *plugin/myplugin/skill/297c3114-87de-4985-9aae-580a2ed1f671/setting.json
+1e06237adb67d3b12dd4463e21522b97 *plugin/myplugin/skill/2b1fa4c1-8bd1-456b-9cb5-cbb88c35d999/setting.json
 2a55d16029d3859d433f25ef3c47e42a *plugin/myplugin/skill/2b61fe2d-37f0-4752-87d2-eb156c40dd12/setting.json
-fd100c066d7f3e0f1f6452034dce7fc2 *plugin/myplugin/skill/2dedc55d-2d6f-4e2d-ab9f-2c2be108caa2/setting.json
-85f4e57a9f0685e78a32f1b66ae46b1d *plugin/myplugin/skill/4604cc0a-2d7f-461c-856c-16dd0e581e08/setting.json
+95e4ecbc98039edc1390ed2f96649cec *plugin/myplugin/skill/2dedc55d-2d6f-4e2d-ab9f-2c2be108caa2/setting.json
+73b9429a3d070aa8c45ffd0d1f73cb63 *plugin/myplugin/skill/4604cc0a-2d7f-461c-856c-16dd0e581e08/setting.json
 0087419e456bd599ce9d30b562fe7980 *plugin/myplugin/skill/4604cc0a-2d7f-461c-856c-16dd0e581e08/triggers.bts
-8651cf2b863a52f49afbb61d1728b39f *plugin/myplugin/skill/61a15cd6-cfbd-4c55-86dc-f623218cf3c1/setting.json
+dfecad419fe0d35af7cae5ecc86b6961 *plugin/myplugin/skill/61a15cd6-cfbd-4c55-86dc-f623218cf3c1/setting.json
 ba4244419d9f1482ca62c2b65058a110 *plugin/myplugin/skill/6d963529-314c-4ce1-b576-e06fed2bc115/setting.json
 cb90805681d0e9c9fc7ed5c1c8cced4f *plugin/myplugin/skill/6d963529-314c-4ce1-b576-e06fed2bc115/triggers.bts
 20b9db6dc36162dce198f0815c684ee5 *plugin/myplugin/skill/720c3f19-65e8-47a1-a7c1-2d581b40a691/setting.json
-ff0c0bbb05ec50c46bde0205528046f5 *plugin/myplugin/skill/7c41b303-d6c0-4581-b67c-f3035b62ba0c/setting.json
+3d35f02b03dfaddae3ce312a371e5bc8 *plugin/myplugin/skill/7c41b303-d6c0-4581-b67c-f3035b62ba0c/setting.json
 aa2136f89c52a01d16ab3fde00e103a3 *plugin/myplugin/skill/7dc96876-b4ef-4f04-b2fc-2b72e6184e0c/setting.json
 4fbe21778387e5337449ecd013738aaa *plugin/myplugin/skill/841bf40c-6cfa-4900-a536-16578126dd42/setting.json
-8d3104ba32ec70876cd7fea135bdcd5f *plugin/myplugin/skill/8ca0f3d7-e867-4bc1-83b5-e5cdc7e6cf41/setting.json
-d71ca2b748323ebf1f458f8d5ee90bf6 *plugin/myplugin/skill/8ca0f3d7-e867-4bc1-83b5-e5cdc7e6cf41/triggers.bts
-69aad50331ee4dd18802a2c04be8dd94 *plugin/myplugin/skill/9681c16e-bf5f-4507-9890-88d63a721430/setting.json
+8407981b1871c9aa86f1f0f901ed3ae2 *plugin/myplugin/skill/8ca0f3d7-e867-4bc1-83b5-e5cdc7e6cf41/setting.json
+952801932ac16d76ef82db330e0a6f3c *plugin/myplugin/skill/8ca0f3d7-e867-4bc1-83b5-e5cdc7e6cf41/triggers.bts
+7f7768cdd28dbe95d4c8d2bf86222947 *plugin/myplugin/skill/9681c16e-bf5f-4507-9890-88d63a721430/setting.json
 e48b3d508f71427dc3cb4989d561082d *plugin/myplugin/skill/9681c16e-bf5f-4507-9890-88d63a721430/triggers.bts
-04ff821cb8e50ca887ea499589c3e8e7 *plugin/myplugin/skill/Blasting_gas/setting.json
+888cc13444dc4e84b55a9af78ae78d70 *plugin/myplugin/skill/Blasting_gas/setting.json
 b1674673d86acd1709ca81103851b477 *plugin/myplugin/skill/Blasting_gas/triggers.bts
-afdde79bc1c04f671ca717940393460e *plugin/myplugin/skill/DaggerAttack/setting.json
-fd4550df76a1ee2a04ca6122a92cb39e *plugin/myplugin/skill/DaggerSkill/setting.json
-0356bc9d7b9bab103f5d581eb109003c *plugin/myplugin/skill/DaggerSkill/triggers.bts
-340c4fdaab4199c829e80c907f541d93 *plugin/myplugin/skill/GreatSwordAttack/setting.json
+ad09f2ca66057e7f1bf6167f6b9db6d5 *plugin/myplugin/skill/DaggerAttack/setting.json
+a2530547afa65049257a58d2251f7494 *plugin/myplugin/skill/DaggerSkill/setting.json
+5a566fc7c963bf1119b53b2fee3dc77b *plugin/myplugin/skill/DaggerSkill/triggers.bts
+dc6cfd769f04daa43baf40e66dab1e98 *plugin/myplugin/skill/GreatSwordAttack/setting.json
 8ce6323fe8ca55b0621dd9934fd58a4f *plugin/myplugin/skill/GreatSwordSkill/setting.json
 0356bc9d7b9bab103f5d581eb109003c *plugin/myplugin/skill/GreatSwordSkill/triggers.bts
-5523af979e141a3f59353d7e1b660249 *plugin/myplugin/skill/Invicible/setting.json
+bfc7919c4a5773f21a933734326e1236 *plugin/myplugin/skill/Invicible/setting.json
 663187ea891fda2d275317512599cc63 *plugin/myplugin/skill/Invicible/triggers.bts
-15f55cc2e03f6924350086bb5262f743 *plugin/myplugin/skill/Knockback/setting.json
-1868dd75b3f3036c9415788dfbdbaad5 *plugin/myplugin/skill/Knockback/triggers.bts
-82b9c48de0c31d9e6640eec7634e2a5e *plugin/myplugin/skill/Knockback2/setting.json
+cf70e7689ddbfb649c683532e5703d1d *plugin/myplugin/skill/Knockback/setting.json
+204fef465f82563ce699c56705da60a4 *plugin/myplugin/skill/Knockback/triggers.bts
+c88841fb3023e852e6fe1df7561a3bed *plugin/myplugin/skill/Knockback2/setting.json
 204fef465f82563ce699c56705da60a4 *plugin/myplugin/skill/Knockback2/triggers.bts
-3cea3ef93780607a92d62926a0d4ab48 *plugin/myplugin/skill/Shield_royal/setting.json
+ba457e84edbf288d2ec945ed3d405f0b *plugin/myplugin/skill/Shield_royal/setting.json
 27ce1e445f0a6bc7b392d2fb286577a4 *plugin/myplugin/skill/Shield_royal/triggers.bts
-b72114843869e7ddecc10855dea25eff *plugin/myplugin/skill/SwordAttack/setting.json
-e7c071850709aea8e93f62b393595fd0 *plugin/myplugin/skill/SwordSkill/setting.json
-0356bc9d7b9bab103f5d581eb109003c *plugin/myplugin/skill/SwordSkill/triggers.bts
+04283bc829b918b43de208c9f5d4af6a *plugin/myplugin/skill/SwordAttack/setting.json
+a967bff4ee1e3940e9ec047cb05c1163 *plugin/myplugin/skill/SwordSkill/setting.json
+5a566fc7c963bf1119b53b2fee3dc77b *plugin/myplugin/skill/SwordSkill/triggers.bts
 b577c11c3bf15f21b0b360956e138215 *plugin/myplugin/skill/a3625fb5-9098-476b-9890-3827a2b44157/setting.json
-34d30fe05fa8da50f14edcb3cada38d7 *plugin/myplugin/skill/attack/setting.json
+0f9f5cb8862b18f589ef0dcc20f193f1 *plugin/myplugin/skill/attack/setting.json
 ae9e3d80be09d39a660975c185231ca0 *plugin/myplugin/skill/b6c90721-27f2-46cb-b3dd-b7f5f3008642/setting.json
-0e41681102c25644a282290d7fbc3896 *plugin/myplugin/skill/bda3e94b-07ae-46ec-838a-881a3290b08f/setting.json
+fc0e62d4456f9f8f792936fdcb51b292 *plugin/myplugin/skill/bda3e94b-07ae-46ec-838a-881a3290b08f/setting.json
 2eec804fce2c2feb9b190f7c76e69bfc *plugin/myplugin/skill/bda3e94b-07ae-46ec-838a-881a3290b08f/triggers.bts
-1f0cd8fe7595410cb4a1ea037ca3982f *plugin/myplugin/skill/be87d8ff-daea-4a62-a682-02704d614ed6/setting.json
+f1cd2d062926f2111798d833ef0a3296 *plugin/myplugin/skill/be87d8ff-daea-4a62-a682-02704d614ed6/setting.json
 abe9eebd98766a7f0dd75e3c9dcf1405 *plugin/myplugin/skill/be87d8ff-daea-4a62-a682-02704d614ed6/triggers.bts
-a6aa3df2962a58223e325913b425d815 *plugin/myplugin/skill/blame/setting.json
-02a17f6791af8192e3284a546d5e24ef *plugin/myplugin/skill/blame2/setting.json
-5a9bf2cf959825cf16c5944ae59fef03 *plugin/myplugin/skill/blow/setting.json
+30bc1b24a91ea5230641bed96cce3378 *plugin/myplugin/skill/blame/setting.json
+b7b616248bb91f2366117369d6474547 *plugin/myplugin/skill/blame2/setting.json
+6de6fbacb3e062935da3b74c18c548f2 *plugin/myplugin/skill/blow/setting.json
 bba8c3d843d7e63648c6247ee218f981 *plugin/myplugin/skill/blow/triggers.bts
-3651c4fa11d0e12b563c869f854feace *plugin/myplugin/skill/c14c37fd-4c5f-4602-ae04-757f7e759286/setting.json
+a9492dc42ebfb173608afeeed3007520 *plugin/myplugin/skill/c14c37fd-4c5f-4602-ae04-757f7e759286/setting.json
 4aa87f15d4da1ae62ffb29413fad921d *plugin/myplugin/skill/c14c37fd-4c5f-4602-ae04-757f7e759286/triggers.bts
 546aa55f52225cd09eb757652ff66e86 *plugin/myplugin/skill/c4fad793-b05d-45cc-b1a6-c702cc325181/setting.json
-5dc24846f015121f94b78c939721f9c2 *plugin/myplugin/skill/cure/setting.json
-e3b91c7973e8a0fb6ade77af3a973a95 *plugin/myplugin/skill/cure/triggers.bts
-659b07b1f2da13f3ef2f8489148e7d66 *plugin/myplugin/skill/d355ed5d-b6ac-4b88-874d-e613e5d59be4/setting.json
+9b56c4585074b40765ba858d2809b91f *plugin/myplugin/skill/cure/setting.json
+5b5155e137ad4d4e7075c7989acb724a *plugin/myplugin/skill/cure/triggers.bts
+5aeb4092fd7f103e33a0a39336487c9a *plugin/myplugin/skill/d355ed5d-b6ac-4b88-874d-e613e5d59be4/setting.json
 6b7eefcbe1d4f88eebc8a7579c283bcc *plugin/myplugin/skill/damage/setting.json
 ed1a1f038149c641c87475f9883f408b *plugin/myplugin/skill/e805e224-780f-4625-ac58-c1df25db208b/setting.json
 e1528aea9dbb5bf7584671c11439887a *plugin/myplugin/skill/f33f3df8-1f42-46c0-b50b-3c343d79c70d/setting.json
 282d3eb140662c11e6b43ac036c4883b *plugin/myplugin/skill/f33f3df8-1f42-46c0-b50b-3c343d79c70d/triggers.bts
-95b000ed5b26b8d66913e2c050e823f6 *plugin/myplugin/skill/f3dee5d5-91cd-4463-a0cc-167327053846/setting.json
-5c7d38d1585ea256aa36221cf4481b01 *plugin/myplugin/skill/fireball/setting.json
-458f889b39f1a92974321596766607c7 *plugin/myplugin/skill/hurt/setting.json
+a0dfdec768ead0ebfba9c23ff56a2f36 *plugin/myplugin/skill/f3dee5d5-91cd-4463-a0cc-167327053846/setting.json
+91e04f72324bb15b83057e766e7af4e4 *plugin/myplugin/skill/fireball/setting.json
+f0dddef719f0f938a4bf653e657a146b *plugin/myplugin/skill/hurt/setting.json
 204fef465f82563ce699c56705da60a4 *plugin/myplugin/skill/hurt/triggers.bts
-3428246a225a50a975f061e5230d78b2 *plugin/myplugin/skill/hut/setting.json
-d4663897bfe809b6d40fb9bfb437fffd *plugin/myplugin/skill/hut/triggers.bts
-21545cd7ce4084feac1097e9cc2f4c5e *plugin/myplugin/skill/ice/setting.json
+6a20f2047bda512c671442e91bb8a02c *plugin/myplugin/skill/hut/setting.json
+71d4e1546e72cbe5f0b3f5fa3a153df9 *plugin/myplugin/skill/hut/triggers.bts
+bbfbfa710eaac646569bf63c1013e48b *plugin/myplugin/skill/ice/setting.json
 b31edaa1fe020846cc1027629f8737b2 *plugin/myplugin/skill/ice/triggers.bts
-bdfbcabb763ac34321bc9f68db37c45e *plugin/myplugin/skill/ray/setting.json
+ae930308c31d28f96b953bbb95fc2977 *plugin/myplugin/skill/ray/setting.json
 70b1c090843a625e62fa7c1ca58a7548 *plugin/myplugin/skill/ray/triggers.bts
 78d765f491d78c015a88015f8c3f4073 *plugin/myplugin/skill/run/setting.json
 1bd77a76419db6f9064fe3a539ce8944 *plugin/myplugin/skill_system/841bf40c-6cfa-4900-a536-16578126dd42/setting.json
-18783d4adfc6521e56897abac762b214 *plugin/myplugin/skill_system/DaggerAttack/setting.json
-eb496f134d1a2da12722d4e1a4238a6a *plugin/myplugin/skill_system/GreatSwordAttack/setting.json
-6c23ae3eee6f518d4fb015b6997f0380 *plugin/myplugin/skill_system/SwordAttack/setting.json
-a13316bd066c10ceacb0fa58402b0722 *setting.json
-9ff5f9aec788b75bcfac21d778da6d78 *shop.csv
+79a36dc355022272bb47e6952ea77ffd *plugin/myplugin/skill_system/DaggerAttack/setting.json
+bf7e8aa42fc585803acfc639facb87f0 *plugin/myplugin/skill_system/GreatSwordAttack/setting.json
+8666c75d8e6c6a2b3ce77aa07605fc56 *plugin/myplugin/skill_system/SwordAttack/setting.json
+5a03ff20046232f4e8b98e7dd5728a8a *setting.json
+cceca7f078685acc6d3fd0c817648cdc *shop.csv
 5ba550677cf2e0ac721c720a454f3e79 *terrain/06f71322-a816-4ebf-bd5e-583a59b1b1db/blocks/lod0/-1.-1.-1.chunk
 371dae505b79c6a588e87651b9ea2154 *terrain/06f71322-a816-4ebf-bd5e-583a59b1b1db/blocks/lod0/-1.-1.0.chunk
 b5e2dfda35534218a81f7b0ed5a9bf52 *terrain/06f71322-a816-4ebf-bd5e-583a59b1b1db/blocks/lod0/-1.0.-1.chunk
@@ -1025,7 +1025,7 @@ bacf3172cd854c7fb2a6cf9a23e8dde1 *trigger_script/ScriptableNode_6.lua
 1761ab1dd3a8917af8ea2ae57217495d *trigger_script/ScriptableNode_7.lua
 2ee99058f2bf461a507de917b4ee26b5 *trigger_script/ScriptableNode_8.lua
 55b1b4865a1e3de6d8287b05e99a2c55 *trigger_script/ScriptableNode_9.lua
-b1c2433acc4048acf077ef9b8e488e9f *triggers.bts
-d74f49191d3597ccfdb2d7f5dc1b3321 *triggers_client.bts
-b55ed45bd3f183c76c96e0d829117a74 *user_data.json
+18f78bb5e82a3bfc422818d06fbe1f75 *triggers.bts
+bebde8fb909b94ea926f9d8db9b0c399 *triggers_client.bts
+f052d5e57d6053d2ef3e0072db9f5a36 *user_data.json
 9fe32266af5ee85f6005b7f4b9d90a86 *terrain/terrain_files.json

@@ -14,13 +14,13 @@
         "viewFovAngle": 75
       },
       {
-        "distance": 4,
+        "distance": 3,
         "enable": true,
         "enableCollisionDetect": true,
         "lockSlideScreen": false,
         "offset": {
           "__OBJ_TYPE": "Vector3",
-          "x": 0,
+          "x": -1,
           "y": 0,
           "z": 0
         },
@@ -41,13 +41,13 @@
       },
       {
         "distance": 4,
-        "enable": true,
+        "enable": false,
         "enableCollisionDetect": true,
         "lockBodyRotation": false,
         "lockSlideScreen": false,
         "offset": {
           "__OBJ_TYPE": "Vector3",
-          "x": 0,
+          "x": -1,
           "y": 0,
           "z": 0
         },
@@ -73,7 +73,7 @@
     "1"
   ],
   "defaultMap": "MapVillage",
-  "defaultQualityLevel": 1,
+  "defaultQualityLevel": 0,
   "dragControlConfig": {
     "useDragControl": true
   },
@@ -135,7 +135,7 @@
   "needSave": true,
   "noLoadHp": true,
   "notReadUserSettingCfgAtEditor": true,
-  "nowTime": 18388.8888888889,
+  "nowTime": 18355.5555555556,
   "oneDayTime": 300,
   "partGameStaticBatch": true,
   "personalSettingUI": {
@@ -280,6 +280,13 @@
       ]
     ]
   },
+  "uiNavigation": [
+    {
+      "iconPath": "set:main_page.json image:shop_icon.png",
+      "list": 1,
+      "name": "shop"
+    }
+  ],
   "useHalfImageSize": true,
   "useNewCollisionFiltering": true,
   "useNewFirstViewer": true,
@@ -440,6 +447,17 @@
         "run_type": "server",
         "save": false,
         "value": ""
+      },
+      {
+        "key": "WinGobog",
+        "run_type": "server",
+        "save": false,
+        "value": 0
+      },
+      {
+        "key": "VICTORYGOBOG",
+        "run_type": "server",
+        "save": false
       }
     ],
     "global": [

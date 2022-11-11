@@ -12,7 +12,7 @@
   "gravity": 0,
   "hide": 0,
   "jumpSpeed": 0,
-  "maxHp": 10,
+  "maxHp": 0,
   "moveAcc": 0,
   "moveFactor": 0,
   "moveSpeed": 0.15,

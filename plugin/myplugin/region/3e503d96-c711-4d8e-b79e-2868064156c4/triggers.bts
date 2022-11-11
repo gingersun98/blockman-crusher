@@ -1,2 +1,7 @@
 REGION_ENTER {
+	AddEntityBuff(cfg = "myplugin/BGMBattle", entity = $obj1, from = $obj1)
+}
+
+REGION_LEAVE {
+	RemoveBuffByFullName(buff = "myplugin/BGMBattle", entity = $obj1, toTeam = false)
 }

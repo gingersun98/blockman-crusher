@@ -8,5 +8,4 @@ REGION_ENTER {
 			z = -7.3907279968262
 		}
 	)
-	RecoverFullHp(entity = $obj1)
 }

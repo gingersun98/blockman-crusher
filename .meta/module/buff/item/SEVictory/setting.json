@@ -1,0 +1,20 @@
+{
+  "data": {
+    "name": {
+      "value": "buff_SEVictory"
+    },
+    "sound": {
+      "is3dSound": true,
+      "selfOnly": true,
+      "sound": {
+        "asset": "asset/Sound Assets/4_Battle_win.mp3"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6013c05f9ef093a9152488532cdebf53"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,6 +1,12 @@
 {
   "data": {
     "castAction": "attack",
+    "castSound": {
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Slash12.mp3"
+      }
+    },
     "cdAnimation": "Clockwise",
     "cdTime": {
       "value": 20
@@ -127,7 +133,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "fd4550df76a1ee2a04ca6122a92cb39e",
+      "setting.json": "a2530547afa65049257a58d2251f7494",
       "triggers.bts": "5a566fc7c963bf1119b53b2fee3dc77b"
     },
     "VERSION": "0.24"

@@ -21,6 +21,18 @@
   "backSwingTime": 0,
   "castAction": "hurt",
   "castActionTime": -1,
+  "castSound": {
+    "attenuationType": "0",
+    "is3dSound": true,
+    "loop": false,
+    "losslessDistance": 5,
+    "maxDistance": 20,
+    "multiPly": 1,
+    "path": "asset/Sound Assets/Damage5.mp3",
+    "selfOnly": false,
+    "sound": "@Sound Assets/Damage5.mp3",
+    "volume": 1
+  },
   "cdMaskConfig": {
     "AntiClockwise": false,
     "FillPosition": "",

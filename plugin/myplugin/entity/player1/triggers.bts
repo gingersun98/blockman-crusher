@@ -15,12 +15,20 @@ ENTITY_ENTER {
 
 ENTITY_DIE {
 	SendToClient(msg = "client_806f8155_0fa7_449d_9c6f_47040e1f7405", player = $obj2)
-	$obj1.firstblood = true
-	SendToClient(msg = "client_cd1d91b7_3b1b_48a6_86a9_448f98abe8c9", player = $obj1)
+	AddEntityBuff(buffTime = 100, cfg = "myplugin/SELose", entity = $obj1, from = $obj1)
+	SetEntityPosition(
+		entity = $obj1,
+		map = "MapVillage",
+		pos = {
+			x = 0.511826992034912,
+			y = 1.13403419494629,
+			z = -5.18350124359131
+		},
+		rp = 0,
+		ry = 0
+	)
 	@PlayerParticipate = @PlayerParticipate - 1
 	SendToClient(msg = "client_d0106353_6a9e_454f_98ec_d244d6ed21bc", player = $obj1)
-	$obj1.Start = false
-	$obj2.JumlahKillPlayer = GetPlayerKillCount(entity = $obj2)
 	$obj2.Promp = ""
 	SendToClient(msg = "client_5e6f8c55_f768_4903_81ec_60633b35c0fa", p_Promp = $obj2.Promp, player = $obj2)
 }
@@ -94,16 +102,14 @@ GAME_START {
 GAME_GO {
 	StartTimer2(interval = 100, object = $obj1, time = 999, timer = "") {
 		If (@PlayerParticipate == 1) {
-			SetEntityPosition(
-				entity = $obj1,
-				map = "MapArena",
+			MoveMapPlayerTo(
+				map = GetStaticMap(create = true, name = "MapArena"),
+				newmap = "MapArena",
 				pos = {
-					x = -29.8121337890625,
-					y = 18.6962747955322,
-					z = 29.7592029571533
-				},
-				rp = 0,
-				ry = 0
+					x = -30.457454681396,
+					y = 18.696274795532,
+					z = 30.612281799316
+				}
 			)
 			StopTimer2(timer = "Victory")
 		}

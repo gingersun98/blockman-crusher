@@ -1,19 +1,4 @@
 ENTITY_DIE {
-	$obj2.LOOT = Random(max = 10, min = 1)
-	ExecScript(Clicker = $obj2, script_name = "ScriptableNode_2")
-	$obj1.CrushingScore = $obj1.CrushingScore + 1
-	SetEntityScore(entity = $obj1, val = 15)
-	ShowSystemChat(entity = $obj1, key = Concat(p1 = ToString(GetPlayerKillCount(entity = $obj1)), p2 = GetEntityName()))
-	$obj1.CrushObject = false
-	If ($obj2.LOOT == 1) {
-		SpawnItemToWorld(
-			count = 1,
-			fullName = "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12",
-			map = GetStaticMap(create = true, name = "MapArena"),
-			pos = GetEntityPosition(entity = $obj1),
-			time = 100
-		)
-	}
 	If ($obj1.LOOT == 2) {
 		SpawnItemToWorld(
 			count = 1,
@@ -95,29 +80,12 @@ ENTITY_DIE {
 			time = 100
 		)
 	}
-	SpawnItemToWorld(
-		count = 1,
-		fullName = "myplugin/547b7be6-2cb9-4e37-9bc4-bd58f37fb3a1",
-		map = GetStaticMap(create = true, name = "MapArena"),
-		pos = GetEntityPosition(entity = $obj1),
-		time = 120
-	)
-}
-
-ENTITY_CLICK {
 }
 
 ENTITY_DAMAGE {
 	AddEntityVp(entity = $obj2, step = -5)
-	ExecScript(Clicker = $obj2, Damage = $damage, script_name = "ScriptableNode_9")
-	ExecScript(ClickerEntity = $obj2, CrushScore = $obj2.CrushingScore, script_name = "ScriptableNode_10")
-	SendToClient(msg = "client_32210dcd_0836_451a_bb99_bfe7ed88c6f9", p_CrushingScore = $obj2.CrushingScore, player = $obj2)
-	ExecScript(Clicker = $obj2, Damage = $damage, script_name = "ScriptableNode_19")
 }
 
 ENTITY_HITTED {
 	$obj1.CrushObject = true
-}
-
-ENTITY_ENTER {
 }

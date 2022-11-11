@@ -1,9 +1,10 @@
 {
   "data": {
-    "castAction": "blasting",
+    "castAction": "attackS",
     "castSound": {
-      "volume": {
-        "value": 0
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/warp.mp3"
       }
     },
     "cdAnimation": "Clockwise",
@@ -18,6 +19,9 @@
       "value": "skill_Blasting_gas"
     },
     "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack"
+      },
       "type": "Base"
     },
     "skillReleaseWay": {
@@ -379,7 +383,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "04ff821cb8e50ca887ea499589c3e8e7",
+      "setting.json": "888cc13444dc4e84b55a9af78ae78d70",
       "triggers.bts": "b1674673d86acd1709ca81103851b477"
     },
     "VERSION": "0.24"

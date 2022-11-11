@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "0e55bcf77aadf88c0dd34aeeeb6c4141",
+    "md5": "908ce3f8c30f4dc67a391e0abc125e49",
     "path": "asset/DefeatEntity.layout",
     "root": {
       "Alpha": 0.997,
@@ -243,7 +243,7 @@
                         "value": {
                           "__OBJ_TYPE": "T_Time",
                           "rawval": {
-                            "value": 200
+                            "value": 100
                           }
                         }
                       },
@@ -376,8 +376,8 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "0e55bcf77aadf88c0dd34aeeeb6c4141",
-      "triggers.bts": "4f924d90211673e775c788a8aa5166fa"
+      "layout": "908ce3f8c30f4dc67a391e0abc125e49",
+      "triggers.bts": "ec36347e6c28c0334bfeda7f7c40c277"
     },
     "VERSION": "0.24"
   }

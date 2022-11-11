@@ -21,7 +21,7 @@
   "backSwingTime": 0,
   "buffCfg": "myplugin/cure",
   "buffTime": 80,
-  "castAction": "attack2",
+  "castAction": "attackS",
   "castActionTime": -1,
   "cdMaskConfig": {
     "AntiClockwise": false,

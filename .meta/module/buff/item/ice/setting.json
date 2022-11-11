@@ -12,14 +12,15 @@
       "value": "buff_ice"
     },
     "sound": {
-      "volume": {
-        "value": 0
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/IcePillarExplosion.mp3"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "d4b43275ed95a7dd08d827726ec90221"
+      "setting.json": "ada9befe3e929c201f2c65f9e7ef8159"
     },
     "VERSION": "0.24"
   }

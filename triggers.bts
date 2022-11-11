@@ -3,24 +3,55 @@ server_e99609dc_9fd8_420e_a1c9_4837e2198344 {
 }
 
 GAME_GO {
-	SendToClient(msg = "client_9b45935c_a4d0_4445_9d8f_7a16cb9d193a", player = $obj1)
-	StartTimer2(interval = 200, time = 999, timer = "") {
-		ShowTip(entity = $obj1, keepTime = 60, textKey = "f0ec6888-ba98-4efb-8558-fd19e802ff04", tipType = "1")
-		If (@PlayerParticipate == 1) {
-			SetEntityPosition(
-				entity = $obj1,
-				map = "MapArena",
-				pos = {
-					x = -29.774475097656,
-					y = 18.696274795532,
-					z = 30.863918304443
+	StartTimer2(interval = 100, time = 999, timer = "") {
+		SpawnItemToWorld(
+			count = 1,
+			fullName = "myplugin/copper_coin",
+			map = GetStaticMap(create = true, name = "MapVillage"),
+			pos = GetRandomPosInArea(
+			region = {
+				map = "",
+				max = {
+					__OBJ_TYPE = "Vector3i",
+					x = 10,
+					y = 3,
+					z = -6
 				},
-				rp = 0,
-				ry = 0
-			)
-			CreateNpc(cfgName = "myplugin/transfer2", enableAI = false, level = 0, name = "WINNER", pos = { x = 0, y = 0, z = 0 })
-			ShowTip(entity = $obj1, keepTime = 60, textKey = "83c3e827-57f9-472e-8da1-01e4295e144d", tipType = "1")
-		}
+				min = {
+					__OBJ_TYPE = "Vector3i",
+					x = 6,
+					y = 2,
+					z = -10
+				}
+			}
+		),
+			time = 19980
+		)
+	}
+	StartTimer2(interval = 400, time = 999, timer = "") {
+		SpawnItemToWorld(
+			count = 1,
+			fullName = "myplugin/copper_coin",
+			map = GetStaticMap(create = true, name = "MapVillage"),
+			pos = GetRandomPosInArea(
+			region = {
+				map = "",
+				max = {
+					__OBJ_TYPE = "Vector3i",
+					x = 10,
+					y = 3,
+					z = -6
+				},
+				min = {
+					__OBJ_TYPE = "Vector3i",
+					x = 6,
+					y = 2,
+					z = -10
+				}
+			}
+		),
+			time = 19980
+		)
 	}
 }
 
@@ -141,9 +172,6 @@ server_9bc0c50f_859d_4770_9fbb_68ae650cd3c2 {
 
 server_f7a9b15f_bddf_4f27_a412_dbd4d120f327 {
 	KillEntity(entity = $player, from = $player)
-}
-
-GAME_START {
 }
 
 server_a6b87086_519a_4d0a_a1f5_9b437ed25b8b {
@@ -272,5 +300,4 @@ server_296cfe30_7fd3_49c3_a716_78c1ca7d3eac {
 }
 
 server_98944707_4b78_4c20_80cf_00149708868d {
-	GameOverToPlayer(entity = $player)
 }

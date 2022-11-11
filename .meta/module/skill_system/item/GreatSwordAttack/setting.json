@@ -24,6 +24,12 @@
     "castAction": {
       "castAction": "greatsword"
     },
+    "castSound": {
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Slash2.mp3"
+      }
+    },
     "cdAnimation": "Clockwise",
     "cdTime": {
       "value": 60
@@ -50,7 +56,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "eb496f134d1a2da12722d4e1a4238a6a",
+      "setting.json": "bf7e8aa42fc585803acfc639facb87f0",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

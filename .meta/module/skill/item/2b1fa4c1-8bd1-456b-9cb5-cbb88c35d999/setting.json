@@ -5,6 +5,12 @@
         "asset": "asset/effect/Blue Laser Emission Effect/gp202_launcher_01_blue_3d.effect"
       }
     },
+    "castSound": {
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Explosion8.mp3"
+      }
+    },
     "name": {
       "value": "bd23fdf6-4781-4a1d-8848-3235f3439125"
     },
@@ -21,7 +27,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6ac7058b40f6413348651d5c0537cebb",
+      "setting.json": "1e06237adb67d3b12dd4463e21522b97",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

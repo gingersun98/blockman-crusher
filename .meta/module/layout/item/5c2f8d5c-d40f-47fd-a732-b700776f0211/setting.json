@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "4f478495a54658b09b6963149641c71b",
+    "md5": "8871a122a3b871c708bdbaa18d130963",
     "path": "asset/Lose_Standart.layout",
     "root": {
       "anchor": {
@@ -478,9 +478,7 @@
                     {
                       "__OBJ_TYPE": "Component_Sequence",
                       "children": [
-                        {
-                          "action": "4db9da24-1696-4384-ad86-11779d5b718f"
-                        },
+                        [],
                         {
                           "action": "e575fefd-a0c7-44a8-bf85-5552de7ba6b4"
                         }
@@ -1095,8 +1093,8 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "4f478495a54658b09b6963149641c71b",
-      "triggers.bts": "499673a4d304473bcf147fc6a9d6c435"
+      "layout": "8871a122a3b871c708bdbaa18d130963",
+      "triggers.bts": "e11283c5e17915b227ee32052ef1bed4"
     },
     "VERSION": "0.24"
   }

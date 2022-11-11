@@ -2,8 +2,9 @@
   "data": {
     "castAction": "attack",
     "castSound": {
-      "volume": {
-        "value": 0
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Attack3.mp3"
       }
     },
     "cdTime": {
@@ -26,7 +27,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "34d30fe05fa8da50f14edcb3cada38d7",
+      "setting.json": "0f9f5cb8862b18f589ef0dcc20f193f1",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

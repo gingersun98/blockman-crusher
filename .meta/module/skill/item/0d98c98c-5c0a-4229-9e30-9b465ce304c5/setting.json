@@ -1,6 +1,12 @@
 {
   "data": {
-    "castAction": "attack2",
+    "castAction": "attackS",
+    "castSound": {
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/item-02.mp3"
+      }
+    },
     "name": {
       "value": "skill_0d98c98c-5c0a-4229-9e30-9b465ce304c5"
     },
@@ -436,7 +442,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "7100ad29258c29d7da03627a1b09e69d",
+      "setting.json": "65830a18c89d6d995c8daec4b856bb63",
       "triggers.bts": "596454dae6936951fbe85365494fcf9d"
     },
     "VERSION": "0.24"

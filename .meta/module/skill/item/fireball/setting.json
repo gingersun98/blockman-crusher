@@ -2,8 +2,9 @@
   "data": {
     "castAction": "attack2",
     "castSound": {
-      "volume": {
-        "value": 0
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Fire9.mp3"
       }
     },
     "cdTime": {
@@ -38,7 +39,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "5c7d38d1585ea256aa36221cf4481b01",
+      "setting.json": "91e04f72324bb15b83057e766e7af4e4",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

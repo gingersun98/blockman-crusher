@@ -1,5 +1,12 @@
 {
   "data": {
+    "castAction": "attackS",
+    "castSound": {
+      "is3dSound": true,
+      "sound": {
+        "asset": "asset/Sound Assets/Up2.mp3"
+      }
+    },
     "cdAnimation": "Clockwise",
     "cdTime": {
       "value": 300
@@ -270,7 +277,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "5523af979e141a3f59353d7e1b660249",
+      "setting.json": "bfc7919c4a5773f21a933734326e1236",
       "triggers.bts": "663187ea891fda2d275317512599cc63"
     },
     "VERSION": "0.24"
