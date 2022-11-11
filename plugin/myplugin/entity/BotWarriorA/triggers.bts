@@ -1,7 +1,3 @@
-ENTITY_DIE {
-	$obj2.firstblood = true
-}
-
 ENTITY_ENTER {
 	AddEntityBuff(cfg = "myplugin/BotMage", entity = $obj1, from = $obj1)
 	$obj1.LokasiSpawn = {
@@ -12,6 +8,5 @@ ENTITY_ENTER {
 }
 
 ENTITY_DAMAGE {
-	ExecScript(Clicker = $obj2, Damage = $damage, script_name = "ScriptableNode_18")
 	AddEntityVp(entity = $obj2, step = -5)
 }

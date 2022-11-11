@@ -96,7 +96,6 @@ GAME_START {
 		}
 	SendToClient(msg = "client_71398682_0a6a_4d63_bde2_adb0920ef41c", player = $obj1)
 	SendToClient(msg = "client_ff8a43d1_d9bd_4683_ba9f_40f04f2b69fc", player = $obj1)
-	AddItem(cfg = "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12", count = 1, entity = $obj1, reason = "")
 }
 
 GAME_GO {
@@ -114,45 +113,17 @@ GAME_GO {
 			StopTimer2(timer = "Victory")
 		}
 	}
-	@EnterGameplay = true
 	$obj1.LokasiSpawn = {
 			x = -25.118,
 			y = 8.122,
 			z = 27.786
 		}
-	ExecScript(ClickerEntity = $obj1, PlayerParticipate = @PlayerParticipate, script_name = "ScriptableNode_15")
 	SendToClient(msg = "client_32210dcd_0836_451a_bb99_bfe7ed88c6f9", p_CrushingScore = GetEntityScore(entity = $obj1))
 	AddItem(cfg = "myplugin/04a84085-ad2d-4a65-a785-0feeaeb07d12", count = 1, entity = $obj1, reason = "")
 	SendToClient(msg = "client_ff8a43d1_d9bd_4683_ba9f_40f04f2b69fc", player = $obj1)
-	StartTimer2(interval = 100, object = $obj1, time = 999, timer = "") {
-		If (@PlayerParticipate == 1) {
-			SetEntityPosition(
-				entity = $obj1,
-				map = "MapArena",
-				pos = {
-					x = -29.774475097656,
-					y = 18.696274795532,
-					z = 30.863918304443
-				},
-				rp = 0,
-				ry = 0
-			)
-			CreateNpc(
-				cfgName = "myplugin/transfer2",
-				enableAI = false,
-				level = 0,
-				map = GetPlayerMap(player = $obj1),
-				name = "WINNER",
-				pos = GetEntityPosition(entity = $obj1)
-			)
-		}
-	}
 }
 
 ENTITY_LEAVE {
-	If (@PlayerParticipate == 1) {
-		@EnterGameplay = false
-	}
 	@PlayerParticipate = @PlayerParticipate - 1
 }
 
@@ -171,13 +142,9 @@ optionIsSelected7 {
 
 GAME_OVER {
 	@PlayerParticipate = @PlayerParticipate - 1
-	If (@PlayerParticipate == 1) {
-		@EnterGameplay = false
-	}
 }
 
 ENTITY_DAMAGE {
-	ExecScript(Clicker = $obj2, Damage = $damage, script_name = "ScriptableNode_22")
 	SendToClient(msg = "client_e7b1b919_d092_43b1_a9e4_e766620c82ed", player = $obj2)
 	$obj2.CrushingScore = $obj2.CrushingScore + $damage
 	AddEntityVp(entity = $obj2, step = -5)
@@ -185,24 +152,4 @@ ENTITY_DAMAGE {
 }
 
 ENTITY_REBIRTH {
-	$obj1.Dead = false
-	If (@PlayerParticipate == 1) {
-		MoveAllPlayers(
-			region = {
-				map = "",
-				max = {
-					__OBJ_TYPE = "Vector3i",
-					x = 0,
-					y = 0,
-					z = 0
-				},
-				min = {
-					__OBJ_TYPE = "Vector3i",
-					x = 0,
-					y = 0,
-					z = 0
-				}
-			}
-		)
-	}
 }

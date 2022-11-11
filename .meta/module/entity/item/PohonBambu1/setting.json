@@ -3246,8 +3246,8 @@
                 "value": "24ea6315-588e-470b-b6e6-2127daa1c529"
               },
               "pos": {
-                "x": 1372.925471141,
-                "y": 66.707113287076
+                "x": 1155.82997735975,
+                "y": 3.72261817770098
               }
             },
             {
@@ -3916,59 +3916,25 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "24ea6315-588e-470b-b6e6-2127daa1c529"
-                  },
-                  {
-                    "action": "166f3e81-1f80-45ce-ac7b-c769a1cb2586"
-                  },
-                  {
-                    "action": "8d384a82-7dec-4aae-8c55-1a2e5fdf51dd"
-                  },
                   [],
-                  {
-                    "action": "80c7ef17-91df-4634-9f38-f289126636fd"
-                  },
-                  {
-                    "action": "8fed9e04-bf1d-4d30-b3f6-de161dd5efa7"
-                  },
                   [],
-                  {
-                    "action": "8014ebba-2344-4f1b-8c0d-5379ad292c21"
-                  },
-                  {
-                    "action": "d09a7b28-fe8f-485c-9099-8670986ef7fc"
-                  },
-                  {
-                    "action": "b8784d87-c545-4db4-8f92-8a97914db2c5"
-                  },
-                  {
-                    "action": "79ec03e6-0379-4585-abb4-23111b90ca4f"
-                  },
-                  {
-                    "action": "30a1df06-3b3c-456e-a1cf-0a0ac81c3626"
-                  },
-                  {
-                    "action": "60b990fa-228c-4f37-ab0b-1c5574af5b7e"
-                  },
-                  {
-                    "action": "a142f712-b85b-4558-b73d-aa5d20a65a4a"
-                  },
-                  {
-                    "action": "09951d7f-45fa-4c21-b38e-65ae829e21c8"
-                  },
-                  {
-                    "action": "624e56ee-932c-45ec-bd61-e5b90738f263"
-                  },
-                  {
-                    "action": "b3e74030-8407-4e8a-a3f0-364a83695043"
-                  },
-                  {
-                    "action": "e4b7eac3-da04-4214-93a8-bbbe1140ab57"
-                  },
-                  {
-                    "action": "46e37b32-332b-462c-a546-4d6a046e0736"
-                  }
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  []
                 ]
               }
             ],
@@ -4133,41 +4099,6 @@
                 "y": 383
               },
               "type": "T_Int"
-            },
-            {
-              "__OBJ_TYPE": "Action_Protocol_SendToClient",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
-                  "params": [
-                    {
-                      "data_type": "T_Int",
-                      "key": "CrushingScore",
-                      "must": true,
-                      "value": {
-                        "__OBJ_TYPE": "T_Int"
-                      }
-                    }
-                  ],
-                  "params_default": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Entity"
-                      }
-                    }
-                  ],
-                  "proto_id": "45a6eeda-3915-4b5e-b23b-8b263ea888d0",
-                  "proto_name": "CrushScore",
-                  "proto_type": "client"
-                }
-              ],
-              "id": {
-                "value": "69ff8960-5cc5-40a3-9eb6-393a16c2632d"
-              },
-              "pos": {
-                "x": 672,
-                "y": 627
-              }
             },
             {
               "__OBJ_TYPE": "Action_GetContextVar",
@@ -4734,15 +4665,9 @@
                   {
                     "action": "4818fa0f-2e75-435f-9f1d-dcc8d7eb1465"
                   },
-                  {
-                    "action": "3ca0bea2-48d4-4275-bff9-91006b53fcbb"
-                  },
-                  {
-                    "action": "fd9ae0a8-4d7c-4dd9-b33a-3ac0182c89b8"
-                  },
-                  {
-                    "action": "056521ca-0ed6-44df-b5c6-2bbd03b914a1"
-                  }
+                  [],
+                  [],
+                  []
                 ]
               }
             ],
@@ -4822,9 +4747,7 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "ca1d269d-214f-4b05-bf71-7752473ea087"
-                  }
+                  []
                 ]
               }
             ],
@@ -4862,7 +4785,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "9031949e3353e6e4a6651a7048286432",
-      "triggers.bts": "2c80a81c3b17abad8fe355473ac0a385"
+      "triggers.bts": "fecffb29744414ab28e3946391ad1f8b"
     },
     "VERSION": "0.24"
   }

@@ -6,7 +6,9 @@
         "Capsule": "1.000000-0.500000"
       },
       "size": {
-        "y": 2.5
+        "x": 2,
+        "y": 2.5,
+        "z": 2
       }
     },
     "attackBoundSkillSystemCfg": {
@@ -15,7 +17,9 @@
         "Capsule": "1.000000-0.500000"
       },
       "size": {
-        "y": 2.5
+        "x": 2,
+        "y": 2.5,
+        "z": 2
       }
     },
     "castAction": {
@@ -53,7 +57,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "79a36dc355022272bb47e6952ea77ffd",
+      "setting.json": "20cb4d3abb62fcdca1f3d116066189ad",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

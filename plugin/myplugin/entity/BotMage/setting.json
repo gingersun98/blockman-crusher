@@ -84,12 +84,6 @@
   "skillInfoList": [
     {
       "__OBJ_TYPE": "AI_Skill",
-      "attackDis": 3,
-      "fullName": "myplugin/attack",
-      "priority": 6
-    },
-    {
-      "__OBJ_TYPE": "AI_Skill",
       "attackDis": 10,
       "fullName": "myplugin/blame2",
       "priority": 5
@@ -99,12 +93,6 @@
       "attackDis": 10,
       "fullName": "myplugin/blame",
       "priority": 4
-    },
-    {
-      "__OBJ_TYPE": "AI_Skill",
-      "attackDis": 10,
-      "fullName": "myplugin/ray",
-      "priority": 3
     },
     {
       "__OBJ_TYPE": "AI_Skill",

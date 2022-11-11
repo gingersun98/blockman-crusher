@@ -82,108 +82,6 @@
         {
           "actions": [
             {
-              "__OBJ_TYPE": "Action_SpawnItemToWorld",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_ItemEntry",
-                        "rawval": "myplugin/33f3159c-becb-45a8-8b7b-f7db3000af7d"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "rawval": 1
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_ScenePos"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_MapObj"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Time",
-                        "rawval": {
-                          "value": 600
-                        }
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Bool",
-                        "rawval": true
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Int"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Int"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "dd8b4307-99d9-4c20-bd74-1975c6354c00"
-              },
-              "pos": {
-                "x": 1196,
-                "y": 219
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_ExecScript",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Script",
-                  "children": [
-                    {
-                      "action": "d2398b7a-fa28-4185-8358-23742abf9815",
-                      "param_name": "Clicker"
-                    }
-                  ],
-                  "script_name": "ScriptableNode_2"
-                }
-              ],
-              "id": {
-                "value": "166f3e81-1f80-45ce-ac7b-c769a1cb2586"
-              },
-              "pos": {
-                "x": 561.653984647935,
-                "y": 304.589374272172
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_GetContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "obj2"
-                }
-              ],
-              "id": {
-                "value": "d2398b7a-fa28-4185-8358-23742abf9815"
-              },
-              "pos": {
-                "x": 908,
-                "y": 363
-              },
-              "type": "T_Entity"
-            },
-            {
               "__OBJ_TYPE": "Action_SetObjectVar",
               "components": [
                 {
@@ -317,57 +215,6 @@
               "type": "T_Entity"
             },
             {
-              "__OBJ_TYPE": "Action_SetObjectVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_ObjectVar",
-                        "rawval": "CrushObject"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Bool"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "f1b6208c-fafc-4e59-979b-5aedcd114f09"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "8014ebba-2344-4f1b-8c0d-5379ad292c21"
-              },
-              "pos": {
-                "x": 531,
-                "y": 122
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_GetContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "obj1"
-                }
-              ],
-              "id": {
-                "value": "f1b6208c-fafc-4e59-979b-5aedcd114f09"
-              },
-              "pos": {
-                "x": 966,
-                "y": 152
-              },
-              "type": "T_Entity"
-            },
-            {
               "__OBJ_TYPE": "Action_SetGlobalVar",
               "components": [
                 {
@@ -393,35 +240,6 @@
               "pos": {
                 "x": 2397.5448066667,
                 "y": 51.431723029936
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_Random",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "rawval": 1
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "rawval": 10
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "a81cd316-dcf7-4a36-8c0d-6c710d02550d"
-              },
-              "pos": {
-                "x": 1671.95032964868,
-                "y": 12.1771540954444
               }
             },
             {
@@ -2858,57 +2676,6 @@
               }
             },
             {
-              "__OBJ_TYPE": "Action_SetObjectVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_ObjectVar",
-                        "rawval": "LOOT"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Int",
-                        "action": "a81cd316-dcf7-4a36-8c0d-6c710d02550d"
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Entity",
-                        "action": "4a2bd8ad-2870-4626-b964-28ff8ee98e0d"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "24ea6315-588e-470b-b6e6-2127daa1c529"
-              },
-              "pos": {
-                "x": 1211.58733667923
-              }
-            },
-            {
-              "__OBJ_TYPE": "Action_GetContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "obj1"
-                }
-              ],
-              "id": {
-                "value": "3e3a74eb-9d4a-461a-8ddc-7f6ef82af713"
-              },
-              "pos": {
-                "x": 1726.5141662155,
-                "y": 336.77532450916
-              },
-              "type": "T_Entity"
-            },
-            {
               "__OBJ_TYPE": "Action_GetObjectVar",
               "components": [
                 {
@@ -3387,23 +3154,6 @@
                 }
               ],
               "id": {
-                "value": "4a2bd8ad-2870-4626-b964-28ff8ee98e0d"
-              },
-              "pos": {
-                "x": 1675.04952779282,
-                "y": 137.627420328365
-              },
-              "type": "T_Entity"
-            },
-            {
-              "__OBJ_TYPE": "Action_GetContextVar",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Context",
-                  "key": "obj2"
-                }
-              ],
-              "id": {
                 "value": "643351bf-952b-4679-bb4a-12313b424292"
               },
               "pos": {
@@ -3566,33 +3316,15 @@
                   [],
                   [],
                   [],
-                  {
-                    "action": "b8784d87-c545-4db4-8f92-8a97914db2c5"
-                  },
-                  {
-                    "action": "79ec03e6-0379-4585-abb4-23111b90ca4f"
-                  },
-                  {
-                    "action": "30a1df06-3b3c-456e-a1cf-0a0ac81c3626"
-                  },
-                  {
-                    "action": "60b990fa-228c-4f37-ab0b-1c5574af5b7e"
-                  },
-                  {
-                    "action": "a142f712-b85b-4558-b73d-aa5d20a65a4a"
-                  },
-                  {
-                    "action": "09951d7f-45fa-4c21-b38e-65ae829e21c8"
-                  },
-                  {
-                    "action": "624e56ee-932c-45ec-bd61-e5b90738f263"
-                  },
-                  {
-                    "action": "b3e74030-8407-4e8a-a3f0-364a83695043"
-                  },
-                  {
-                    "action": "e4b7eac3-da04-4214-93a8-bbbe1140ab57"
-                  },
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
+                  [],
                   []
                 ]
               }
@@ -4388,7 +4120,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "78039b80f555bdaa7106b19bf4a2d801",
-      "triggers.bts": "b5eaf9ef27c3b74edf641ce6e8ab4051"
+      "triggers.bts": "c8d7755a1d706b5ff2d09fce16697863"
     },
     "VERSION": "0.24"
   }
