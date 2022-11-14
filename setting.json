@@ -14,7 +14,7 @@
         "viewFovAngle": 75
       },
       {
-        "distance": 3,
+        "distance": 4,
         "enable": true,
         "enableCollisionDetect": true,
         "lockSlideScreen": false,

@@ -1,5 +1,2 @@
 WIDGET_CREATE {
-	StartTimer2(interval = 20, object = $obj1, time = 1, timer = "") {
-		DestroyWidget(instance = $rootInstance)
-	}
 }

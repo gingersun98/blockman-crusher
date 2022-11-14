@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "0830592d8c16787741f24642c08a4fb2",
+    "md5": "44f01fc2152a1b10f81341de63d21851",
     "path": "gui/layout_presets/shortcutBar.layout",
     "root": {
       "anchor": {
@@ -112,6 +112,11 @@
         "value": "b5fdb557-d254-466b-8c49-5c4141dd3f96"
       },
       "lock": true,
+      "pos": {
+        "UDim_Y": {
+          "Scale": -0.02
+        }
+      },
       "size": {
         "UDim_X": {
           "Offect": 746
@@ -124,7 +129,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "0830592d8c16787741f24642c08a4fb2",
+      "layout": "44f01fc2152a1b10f81341de63d21851",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

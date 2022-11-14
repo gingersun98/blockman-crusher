@@ -68,7 +68,7 @@
   "enableChargeTime": false,
   "enableMoveBrkBackS": false,
   "enableMoveBrkPreS": false,
-  "frontSight": "myplugin/frontsight1",
+  "frontSight": "",
   "horizontalAlignment": 2,
   "icon": "@asset/Texture/Skill/common/icon_开枪_act.png",
   "icon_pushed": "@asset/Texture/Skill/common/icon_开枪_nor.png",
@@ -107,7 +107,7 @@
     0
   ],
   "sustainAction": "",
-  "targetType": "FrontSight",
+  "targetType": "Camera",
   "type": "Missile",
   "verticalAlignment": 2
 }

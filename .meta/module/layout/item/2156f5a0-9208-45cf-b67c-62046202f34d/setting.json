@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "18b0d62b1a0dc8222893112eeff52f17",
+    "md5": "4d71191bc7e7abc070000772687643c9",
     "path": "asset/UICrossHair.layout",
     "root": {
       "anchor": {
@@ -21,6 +21,11 @@
           "Image": {
             "asset": "asset/Texture/GingersunUI/Cross2.png"
           },
+          "pos": {
+            "UDim_X": {
+              "Scale": -0.03
+            }
+          },
           "size": {
             "UDim_X": {
               "Offect": 32
@@ -36,10 +41,12 @@
       },
       "size": {
         "UDim_X": {
-          "Offect": 128
+          "Offect": 0,
+          "Scale": 1
         },
         "UDim_Y": {
-          "Offect": 128
+          "Offect": 0,
+          "Scale": 1
         }
       },
       "WindowTouchThroughMode": "MousePassThroughOpen"
@@ -47,7 +54,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "18b0d62b1a0dc8222893112eeff52f17",
+      "layout": "4d71191bc7e7abc070000772687643c9",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.24"

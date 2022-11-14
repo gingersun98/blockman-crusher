@@ -2,4 +2,8 @@ SKILL_CAST {
 	SendToClient(msg = "client_fe4e7880_b40c_4be5_b09e_8f5485644233", player = $obj1)
 	$obj1.Promp = "Lightning (Knockback)"
 	SendToClient(msg = "client_5e6f8c55_f768_4903_81ec_60633b35c0fa", p_Promp = $obj1.Promp, player = $obj1)
+	StartTimer2(interval = 100, time = 1, timer = "") {
+		$obj1.Promp = ""
+		SendToClient(msg = "client_5e6f8c55_f768_4903_81ec_60633b35c0fa", p_Promp = $obj1.Promp, player = $obj1)
+	}
 }

@@ -8,7 +8,6 @@
       }
     },
     "consumeVp": 5,
-    "frontSight": "myplugin/frontsight1",
     "name": {
       "value": "skill_2dedc55d-2d6f-4e2d-ab9f-2c2be108caa2"
     },
@@ -22,7 +21,7 @@
           }
         ],
         "target": {
-          "type": "FrontSight"
+          "type": "Camera"
         }
       },
       "type": "Missile"
@@ -42,7 +41,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "95e4ecbc98039edc1390ed2f96649cec",
+      "setting.json": "0520078e05d0f3776c9f6cfa7c31ab73",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

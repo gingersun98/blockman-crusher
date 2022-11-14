@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "0e25f840c9f8e1528866e6636b7f3a28",
+    "md5": "15674f0db5fe053ae163894f213d23ce",
     "path": "asset/UIPrompItem.layout",
     "root": {
       "anchor": {
@@ -11,7 +11,8 @@
         {
           "__OBJ_TYPE": "StaticImage",
           "anchor": {
-            "HorizontalAlignment": "Centre"
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Bottom"
           },
           "children": [
             {
@@ -20,6 +21,7 @@
                 "HorizontalAlignment": "Centre",
                 "VerticalAlignment": "Centre"
               },
+              "Font_size": 11,
               "HorzFormatting": "CentreAligned",
               "id": {
                 "value": "a259c77e-e0f1-4ef4-8daa-4b4ee09c35aa"
@@ -37,6 +39,7 @@
                   "Offect": 196
                 }
               },
+              "Text": "",
               "text_key": {
                 "value": "asset/UIPrompItem.layout.StaticText#e615f774-66a1-4f5c-9d56-b4eeae6ee2c2"
               },
@@ -153,16 +156,19 @@
             "asset": "asset/Texture/GingersunUI/rankTeamSet.png"
           },
           "pos": {
+            "UDim_X": {
+              "Scale": -0.16
+            },
             "UDim_Y": {
-              "Scale": 0.2
+              "Scale": -0.1
             }
           },
           "size": {
             "UDim_X": {
-              "Offect": 327
+              "Offect": 304
             },
             "UDim_Y": {
-              "Offect": 72
+              "Offect": 64
             }
           }
         }
@@ -308,9 +314,7 @@
                 {
                   "__OBJ_TYPE": "Component_Sequence",
                   "children": [
-                    {
-                      "action": "c9f8c61f-56f6-4bbc-9f4d-18758bf581b3"
-                    }
+                    []
                   ]
                 }
               ],
@@ -331,8 +335,8 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "0e25f840c9f8e1528866e6636b7f3a28",
-      "triggers.bts": "3731a2d21e93559ec70c282d726f73e5"
+      "layout": "15674f0db5fe053ae163894f213d23ce",
+      "triggers.bts": "94e0042acc30c7e818e48ba16346a83a"
     },
     "VERSION": "0.24"
   }

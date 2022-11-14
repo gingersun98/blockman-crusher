@@ -21,7 +21,6 @@
     "enableCdTip": true,
     "FillPosition": "Top_With360Degree",
     "FillType": "With360Degree",
-    "frontSight": "myplugin/frontsight1",
     "name": {
       "value": "0dbe541f-404c-43ac-8843-bc013b51d8d5"
     },
@@ -34,7 +33,7 @@
           }
         ],
         "target": {
-          "type": "FrontSight"
+          "type": "Camera"
         }
       },
       "type": "Missile"
@@ -67,7 +66,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3d35f02b03dfaddae3ce312a371e5bc8",
+      "setting.json": "39bd3d3dafa56b9fd121671d7076864b",
       "triggers.bts": ""
     },
     "VERSION": "0.24"

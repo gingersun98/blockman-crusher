@@ -3,4 +3,18 @@ REGION_ENTER {
 	If (@PlayerParticipate > 1) {
 		SetEntityPosition(entity = $obj1, map = "MapArena", pos = $obj1.LokasiSpawn, rp = 0, ry = 0)
 	}
+	$hp = GetEntityCurHp(entity = $obj1)
+	If ($hp <= 0) {
+		SetEntityPosition(
+			entity = $obj1,
+			map = "MapVillage",
+			pos = {
+				x = -0.70804226398468,
+				y = 1.13403562545776,
+				z = -5.815
+			},
+			rp = 0,
+			ry = 0
+		)
+	}
 }

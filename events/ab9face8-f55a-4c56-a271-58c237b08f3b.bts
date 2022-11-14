@@ -1,4 +1,8 @@
 PART_TOUCH_ENTITY_BEGIN {
 	Damage(damage = 50, entity = $obj2)
 	SetEntityPosition(entity = $obj2, map = "MapArena", pos = $obj2.LokasiSpawn, rp = 0, ry = 0)
+	$hp = GetEntityCurHp(entity = $obj2)
+	If ($hp <= 0) {
+		SetEntityPosition(entity = $obj2, map = "MapVillage", pos = { x = 158, y = 1134, z = -5000 }, rp = 0, ry = 0)
+	}
 }

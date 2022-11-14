@@ -30,7 +30,7 @@
           }
         ],
         "target": {
-          "type": "FrontSight"
+          "type": "Camera"
         }
       },
       "type": "Missile"
@@ -243,6 +243,209 @@
                 "x": 499,
                 "y": 424
               }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "b2cd1361-a11c-45c0-9491-cfa27940f00c"
+              },
+              "pos": {
+                "x": 1253.25,
+                "y": 827.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "9f0f5e0f-a9c2-4f10-95fe-3b12bd9d91a5"
+              },
+              "pos": {
+                "x": 1256.75,
+                "y": 705.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "ea6161eb-9797-4b3b-bdb2-6cbfcf955c63"
+              },
+              "pos": {
+                "x": 1584.25,
+                "y": 949.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Promp"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "9f0f5e0f-a9c2-4f10-95fe-3b12bd9d91a5"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "aacd2c27-6ab5-487c-8bdf-e7fe0a7d525a"
+              },
+              "pos": {
+                "x": 891.75,
+                "y": 642.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "Promp"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "ea6161eb-9797-4b3b-bdb2-6cbfcf955c63"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "20a9a8de-758e-4863-b56a-5660797e2f0d"
+              },
+              "pos": {
+                "x": 1241.25,
+                "y": 944.5
+              },
+              "type": "T_String"
+            },
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 100
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "aacd2c27-6ab5-487c-8bdf-e7fe0a7d525a"
+                    },
+                    {
+                      "action": "e8502a6b-0c94-43c6-b8d5-df8bfc450624"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c00b00ab-729d-4483-88e4-ea4a20b05894"
+              },
+              "pos": {
+                "x": 465.75,
+                "y": 612.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params": [
+                    {
+                      "data_type": "T_String",
+                      "key": "Promp",
+                      "must": true,
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "action": "20a9a8de-758e-4863-b56a-5660797e2f0d"
+                      }
+                    }
+                  ],
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "b2cd1361-a11c-45c0-9491-cfa27940f00c"
+                      }
+                    }
+                  ],
+                  "proto_id": "5e6f8c55-f768-4903-81ec-60633b35c0fa",
+                  "proto_name": "PrompText",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "e8502a6b-0c94-43c6-b8d5-df8bfc450624"
+              },
+              "pos": {
+                "x": 841,
+                "y": 873
+              }
             }
           ],
           "custom_trigger_data": {
@@ -264,6 +467,9 @@
                   },
                   {
                     "action": "17df6b4a-b4d5-4875-8cd3-7f862f80fc3a"
+                  },
+                  {
+                    "action": "c00b00ab-729d-4483-88e4-ea4a20b05894"
                   }
                 ]
               }
@@ -283,8 +489,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "ae930308c31d28f96b953bbb95fc2977",
-      "triggers.bts": "70b1c090843a625e62fa7c1ca58a7548"
+      "setting.json": "af24047edd76e524d13411d5c9a5f83a",
+      "triggers.bts": "a4557701e6117c9b532c8a434a902d94"
     },
     "VERSION": "0.24"
   }

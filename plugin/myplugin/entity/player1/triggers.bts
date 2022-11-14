@@ -16,6 +16,10 @@ ENTITY_ENTER {
 ENTITY_DIE {
 	SendToClient(msg = "client_806f8155_0fa7_449d_9c6f_47040e1f7405", player = $obj2)
 	AddEntityBuff(buffTime = 100, cfg = "myplugin/SELose", entity = $obj1, from = $obj1)
+	@PlayerParticipate = @PlayerParticipate - 1
+	SendToClient(msg = "client_d0106353_6a9e_454f_98ec_d244d6ed21bc", player = $obj1)
+	$obj2.Promp = ""
+	SendToClient(msg = "client_5e6f8c55_f768_4903_81ec_60633b35c0fa", p_Promp = $obj2.Promp, player = $obj2)
 	SetEntityPosition(
 		entity = $obj1,
 		map = "MapVillage",
@@ -27,10 +31,6 @@ ENTITY_DIE {
 		rp = 0,
 		ry = 0
 	)
-	@PlayerParticipate = @PlayerParticipate - 1
-	SendToClient(msg = "client_d0106353_6a9e_454f_98ec_d244d6ed21bc", player = $obj1)
-	$obj2.Promp = ""
-	SendToClient(msg = "client_5e6f8c55_f768_4903_81ec_60633b35c0fa", p_Promp = $obj2.Promp, player = $obj2)
 }
 
 server_dc6bbb36_9120_48ec_b2c8_6a17d59bf006 {
@@ -94,8 +94,10 @@ GAME_START {
 			y = 8.122,
 			z = 27.786
 		}
-	SendToClient(msg = "client_71398682_0a6a_4d63_bde2_adb0920ef41c", player = $obj1)
+	SendToClient(msg = "client_fe4e7880_b40c_4be5_b09e_8f5485644233", player = $obj1)
+	SendToClient(msg = "client_abf59f08_7e45_4edc_8b5d_95ae1ad9584d", player = $obj1)
 	SendToClient(msg = "client_ff8a43d1_d9bd_4683_ba9f_40f04f2b69fc", player = $obj1)
+	SendToClient(msg = "client_71398682_0a6a_4d63_bde2_adb0920ef41c", player = $obj1)
 }
 
 GAME_GO {
@@ -152,4 +154,25 @@ ENTITY_DAMAGE {
 }
 
 ENTITY_REBIRTH {
+	$hphh = GetEntityCurHp(entity = $obj1)
+	If ($hphh == 0) {
+		SetEntityRebirthPosition(
+			entity = $obj1,
+			map = GetStaticMap(create = true, name = "MapVillage"),
+			pos = {
+				x = 0.143374085426331,
+				y = 1.13403467178345,
+				z = -5.31764793395996
+			}
+		)
+		ReviveEntity(
+			entity = $obj1,
+			map = GetStaticMap(create = true, name = "MapVillage"),
+			pos = {
+				x = 0.0574723482131958,
+				y = 1.13403371810913,
+				z = -5.27727603912354
+			}
+		)
+	}
 }

@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "908ce3f8c30f4dc67a391e0abc125e49",
+    "md5": "0b546dfd6e699f6e7a325a9c592c7de8",
     "path": "asset/DefeatEntity.layout",
     "root": {
       "Alpha": 0.997,
@@ -16,12 +16,11 @@
           "children": [
             {
               "__OBJ_TYPE": "StaticText",
-              "Alpha": 0.994,
               "anchor": {
                 "HorizontalAlignment": "Centre"
               },
               "Font": "HarmonyOS_Sans_SC_Bold",
-              "Font_size": 13,
+              "Font_size": 10,
               "HorzFormatting": "CentreAligned",
               "id": {
                 "value": "2bba6c71-9f05-4088-8abf-da93770836f3"
@@ -201,15 +200,15 @@
           },
           "pos": {
             "UDim_Y": {
-              "Scale": 0.12
+              "Scale": 0.14
             }
           },
           "size": {
             "UDim_X": {
-              "Offect": 381
+              "Offect": 300
             },
             "UDim_Y": {
-              "Offect": 64
+              "Offect": 56
             }
           },
           "vertFormatting": "CentreAligned",
@@ -357,9 +356,7 @@
                 {
                   "__OBJ_TYPE": "Component_Sequence",
                   "children": [
-                    {
-                      "action": "7e2a2288-4879-46a0-b600-be8f7d8e1630"
-                    }
+                    []
                   ]
                 }
               ],
@@ -376,8 +373,8 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "908ce3f8c30f4dc67a391e0abc125e49",
-      "triggers.bts": "ec36347e6c28c0334bfeda7f7c40c277"
+      "layout": "0b546dfd6e699f6e7a325a9c592c7de8",
+      "triggers.bts": "0a9e6b3fe7fd87873ce145e024d459eb"
     },
     "VERSION": "0.24"
   }

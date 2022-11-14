@@ -96,8 +96,8 @@
                 "value": "50056d6c-ac0a-4b3a-889d-b8f4e13dad5f"
               },
               "pos": {
-                "x": 640,
-                "y": 1184
+                "x": 990.191983574315,
+                "y": 842.787298055795
               }
             },
             {
@@ -125,8 +125,8 @@
                 "value": "77d16b02-04aa-49b7-b684-b5e13327c228"
               },
               "pos": {
-                "x": 1166,
-                "y": 1199
+                "x": 1516.19198357432,
+                "y": 857.787298055795
               },
               "type": "T_ScenePos"
             },
@@ -142,8 +142,8 @@
                 "value": "510ec5c3-53ca-4a70-947e-284ed226e42a"
               },
               "pos": {
-                "x": 1555,
-                "y": 1238
+                "x": 1905.19198357432,
+                "y": 896.787298055795
               },
               "type": "T_Entity"
             },
@@ -159,8 +159,8 @@
                 "value": "5a6678d9-4cd4-4895-af8b-3a4bfa31762a"
               },
               "pos": {
-                "x": 1274,
-                "y": 1063
+                "x": 1624.19198357432,
+                "y": 721.787298055795
               },
               "type": "T_Entity"
             },
@@ -394,6 +394,338 @@
                 "y": 585
               },
               "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_ReviveEntity",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "30018f01-3304-4ad0-8ade-d833365d83e9"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj",
+                        "action": "f8b96387-effc-414d-8860-560d2c21789b"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": 0.158,
+                            "y": 1.134,
+                            "z": -5.341
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "730c26fc-6c82-4e58-9872-6e1afb82f0f2"
+              },
+              "pos": {
+                "x": 1237.19189320803,
+                "y": 1421.30788087631
+              }
+            },
+            {
+              "__OBJ_TYPE": "GetStaticMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "MapVillage"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f8b96387-effc-414d-8860-560d2c21789b"
+              },
+              "pos": {
+                "x": 1759.62290570803,
+                "y": 1501.95439962631
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ComputeBool",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "action": "39f3b971-06e2-41f0-8312-11ad39a36d2b"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BinaryOperBool",
+                        "rawval": "<="
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "675e8972-d380-4c42-bd9d-28635fe5b4f5"
+              },
+              "pos": {
+                "x": 1246.62290570803,
+                "y": 1257.95439962631
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_SetUserContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "hp"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Var",
+                        "action": "506b6d8d-06d4-421a-ae0b-8fba93b701ef"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d99eb80c-2f10-4569-b91f-211810812ee3"
+              },
+              "pos": {
+                "x": 1434.62290570803,
+                "y": 1164.95439962631
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_IfBranch",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "action": "675e8972-d380-4c42-bd9d-28635fe5b4f5",
+                        "rawval": true
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "58d55097-3ae7-411a-a72f-72446125eda4"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ab69e19a-c771-4753-ab6c-788335482487"
+              },
+              "pos": {
+                "x": 1021.62290570803,
+                "y": 1168.95439962631
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetUserContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "hp"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "39f3b971-06e2-41f0-8312-11ad39a36d2b"
+              },
+              "pos": {
+                "x": 1593.62290570803,
+                "y": 1302.95439962631
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_If",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Condition",
+                  "children": [
+                    {
+                      "action": "ab69e19a-c771-4753-ab6c-788335482487"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "524dc890-3065-4a03-af8f-ef762bbf5ff7"
+              },
+              "pos": {
+                "x": 826.622905708032,
+                "y": 1201.95439962631
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetEntityCurHp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "7e12fc25-93c5-4b91-aba3-3ca83b337e8e"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "506b6d8d-06d4-421a-ae0b-8fba93b701ef"
+              },
+              "pos": {
+                "x": 1793.62290570803,
+                "y": 1188.95439962631
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "7e12fc25-93c5-4b91-aba3-3ca83b337e8e"
+              },
+              "pos": {
+                "x": 2111.33435625,
+                "y": 1251.9714375
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "30018f01-3304-4ad0-8ade-d833365d83e9"
+              },
+              "pos": {
+                "x": 1929.00841875,
+                "y": 1388.1081375
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetEntityPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "43ce2808-aa75-4a97-a584-0ff23bc2e05f"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "rawval": "MapVillage"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "rawval": {
+                          "pos": {
+                            "x": 158,
+                            "y": 1134,
+                            "z": -5000
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "58d55097-3ae7-411a-a72f-72446125eda4"
+              },
+              "pos": {
+                "x": 1265.34200625,
+                "y": 1595.95970625
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "43ce2808-aa75-4a97-a584-0ff23bc2e05f"
+              },
+              "pos": {
+                "x": 1862.155575,
+                "y": 1620.26983125
+              },
+              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -413,6 +745,12 @@
                   [],
                   {
                     "action": "50056d6c-ac0a-4b3a-889d-b8f4e13dad5f"
+                  },
+                  {
+                    "action": "d99eb80c-2f10-4569-b91f-211810812ee3"
+                  },
+                  {
+                    "action": "524dc890-3065-4a03-af8f-ef762bbf5ff7"
                   }
                 ]
               }
@@ -428,7 +766,7 @@
   },
   "meta": {
     "EXPORT": {
-      "triggers.bts": "4523ca4868215d218b7aaf366f0365b7"
+      "triggers.bts": "e6f003783960354c05ec2b3d6068e96a"
     },
     "VERSION": "0.24"
   }

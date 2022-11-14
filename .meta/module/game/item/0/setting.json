@@ -1,6 +1,5 @@
 {
   "data": {
-    "back_distance": 3,
     "back_view_offset": {
       "x": -1
     },
@@ -9997,7 +9996,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "5a03ff20046232f4e8b98e7dd5728a8a",
+      "setting.json": "899bdb3ac5ea31098e8c3078b841e02b",
       "shop.csv": "cceca7f078685acc6d3fd0c817648cdc",
       "triggers.bts": "18f78bb5e82a3bfc422818d06fbe1f75",
       "triggers_client.bts": "bebde8fb909b94ea926f9d8db9b0c399"

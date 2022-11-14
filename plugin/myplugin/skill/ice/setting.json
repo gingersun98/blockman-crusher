@@ -109,7 +109,7 @@
     0
   ],
   "sustainAction": "",
-  "targetType": "FrontSight",
+  "targetType": "Camera",
   "type": "Missile",
   "verticalAlignment": 2
 }
